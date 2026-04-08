@@ -1,0 +1,19 @@
+{
+  "learnMoreAboutDifferedPayment": "Dowiedz się więcej o procedurze płatności odroczonej",
+  "invoicePaymentNoticeMessage": "Aby otrzymać płatność, należy dostarczyć klientowi fakturę.",
+  "invoiceInfoNoticeMessage": "Musi ona zawierać następujące informacje: numer referencyjny zamówienia zakupu i etykietę.",
+  "uploadInvoice": "Prześlij fakturę",
+  "invoiceInfo": "Informacje o fakturze",
+  "downloadInvoice": "Pobierz fakturę",
+  "proceedPaymentMessage": "Przejdź do płatności.",
+  "invoiceNumber": "Numer faktury",
+  "invoiceFile": "Prześlij",
+  "invoiceUpload": "Przesłanie faktury",
+  "placeholderInvoiceUploadFile": "Prześlij fakturę tutaj…",
+  "cancel": "Anuluj",
+  "mandatoryFields": "Wypełnij obowiązkowe pole.",
+  "uploadWarning": "Ostrzeżenie: Po przesłaniu dokumentu nie można modyfikować",
+  "invoiceOrderDocument": "Dokument faktury",
+  "uploadWarning": "Ostrzeżenie informujące, że faktury nie można zmienić po przesłaniu",
+  "proceedToPayment": "Przejdź do płatności"
+}

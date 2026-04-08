@@ -1,0 +1,21 @@
+{
+  "Error_Plateforminfo": "プラットフォーム情報が利用できません",
+  "Error_NoObject": "参照を受信していません",
+  "Error_Format": "受信したオブジェクトの形式が正しくありません",
+  "Error_ResourceFail": "リソースの取得に失敗しました",
+  "Error_EmptyResponse": "応答が空です",
+  "Error_NoDataReturned": "データが返されませんでした",
+  "Error_PromisesFail": "プロミスの実行に失敗しました。",
+  "Error_ParseFail": "応答の解析に失敗しました",
+  "Error_ObjectNotFound": "オブジェクトが見つかりません",
+  "Error_Expand": "展開要求に失敗しました。入力が正しくありません",
+  "Errro_PlatformInfo": "プラットフォーム情報要求に失敗しました。入力が正しくありません",
+  "Error_SecurityContext": "資格情報の取得に失敗しました",
+  "Error_ResourceLinkFail": "リソースへのリンクが見つかりましたが、リソースを表示できません。",
+  "Error_MoreScopes": "入力プロセスに複数の有効範囲設定済み項目があります。",
+  "Error_NoScope": "入力プロセスに有効範囲設定済み項目がありません。",
+  "error_NotAllowedObject": "サポートされていないオブジェクト タイプ",
+  "error_NotAllowedObject_msg": "ドロップされたオブジェクト タイプは入力としてサポートされていません。",
+  "error_IncorrectObject": "適切でないオブジェクト",
+  "error_IncorrectObject_msg": "ドロップされたオブジェクトは適切ではありません。"
+}

@@ -1,0 +1,123 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+    <script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+
+    <script Language="Javascript"> 
+        /*function sendNotificationWebInWin(name, message) {
+            if (typeof dscef !== 'undefined') {
+                dscef.sendString(name + '=' + message);
+            }
+            else if (typeof CATCefSendString !== 'undefined') {
+                CATCefSendString(name + '=' + message);
+            }
+        }*/
+
+    </script>
+
+    <style type="text/css">
+        .tile-title {
+            font-size: 15px;
+            font-family: '3dsregular' tahoma,serif;
+            color: #368ec4;
+        }
+
+        .moduleContent {
+            padding: 0px;
+        }
+
+        .module {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        .moduleWrapper {
+            z-index: inherit;
+            zoom: 1;
+        }
+
+        .module > .moduleHeader {
+            display: none;
+        }
+
+        .moduleFooter {
+            display: none;
+        }
+    </style>
+
+    <script type="text/javascript">
+        /*'use strict';
+        if (location.href.search('3DDashboard') > 0) {
+            require(['DS/CfgWebinWinInterop/scripts/CfgWIWDialogs'], function (CfgWIWDialogs) {
+                widget.addEvents(
+                {
+                    onLoad: function () {
+                        var options = {
+                        };
+                        CfgWIWDialogs.editEvolution(options);
+                    },
+
+                });
+            });
+        }*/
+
+        // addInstancesToCR
+        // 'use strict';
+        // if (location.href.search('3DDashboard') > 0) {
+        //     require(['DS/CfgWebinWinInterop/scripts/CfgWIWDialogs'], function (CfgWIWDialogs) {
+        //         widget.addEvents(
+        //         {
+        //             onLoad: function () {
+        //                 var options = {};
+        //                 CfgWIWDialogs.addInstancesToCR(options);
+        //             },
+
+        //         });
+        //     });
+        // }
+
+        // launch properties in WIW
+        // 'use strict';
+        // if (location.href.search('3DDashboard') > 0) {
+        //     require(['DS/CfgWebinWinInterop/scripts/CfgWIWDialogs'], function (CfgWIWDialogs) {
+        //         widget.addEvents(
+        //         {
+        //             onLoad: function () {
+        //                 var options = {};
+        //                 CfgWIWDialogs.launchPropertiesInNative(options);
+        //             },
+
+        //         });
+        //     });
+        // }
+    </script>
+</head>
+<body>    
+    <script type="text/javascript">
+        'use strict';
+        require(['DS/ENOChgServices/scripts/services/ChgNativeInitService','DS/ENOChgGovernanceUX/scripts/components/propertiesView/ChgWIWDisplayChangeDialog','DS/ENOChgServices/scripts/services/ChgInfraService'], function (ChgNativeInitService,ChgWIWDisplayChangeDialog,ChgInfraService) {
+            var eventMessage = {
+                "eventName": "Native_Init",
+                "operation": "Native_Init",
+                "operationVersion": "1.0",
+                "content": {}
+            };
+            
+        //     ChgInfraService.init();
+        //   // need to check for CO widget infra
+        //   ChgInfraService.setInfraValue().then(function (resp) {
+        //     //
+             ChgNativeInitService.sendNotificationWebInWin(eventMessage); 
+        // });
+        // this.caGlobalObject = ChgServiceGlobalVariable.getGlobalVariable();
+        // console.log(this.caGlobalObject);
+        // this.caGlobalObject.isNative = true;
+        //ChgNativeInitService.DispatchEventToWin("Native_Init", "done");
+        // ChgNativeInitService.sendNotificationWebInWin(eventMessage); 
+           
+    });
+    </script>
+</body>
+</html>

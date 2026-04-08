@@ -1,0 +1,1 @@
+define("DS/CATPAEXCommands/CATPAEXCommands_en",{});define("DS/CATPAEXCommands/assets/nls/CATPAEXcmdCatalog",{error_unpindedWidgetForbiden_title:"You cannot use this command because the widget is not pinned.",error_unpindedWidgetForbiden_message:"Please pin the widget to use this command."});

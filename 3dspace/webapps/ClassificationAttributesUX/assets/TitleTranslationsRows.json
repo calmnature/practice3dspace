@@ -1,0 +1,84 @@
+{
+    "titleTranslations": {
+        "english": {
+            "id": "en",
+            "typeRepresentation": "string",
+            "onNodeUpdate": "validation"
+        },
+        "french": {
+            "id": "fr",
+            "typeRepresentation": "string",
+            "onNodeUpdate": "validation"
+        },
+        "german": {
+            "id": "de",
+            "typeRepresentation": "string",
+            "onNodeUpdate": "validation"
+        },
+        "japanese": {
+            "id": "ja",
+            "typeRepresentation": "string",
+            "onNodeUpdate": "validation"
+        },
+        "korean": {
+            "id": "ko",
+            "typeRepresentation": "string",
+            "onNodeUpdate": "validation"
+        },
+        "russian": {
+            "id": "ru",
+            "typeRepresentation": "string",
+            "onNodeUpdate": "validation"
+        },
+        "chinese": {
+            "id": "zh",
+            "typeRepresentation": "string",
+            "onNodeUpdate": "validation"
+        }
+    },
+    "authorizedValuesTranslations": [
+        {
+            "dataIndex": "authorizedValues",
+            "pinned": "left",
+            "typeRepresentation": "string",
+            "editableFlag": false
+        },
+        {
+            "dataIndex": "en",
+            "typeRepresentation": "string",
+            "editableFlag": true
+        },
+        {
+            "dataIndex": "fr",
+            "typeRepresentation": "string",
+            "editableFlag": true
+        },
+        {
+            "dataIndex": "de",
+            "typeRepresentation": "string",
+            "editableFlag": true
+        },
+        {
+            "dataIndex": "ja",
+            "typeRepresentation": "string",
+            "editableFlag": true
+        },
+        {
+            "dataIndex": "ko",
+            "typeRepresentation": "string",
+            "editableFlag": true
+        },
+        {
+            "dataIndex": "ru",
+            "typeRepresentation": "string",
+            "editableFlag": true
+        },
+        {
+            "dataIndex": "zh",
+            "typeRepresentation": "string",
+            "editableFlag": true
+        }
+    ]
+}
+
+

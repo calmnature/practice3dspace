@@ -1,0 +1,17 @@
+{
+  "busTypeMapping": "Mapowanie typu magistrali",
+  "assemblyLabel": "Złożenie",
+  "assemblyInfo": "Modyfikuj mapowanie typu dla typu złożenia CAD na typ 3DEXPERIENCE",
+  "assemblyInstanceLabel": "Wystąpienie złożenia",
+  "assemblyInstanceInfo": "Modyfikuj mapowanie typu dla typu wystąpienia złożenia na typ 3DEXPERIENCE",
+  "componentLabel": "Komponent",
+  "componentInfo": "Modyfikuj mapowanie typu dla typu komponentu CAD na typ 3DEXPERIENCE",
+  "drawingLabel": "Rysunek",
+  "drawingInfo": "Modyfikuj mapowanie typu dla typu rysunku CAD na typ 3DEXPERIENCE",
+  "virtualComponentLabel": "Komponent wirtualny",
+  "virtualComponentInfo": "Modyfikuj mapowanie typu dla typu wirtualnego komponentu CAD na typ 3DEXPERIENCE",
+  "internalComponentLabel": "Komponent wewnętrzny",
+  "internalComponentInfo": "Modyfikuj mapowanie typu dla typu wewnętrznego komponentu CAD na typ 3DEXPERIENCE",
+  "internalAssemblyLabel": "Wewnętrzne złożenie",
+  "internalAssemblyInfo": "Modyfikuj mapowanie typu dla typu wewnętrznego złożenia CAD na typ 3DEXPERIENCE"
+}

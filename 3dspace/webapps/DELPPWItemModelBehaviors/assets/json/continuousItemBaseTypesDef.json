@@ -1,0 +1,13 @@
+{
+    "baseTypes": [
+        "ProcessContinuousProvide",
+        "ProcessContinuousCreateMaterial",
+        "ContinuousByProduct",
+        "MBOMContinuousInProcessItem",
+        "MBOMContinuousPhaseReference",
+        "DELContinuousServicePartReference"
+    ],
+    "baseTypesWithoutQuantityExt": [
+        "MBOMContinuousPhaseReference"
+    ]
+}

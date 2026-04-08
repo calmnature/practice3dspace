@@ -1,0 +1,23 @@
+{
+  "cadtransitionoptions.execmode.label": "Mode d'exécution",
+  "cadtransitionoptions.execmode.coversion.label": "Transition en",
+  "cadtransitionoptions.execmode.coversion.value": [
+    "Nouvel objet"
+  ],
+  "cadtransitionoptions.execmode.expand.label": "Développer le niveau",
+  "cadtransitionoptions.execmode.expand.value": [
+    "Développer tout",
+    "Pas développer",
+    "Profondeur de développement personnalisée"
+  ],
+  "cadtransitionoptions.addopts.label": "Options supplémentaires",
+  "cadtransitionoptions.addopts.linkcomp.label": "Achèvement de la liaison",
+  "cadtransitionoptions.addopts.linkcomp.value": [
+    "Achèvement de la liaison complète",
+    "Aucun achèvement de la liaison",
+    "Achèvement de la liaison personnalisée"
+  ],
+  "cadtransitionoptions.addopts.maptable.label": "Utiliser les tables de mappage",
+  "cadtransitionoptions.addopts.update.label": "Forcer la mise à jour",
+  "cadtransitionoptions.addopts.overwrite.label": "Autoriser le remplacement"
+}

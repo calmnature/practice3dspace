@@ -1,0 +1,17 @@
+{
+  "ClassName": "Nombre de la clase",
+  "ClassTitle": "Título de la clase",
+  "MaturityState": "Estado de madurez",
+  "ClassPath": "Trayecto de la clase",
+  "Owner": "Propietario",
+  "CollabSpace": "Espacio de colaboración",
+  "Close": "Cerrar",
+  "showlabel": "Mostrar clases asociadas - ",
+  "Find": "Buscar",
+  "OpenWith": "Abrir con",
+  "NoAccess": "No tiene acceso para ver las clases asociadas.",
+  "PartialAccess": "Solo puede ver las clases a las que tiene acceso, aunque el atributo esté asociado a más clases.",
+  "NoClassesAttached": "El atributo seleccionado no está asociado a ninguna clase.",
+  "ClasslistError": "Error al obtener la lista de clases",
+  "ClassPathError": "Error al obtener los classPaths"
+}

@@ -1,0 +1,10 @@
+{
+  "firstName": "Křestní jméno",
+  "lastName": "Příjmení",
+  "emailAddress": "E-mailová adresa",
+  "birthData": "Datum narození",
+  "organization": "Organizace",
+  "phoneNumber": "Telefonní číslo",
+  "xIsInvalid": "{x} je neplatná hodnota",
+  "xIsRequired": "{x} je povinný údaj"
+}

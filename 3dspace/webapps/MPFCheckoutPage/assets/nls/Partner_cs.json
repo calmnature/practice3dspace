@@ -1,0 +1,14 @@
+{
+  "cancel": "Zrušit",
+  "customerSuccessPartner": "Partner služby Customer Success",
+  "edit": "Upravit",
+  "errorPartnerSave": "Partnera nelze uložit",
+  "localPartner": "Je vám k dispozici náš místní certifikovaný partner, který vám poskytne podporu a odborné poradenství v každé fázi vašeho projektu a pomůže vám tak využít naše produkty na maximum. Kontaktuje vás zanedlouho po provedení nákupu.",
+  "next": "Další",
+  "noLocalPartner": "V současné době nemáme k dispozici místního certifikovaného partnera, který by vám poskytl podporu a odborné poradenství v každé fázi vašeho projektu. Prozatím vám bude k dispozici tým služby Customer Success společnosti Dassault Systèmes, který vás kontaktuje zanedlouho po provedení nákupu.",
+  "selectForMe": "Vyberte si partnera",
+  "selectAPartner": "Vybrat partnera služby Customer Success",
+  "severalLocalPartners": "Vyberte si některého z následujících místních certifikovaných partnerů, který vám poskytne podporu a odborné poradenství v každé fázi vašeho projektu. Kontaktuje vás zanedlouho po provedení nákupu. Pokud již s některým z nich spolupracujete, můžete jej vybrat z níže uvedeného seznamu.",
+  "yourPartner": "Váš partner",
+  "yourSelectedPartner": "Váš vybraný partner"
+}

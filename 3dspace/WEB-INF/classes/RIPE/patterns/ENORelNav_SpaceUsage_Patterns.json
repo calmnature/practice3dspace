@@ -1,0 +1,92 @@
+{
+    "relations": [
+        {
+            "name": "SpaceAssignment_from",
+            "instanceManagement": true,
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "472",
+                                "semantics": "4"
+                            },
+                            "direction": "from",
+                            "mode": "ends"
+                        },
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "471",
+                                "semantics": "4"
+                            },
+                            "direction": "to",
+                            "mode": "last"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SpaceAssignment_to",
+            "instanceManagement": true,
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "471",
+                                "semantics": "4"
+                            },
+                            "direction": "from",
+                            "mode": "ends"
+                        },
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "472",
+                                "semantics": "4"
+                            },
+                            "direction": "to",
+                            "mode": "last"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SpaceEngineering_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "SPPEnsSpecRelation"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SpaceEngineering_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "SPPEnsSpecRelation"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

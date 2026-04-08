@@ -1,0 +1,15 @@
+{
+  "busTypeMapping": "Mappatura del tipo bus",
+  "assemblyLabel": "Assieme",
+  "assemblyInfo": "Modifica mappatura dei tipi per il tipo CAD di assieme in tipo 3DEXPERIENCE",
+  "assemblyInstanceLabel": "Istanza assieme",
+  "assemblyInstanceInfo": "Modifica mappatura dei tipi per il tipo CAD di IstanzaAssieme al tipo 3DEXPERIENCE",
+  "componentLabel": "Componente",
+  "componentInfo": "Modifica mappatura dei tipi per il tipo CAD di componente in tipo 3DEXPERIENCE",
+  "componentInstanceLabel": "Istanza componente",
+  "componentInstanceInfo": "Modifica mappatura dei tipi per il tipo CAD IstanzaComponente al tipo 3DEXPERIENCE",
+  "drawingLabel": "Disegno",
+  "drawingInfo": "Modifica mappatura dei tipi per il tipo CAD di disegno in tipo 3DEXPERIENCE",
+  "virtualComponentLabel": "Componente virtuale",
+  "virtualComponentInfo": "Modifica mappatura dei tipi per il tipo CAD di componente virtuale al tipo 3DEXPERIENCE"
+}

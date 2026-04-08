@@ -1,0 +1,12 @@
+{
+  "isRequired": "{0} je povinný údaj",
+  "isInvalid": "{0} je neplatná hodnota",
+  "email": "e-mailová adresa",
+  "phoneNumber": "telefonní číslo",
+  "name": "jméno",
+  "serviceName": "Název {0}",
+  "emailError": "E-mailová adresa je povinný údaj",
+  "emailInvalid": "E-mailová adresa je neplatná",
+  "labNameError": "Název laboratoře je povinný údaj",
+  "currencyError": "Vyberte měnu"
+}

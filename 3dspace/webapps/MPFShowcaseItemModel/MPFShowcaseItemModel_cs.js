@@ -1,0 +1,1 @@
+define("DS/MPFShowcaseItemModel/MPFShowcaseItemModel_cs",{});define("DS/MPFShowcaseItemModel/assets/nls/ShowcaseItemModel",{isRequired:"{0} je povinný údaj",isInvalid:"{0} je neplatná hodnota",title:"Název",description:"Popis",image:"Obrázek"});

@@ -1,0 +1,5 @@
+{
+  "errorAction": "[PXP Key Value Slice] : l'action n'est pas correctement définie",
+  "errorArrayAction": "[PXP Key Value Slice] : au moins un tableau d'élément d'action n'est pas correctement défini, vérifiez les objets à l'index : ",
+  "errorActionType": "[PXP Key Value Slice] : le type d'action est incorrect"
+}

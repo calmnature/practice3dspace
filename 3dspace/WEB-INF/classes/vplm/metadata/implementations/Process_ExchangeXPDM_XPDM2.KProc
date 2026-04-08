@@ -1,0 +1,30 @@
+/*********************************************************************************************************************************/
+/* Exchange XPDM procedure for Process                                                                                        */
+/* --> Retrieves all agregated PLM objects (References, Ref Instances, Rep References, Rep Instances, Ports and Connections)     */
+/*********************************************************************************************************************************/
+#Prog Process_ExchangeXPDM_XPDM2( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+	let PLMIDSetCommonPatterns (PLMIDSet)
+	let PLMIDSetImplementingObject (PLMIDSet)
+	let PLMIDSetSBOMSpecific (PLMIDSet)
+	let PLMIDSetProductScope (PLMIDSet)
+	let PLMIDSetProductIL (PLMIDSet)
+		
+	/* Get all commonPatterns to MBOM and SBOM */
+	PLMIDSetCommonPatterns = ExecutePLMProcedure( "BOM_ExchangeXPDM_CommonPatterns", iPLMIDSet )
+		
+	/* Get all implementing Process*/
+	PLMIDSetImplementingObject = ExecutePLMProcedure( "BOM_ExchangeXPDM_ImplementingProcess", iPLMIDSet )
+		
+	/* Get all Product implemented*/
+	PLMIDSetProductIL = ExecutePLMProcedure( "BOM_ExchangeXPDM_WithEBOMImplementedIL", iPLMIDSet )
+		
+	/* Get all Product Scoped*/
+	PLMIDSetProductScope = ExecutePLMProcedure( "BOM_ExchangeXPDM_WithEBOMScoped", iPLMIDSet )
+		
+	/* Get all Specific Patterns for S3000L SBOM*/
+	PLMIDSetSBOMSpecific = ExecutePLMProcedure( "SBOM_ExchangeXPDM_XPDM2", iPLMIDSet )
+
+	oPLMIDSet = iPLMIDSet + PLMIDSetCommonPatterns + PLMIDSetImplementingObject + PLMIDSetSBOMSpecific + PLMIDSetProductScope + PLMIDSetProductIL
+	/* Even if we don't mention precedence ports in the xml output, we need to export them for futur import */
+}

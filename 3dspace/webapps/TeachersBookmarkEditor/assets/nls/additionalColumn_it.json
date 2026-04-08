@@ -1,0 +1,14 @@
+{
+  "column_Visibility": "Visibilità",
+  "isVisible": "Rendi non visibile",
+  "isVisibleTooltip": "Visibile per lo studente. \n Fare clic per renderlo non visibile",
+  "isHidden": "Rendi visibile",
+  "isHiddenTooltip": "Non visibile per lo studente. \n Fare clic per renderlo visibile",
+  "progressMultiple": "Modifica della visibilità di {targetfolder} con {objectsAdded} elementi in corso.",
+  "progressSingle": "Modifica della visibilità di {targetfolder} ",
+  "msgSuccess": "La visibilità è stata modificata correttamente per {itemCount} elemento.",
+  "msgError": "La modifica della visibilità non è riuscita per {itemCount} elemento.",
+  "msgMultipleSuccess": "La visibilità è stata modificata correttamente per {itemCount} elementi.",
+  "msgMultipleError": "La modifica della visibilità non è riuscita per {itemCount} elementi.",
+  "msgMaturityError": "La modifica della visibilità non è riuscita a causa della mancata modifica della maturità degli elementi."
+}

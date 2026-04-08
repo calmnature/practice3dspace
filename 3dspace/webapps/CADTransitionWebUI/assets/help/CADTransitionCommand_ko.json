@@ -1,0 +1,7 @@
+{
+"CADTransitionCommand.Title":"CAD를 3DExperience로 변환",
+"CADTransitionCommand.ShortHelp":"CAD 포맷의 3DExperience 콘텐츠를 3DExperience 기본 데이터로 변환합니다.",
+"CADTransitionCommand.LongHelp":"CAD 변환 기능을 사용하면 CAD 포맷의 선택된 3DExperience 콘텐츠를 변환할 수 있습니다. 제공된 옵션을 사용하여 데이터를 마이그레이션하는 방법을 사용자 정의할 수 있습니다.",
+"CADTransitionCommand.WebHelp":"PsteUserMap/postconv-t-CADTransition.htm",
+"CADTransitionCommand.PanelHelp":"PsteUAPanelMap/postconv-t-CADTransition.htm"
+}

@@ -1,0 +1,124 @@
+{
+  "../node_modules/@ds/swymkit/dist/tools/index.js": {
+    "file": "assets/index-ODMs6FYb.js",
+    "name": "index",
+    "src": "../node_modules/@ds/swymkit/dist/tools/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "../node_modules/@ds/swymkit/node_modules/@3ds/common-request-proxification/src/index.js": {
+    "file": "assets/index-D1z_aS6F.js",
+    "name": "index",
+    "src": "../node_modules/@ds/swymkit/node_modules/@3ds/common-request-proxification/src/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "../node_modules/@ds/vuekit/dist/VUEKIT.css": {
+    "file": "assets/VUEKIT-Bz-Y8YT1.css",
+    "src": "../node_modules/@ds/vuekit/dist/VUEKIT.css"
+  },
+  "../node_modules/@ds/vuekit/dist/VUEKIT.js": {
+    "file": "assets/VUEKIT-wQq9v0IR.js",
+    "name": "VUEKIT",
+    "src": "../node_modules/@ds/vuekit/dist/VUEKIT.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_App-!~{008}~.js": {
+    "file": "assets/App-BprcR2sN.css",
+    "src": "_App-!~{008}~.js"
+  },
+  "_App-CTm5Zt-O.js": {
+    "file": "assets/App-CTm5Zt-O.js",
+    "name": "App",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "../node_modules/@ds/vuekit/dist/VUEKIT.js",
+      "../node_modules/@ds/swymkit/node_modules/@3ds/common-request-proxification/src/index.js",
+      "src/vendors/swym/api/users.ts",
+      "../node_modules/@ds/swymkit/dist/tools/index.js"
+    ],
+    "dynamicImports": [
+      "src/vendors/swym/components/ckeditor/ckeditor-wrapper.vue"
+    ],
+    "css": [
+      "assets/App-BprcR2sN.css"
+    ]
+  },
+  "assets/images/content-access-deny.svg": {
+    "file": "assets/content-access-deny-C3unRY7b.svg",
+    "src": "assets/images/content-access-deny.svg"
+  },
+  "index.html": {
+    "file": "assets/appStandalone-Cdxzgk8b.js",
+    "name": "appStandalone",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "../node_modules/@ds/swymkit/node_modules/@3ds/common-request-proxification/src/index.js",
+      "../node_modules/@ds/swymkit/node_modules/@3ds/common-request-proxification/src/index.js",
+      "src/vendors/swym/utils/local-storage-manager.ts",
+      "../node_modules/@ds/swymkit/dist/tools/index.js",
+      "../node_modules/@ds/swymkit/dist/tools/index.js",
+      "src/config/feature-manager-publish-form.ts",
+      "src/vendors/swym/api/users.ts",
+      "_App-CTm5Zt-O.js",
+      "../node_modules/@ds/vuekit/dist/VUEKIT.js"
+    ]
+  },
+  "src/_index.scss": {
+    "file": "assets/_index-CTAVYwY8.css",
+    "src": "src/_index.scss"
+  },
+  "src/config/feature-manager-publish-form.ts": {
+    "file": "assets/feature-manager-publish-form-BUieTSxq.js",
+    "name": "feature-manager-publish-form",
+    "src": "src/config/feature-manager-publish-form.ts",
+    "isDynamicEntry": true
+  },
+  "src/vendors/swym/api/users.ts": {
+    "file": "assets/users-g43-z0cq.js",
+    "name": "users",
+    "src": "src/vendors/swym/api/users.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/vendors/swym/components/ckeditor/ckeditor-wrapper.vue": {
+    "file": "assets/ckeditor-wrapper-CKxR0rTq.js",
+    "name": "ckeditor-wrapper",
+    "src": "src/vendors/swym/components/ckeditor/ckeditor-wrapper.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_App-CTm5Zt-O.js",
+      "src/vendors/swym/api/users.ts",
+      "../node_modules/@ds/vuekit/dist/VUEKIT.js",
+      "../node_modules/@ds/swymkit/node_modules/@3ds/common-request-proxification/src/index.js",
+      "../node_modules/@ds/swymkit/dist/tools/index.js"
+    ],
+    "css": [
+      "assets/ckeditor-wrapper-CDMAYvdL.css"
+    ],
+    "assets": [
+      "assets/content-access-deny-C3unRY7b.svg"
+    ]
+  },
+  "src/vendors/swym/utils/local-storage-manager.ts": {
+    "file": "assets/local-storage-manager-DYH3pDuy.js",
+    "name": "local-storage-manager",
+    "src": "src/vendors/swym/utils/local-storage-manager.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  }
+}

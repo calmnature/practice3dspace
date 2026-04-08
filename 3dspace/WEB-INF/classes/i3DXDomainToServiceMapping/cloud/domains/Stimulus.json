@@ -1,0 +1,9 @@
+{
+	"owner" : "NDF",
+	"description" : "SystemModel for Stimulus Power'By",
+    "service": "3DSpace",
+    "urls": {
+    	"fetch" : "/resources/domains/v1/i3dx/fetch"
+	}
+}
+

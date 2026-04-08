@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Mapowanie typu magistrali",
+  "EPCLabel": "Elektroniczny komponent fizyczny",
+  "EPCInfo": "Modyfikuj mapowanie typu dla typu elektroniczny komponent fizyczny na typ 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Płytka drukowana (jako część)",
+  "PrintedCircuitBoardInfo": "Modyfikuj mapowanie typu dla typu płytka drukowana na typ 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Złożenie płytki drukowanej",
+  "PrintedCircuitBoardAssemblyInfo": "Modyfikuj mapowanie typu dla typu złożenie płytki drukowanej na typ 3DEXPERIENCE"
+}

@@ -1,0 +1,317 @@
+[
+  {
+    "id" : "Governance",
+    "subCategories" : ["Test_Management", "Change", "Requirement", "Task", "Project", "Qualification"],
+    "entites" : {
+      "ds6w:type": ["Issue", "Gate", "PLMWspFavoriteNavigation", "Product Configuration", "Risk", "Opportunity"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Test_Management",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["VV_Test_Specification", "VV_Test_Case", "VV_Test_Script", "VV_Test_Execution", "VV_Test_Result"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Change",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Change Action", "Change Order", "Change Request"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Requirement",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Requirement", "Requirement Group", "Requirement Specification", "Test Case", "Use Case"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Task",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Inbox Task", "Task", "dsplan:Task", "Decision", "Route", "Route Template"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Project",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Meeting", "Project Space", "dsplan:Project","dsplan:xProject","dsplan:Milestone","Design Tool","Design Tool Suite","Development","Project Concept","Project Template"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Qualification",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["SRC General Qualification","SRC Usage Qualification"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Classification",
+    "subCategories" : ["Folder", "Library","Workspace"],
+    "entites" : {
+      "ds6w:type": [],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Folder",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["DriveFolder"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Library",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["General Class","General Library"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Workspace",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Workspace","Workspace Vault"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "3D",
+    "subCategories" : ["Part","Product","3DModel","Real","Configuration","Review","Experience"],
+    "entites" : {
+      "ds6w:type": ["R2V_FeatureState","Boolean Compatibility Rule","CATAnalysis","CATPart","CATProcess","CATProduct","CATReportReference","CATSysBehaviorLibReference","Configuration Feature","Configuration Option","DIFLayout","DIFSheet","ENOStrRefinementSpecification","FailureMode","FailureModesEffectsAnalysis","FailureModesEffectsAnalysisCausalityRelationship","FallibleReference","PLMWspPVS","Report Model","Report Template","RFLPLMFunctionalReference","RFLVPMLogicalReference","RFLVPMServicesReference","SW Component Family","VPMRepReference", "XCADModelRepReference","SCMRepository", "SoftwareLogicalItem","SemiconductorLogicalItem"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Part",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["3DShape"],
+      "ds6w:kind": ["3DPart"],
+      "ds6w:docExtension" : ["CATPart", "SLDPRT"]
+    }
+  },
+  {
+    "id" : "Product",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["VPMReference"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : ["CATProduct", "SLDASM"]
+    }
+  },
+  {
+    "id" : "3DModel",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": [],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : ["3DXML","IGES","STEP","STL","STP","SVPJ","PAR","PSM","IPT","IGS","OBJ"]
+    }
+  },
+  {
+    "id" : "Real",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["R2V_FeatureOfInterest"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Configuration",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Model", "Portfolio","Product Line","Products","dsxpfl:PortfolioVersion","dscpfl:SellableItem","Configuration Rule"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Review",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["DMUValidationExposedPresentation","DMUValidationValidation","PLMPIMMetricReference","SIMItfSimulation"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Experience",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["XCADNonPSBaseRepReference"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Group",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["foaf:Group", "Group"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Biology",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Experiment","dsinv:Experiment","Export Control Library","dsmat:Lot","dsmat:Substance","dsmat:Material","dsinv:Recipe"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Simulation",
+    "subCategories" : ["Physics_Simulation","Representation","Automation"],
+    "entites" : {
+      "ds6w:type": ["FunctionalSimulation","LogicalSimulation","MediaVideo3DExp","SystemBehaviorLibSimulation"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Physics_Simulation",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["DesignSight"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Representation",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["FEM","FluidRep"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Automation",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Analytics Case","Simulation","Simulation Job","Simulation Template"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Media",
+    "subCategories" : ["Document","Mail","Image","Video","Artwork","Compressed"],
+    "entites" : {
+      "ds6w:type": ["swym:3dModel","DITAMap","DITAResource","Published DITA Document","Topic"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Document",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Document","MS Excel Document","MS Powerpoint Document","MS Word Document","swym:Document","document","DOCUMENTS","DriveFile"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Mail",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": [],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : ["SDM"]
+    }
+  },
+  {
+    "id" : "Image",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["swym:AnimatedPicture","swym:Picture","Image"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : ["SVG"]
+    }
+  },
+  {
+    "id" : "Video",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["swym:Video"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Artwork",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["Artwork Packet","Piece Of Art"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Compressed",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": [],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : ["ZIP"]
+    }
+  },
+  {
+    "id" : "Drawing",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["CATDrawing","Drawing"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : ["SLDDRW","DWG","DXF"]
+    }
+  },
+  {
+    "id" : "Manufacturing",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["CreateAssembly","CreateKit","CreateMaterial","DELFmiFunctionPPRContinuousReference","DELFmiFunctionReference","DELLmiAbstractProductionEntity","DELLmiGeneralOperationReference","DELLmiHeaderOperationReference","DELLmiProductionPlanReference","DELLmiProductionSystemReference","DELLmiWorkOrderReference","DELLmiWorkPlanSystemReference","DELWkiPPRReference","ElementaryEndItem","Fasten","Installation","Manufacturing Plan","MCAD Assembly","MCAD Component","ProcessContinuousCreateMaterial","ProcessContinuousProvide","Provide"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  },
+  {
+    "id" : "Material",
+    "subCategories" : [],
+    "entites" : {
+      "ds6w:type": ["dsc_matref_ref_Core","dsc_matref_ref_Covering","dsc_matref_rep_Analysis","dsc_matref_rep_Drafting","dsc_matref_rep_Rendering","dsc_matref_rep_SmaOptions","dsc_decal_ref","dsc_matref_ref_CoreVector","dsc_matref_ref_CoveringVector","dsc_matref_rep_Composite","dsc_matref_rep_Sample"],
+      "ds6w:kind": [],
+      "ds6w:docExtension" : []
+    }
+  }
+]

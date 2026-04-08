@@ -1,0 +1,1 @@
+define("DS/WebVisuXRToolkitCommands/WebVisuXRToolkitCommands_es",{});define("DS/WebVisuXRToolkitCommands/assets/nls/translation",{"view.Title":"Extended Reality","view.Help":"Iniciar la Extended Reality"});

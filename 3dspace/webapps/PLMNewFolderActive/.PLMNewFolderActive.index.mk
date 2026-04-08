@@ -1,0 +1,9 @@
+m|FolderNGUX\PLMNewFolderActive.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26056|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\PLMNewFolderActive\PLMNewFolderActive.js|1772055188|15473
+s|FolderNGUX\PLMNewFolderActive.mweb\src\PLMNewFolderActiveController.js|1771925081|38286
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

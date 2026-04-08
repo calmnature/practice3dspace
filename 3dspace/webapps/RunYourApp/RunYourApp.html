@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+    <head>
+        <!-- Widget Infos -->
+        <title>Run Your App</title>
+        <meta name="author" content="Dassault Systèmes" />
+        <meta name="description" content="UWA container" />
+        <meta name="apiVersion" content="1.3" />
+        <meta name="noSearchInWidgetUI" content="true" />
+        <meta name="x3dShowResetWidget" content="true" />
+
+        <!-- Widget Preferences -->
+        <widget:preferences>
+            <widget:preference name="moduleUrl" label="urlLabel" type="text" defaultValue=""/>
+        </widget:preferences>
+
+        <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+        <!-- UWA Environment -->
+        <link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+        <script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+        <script type="text/javascript" src="../UIKIT/UIKIT.js"></script>
+
+        <!-- Widget Styles -->
+        <style type="text/css">
+
+            .runyourapp-input-wrap {
+                overflow: hidden;
+                padding-right: 0.7em;
+            }
+
+            .runyourapp-input-wrap > input {
+                height: 37px;
+            }
+
+            .runyourapp-btn {
+                float: right;
+            }
+
+            .runyourapp-container {
+                margin: auto;
+                max-width: 1170px;
+                padding-top: 11px;
+                display: flex;
+            }
+
+            .runyourapp-container > .form-group > label {
+                display: none;
+            }
+
+            .runyourapp-container > .form-group:nth-child(1) {
+                width:100%;
+            }
+
+            .runyourapp-container > .form-group:nth-child(2) {
+                padding:2px 0px 0px 10px;
+            }
+
+            .runyourapp-error {
+                padding: 20px 5px;
+                text-align: center;
+            }
+
+        </style>
+
+        <script type="text/javascript">
+        //<![CDATA[
+        /* global widget, require */
+
+        require(
+        [
+            // UWA
+            'UWA/Core',
+            'UWA/Event',
+            'UWA/Element',
+
+            // UIKIT
+            'DS/UIKIT/Input/Button',
+            'DS/UIKIT/Input/Text',
+            'DS/UIKIT/Form',
+
+            //UWP
+            'DS/UWPClientCode/Data/Widgets',
+
+            // i18n
+            'i18n!DS/RunYourApp/assets/nls/RunYourApp'
+        ],
+        function (UWA, Event, Element, Btn, Txt, Form, Data, i18nRunYourApp) {
+            'use strict';
+
+            function findWidget (id) {
+                return parent.UWA.Widgets.instances.detect(function (e) {
+                    return e.id === id;
+                }) || widget;
+            }
+
+            function failure (message) {
+                // Reset the preference because that was a bad input.
+                widget.setValue('moduleUrl', '');
+                resetMessage();
+                displayMessage(message);
+            }
+
+            function displayMessage (message) {
+
+                var errorDiv = Element.getElement.call(document, '.runyourapp-error');
+
+                if (message && message.length && errorDiv) {
+
+                    errorDiv.addContent({
+                        tag: 'span',
+                        'class': 'fonticon fonticon-attention '
+                    });
+
+                    errorDiv.addContent({
+                        tag: 'p',
+                        text: message
+                    });
+                }
+            }
+
+            function resetMessage () {
+                var errorDiv = Element.getElement.call(document, '.runyourapp-error');
+                errorDiv && errorDiv.empty();
+            }
+
+            function onLoad () {
+                var moduleUrl = widget.getValue('moduleUrl');
+
+                if (moduleUrl && moduleUrl !== widget.getUrl()) {
+                    try {
+                        findWidget(widget.id).setValue('moduleUrl',moduleUrl); //Ensure variable availability ASAP
+                        findWidget(widget.id).mutate(moduleUrl, {failureCb: failure});
+                    } catch (e) {
+                        displayMessage(UWA.i18n(e.message));
+                    }
+                } else {
+                    displayAddUrl();
+                }
+            }
+
+            /**
+             * Inject the add URL form in the widget body
+             */
+            function displayAddUrl () {
+
+                var bodyWidget = widget.body,
+                    addUrlSubmit,
+                    addUrlInput;
+
+                bodyWidget.empty();
+
+                var form = new Form({
+                    autocomplete: true,
+                    grid: '12',
+                    className: 'runyourapp-container',
+                    fields: [{
+                        type: 'text',
+                        label: '',
+                        placeholder: i18nRunYourApp.insertUrl,
+                        id: '3ds_rya_url',
+                        name: 'WebApp url',
+                        required: false,
+                        autocomplete: 'url',
+                        spellcheck:false,
+                        autofocus: true,
+                        novalidate: true
+                    }],
+                    buttons: [{
+                        type: 'submit',
+                        value: i18nRunYourApp.submitURLBtn
+                    }],
+                    events: {
+                        onSubmit:  function (e) {
+                                widget.setValue('moduleUrl', this.texts[0].getValue().trim());
+                                onLoad();
+                        },
+                        onInvalid: function () {  },
+                        onValid:   function () {  }
+                    }
+                });
+                form.texts[0].elements.input.autofocus = true;
+                form.texts[0].elements.input.onfocus = resetMessage;
+                form.buttons[0].elements.input.addClassName('runyourapp-btn');
+                try { form.texts[0].elements.input.removeAttribute('spellcheck'); } catch (e) {}
+                try { form.texts[0].elements.input.removeAttribute('autocorrect'); } catch (e) {}
+                try { form.texts[0].elements.input.removeAttribute('autocapitalize'); } catch (e) {}
+
+                form.inject(bodyWidget);
+
+
+                bodyWidget.addContent({
+                    tag: 'div',
+                    'class': 'runyourapp-error'
+                });
+            }
+
+            widget.addEvent('onLoad', onLoad);
+        });
+
+        //]]>
+        </script>
+    </head>
+    <body></body>
+</html>

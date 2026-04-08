@@ -1,0 +1,10 @@
+m|VCXWebExperienceBase\VCXWebModifiablesServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26027|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\VCXWebModifiablesServices\VCXWebModifiablesServices.js|1769547561|9904
+s|VCXWebExperienceBase\VCXWebModifiablesServices.mweb\src\VCXModifiablesChangeServices.js|1719300890|3540
+u|VCXWebExperienceBase\VCXWebModifiablesServices.mweb\src\VCXModifiablesServices.js|1768957267|29988
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

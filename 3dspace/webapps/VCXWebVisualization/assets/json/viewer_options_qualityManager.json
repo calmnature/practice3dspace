@@ -1,0 +1,16 @@
+{
+    "defaultAnimationLoop": false,
+    "picking": true,
+    "prePicking": true,
+    "multiViewerAuto" : true,
+    "infinitePlane": false,
+    "displayGrid": false,
+    "backgroundColor": "0xECECEC",
+    "planeV2": true,
+    "triLights": true,
+    "useQualityManager": true,
+    "useViewPanel": false,
+    "usePlaneV2": true,
+    "defaultLights": false,
+    "visuFaceMaterialsAsPBR": true
+}

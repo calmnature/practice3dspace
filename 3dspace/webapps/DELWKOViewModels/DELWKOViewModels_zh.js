@@ -1,0 +1,1 @@
+define("DS/DELWKOViewModels/DELWKOViewModels_zh",{});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewMPVCustomView",{label:"生产监管程序自定义视图"});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewPSLCustomView",{label:"生产调度程序自定义视图"});

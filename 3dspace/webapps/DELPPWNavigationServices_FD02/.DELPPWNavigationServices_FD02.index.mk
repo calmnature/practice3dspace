@@ -1,0 +1,10 @@
+m|DELWKOApp\DELPPWNavigationServices_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWNavigationServices_FD02\DELPPWNavigationServices_FD02.js|1761365455|1967
+s|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\NavigationBase.js|1679513082|4389
+u|DELWKOApp\DELPPWNavigationServices_FD02.mweb\src\SwitchDBModeManager.js|1695897352|3504
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

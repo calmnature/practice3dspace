@@ -1,0 +1,1 @@
+Proj4js.defs["EPSG:10472"] = "+proj=tmerc +lat_0=52.4 +lon_0=-1.55 +k=1 +x_0=116887.9989 +y_0=102194.9369 +ellps=GRS80 +units=m +geoidgrids=uk_os_OSGM15_GB.tif +geoid_crs=WGS84 +vunits=m +no_defs +type=crs";

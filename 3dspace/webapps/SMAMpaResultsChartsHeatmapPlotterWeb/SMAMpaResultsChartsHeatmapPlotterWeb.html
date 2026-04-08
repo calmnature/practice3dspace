@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<!-- Copyright 2023 , Dassault Systemes. All rights reserved. -->
+
+<head>
+
+    <!-- <title></title>-->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Heatmap Plot" />
+
+    <script type="module" src="../PlotlyJS-2.6.2/plotly.min.js"></script>
+
+    <style>
+
+    .modebar-container {
+        left: -5px;
+    }
+
+    .js-plotly-plot {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    g.textpoint {
+        stroke: white;
+        stroke-width: 4px;
+        stroke-opacity: 80%;
+        fill: black;
+        paint-order: stroke;
+        stroke-linejoin: round;
+    }
+
+    </style>
+
+    <!-- Application JS Start -->
+    <script type="text/javascript">
+        'use strict';
+        const on_document_loaded = function () {
+            console.log("Using Plotly version:", Plotly.version);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            on_document_loaded();
+        });
+
+	    const deleteLoadingIndicator = function () {
+            const element = document.getElementById('loadingindicator');
+            if (!element) {
+                console.warn('loading indicator not found');
+            }
+            else {
+                element.remove();
+            }
+        }
+
+        const removeAllMarkersIfAny = function(graphDiv)
+        {
+            graphDiv.layout.annotations.length = 0;
+            while(graphDiv.data.length>1)
+            {
+                 Plotly.deleteTraces(graphDiv, 1);
+            }
+        }
+        const formatNumber = function(number) {
+            return number.toLocaleString(undefined, { maximumSignificantDigits: 8, maximumFractionDigits: 2, useGrouping: false });
+            //return number.toLocaleString(undefined, { maximumSignificantDigits: 8 });
+            //return number..toPrecision(6);
+        }
+
+        //sensor should be an array of {
+        //     sensorname: "",
+        //     type: "Global", "AtX", "AtY", "AtXY"
+        //     subtype: "Min", "Max", "AbsMax"
+        //     x: 0.0,
+        //     y: 1.0,
+        //     z: 2.0,
+        //     unitSymbolX: "",
+        //     unitSymbolY: "",
+        //     unitSymbolZ: "",
+        // 	   text: "min", //text to be shown beside symbol
+        //     annotationText: "my global min" //text to shown in annotation
+        // }
+		const addMarker = function(plotNode, sensors, sensorNLS) {
+
+            var marker = {
+
+                x: [],
+                y: [],
+
+                mode: "markers+text",
+                type: "scatter",
+                marker: { size: [], color: "white", opacity: 0.8, symbol: [], line: { width: 2, color: "black" } },
+                text: [],
+                textfont: { color: "black" },
+                textposition: "bottom right",
+                hoverinfo: "text",
+                hovertext: "click to show/hide sensor data",
+                clicktoshow: "onoff",
+
+            };
+
+            var marker_annotation = {
+                annotations: []
+            };
+
+            var i;
+            for (i in sensors) {
+                var s = sensors[i];
+                marker.x.push(s.x);
+                marker.y.push(s.y);
+
+                if (s.type == "Global")
+                    marker.marker.symbol.push("circle-dot");
+                if (s.type == "AtX")
+                    marker.marker.symbol.push("diamond-tall-dot");
+                if (s.type == "AtY")
+                    marker.marker.symbol.push("diamond-wide-dot");
+                if (s.type == "AtXY")
+                    marker.marker.symbol.push("cross-thin");
+
+                var markerSize = 16;
+                if (s.type != "AtXY") {
+                    marker.text.push(sensorNLS[s.subtype]);
+                    if (s.subtype == "Min")
+                        markerSize = 12;
+                }
+                else
+                    marker.text.push("");
+
+                marker.marker.size.push(markerSize);
+
+                var annotationText = "<b>"+ s.sensorname + "</b><br>" +
+                                 "x = "+ formatNumber(s.x) + s.unitSymbolX + "<br>" +
+                                 "y = "+ formatNumber(s.y) + s.unitSymbolY + "<br>" +
+                                 "<b>" + sensorNLS[s.type] + "\\" + sensorNLS[s.subtype] + " = " + formatNumber(s.z) + s.unitSymbolZ + "</b>";
+
+                var annotation =
+                {
+                    x: s.x,
+                    y: s.y,
+                    xref: "x",
+                    yref: "y",
+                    text: annotationText,
+                    align: 'left',
+                    bgcolor: "white",
+                    showarrow: true,
+                    arrowhead: 1,
+                    arrowwidth: 2,
+                    arrowcolor: "#97999B",
+                    arrowsize: .5,
+                    ay: -10,
+                    ax: 0,
+                    xanchor: "middle",
+                    yanchor: "bottom",
+                    clicktoshow: "onoff",
+                    opacity: 0.8,
+                    bordercolor: "#97999B", //official 3DS GRAY
+                    borderwidth: 2,
+                    borderpad: 1,
+                    captureevents: true
+                }
+                marker_annotation.annotations.push(annotation);
+            }
+
+            Plotly.addTraces(plotNode, marker);
+            Plotly.relayout(plotNode, marker_annotation);
+    }
+
+    </script>
+
+
+</head>
+
+<body>
+    <script type="module">
+        // <!-- insert_script -->
+    </script>
+    <div id="loadingindicator">
+        <center> Loading... </center>
+    </div>
+</body>
+
+</html>

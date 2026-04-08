@@ -1,0 +1,9 @@
+{
+	"owner" : "NDF",
+	"description" : "Element for Stimulus Power'By",
+    "service": "mbseapps",
+    "urls": {
+    	"fetch" : "/resources/domains/v1/i3dx/fetch"
+	}
+}
+

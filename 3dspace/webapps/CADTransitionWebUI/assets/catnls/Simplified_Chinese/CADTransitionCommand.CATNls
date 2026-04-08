@@ -1,0 +1,94 @@
+<meta charset="UTF-8"/>
+//======================================================================================= 
+//=======================================================================================
+// COPYRIGHT DASSAULT SYSTEMES 2023
+
+
+// --- Option Group ---------------------------------
+// ------------------------------------------------------
+GroupOption="主选项";
+GroupOption.LongHelp="要分组选项";
+GroupOption.ShortHelp="选项";
+SelectExpandlevel="展开级别";
+SelectOption.LongHelp="一个选项";
+SelectOption.ShortHelp="选项";
+SelectCustomExpandlevel=" ";
+SelectCustomCompletionlevel=" ";
+SelectLinkcompletion="链接完成";
+
+
+// --- Status -------------------------------------------
+// ------------------------------------------------------
+Definition.Title="CAD 过渡";
+CADTransitioned.Name="CAD 已过渡";
+CADTransitioned.WhenApplied="CAD 已过渡";
+OthersCAD.Name="其他 CAD";
+OthersCAD.WhenApplied="其他 CAD";
+3DEXPERIENCECATIA.Name="3DEXPERIENCE CATIA";
+3DEXPERIENCECATIA.WhenApplied="3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.Name="其他 CAD 至 3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.WhenApplied="其他 CAD 至 3DEXPERIENCE CATIA";
+
+
+
+// --- Operation -------------------------------------
+// ---------------------------------------------------
+OthersCADto3DEXPERIENCECATIA.Enabled.Name="转换为 3DEXPERIENCE CATIA";
+
+OthersCAD3DEXPERIENCECATIA.Enabled.Name="转换为 3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.Disabled.Name="转换为 3DEXPERIENCE CATIA";
+
+
+// --- Execution -------------------------------------
+// ---------------------------------------------------
+CADTransitionCommand.Execute.Ok="确定";
+CADTransitionCommand.Execute.Cancel="取消";
+
+Option.UseMpgTable="使用映射表";
+Option.UseMpgTable.LongHelp="使用映射表";
+Option.UseMpgTable.ShortHelp="使用映射表";
+OptionGroup.GeneralOptions="常规选项...";
+OptionGroup.GeneralOptions.LongHelp="常规选项";
+OptionGroup.GeneralOptions.ShortHelp="常规选项";
+OptionGroup.AdvancedOptions="高级选项...";
+OptionGroup.AdvancedOptions.LongHelp="高级选项";
+OptionGroup.AdvancedOptions.ShortHelp="高级选项";
+
+
+ExecutionMode.Title="执行模式";
+ExecutionMode.ExecModeCombo.Title="转换模式";
+ExecutionMode.ExecModeAsNew="转换为新对象";
+ExecutionMode.ExecModeAsNewRevision="转换为新修订版";
+ExecutionMode.ExecModeAsNewBranch="转换为新分支";
+ExecutionMode.ExecModeMapping.Title="使用映射表";
+ExecutionMode.ExecModeForceUpdate.Title="强制更新";
+ExecutionMode.ExecModeOverwrite.Title="允许覆盖";
+
+
+Report.ReportName="3DEXPERIENCE CAD Transition_GlobalResult_";
+Report.TimeFormat="%Y-%m-%d__%Hh%Mm%Ss";
+Report.Adm.Name="文档转换报告";
+
+
+Option.ReportDir="报告目录：";
+Option.ReportDir.LongHelp="报告目录";
+Option.ReportDir.ShortHelp="报告目录";
+
+Option.ReportName="报告名称：";
+Option.ReportName.LongHelp="报告名称";
+Option.ReportName.ShortHelp="报告名称";
+
+Option.ReportNameSuffix="对象报告的后缀：";
+Option.ReportNameSuffix.LongHelp="对象报告的后缀";
+Option.ReportNameSuffix.ShortHelp="对象报告的后缀";
+
+OptionGroup.Report="报告";
+OptionGroup.Report.LongHelp="报告";
+OptionGroup.Report.ShortHelp="报告";
+
+Option.ReportBtn="报告";
+Option.ReportBtn.LongHelp="报告";
+Option.ReportBtn.ShortHelp="报告";
+
+
+

@@ -1,0 +1,14 @@
+{
+  "cancel": "Annuler",
+  "customerSuccessPartner": "Partenaire de réussite client",
+  "edit": "Modifier",
+  "errorPartnerSave": "Impossible d'enregistrer le partenaire",
+  "localPartner": "Notre partenaire certifié local est à votre disposition pour vous aider et vous fournir des conseils d'experts à chaque étape de votre projet afin de vous aider à tirer le meilleur parti de nos produits. Ils vous contacteront peu de temps après votre achat.",
+  "next": "Suivant",
+  "noLocalPartner": "Nous ne disposons actuellement d'aucun partenaire certifié local pour vous aider et vous fournir des conseils d'experts à chaque étape de votre projet. En attendant, l'équipe de réussite client de Dassault Systèmes sera à votre disposition et vous contactera peu de temps après votre achat.",
+  "selectForMe": "En sélectionner un pour moi",
+  "selectAPartner": "Sélectionnez un partenaire de réussite client",
+  "severalLocalPartners": "Sélectionnez l'un des partenaires certifiés locaux suivants pour vous aider et vous fournir des conseils d'experts à chaque étape de votre projet. Ils vous contacteront peu de temps après votre achat. Si vous travaillez déjà avec l'un d'entre eux, sélectionnez-le dans la liste ci-dessous.",
+  "yourPartner": "Votre partenaire",
+  "yourSelectedPartner": "Votre partenaire sélectionné"
+}

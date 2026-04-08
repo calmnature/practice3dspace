@@ -1,0 +1,9 @@
+m|MPFCore\MPFFiniteStateMachine.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFFiniteStateMachine\MPFFiniteStateMachine.js|1760176810|990
+s|MPFCore\MPFFiniteStateMachine.mweb\src\FiniteStateMachine.js|1760133119|4267
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

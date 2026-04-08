@@ -1,0 +1,1 @@
+define("DS/PIMwebI3Sapp/PIMwebI3Sapp_ko",{});define("DS/PIMwebI3Sapp/assets/nls/PIMwebI3Sapp",{title:"간섭 시뮬레이션",subtitle:"기계적 간섭 시뮬레이션을 정의하고 실행",userAssistanceURL:"enoI3sUserMap/i3s-c-ov.htm",dropMultiNoAutorized:"이러한 데이터를 동시에 로드하는 것은 지원되지 않습니다."});

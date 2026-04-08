@@ -1,0 +1,8 @@
+{
+  "Work_Under_Check": "Komposition kann nicht ausgeführt werden. Erstellungskontext muss Arbeiten unter Entwicklungsgültigkeit sein.",
+  "Revision": "Revision",
+  "Child": "Untergeordnetes Element",
+  "Edit_Composition": "Komposition bearbeiten",
+  "Pencil_Tooltip": "Erstellungskontext zum Bearbeiten der Komposition muss Arbeiten unter Entwicklungsgültigkeit sein",
+  "Composition_Error": "Fehler beim Abrufen der Kompositionsinformationen"
+}

@@ -1,0 +1,14 @@
+{
+  "Cancel": "Anuluj",
+  "PROGRESS": "Postęp",
+  "Pending": "Oczekujące",
+  "Completed": "Ukończone",
+  "Failed": "Niepowodzenie",
+  "PartiallyFailed": "Częściowo nieudane",
+  "Cancelled": "Anulowano",
+  "Ending": "Bezpieczne zatrzymywanie",
+  "CancelAll": "Anuluj wszystkie",
+  "inProgress": "W toku",
+  "loadingText": "Wczytywanie…",
+  "searching": "Wyszukiwanie w zakładkach głównych"
+}

@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "Sem přetáhněte obsah",
+  "orMessage": "nebo",
+  "upContent": "Nahrát obsah",
+  "wrongFileType": "Nesprávný typ souboru",
+  "fileTooBig": "Souboru překračuje maximální velikost {0}",
+  "bytes": "bajtů",
+  "kiloByte": "kB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "filesExceedSizeOf": "{0} / {1} souborů překračuje maximální velikost {2}",
+  "filesHaveWrongFormat": "{0} / {1} souborů má nesprávný formát"
+}

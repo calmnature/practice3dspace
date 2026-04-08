@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Mapování typu sběrnice",
+  "EPCLabel": "Elektronická fyzická součást",
+  "EPCInfo": "Změnit mapování typu pro elektronickou fyzickou součást na typ 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Deska plošných spojů (jako díl)",
+  "PrintedCircuitBoardInfo": "Změnit mapování typu pro desku plošných spojů na typ 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Sestava desky plošných spojů",
+  "PrintedCircuitBoardAssemblyInfo": "Změnit mapování typu pro sestavu desky plošných spojů na typ 3DEXPERIENCE"
+}

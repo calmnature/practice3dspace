@@ -1,0 +1,1 @@
+define("DS/SMAMpwControls/SMAMpwControls_en",{});define("DS/SMAMpwControls/assets/nls/SMAMpwFrameSelector",{frameSelectorPlaceHolder:"Select a frame...",playOnlyTooltip:"Lock Animation to the current selection"});define("DS/SMAMpwControls/assets/nls/SMAMpwLegend",{scaleFactor:"Deformation Scale",min:"Min:",max:"Max:"});

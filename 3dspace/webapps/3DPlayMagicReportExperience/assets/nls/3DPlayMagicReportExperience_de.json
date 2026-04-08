@@ -1,0 +1,16 @@
+{
+  "Perspectives": "Perspektiven",
+  "Switch_Perspective": "Perspektive wechseln",
+  "Views": "Ansichten",
+  "Switch_View": "Ansicht wechseln",
+  "Model": "Modell",
+  "View": "Ansicht",
+  "Document": "Dokument",
+  "Wiki": "Wiki",
+  "Back": "Zurück",
+  "Forward": "Weiter",
+  "error": {
+    "timeout": "Erfahrungsinitialisierung ist langsam und wurde abgebrochen. Versuchen Sie es später erneut.",
+    "invalid_id": "Die Objekt-ID ist ungültig"
+  }
+}

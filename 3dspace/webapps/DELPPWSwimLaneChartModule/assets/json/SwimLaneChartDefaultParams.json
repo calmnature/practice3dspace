@@ -1,0 +1,217 @@
+{
+    "ROUTINGS": {
+        "attributeList": [
+            {
+                "nodeType": "process",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": false,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "3",
+                "mergeWithPreviousRow": false,
+                "name": "PLMInstance.PLM_ExternalID",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "4",
+                "mergeWithPreviousRow": false,
+                "name": "SequenceNumber",
+                "displayAttributeName": true
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "5",
+                "mergeWithPreviousRow": false,
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "displayAttributeName": true
+            }
+        ]
+    },
+    "MANUFACTURING": {
+        "attributeList": [
+            {
+                "nodeType": "item",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": false,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "3",
+                "mergeWithPreviousRow": false,
+                "name": "V_AppReferenceQuantity",
+                "displayAttributeName": true
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "4",
+                "mergeWithPreviousRow": false,
+                "name": "V_AppInstanceQuantity",
+                "displayAttributeName": true
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "5",
+                "name": "V_AppRoleAndQuantity"
+            }
+        ]
+    },
+    "RESOURCES": {
+        "attributeList": [
+            {
+                "nodeType": "resource",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": false,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "resource",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": false
+            }
+        ]
+    },
+    "DCPROW": {
+        "attributeList": [
+            {
+                "rowIndex": "1",
+                "mergeWithPreviousRow": false,
+                "name": "V_AppTitle"
+            },
+            {
+                "rowIndex": "2",
+                "mergeWithPreviousRow": false,
+                "name": "DELPrmCriticalityExt.V_Criticality",
+                "displayAttributeName": true
+            },
+            {
+                "rowIndex": "3",
+                "name": "V_AppNormalRange"
+            },
+            {
+                "rowIndex": "4",
+                "name": "V_AppAcceptableRange"
+            },
+            {
+                "rowIndex": "5",
+                "name": "V_AppFailureRange"
+            }
+        ]
+    },
+    "RPPROW": {
+        "attributeList": [
+            {
+                "rowIndex": "1",
+                "mergeWithPreviousRow": false,
+                "name": "V_AppTitle"
+            },
+            {
+                "rowIndex": "2",
+                "mergeWithPreviousRow": false,
+                "name": "DELPrmCriticalityExt.V_Criticality",
+                "displayAttributeName": true
+            },
+            {
+                "rowIndex": "3",
+                "name": "V_AppNormalRange"
+            },
+            {
+                "rowIndex": "4",
+                "name": "V_AppAcceptableRange"
+            },
+            {
+                "rowIndex": "5",
+                "name": "V_AppFailureRange"
+            }
+        ]
+    },
+    "CHARACTERISTIC_MANUF": {
+        "attributeList": [
+            {
+                "nodeType": "characteristic",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": false,
+                "name": "title",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "characteristic",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": false,
+                "name": "consumingObjectsLabel",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "characteristic",
+                "rowIndex": "3",
+                "mergeWithPreviousRow": false,
+                "name": "V_ConsumingObjects",
+                "displayAttributeName": false
+            },
+            {
+                "rowIndex": "4",
+                "name": "V_AcceptanceCriteriaRange"
+            },
+            {
+                "rowIndex": "5",
+                "name": "V_RoutineReleaseLimitRange"
+            },
+            {
+                "rowIndex": "6",
+                "name": "V_SpecificationLimitRange"
+            }
+        ]
+    },
+        "CHARACTERISTIC_PARAM": {
+        "attributeList": [
+            {
+                "nodeType": "characteristic",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": false,
+                "name": "title",
+                "displayAttributeName": false
+            },
+            {
+                "nodeType": "characteristic",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": false,
+                "name": "V_ConsumedObject",
+                "displayAttributeName": true
+            },
+            {
+                "rowIndex": "3",
+                "name": "V_AcceptanceCriteriaRange"
+            },
+            {
+                "rowIndex": "4",
+                "name": "V_RoutineReleaseLimitRange"
+            },
+            {
+                "rowIndex": "5",
+                "name": "V_SpecificationLimitRange"
+            }
+        ]
+    }
+}

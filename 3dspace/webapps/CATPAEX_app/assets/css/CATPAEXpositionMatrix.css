@@ -1,0 +1,40 @@
+.catpaex-position-matrix-tooltip {
+    display: grid;
+    width: 305px;
+    grid-template-columns: 75% 25%;
+    column-gap: 4px;
+}
+.catpaex-position-matrix-tooltip.large {
+    width: 475px;
+}
+.catpaex-position-matrix-rotation {
+    display: grid;
+    grid-template-rows: 15px 15px 15px;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 4px;
+    row-gap: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 5px;
+}
+.catpaex-position-matrix-translation {
+    display: grid;
+    grid-template-rows: 15px 15px 15px;
+    row-gap: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 5px;
+}
+.catpaex-matrix-cell {
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+    font-size: 10px;
+}

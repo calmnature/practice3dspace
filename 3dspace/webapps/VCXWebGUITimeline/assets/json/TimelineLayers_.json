@@ -1,0 +1,284 @@
+{
+    "name": "Root",
+    "icon": "_",
+    "children": [
+        {
+            "name": "Camera",
+            "icon": "videocamera",
+            "type": "Camera",
+            "isFixed": true,
+            "order": 0,
+            "isMandatory": true,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 60,
+                    "end": 65,
+                    "keyframeType": "camera"
+                },
+                {
+                    "property": "rotation",
+                    "start": 100,
+                    "end": 150,
+                    "keyframeType": "camera"
+                },
+                {
+                    "property": "rotation",
+                    "start": 170,
+                    "end": 240,
+                    "keyframeType": "camera"
+                }
+            ]
+        },
+        {
+            "name": "Product A",
+            "icon": "3dproduct",
+            "type": "Product",
+            "order": 6,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 0,
+                    "end": 100,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "rotation",
+                    "start": 50,
+                    "end": 150,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "scale",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "opacity",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "circle"
+                }, 
+                {
+                    "property": "color",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "square"
+                }
+            ]
+        }, 
+        {
+            "name": "Product E",
+            "icon": "3dproduct",
+            "type": "Product",
+            "order": 50,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 0,
+                    "end": 100,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "rotation",
+                    "start": 50,
+                    "end": 150,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "scale",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "opacity",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "circle"
+                }, 
+                {
+                    "property": "color",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "square"
+                }
+            ]
+        }, 
+        {
+            "name": "Product G",
+            "icon": "3dproduct",
+            "type": "Product",
+            "order": 60,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 0,
+                    "end": 100,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "rotation",
+                    "start": 50,
+                    "end": 150,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "scale",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "opacity",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "circle"
+                }, 
+                {
+                    "property": "color",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "square"
+                }
+            ]
+        }, 
+        {
+            "name": "Product Z",
+            "icon": "3dproduct",
+            "type": "Product",
+            "order": 98,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 0,
+                    "end": 100,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "rotation",
+                    "start": 50,
+                    "end": 150,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "scale",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "opacity",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "circle"
+                }, 
+                {
+                    "property": "color",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "square"
+                }
+            ]
+        }, 
+        {
+            "name": "Product B",
+            "icon": "3dproduct",
+            "type": "Product",
+            "order": 5,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 0,
+                    "end": 100,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "rotation",
+                    "start": 66,
+                    "end": 87,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "scale",
+                    "start": 0,
+                    "end": 60,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "opacity",
+                    "start": 7,
+                    "end": 100,
+                    "keyframeType": "circle"
+                }, 
+                {
+                    "property": "color",
+                    "start": 28,
+                    "end": 65,
+                    "keyframeType": "square"
+                }
+            ]
+        },
+        {
+            "name": "Product C",
+            "icon": "3dproduct",
+            "type": "Product",
+            "order": 8,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 0,
+                    "end": 100,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "rotation",
+                    "start": 50,
+                    "end": 150,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "scale",
+                    "start": 0,
+                    "end": 145,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "opacity",
+                    "start": 0,
+                    "end": 69,
+                    "keyframeType": "circle"
+                }, 
+                {
+                    "property": "color",
+                    "start": 0,
+                    "end": 200,
+                    "keyframeType": "square"
+                }
+            ]
+        },
+        {
+            "name": "Markup A",
+            "type": "Markup",
+            "icon": "app-3dmarkup",
+            "t0": 120, 
+            "delta": 5,
+            "order": 10,
+            "blocks": [
+                {
+                    "property": "position",
+                    "start": 120,
+                    "end": 160,
+                    "keyframeType": "diamond"
+                },
+                {
+                    "property": "rotation",
+                    "start": 140,
+                    "end": 180,
+                    "keyframeType": "diamond"
+                }
+            ]
+        }
+    ]
+}

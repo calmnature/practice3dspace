@@ -1,0 +1,32 @@
+{
+	"dspos:AxisSystemReference" : {
+		"summary": "Axis System Reference",
+		"description": "Axis System Reference",
+		"PUBLICMasks":  ["dsmvpos:AxisSystemReferenceMask.Default","dsmvpos:AxisSystemReferenceMask.Details"],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [],
+		"PROTECTEDExtensions": [],
+		"PRIVATEEtensions": [],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": ["PATCH", "BULKUPDATE", "getItems", "bulkfetch", "GETAll"]
+	},
+	"dspos:AxisSystemInstance" : {
+		"summary": "Axis System Instance",
+		"description": "Axis System Instance",
+		"PUBLICMasks":  ["dsmvpos:AxisSystemInstanceMask.Default","dsmvpos:AxisSystemInstanceMask.Details"],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [],
+		"PROTECTEDExtensions": [],
+		"PRIVATEEtensions": [],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": ["PATCH", "BULKUPDATE", "getItems", "bulkfetch", "GETAll"]
+	},
+	"dspos:PositioningSpec": {
+		"summary": "Positioning Specification",
+		"description": "Positioning Specification",
+		"PUBLICMasks": ["dsmvpos:PositioningSpec.Default"],
+		"PUBLICFields": []
+	}
+}

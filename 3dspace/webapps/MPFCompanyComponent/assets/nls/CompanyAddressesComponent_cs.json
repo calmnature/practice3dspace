@@ -1,0 +1,17 @@
+{
+  "addresses": "Adresy",
+  "back": "Zpět",
+  "billingAddress": "Fakturační adresa",
+  "cancel": "Zrušit",
+  "changeAddress": "Změnit adresu",
+  "create": "Vytvořit",
+  "enterBillingAddress": "Zadejte fakturační adresu",
+  "enterShippingAddress": "Zadejte dodací adresu",
+  "manageAddresses": "Spravovat adresy",
+  "next": "Další",
+  "noBilling": "Není zadána žádná výchozí fakturační adresa",
+  "noShipping": "Není zadána žádná výchozí dodací adresa",
+  "save": "Uložit",
+  "severalAddressesDefined": "Je zadáno více adres",
+  "shippingAddress": "Dodací adresa"
+}

@@ -1,0 +1,29 @@
+{
+    "version": "1.0",
+    "typeMappings": [
+        {
+            "mappingId": "EPCMapping",
+            "label": "EPCLabel",
+            "info": "EPCInfo",
+            "cadType": "ElectronicPhysicalComponent",
+            "mappingType": "busType",
+            "groupName": "busTypeMapping"
+        },
+        {
+            "mappingId": "PrintedCircuitBoardMapping",
+            "label": "PrintedCircuitBoardLabel",
+            "info": "PrintedCircuitBoardInfo",
+            "cadType": "PrintedCircuitBoard",
+            "mappingType": "busType",
+            "groupName": "busTypeMapping"
+        },
+        {
+            "mappingId": "PrintedCircuitBoardAssemblyMapping",
+            "label": "PrintedCircuitBoardAssemblyLabel",
+            "info": "PrintedCircuitBoardAssemblyInfo",
+            "cadType": "PrintedCircuitBoardAssembly",
+            "mappingType": "busType",
+            "groupName": "busTypeMapping"
+        }
+    ]
+}

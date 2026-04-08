@@ -1,0 +1,9 @@
+<meta charset="UTF-8"/>
+CurrentTitle="Текущий заголовок модели: ";
+AliasAtGeneration="Псевдоним модели во время создания: ";
+CaseName="Имя сценария: ";
+FromCase="- из сценария";
+ContentName="Имя содержимого: ";
+ActiveContents="Содержимое: ";
+
+

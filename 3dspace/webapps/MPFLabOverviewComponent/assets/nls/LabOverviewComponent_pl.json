@@ -1,0 +1,23 @@
+{
+  "myOrdersTitle": "Moje zamówienia",
+  "myStatsTitle": "Moje statystyki",
+  "myLabTitle": "Informacje z mojego laboratorium {websiteName}",
+  "newRequest": "Nowe żądanie",
+  "newRequests": "Nowe żądania",
+  "confirmedOrder": "Potwierdzone zamówienie",
+  "confirmedOrders": "Potwierdzone zamówienia",
+  "newMessage": "Nowa wiadomość",
+  "newMessages": "Nowe wiadomości",
+  "visitor": "Gość",
+  "visitors": "Goście",
+  "request": "Żądanie",
+  "requests": "Żądania",
+  "order": "Kolejność",
+  "orders": "Zamówienia",
+  "process": "Przetwórz",
+  "processes": "Procesy",
+  "printer": "Maszyna",
+  "printers": "Maszyny",
+  "material": "Materiał",
+  "materials": "Materiały"
+}

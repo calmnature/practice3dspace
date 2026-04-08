@@ -1,0 +1,23 @@
+{
+    "Error_Plateforminfo":"Platform informations are unavailable",
+    "Error_NoObject": "No Reference received",
+    "Error_Format": "Received object's format is incorrect",
+    "Error_ResourceFail": "Failed to fetch resource",
+    "Error_EmptyResponse": "Response is empty",
+    "Error_NoDataReturned": "No data was returned",
+    "Error_PromisesFail": "Promise execution failed",
+    "Error_ParseFail": "Failed to parse the response",
+    "Error_ObjectNotFound": "Object not found",
+
+    "Error_Expand": "Expand request failed: incorrect input",
+    "Errro_PlatformInfo": "Platform information request failed: incorrect input",
+  "Error_SecurityContext": "Failed to fetch Credentials",
+  "Error_ResourceLinkFail": "Links to Resources are found but Resources cannot be displayed.",
+  "Error_MoreScopes": "Input Process have more than one scoped Items.",
+  "Error_NoScope": "Input Process doesn't have scoped Item.",
+  "error_NotAllowedObject": "Unsupported object Type",
+  "error_NotAllowedObject_msg": "Dropped Object type is not supported as input.",
+  "error_IncorrectObject": "Incorrect object",
+  "error_IncorrectObject_msg": "Dropped object is not correct."
+}
+

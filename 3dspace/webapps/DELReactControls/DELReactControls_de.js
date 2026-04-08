@@ -1,0 +1,1 @@
+define("DS/DELReactControls/DELReactControls_de",{});define("DS/DELReactControls/assets/nls/controls",{sidePanel:{cancel:"Abbrechen",apply:"Übernehmen"}});

@@ -1,0 +1,10 @@
+{
+"ContentFromTarget.Title":"Content taken from the object in the target structure",
+"ContentFromTarget.ShortHelp":"In the merged object, content will be taken from the object in the target structure.",
+"ContentFromSource.Title":"Content taken from the object in the source structure",
+"ContentFromSource.ShortHelp":"In the merged object, content will be taken from the object in the source structure.",
+"ContentFromTarget.WebHelp":"LcmiUserMap/lifecycle-t-Merge.htm",
+"ContentFromTarget.PanelHelp":"LcmiUAPanelMap/lifecycle-t-Merge.htm",
+"ContentFromSource.WebHelp":"LcmiUserMap/lifecycle-t-Merge.htm",
+"ContentFromSource.PanelHelp":"LcmiUAPanelMap/lifecycle-t-Merge.htm"
+}

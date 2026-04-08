@@ -1,0 +1,23 @@
+{
+  "cadtransitionoptions.execmode.label": "执行模式",
+  "cadtransitionoptions.execmode.coversion.label": "转换为",
+  "cadtransitionoptions.execmode.coversion.value": [
+    "新建对象"
+  ],
+  "cadtransitionoptions.execmode.expand.label": "展开级别",
+  "cadtransitionoptions.execmode.expand.value": [
+    "全部展开",
+    "无展开",
+    "自定义展开深度"
+  ],
+  "cadtransitionoptions.addopts.label": "附加选项",
+  "cadtransitionoptions.addopts.linkcomp.label": "链接完成",
+  "cadtransitionoptions.addopts.linkcomp.value": [
+    "完整链接完成",
+    "无链接完成",
+    "自定义链接完成"
+  ],
+  "cadtransitionoptions.addopts.maptable.label": "使用映射表",
+  "cadtransitionoptions.addopts.update.label": "强制更新",
+  "cadtransitionoptions.addopts.overwrite.label": "允许覆盖"
+}

@@ -1,0 +1,16 @@
+{  
+    "Perspectives": "Perspectives",
+    "Switch_Perspective":"Switch perspective",
+    "Views": "Views",
+    "Switch_View":"Switch view",
+    "Model":"Model",
+    "View" : "View",
+    "Document" : "Document",
+    "Wiki": "Wiki",
+    "Back": "Back",
+    "Forward": "Forward",
+    "error": {
+        "timeout": "Experience initialization is slow and has been aborted. Please retry later.",
+        "invalid_id": "The object ID is invalid"
+    }
+ }

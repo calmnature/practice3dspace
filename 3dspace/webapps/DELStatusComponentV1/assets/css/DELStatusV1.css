@@ -1,0 +1,64 @@
+.compStatus-Container {
+    height: 26px;
+    width: 26px;
+    z-index: 20;
+}
+
+.compStatus-LeftSide {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.compStatus-RightSide {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.compStatus-Circle {
+    margin: 2px 0px 0px 2px;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    outline-width: 1px;
+    outline-style: solid;
+    animation-duration: 3s;
+}
+
+.compStatus-Circle-Warning {
+    background: var(--COLOR_MEDIUM_ORANGE);
+    outline-color: var(--COLOR_DARK_ORANGE);
+}
+
+@keyframes animationWARNING {
+    0%   { box-shadow: 0 0 0 0 var(--COLOR_MEDIUM_ORANGE) }
+    50%  { box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
+}
+
+.compStatus-Circle-Error {
+    background: var(--COLOR_RED_FOR_WHITE_LABEL);
+    outline-color: var(--COLOR_MEDIUM_BURGUNDY);
+}
+
+@keyframes animationERROR {
+    0%   { box-shadow: 0 0 0 0 var(--COLOR_RED_FOR_WHITE_LABEL); }
+    50%  { box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
+}
+
+.compStatus-Icon {
+    color: white;
+    font-size: 1.1em !important;
+}
+
+.compStatus-Icon-Warning {
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.compStatus-Icon-Error {
+    margin-top: 3px;
+    margin-left: 2px;
+}

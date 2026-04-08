@@ -1,0 +1,10 @@
+{
+  "onholdmessage": "「{name}」を保留にしている理由は何ですか?",
+  "resumemessage": "保留を解除してよろしいですか?",
+  "checkOptOnHoldmessage": "すべての子が保留になります",
+  "checkOptResumemessage": "すべての子が再開されます",
+  "title": "保留にする",
+  "resumetitle": "保留を解除",
+  "placeholder": "保留中コメントを入力",
+  "note": "注: これにより、さらなるアクションが取られるまで生産が一時停止されます。"
+}

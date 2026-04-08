@@ -1,0 +1,76 @@
+#Prog VVTestSpecificationExport( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+let IdsTestSpec  (PLMIDSet)
+
+let SubTestSpec  (PLMRouteSet)
+let TestSpecChilds  (PLMRouteSet)
+let TestChapterChilds  (PLMRouteSet)
+let TestCases  (PLMRouteSet)
+let TestScripts  (PLMRouteSet)
+let TestSteps  (PLMRouteSet)
+
+let IdsTestCases  (PLMIDSet)
+let IdsTestChapters  (PLMIDSet)
+let IdsTestScripts  (PLMIDSet)
+let IdsTestSteps  (PLMIDSet)
+
+let ContentSet (PLMIDSet)
+let TestSpecData  (PLMIDSet)
+let TestCaseData  (PLMIDSet)
+let TestScriptData  (PLMIDSet)
+let TestStepData  (PLMIDSet)
+
+let ReqSpecSet  (PLMIDSet)
+let DocSet  (PLMIDSet)
+let ReqSet  (PLMIDSet)
+
+
+/* Filter by Test Spec */
+IdsTestSpec = Restrict( iPLMIDSet , "Class/VV_Test_Specification" )
+
+/* Collect Sub Requirements recursively & gather all Test Spec Ids */
+SubTestSpec = ExecutePLMFunction("VVTestSubSpecificationExpand", IdsTestSpec )
+IdsTestSpec = IdsTestSpec + Restrict(Ids(SubTestSpec), "Class/VV_Test_Specification")
+
+/* Collect Test Chapters  and expand it recursively */
+TestSpecChilds = ExecutePLMFunction("VVTestSpecificationStructureExpand", IdsTestSpec )
+IdsTestChapters = Restrict(Ids(TestSpecChilds), "Class/VV_Test_Chapter")
+TestChapterChilds = ExecutePLMFunction("VVTestChapterExpand", IdsTestChapters )
+
+/* Collect test cases */
+TestCases = ExecutePLMFunction("VVTestSpecificationTestCaseExpand", IdsTestSpec )
+IdsTestCases = Restrict(Ids(TestCases), "Class/VV_Test_Case")
+
+TestScripts = ExecutePLMFunction("VVTestCaseTestScriptsExpand", IdsTestCases )
+IdsTestScripts = Restrict(Ids(TestScripts), "Class/VV_Test_Script")
+
+TestSteps = ExecutePLMFunction("VVTestScriptStepsExpand", IdsTestScripts )
+IdsTestSteps = Restrict(Ids(TestSteps), "Class/VV_Test_Step")
+
+/*Export links -  collect Req spec, req & doc from vrp objects*/
+TestSpecData = ExecuteJavaProcedure("com.dassault_systemes.sma_vrp.completion.TestSpecificationCompletion", IdsTestSpec)
+TestCaseData = ExecuteJavaProcedure("com.dassault_systemes.sma_vrp.completion.TestCaseCompletion", IdsTestCases)
+TestScriptData = ExecuteJavaProcedure("com.dassault_systemes.sma_vrp.completion.TestScriptCompletion", IdsTestScripts)
+TestStepData = ExecuteJavaProcedure("com.dassault_systemes.sma_vrp.completion.TestStepCompletion", IdsTestSteps)
+
+
+ContentSet = TestSpecData + TestCaseData + TestScriptData + TestStepData
+
+ReqSpecSet = ExecutePLMProcedure("Rmt_ReqSpec_ExportCompletion", Restrict( ContentSet , "Class/Requirement Specification" ))
+ReqSet = ExecutePLMProcedure("Rmt_Requirement_ExportCompletion", Restrict( ContentSet , "Class/Requirement" ))
+DocSet = ExecutePLMProcedure("DocumentCompletion", Restrict( ContentSet , "Class/DOCUMENTS" ))
+
+/* Gather all Ids including objects and relationships */
+oPLMIDSet = IdsTestSpec +
+            Ids(TestSpecChilds) +
+            Ids(SubTestSpec) +
+            Ids(TestChapterChilds) +
+            Ids(TestCases) +
+            Ids(TestScripts) +
+            Ids(TestSteps) +
+            ContentSet +
+            ReqSpecSet +
+            ReqSet +
+            DocSet
+ 
+}

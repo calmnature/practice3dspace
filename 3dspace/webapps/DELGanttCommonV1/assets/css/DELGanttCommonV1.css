@@ -1,0 +1,19 @@
+.delpxp-tooltip-property {
+    margin: 0; 
+
+}
+.tooltipContainer{
+    white-space: normal !important;
+    opacity: 0.6;
+}
+
+.delpxp-tooltip-property > b {
+    float: right;
+}
+
+.modalLoaderGantt {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+}

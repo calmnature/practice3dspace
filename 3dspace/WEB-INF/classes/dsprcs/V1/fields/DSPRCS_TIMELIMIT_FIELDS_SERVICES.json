@@ -1,0 +1,54 @@
+{
+	"dsprcs:TimeLimit": {
+		"property": "computed",
+		"key": "dsprcs:TimeLimit",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.parentObject"
+	},
+	"dsprcs:TimeLimitParameter.eventCode": {
+		"property": "property[DELTimeLimitEventExt.V_TLEventCode]",
+		"key": "eventCode",
+		"fetchOnce": true,
+		"example": "After a Lightning Strike"
+	},
+	"dsprcs:TimeLimitParameter.nbOccurrence": {
+		"property": "property[DELTimeLimitEventExt.V_TLNbOccurrence]",
+		"key": "nbOccurrence",
+		"fetchOnce": true,
+		"example": "3",
+		"format": "integer"
+	},
+	"dsprcs:TimeLimitParameter.tlStage": {
+		"property": "computed",
+		"key": "tlStage",
+		"fetchOnce": true,
+		"example": "1",
+		"format": "integer"
+	},
+	"dsprcs:TimeLimitParameter.tlValue": {
+		"property": "computed",
+		"key": "tlValue",
+		"fetchOnce": true
+	},
+	"dsprcs:TimeLimitParameter.tlMargin": {
+		"property": "computed",
+		"key": "tlMargin",
+		"fetchOnce": true
+	},
+	"dsprcs:DiscreteTimeLimitEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DiscreteTimeLimitEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:DiscreteTimeLimitEnterpriseAttributes"
+		]
+	},
+	"dsprcs:PeriodicTimeLimitEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:PeriodicTimeLimitEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:PeriodicTimeLimitEnterpriseAttributes"
+		]
+	}
+}

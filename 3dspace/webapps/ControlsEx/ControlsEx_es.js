@@ -1,0 +1,1 @@
+define("DS/ControlsEx/ControlsEx_es",{});define("DS/ControlsEx/assets/nls/translation",{information:"Información",home:"Inicio",expand:"Expandir",collapse:"Contraer",no_unit:"No hay unidades coincidentes",collapseStepper:"Contraer vista de pasos"});

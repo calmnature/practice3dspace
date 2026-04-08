@@ -1,0 +1,11 @@
+m|MPFModels\MPFBuyer.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFBuyer\MPFBuyer.js|1760176807|1901
+s|MPFModels\MPFBuyer.mweb\src\Buyer.js|1760133126|3183
+u|MPFModels\MPFBuyer.mweb\src\BuyerType.js|1760133126|1210
+u|MPFModels\MPFBuyer.mweb\src\MPFBuyer.js|1760133126|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,14 @@
+{
+  "sellerID": "ID prodejce",
+  "shopName": "Název prodejny",
+  "lastUpdate": "Poslední aktualizace",
+  "kyc": "KYC",
+  "showroom": "Předváděcí místnost",
+  "testOrder": "Testovací objednávka",
+  "status": "Stav",
+  "reviewshowroom": "Prohlédnout showroom",
+  "sendTestOrder": "Odeslat testovací objednávku",
+  "draft": "Koncept",
+  "validated": "Ověřené",
+  "setOffline": "Nastavit off-line"
+}

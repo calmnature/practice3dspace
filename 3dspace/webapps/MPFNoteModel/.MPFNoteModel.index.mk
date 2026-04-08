@@ -1,0 +1,12 @@
+m|MPFModels\MPFNoteModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFNoteModel\MPFNoteModel.js|1760176845|1562
+s|MPFModels\MPFNoteModel.mweb\src\CartDataProxy.js|1760133129|1440
+u|MPFModels\MPFNoteModel.mweb\src\MPFNoteModel.js|1760133129|0
+u|MPFModels\MPFNoteModel.mweb\src\NoteFactory.js|1760133129|1368
+u|MPFModels\MPFNoteModel.mweb\src\NoteModel.js|1760133129|1957
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

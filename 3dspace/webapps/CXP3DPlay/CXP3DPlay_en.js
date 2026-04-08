@@ -1,0 +1,1 @@
+define("DS/CXP3DPlay/CXP3DPlay_en",{});define("DS/CXP3DPlay/assets/nls/CXP3DPlay",{"CXP3DPlay.XCTEWSPlayMedia.DictionnariesVersionsError.Title":"Unable to load the media","CXP3DPlay.XCTEWSPlayMedia.DictionnariesVersionsError.Message":"The player version is incompatible with this media"});

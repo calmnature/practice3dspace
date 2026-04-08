@@ -1,0 +1,13 @@
+m|ENOXAttachmentsWebInWin\ENOAttachmentsWebInWin.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26031|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ENOAttachmentsWebInWin\ENOAttachmentsWebInWin.js|1769831493|8730
+s|ENOXAttachmentsWebInWin\ENOAttachmentsWebInWin.mweb\src\Attachments.js|1769606102|26751
+t|win_b64\webapps\ENOAttachmentsWebInWin\Widget.html|1723277731|2940
+s|ENOXAttachmentsWebInWin\ENOAttachmentsWebInWin.mweb\src\Widget.html|1699333807|2940
+t|win_b64\webapps\ENOAttachmentsWebInWin\assets\css\ENOAttachmentsWebInWin.css|1769831492|554
+s|ENOXAttachmentsWebInWin\ENOAttachmentsWebInWin.mweb\src\assets\css\ENOAttachmentsWebInWin.css|1769598809|554
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

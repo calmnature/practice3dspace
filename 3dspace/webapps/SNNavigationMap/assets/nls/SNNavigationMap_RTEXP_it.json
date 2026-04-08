@@ -1,0 +1,18 @@
+{
+  "RTEXP": "Relazioni per esperienza in tempo reale",
+  "RTEXPToAsset": "Asset per esperienza in tempo reale",
+  "RTEXPToAsset_to": "Asset per esperienza",
+  "RTEXPToAsset_from": "Asset per esperienza di",
+  "RTEXPToProto": "Prototipi per esperienza in tempo reale",
+  "RTEXPToProto_to": "Prototipi per esperienza",
+  "RTEXPToProto_from": "Prototipi per esperienza di",
+  "RTEXPToValue": "Valori per esperienza in tempo reale",
+  "RTEXPToValue_to": "Valori per esperienza",
+  "RTEXPToValue_from": "Valori per esperienza di",
+  "RTEXPMedia": "Contenuti multimediali dell'esperienza in tempo reale",
+  "RTEXPMedia_to": "Contenuti multimediali",
+  "RTEXPMedia_from": "Contenuti multimediali di",
+  "RTEXPIngredient": "Gemelli commerciali",
+  "RTEXPIngredient_to": "Ingrediente",
+  "RTEXPIngredient_from": "Ingrediente di"
+}

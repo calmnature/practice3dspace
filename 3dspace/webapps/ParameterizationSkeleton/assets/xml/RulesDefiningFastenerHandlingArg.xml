@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="RulesDefiningFastenerHandling" treelistnls="RulesDefiningFastenerHandlingTreeListView" modalnls="RulesDefiningFastenerHandling">
+	<!--<object type="textarea" id="URI" value="" disabled="true" mandatory="true" sortable="false"></object>-->
+	<object type="combobox" id="itemType" value="ManufacturedPart,DetailedFasten" disabled="false" mandatory="true" sortable="true"></object>
+	<object type="combobox" id="fastenerHandlingType" value="FastenerWithoutSecondaryFastener,FastenerWithSecondaryFastenerFixingAComponentToOnlyOnePart,FastenerWithSecondaryFastenerFixingAComponentToSeveralParts,SecondaryFastenerFasteningComponentsToOnlyOnePart,SecondaryFastenerFasteningComponentsToSeveralParts,HalfFastenerWithSecondaryFastenerFixingAComponentToOnlyOnePart,HalfFastenerWithSecondaryFastenerFixingAComponentToSeveralParts" disabled="false" mandatory="true" sortable="true"></object>
+	<object type="combobox" id="fastenerStrategy" value="NoDrillAtAssembly,MostAtAssembly,Balanced,Fitted" disabled="false" mandatory="true" sortable="true"></object>
+	<object type="combobox" id="fastenerCategory" value="Undefined,Any,Positioning" disabled="false" mandatory="true" sortable="true"></object>
+	<object type="textarea" id="fastenerStackingCondition" value="" disabled="false" mandatory="true" sortable="true"></object>
+	<object type="textarea" id="fastenerDiameterCondition" value="" disabled="false" mandatory="true" sortable="true"></object>
+	<object type="combobox" id="fastenerItem" value="DRILL,PREDRILL,PROVIDE,NODRILL" disabled="false" mandatory="true" sortable="true"></object>
+  	<object type="textarea" id="fastenerItemParameter" value="" disabled="false"  mandatory="false" sortable="true"></object>
+</ui>

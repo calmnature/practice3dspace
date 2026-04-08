@@ -1,0 +1,39 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsili:IllustratedItemInstance",
+				"ParentType": "PLMInstance",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELIllustratedItemGenericInstance",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELIllustratedItemGenericInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

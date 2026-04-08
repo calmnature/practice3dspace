@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_pl",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"Adres URL zewnętrznej wyceny",activateExternalQuotation:"Włącz wycenę zewnętrzną"});

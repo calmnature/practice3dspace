@@ -1,0 +1,20 @@
+{
+  "compare": "Porównaj",
+  "commandMerge": "Scal",
+  "leftDropLabelNRF": "Cel",
+  "rightDropLabelNRF": "Źródło",
+  "createARevisionNRF": "Utwórz poprawkę",
+  "leftRevisionsDialogTitleMerge": "Wybierz cel do porównania",
+  "rightRevisionsDialogTitleMerge": "Wybierz źródło do porównania",
+  "revisionsDialogOKButtonLabelMerge": "Kontynuuj",
+  "swapColumnsTooltipMerge": "Zamień cel i źródło",
+  "swapColumnsDisabledTooltipMerge": "Zamiana celu i źródła jest niedostępna z powodu zastosowanego filtra",
+  "cmdNotImplented": "Polecenie nie zostało jeszcze wdrożone",
+  "cmdNotAllowed": "Nie masz uprawnień do wykonania tej operacji. Sprawdź swoje poświadczenia lub skontaktuj się z administratorem.",
+  "objectNotSelected": "Należy wybrać obiekt",
+  "selectFiveOrFewer": "Uruchom aplikację Compare z co najmniej pięcioma obiektami",
+  "objNotModel": "Wybrany obiekt nie jest modelem",
+  "requestError": "Błąd żądania serwisowego",
+  "requestRequiresTwoObj": "Żądanie wymaga wybrania dwóch elementów",
+  "OBJ_NOT_FOUND": "Obiekt został usunięty lub nie jest już dostępny."
+}

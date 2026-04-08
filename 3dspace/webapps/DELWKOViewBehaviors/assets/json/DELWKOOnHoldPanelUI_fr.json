@@ -1,0 +1,10 @@
+{
+  "onholdmessage": "Pourquoi mettez-vous '{name}’ en attente ?",
+  "resumemessage": "Voulez-vous vraiment libérer cette mise en attente ?",
+  "checkOptOnHoldmessage": "Tous les enfants seront mis en attente",
+  "checkOptResumemessage": "Tous les enfants seront repris",
+  "title": "Mettre en attente",
+  "resumetitle": "Libérer la mise en attente",
+  "placeholder": "Saisir le commentaire en attente",
+  "note": "Remarque : la production sera interrompue jusqu'à ce que des mesures supplémentaires soient prises."
+}

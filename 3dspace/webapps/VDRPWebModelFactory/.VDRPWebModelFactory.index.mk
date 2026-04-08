@@ -1,0 +1,10 @@
+m|PADUtils\VDRPWebModelFactory.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26038|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\VDRPWebModelFactory\VDRPWebModelFactory.js|1770442929|10388
+s|PADUtils\VDRPWebModelFactory.mweb\src\VDRPCVServletServices.js|1769611513|16932
+u|PADUtils\VDRPWebModelFactory.mweb\src\VDRPWebModelFactory.js|1769611818|2460
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

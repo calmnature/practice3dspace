@@ -1,0 +1,35 @@
+.del-controls-levelselector {
+  width: 250px;
+  z-index: 1000;
+  box-sizing: border-box; }
+
+.del-controls-levelselector-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  position: relative;
+  background-color: white;
+  padding-right: 10px;
+  font-size: 16px;
+  font-family: Arial;
+  border: 1px solid #b4b6ba; }
+
+.del-controls-levelselector-separator {
+  color: #b4b6ba;
+  padding-right: 3px;
+  padding-left: 3px;
+  user-select: none; }
+
+.del-controls-levelselector-checkSel-btn {
+  color: #57B847;
+  padding-right: 1px;
+  padding-left: 6px;
+  cursor: pointer; }
+  
+  
+  .del-controls-levelselector-checkSel-btn:hover {
+    color: #477738; }

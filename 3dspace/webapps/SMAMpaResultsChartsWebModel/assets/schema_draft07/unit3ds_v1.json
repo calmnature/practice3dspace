@@ -1,0 +1,51 @@
+{
+  "$id": "https://3ds.com/schemas/SIMULIA/ResultsCharts/unit3ds_v1.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "NLSString": {
+      "description": "A string which has national language support (nls). Example : '[['en-US', 'Torque'],['de-DE','Drehmoment']]'.",
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "minItems": 1
+    },
+    "Unit3DS": {
+      "description": "A physical 3DS unit (e.g. kN x m) and its related representations. Optionally also unit conversion factors to SI unit.",
+      "type": "object",
+      "properties": {
+        "internalUnitName": {
+          "type": "string"
+        },
+        "nlsName": {
+          "$ref": "#/definitions/NLSString"
+        },
+        "symbol": {
+          "type": "string"
+        },
+        "conversion_factor": {
+          "type": "number"
+        },
+        "conversion_offset": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "internalUnitName",
+        "nlsName",
+        "symbol"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/definitions/Unit3DS"
+    }
+  ]
+}

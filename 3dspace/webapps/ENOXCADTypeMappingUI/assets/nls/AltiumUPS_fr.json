@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Mappage de types de bus",
+  "EPCLabel": "Composant physique électronique",
+  "EPCInfo": "Modifier le mappage de types pour le composant physique électronique de type 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Carte du circuit imprimé (en tant que pièce)",
+  "PrintedCircuitBoardInfo": "Modifier le mappage de types pour la carte de circuit imprimé en type 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Assemblage de cartes de circuit imprimé",
+  "PrintedCircuitBoardAssemblyInfo": "Modifier le mappage de type de l'assemblage de carte de circuit imprimé en type 3DEXPERIENCE"
+}

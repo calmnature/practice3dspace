@@ -1,0 +1,11 @@
+m|MPFModels\MPFExportOrderModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFExportOrderModel\MPFExportOrderModel.js|1760176823|1248
+s|MPFModels\MPFExportOrderModel.mweb\src\ExportOrderFactory.js|1760133128|2077
+u|MPFModels\MPFExportOrderModel.mweb\src\ExportOrderModel.js|1760133128|1448
+u|MPFModels\MPFExportOrderModel.mweb\src\MeExportOrderDataProxy.js|1760133128|1725
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

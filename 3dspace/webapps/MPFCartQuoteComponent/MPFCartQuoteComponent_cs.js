@@ -1,0 +1,1 @@
+define("DS/MPFCartQuoteComponent/MPFCartQuoteComponent_cs",{});define("DS/MPFCartQuoteComponent/assets/nls/CartQuoteComponent",{downloadQuote:"Stáhnout cenovou nabídku"});

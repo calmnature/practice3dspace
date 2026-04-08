@@ -1,0 +1,31 @@
+{
+  "activeClassification_cmd": "Activar clasificación",
+  "name_Section_FavoriteLibraries": "Favoritos",
+  "name_Section_AllLibraries": "Bibliotecas",
+  "activeClassification_hover_access": "Acceso",
+  "activeClassification_msg_empty": "Vacío",
+  "activeClassification_msg_noclassfoud": "No se ha encontrado ninguna clasificación",
+  "activeClassification_btn_focus": "Seleccionar para establecer clasificación",
+  "CMDExpandAll": "Expandir todo",
+  "CMDCollapseAll": "Contraer todo",
+  "multiSelectionComponent": {
+    "button_OK": "Clasificar",
+    "button_Cancel": "Cancelar",
+    "widget_name": "Clasificar en bibliotecas",
+    "PLMNewLibraryWidgetName": "Seleccionar clases",
+    "PLMNewbutton_OK": "Seleccionar",
+    "msg_ClassifyInProgress": "Clasificando…",
+    "msg_ClassifySuccessful": "Clasificado correctamente.",
+    "title_Classify": "Clasificar en bibliotecas",
+    "msg_ClassifySomeFailed": "Los objetos seleccionados se han clasificado en las clases \"{successCount}\" y han fallado en las clases \"{failCount}\".",
+    "msg_ClassifyAllAlreadyExists": "Los objetos seleccionados ya están clasificados en las clases seleccionadas.",
+    "msg_ClassifySomeExists": "Algunos objetos están clasificados y otros ya existen en las clases seleccionadas.",
+    "msg_ClassifyFailed": "Se ha producido un error al clasificar los objetos. No dispone de permisos de clasificación o los objetos ya están clasificados en las clases indicadas.",
+    "title_addExistingContentTimeout": "Agregar contenido existente está tardando más de lo esperado.",
+    "subtitle_addExistingContentTimeout": "La operación continuará en segundo plano. Podrá ver los resultados en la clase seleccionada después de un tiempo.",
+    "msg_selectNodeToSeeInfo": "Seleccione una biblioteca o clase para ver sus detalles.",
+    "msg_selection_Incorrect": "La selección actual no es correcta para iniciar el comando",
+    "msg_info_favoriteadded": "Se ha agregado \"{name1}\" a los favoritos.",
+    "msg_info_favoriteremoved": "Se ha eliminado \"{name1}\" de los favoritos."
+  }
+}

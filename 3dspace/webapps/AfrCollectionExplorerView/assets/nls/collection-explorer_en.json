@@ -1,0 +1,10 @@
+{
+    "NLS_ViewModeIconTooltip": "View",
+    "NLS_ThumbnailView": "Thumbnail View",
+    "NLS_TileView": "Tile View",
+    "NLS_DataGridView": "Table View",
+    "NLS_ListViewTitleColumnHeaderLabel": "Title",
+    "NLS_DropMessage": "or drop your content anywhere",
+    "NLS_NoContent": "There is no content to display.",
+    "NLS_DnDPlaceholder": "Please drag and drop your content anywhere to start."
+}

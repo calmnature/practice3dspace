@@ -1,0 +1,27 @@
+{
+  "ContentKnowledge": "Content & Knowledge",
+  "Credentials_Prefrence": "Credentials",
+  "Data": "Data",
+  "Default": "Default",
+  "DelmiaCommunity": "DELMIA User Community",
+  "Home": "Home page",
+  "Menu": "Menu",
+  "Open": "Open",
+  "SocialNetworks": "Social Networks",
+  "Spanish": "Spanish",
+  "UserAssistance": "User Assistance",
+  "WS_Title": "Process Structure Viewer",
+  "WS_SubTitle": "Review your Manufacturing Data",
+  "Reload_Preference": "Automatically reload the last session",
+  "ItemsColumn_Preference":"Display Items Column",
+  "Reload": "Reload",
+  "Credentials_Preference": "Credentials",
+  "Platform_Preference": "3DExperience Platform",
+  "DirectExpander":"Direct Element",
+  "IndirectExpander":"Indirect Element",
+  "SwimLaneItems":"Items",
+  "swimLanePrcOprns":"Process and Operations",
+  "swimLaneRsrcs":"Resources"
+}
+
+

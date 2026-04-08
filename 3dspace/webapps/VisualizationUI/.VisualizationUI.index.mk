@@ -1,0 +1,10 @@
+m|WebVisualization\VisualizationUI.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26017|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\VisualizationUI\VisualizationUI.js|1768640689|5118
+s|WebVisualization\VisualizationUI.mweb\src\CSIViewer.js|1764605156|12842
+u|WebVisualization\VisualizationUI.mweb\src\VisualizationUI.js|1729172844|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

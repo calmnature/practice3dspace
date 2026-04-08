@@ -1,0 +1,10 @@
+m|LibraryNGUX\PLMNewLibraryActive.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26054|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\PLMNewLibraryActive\PLMNewLibraryActive.js|1771882567|19948
+s|LibraryNGUX\PLMNewLibraryActive.mweb\src\PLMNewLibraryActive.js|1769665037|2
+u|LibraryNGUX\PLMNewLibraryActive.mweb\src\PLMNewLibraryActiveController.js|1771577404|59793
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

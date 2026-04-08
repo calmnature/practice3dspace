@@ -1,0 +1,12 @@
+m|MPFModels\MPFShopQuotationModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFShopQuotationModel\MPFShopQuotationModel.js|1760176852|2313
+s|MPFModels\MPFShopQuotationModel.mweb\src\MPFShopQuotationModel.js|1760133131|0
+u|MPFModels\MPFShopQuotationModel.mweb\src\ShopQuotationDataProxy.js|1760133131|754
+u|MPFModels\MPFShopQuotationModel.mweb\src\ShopQuotationFactory.js|1760133131|1243
+u|MPFModels\MPFShopQuotationModel.mweb\src\ShopQuotationModel.js|1760133131|2918
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

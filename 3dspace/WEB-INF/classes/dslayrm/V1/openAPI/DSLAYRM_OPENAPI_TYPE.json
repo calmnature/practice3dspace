@@ -1,0 +1,73 @@
+{
+    "dslayrm:RawMaterialGlueLotion": {
+        "summary":"Glue Lotion Raw Material",
+        "description": "Glue Lotion Raw Material",
+        "PUBLICMasks": ["dslayrm:RawMaterialGlueLotionMask.Default", 
+                        "dslayrm:RawMaterialGlueLotionMask.Details"],
+        "PUBLICExtensions": ["dseng:EnterpriseReference", "dslc:changeControl"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE", "bulkfetch"]
+    },
+
+    "dslayrm:RawMaterialLaminate": {
+        "summary":"Laminate Raw Material",
+        "description": "Laminate Raw Material",
+        "PUBLICMasks": ["dslayrm:RawMaterialLaminateMask.Default", 
+                        "dslayrm:RawMaterialLaminateMask.Details"],
+        "PUBLICExtensions": ["dseng:EnterpriseReference", "dslc:changeControl"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE", "bulkfetch"]
+    },
+
+    "dslayrm:RawMaterialLiquid": {
+        "summary":"Liquid Raw Material",
+        "description": "Liquid Raw Material",
+        "PUBLICMasks": ["dslayrm:RawMaterialLiquidMask.Default", 
+                        "dslayrm:RawMaterialLiquidMask.Details"],
+        "PUBLICExtensions": ["dseng:EnterpriseReference", "dslc:changeControl"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE", "bulkfetch"]
+    },
+
+    "dslayrm:RawMaterialOthers": {
+        "summary":"Others LAY Raw Material",
+        "description": "Others LAY Raw Material",
+        "PUBLICMasks": ["dslayrm:RawMaterialOthersMask.Default", 
+                        "dslayrm:RawMaterialOthersMask.Details"],
+        "PUBLICExtensions": ["dseng:EnterpriseReference", "dslc:changeControl"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE", "bulkfetch"]
+    },
+
+    "dslayrm:RawMaterialRollGood": {
+        "summary":"Roll Good Raw Material",
+        "description": "Roll Good Raw Material",
+        "PUBLICMasks": ["dslayrm:RawMaterialRollGoodMask.Default", 
+                        "dslayrm:RawMaterialRollGoodMask.Details"],
+        "PUBLICExtensions": ["dseng:EnterpriseReference", "dslc:changeControl"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE", "bulkfetch"]
+    },
+
+    "dslayrm:RawMaterialStranded": {
+        "summary":"Stranded Raw Material",
+        "description": "Stranded Raw Material",
+        "PUBLICMasks": ["dslayrm:RawMaterialStrandedMask.Default", 
+                        "dslayrm:RawMaterialStrandedMask.Details"],
+        "PUBLICExtensions": ["dseng:EnterpriseReference", "dslc:changeControl"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE", "bulkfetch"]
+    }
+}

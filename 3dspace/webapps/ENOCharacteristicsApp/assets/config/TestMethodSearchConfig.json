@@ -1,0 +1,22 @@
+{
+    "TestMethods": [
+        {
+            "type": "Test Method Specification",
+            "queryKey": "TMS",
+            "source": "3dspace",
+            "queryType": "[ds6w:type]:\"Test Method Specification\"",
+            "enabled": true,
+            "onPremiseSupport": true,
+            "queryState": "[ds6w:status]:\"Document Release.RELEASED\" AND [ds6w:isLastRevision]:\"true\""
+        },
+        {
+            "type": "Activity",
+            "queryKey": "ACT",
+            "source": "laboratory",
+            "queryType": "[ds6w:type]:\"dslab:activity\"",
+            "enabled": true,
+            "onPremiseSupport": false,
+            "queryState": "[ds6w:status]:\"approved\" AND [ds6w:isLastRevision]:\"true\""
+        }
+    ]
+}

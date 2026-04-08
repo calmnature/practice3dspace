@@ -1,0 +1,15 @@
+{
+  "busTypeMapping": "Veri Yolu Tipi Eşleme",
+  "assemblyLabel": "Montaj",
+  "assemblyInfo": "Montaj CAD tipi için tip eşlemesini 3DEXPERIENCE tipi olarak değiştirin",
+  "assemblyInstanceLabel": "Montaj Örneği",
+  "assemblyInstanceInfo": "assemblyInstance CAD tipi için tip eşlemesini 3DEXPERIENCE tipi olarak değiştirin",
+  "componentLabel": "Bileşen",
+  "componentInfo": "Bileşen CAD tipi için tip eşlemesini 3DEXPERIENCE tipi olarak değiştirin",
+  "componentInstanceLabel": "Bileşen Örneği",
+  "componentInstanceInfo": "componentInstance cad tipi için tip eşlemesini 3DEXPERIENCE tipi olarak değiştirin",
+  "drawingLabel": "Teknik Resim",
+  "drawingInfo": "Teknik resim CAD tipi için tip eşlemesini 3DEXPERIENCE tipi olarak değiştirin",
+  "virtualComponentLabel": "Sanal Bileşen",
+  "virtualComponentInfo": "Sanal bileşen CAD tipi için tip eşlemesini 3DEXPERIENCE tipi olarak değiştirin"
+}

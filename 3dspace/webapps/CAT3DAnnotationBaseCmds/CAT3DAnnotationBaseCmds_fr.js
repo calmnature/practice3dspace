@@ -1,0 +1,1 @@
+define("DS/CAT3DAnnotationBaseCmds/CAT3DAnnotationBaseCmds_fr",{});define("DS/CAT3DAnnotationBaseCmds/assets/nls/CAT3DAnnotationBaseCmds",{annotPanelTitle:"Annotations 3D",DisplayHistorySuccessfulLbl:"Historique d'affichage des vues et captures supprimé",InfosPanelTitle:"Normes sémantiques",CloseButton:"Fermer",relatedAttrPanelTitle:"Informations relatives aux fonctions"});

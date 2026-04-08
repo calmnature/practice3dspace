@@ -1,0 +1,1 @@
+define("DS/ControlsEx/ControlsEx_ko",{});define("DS/ControlsEx/assets/nls/translation",{information:"정보",home:"홈",expand:"확장",collapse:"축소",no_unit:"일치하는 단위 없음",collapseStepper:"단계 보기 축소"});

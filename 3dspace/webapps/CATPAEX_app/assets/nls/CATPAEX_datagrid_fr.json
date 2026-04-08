@@ -1,0 +1,15 @@
+{
+  "title": "Titre",
+  "revision": "Révision",
+  "instance": "Instance",
+  "instancePosition": "Position de l'instance",
+  "relationToProductStructureTitleElement": "Relation avec la structure du produit",
+  "positioningInstancesTitleElement": "Instances de positionnement",
+  "PositionMatrix_TitleBar": "Matrice de position",
+  "collapseAll": "Réduire tout",
+  "expandAll": "Développer tout",
+  "expand": "Développer",
+  "collapse": "Rassembler",
+  "expandNLevel": "Développer le niveau N",
+  "close": "Fermer"
+}

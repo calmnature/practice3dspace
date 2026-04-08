@@ -1,0 +1,18 @@
+{
+"Filter_Assemblies.Title":"针对装配体的过滤器",
+"Filter_Assemblies.ShortHelp":"显示装配体。",
+"Filter_Assemblies.LongHelp":"装配体定义为 SOLIDWORKS 装配体以及具有内容结构标签“根节点”和“中间节点”的物理产品。",
+"Filter_DrawingAnnotations.Title":"针对工程图和注释的过滤器",
+"Filter_DrawingAnnotations.ShortHelp":"显示工程图和注释集。",
+"Filter_DrawingAnnotations.LongHelp":"此过滤器基于物理产品显示 SOLIDWORKS 工程图和注释集。",
+"Filter_Part.Title":"针对零件的过滤器",
+"Filter_Part.ShortHelp":"显示零件。",
+"Filter_Part.LongHelp":"零件定义为 SOLIDWORKS 零件以及具有内容结构标签“叶节点”和“独立节点”的物理产品。",
+"SwitchFlat.Title":"显示所有合作区内容",
+"SwitchFlat.ShortHelp":"在平展列表中显示此合作区中的所有工程内容。",
+"SwitchFlat.LongHelp":"<p>此合作区视图侧重于 SOLIDWORKS 应用程序的工程内容：物理产品、工程图和注释集、高级过滤器以及类型为“文档”的任何内容。</p>",
+"SwitchNoFlat.Title":"显示书签文件夹",
+"SwitchNoFlat.ShortHelp":"显示此合作区中的书签文件夹和未添加书签的内容。",
+"SwitchNoFlat.LongHelp":"<p>在此合作区视图中，书签文件夹（如果有）出现在顶部，后面是尚未添加到任何书签文件夹的工程内容的列表，包括物理产品、工程图和注释集、高级过滤器以及类型为“文档”的任何内容。书签文件夹不限于工程内容。</p>",
+"Widget.WebHelp":"ENXCoexUserMap/enxcoex-o-ov.htm"
+}

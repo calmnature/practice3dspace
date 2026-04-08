@@ -1,0 +1,7 @@
+{
+  "onTableCommentPrefix": "CommentOnTable",
+  "highlightCommentPrefix": "CommentHighlight",
+  "positionedCommentPrefix": "CommentPositioned",
+  "commentPrefix": "Skomentuj",
+  "commentCreationLabel": "Wybierz punkt, znacznik lub tekst, aby połączyć nowy komentarz"
+}

@@ -1,0 +1,8 @@
+{
+	"owner" : "CHS1",
+	"description" : "Regulatory Management Service",
+    "service": "regulatorymanagement",
+    "urls": {
+		"fetch" : "/resources/v1/i3dx/regulatory/fetch"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "NLS_ViewModeIconTooltip": "Vista",
+  "NLS_ThumbnailView": "Vista de miniatura",
+  "NLS_TileView": "Vista de mosaico",
+  "NLS_DataGridView": "Vista de cuadrícula de datos",
+  "NLS_ListViewTitleColumnHeaderLabel": "Título",
+  "NLS_DropMessage": "o suelte su contenido en cualquier lugar",
+  "NLS_NoContent": "No hay más contenido para mostrar.",
+  "NLS_DnDPlaceholder": "Arrastre y suelte el contenido en cualquier lugar para comenzar."
+}

@@ -1,0 +1,13 @@
+m|DesignEnvironmentUX\DesignExpWintop.mweb
+b|j|c,u
+b|c|c,m
+v|6.428.3.26017|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DesignExpWintop\DesignExpWintop.css|1744917691|372
+s|DesignEnvironmentUX\DesignExpWintop.mweb\src\DesignExpWintop.css|1671213647|509
+t|win_b64\webapps\DesignExpWintop\DesignExpWintop.html|1768640597|2597
+s|DesignEnvironmentUX\DesignExpWintop.mweb\src\DesignExpWintop.html|1767341242|2597
+t|win_b64\webapps\DesignExpWintop\DesignExpWintop.js|1767354568|9607
+s|DesignEnvironmentUX\DesignExpWintop.mweb\src\DesignExpWintop.js|1767354568|9607
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

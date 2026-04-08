@@ -1,0 +1,20 @@
+.wux-richTextEditor-mainContainer{
+	width : 100%;
+}
+
+.wux-richTextEditor-mainContainer .cke {
+	border: 1px solid #b4b6ba;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 3px 6px;
+}
+
+.WKIPredefinedText-Panel-Container {
+    .WKIPredefinedText-TLV-Container{
+        .wux-layouts-datagridview {
+            top: 40px !important;
+            border-top: #b4b6ba 1px solid;
+            margin-top: 5px;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+define("DS/PIMwebI3Sapp/PIMwebI3Sapp_de",{});define("DS/PIMwebI3Sapp/assets/nls/PIMwebI3Sapp",{title:"Kollisionssimulation",subtitle:"Mechanische Interferenzsimulationen definieren und ausführen",userAssistanceURL:"enoI3sUserMap/i3s-c-ov.htm",dropMultiNoAutorized:"Das gleichzeitige Laden dieser Daten wird nicht unterstützt"});

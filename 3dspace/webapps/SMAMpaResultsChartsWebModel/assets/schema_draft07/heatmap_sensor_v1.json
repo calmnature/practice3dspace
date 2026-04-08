@@ -1,0 +1,131 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_sensor_v1.json",
+  "definitions": {
+    "NLSString": {
+      "description": "A string which has national language support (nls). Example : '[['en-US', 'Torque'],['de-DE','Drehmoment']]'.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "maxItems": 2,
+        "minItems": 2,
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "NumberStringPair": {
+      "description": "Sensor value plus related unit symbol, e.g. '1.239 Nxm'.",
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": [
+        { "type": "number" },
+        { "type": "string" }
+      ],
+      "additionalItems": false
+    },
+    "HeatmapSensor": {
+      "description": "An evaluated Heatmap Sensor.",
+      "type": "object",
+      "anyOf": [
+        {
+          "required": [ "x" ]
+        },
+        {
+          "required": [ "y" ]
+        },
+        {
+          "required": [ "z" ]
+        }
+      ],
+      "required": [ "sensorName", "sensorType", "sensorSubtype" ],
+      "properties": {
+        "complexType": {
+          "description": "Sensors can be defined on complex-valued Heatmaps, but are only valid on a specific complex type.",
+          "enum": [ "real", "imaginary", "magnitude", "phase" ]
+        },
+        "sensorName": {
+          "type": "string"
+        },
+        "sensorType": {
+          "description": "User-specified type of sensor evaluation. Can be global (e.g. position of global maximum), at a given X (AtX) at a given Y (AtY), at a given XY (AtXY).",
+          "enum": [ "Global", "AtX", "AtY", "AtXY" ]
+        },
+        "sensorSubtype": {
+          "description": "User-specified sub-type of sensor evaluation. Maximum, Minimum or Maximum of absolute.",
+          "enum": [ "Maximum", "Minimum", "MaxOfAbs" ]
+        },
+        "x": {
+          "$ref": "#/definitions/NumberStringPair"
+        },
+        "y": {
+          "$ref": "#/definitions/NumberStringPair"
+        },
+        "z": {
+          "$ref": "#/definitions/NumberStringPair"
+        }
+      },
+      "additionalProperties": false
+    },
+    "HeatmapSensorNLS": {
+      "description": "The internationalized strings needed to show Heatmap Sensor data on a Heatmap plot.",
+      "type": "object",
+      "required": [ "atX", "atY", "atXY", "global", "max", "min", "absMax" ],
+      "properties": {
+        "atX": {
+          "description": "The translated 'AtX' nls names. Example: ['de-DE','Bei X'].",
+          "$ref": "#/definitions/NLSString"
+        },
+        "atY": {
+          "description": "The translated 'AtY' nls names. Example: ['de-DE','Bei Y'].",
+          "$ref": "#/definitions/NLSString"
+        },
+        "atXY": {
+          "description": "The translated 'AtXY' nls names. Example: ['de-DE','Bei XY'].",
+          "$ref": "#/definitions/NLSString"
+        },
+        "global": {
+          "description": "The translated 'Global' nls names. Example: ['de-DE','Global'].",
+          "$ref": "#/definitions/NLSString"
+        },
+        "max": {
+          "description": "The translated 'Max' nls names. Example: ['de-DE','Max.'].",
+          "$ref": "#/definitions/NLSString"
+        },
+        "min": {
+          "description": "The translated 'Min' nls names. Example: ['de-DE','Min.'].",
+          "$ref": "#/definitions/NLSString"
+        },
+        "absMax": {
+          "description": "The translated 'AbsMax' nls names. Example: ['de-DE','Abs. Max.'].",
+          "$ref": "#/definitions/NLSString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "HeatmapSensorList": {
+      "description": "List of all heatmap sensors plus the relevant nls strings.",
+      "type": "object",
+      "required": [ "sensorNLS", "sensors" ],
+      "properties": {
+        "sensorNLS": {
+          "$ref": "#/definitions/HeatmapSensorNLS"
+        },
+        "sensors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/HeatmapSensor"
+          }
+        }
+      }
+    }
+  },
+    "oneOf": [
+      { "$ref": "#/definitions/HeatmapSensor" },
+      { "$ref": "#/definitions/HeatmapSensorNLS" },
+      { "$ref": "#/definitions/HeatmapSensorList" }
+  ]
+}

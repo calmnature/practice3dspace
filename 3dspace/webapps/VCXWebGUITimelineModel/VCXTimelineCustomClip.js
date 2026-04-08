@@ -1,0 +1,1 @@
+var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};define("DS/VCXWebGUITimelineModel/VCXTimelineCustomClip",["require","exports","DS/VCXWebGUITimelineModel/VCXAbstractTimelineClip"],(function(e,t,i){"use strict";i=__importDefault(i);class r extends i.default{constructor(e,t){super(e,t)}drawV2(e,t,i,r){}}return r}));

@@ -1,0 +1,1 @@
+define("DS/MPFBankAccountModel/MPFBankAccountModel_cs",{});define("DS/MPFBankAccountModel/assets/nls/BankAccountModel",{isNotValid:"není platné",isRequired:"je povinný údaj",ibanSwiftNotConsistent:"IBAN a SWIFT není ve stejné zemi"});

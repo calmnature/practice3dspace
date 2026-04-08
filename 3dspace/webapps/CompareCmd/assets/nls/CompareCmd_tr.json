@@ -1,0 +1,20 @@
+{
+  "compare": "Karşılaştır",
+  "commandMerge": "Birleştir",
+  "leftDropLabelNRF": "Hedef",
+  "rightDropLabelNRF": "Kaynak",
+  "createARevisionNRF": "Bir Revizyon Oluştur",
+  "leftRevisionsDialogTitleMerge": "Karşılaştırma için Hedef Seç",
+  "rightRevisionsDialogTitleMerge": "Karşılaştırma için Kaynak Seç",
+  "revisionsDialogOKButtonLabelMerge": "Devam Et",
+  "swapColumnsTooltipMerge": "Hedefi ve Kaynağı Değiştir",
+  "swapColumnsDisabledTooltipMerge": "Filtre uygulandığından Hedefi ve Kaynağı Değiştir kullanılamıyor",
+  "cmdNotImplented": "Komut henüz uygulanmadı",
+  "cmdNotAllowed": "Bu işlemi gerçekleştirmenize izin verilmiyor. Kimlik Bilgilerinizi kontrol edin veya yöneticinizle iletişime geçin.",
+  "objectNotSelected": "Bir nesne seçilmeli",
+  "selectFiveOrFewer": "Lütfen Compare uygulamasını beş veya daha az nesneyle başlatın",
+  "objNotModel": "Seçili nesne bir model değil",
+  "requestError": "Servis talebi hatası",
+  "requestRequiresTwoObj": "Talep için iki öğe seçilmeli",
+  "OBJ_NOT_FOUND": "Nesne silinmiş veya artık erişilebilir değil."
+}

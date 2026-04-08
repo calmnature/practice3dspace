@@ -1,0 +1,34 @@
+NAVIGATE
+
+    T1.physicalid , T1.logicalid , T1.type , T1.name ,
+    T2.physicalid , T2.logicalid , T2.type ,
+    T3.physicalid , T3.logicalid , T3.type , T3.name 
+
+FROM
+
+Class/VV_Test_Chapter T1,
+RelationClass/VV_TestStructure T2,
+Class/VV_Test_Case T3
+
+FROM_ROOTS
+
+    [?1?]
+
+ON
+
+
+    (RELATION 
+ 
+       (FROM=Class/VV_Test_Chapter  TO=RelationClass/VV_TestStructure THROUGH=POINTEDBY )
+       WITH QUALITY_FILTER (CATEGORY=ISOWNEDBY)
+    )
+THEN
+
+    (RELATION 
+    
+        (FROM=RelationClass/VV_TestStructure  TO=Class/VV_Test_Chapter,Class/VV_Test_Case   THROUGH=POINTSTO )
+        WITH QUALITY_FILTER (CATEGORY=ISINSTANCEOF)
+    )
+  
+ITER = 10 ;
+

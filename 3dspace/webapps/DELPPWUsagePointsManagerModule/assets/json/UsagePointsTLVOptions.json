@@ -1,0 +1,30 @@
+{
+    "columnConfig": {
+        "Columns": {
+            "Column": [
+                {
+                    "dataIndex": "V_ComponentContext",
+                    "displayType": "IconAndName",
+                    "isGroupable" : false,
+                    "isFilterable" : false,
+                    "minWidth": "100"
+                }
+            ]
+        },
+        "Label": {
+            "dataIndex": "V_Name",
+            "dicoType": "PLMEntity",
+            "displayType": "NonEditable",
+            "isGroupable" : false,
+            "isFilterable" : false,
+            "minWidth": "100"
+        }
+    },
+    "dataGridViewOptions": {
+        "showRowIndexFlag": true,
+        "showSelectionCheckBoxesFlag": "OnOver",
+        "enableDragAndDrop": false,
+        "showTagger": false,
+        "isEditable": false
+    }
+}

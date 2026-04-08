@@ -1,0 +1,15 @@
+m|DELPPWInstructionBehaviors\DELPPWInstructionViewBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26062|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWInstructionViewBehaviors\DELPPWInstructionViewBehaviors.js|1772573030|37560
+s|DELPPWInstructionBehaviors\DELPPWInstructionViewBehaviors.mweb\src\ColumnManagers\DataCollectRowColumnManager.js|1759471683|15528
+t|win_b64\webapps\DELPPWInstructionViewBehaviors\assets\json\WKIEditAttributeFormEvents.json|1757132694|20108
+s|DELPPWInstructionBehaviors\DELPPWInstructionViewBehaviors.mweb\src\assets\json\WKIEditAttributeFormEvents.json|1744875650|20108
+u|DELPPWInstructionBehaviors\DELPPWInstructionViewBehaviors.mweb\src\ColumnManagers\ResourceParameterRowColumnManager.js|1764024417|16009
+u|DELPPWInstructionBehaviors\DELPPWInstructionViewBehaviors.mweb\src\WKIEditAttributeBehavior.js|1772188977|97135
+u|DELPPWInstructionBehaviors\DELPPWInstructionViewBehaviors.mweb\src\WUXDataCollectRowDragDrop.js|1763040845|5885
+u|DELPPWInstructionBehaviors\DELPPWInstructionViewBehaviors.mweb\src\WUXResourceParameterRowDragDrop.js|1763375076|5767
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

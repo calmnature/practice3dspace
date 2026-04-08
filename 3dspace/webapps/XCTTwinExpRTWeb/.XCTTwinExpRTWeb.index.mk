@@ -1,0 +1,13 @@
+m|XCTTwinExpRTWeb\XCTTwinExpRTWeb.mweb
+b|j|n,u
+b|c|c,m
+v|6.428.3.26059|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\XCTTwinExpRTWeb\StuProductExperienceTwinActor.js|1766046266|11764
+s|XCTTwinExpRTWeb\XCTTwinExpRTWeb.mweb\src\StuProductExperienceTwinActor.js|1766046266|11764
+t|win_b64\webapps\XCTTwinExpRTWeb\XCTTwinExpRTWebDefine.js|1766046267|147
+s|XCTTwinExpRTWeb\XCTTwinExpRTWeb.mweb\src\XCTTwinExpRTWebDefine.js|1766046267|147
+t|win_b64\webapps\XCTTwinExpRTWeb\extensions\CATE3DTwinGeometry3DGeoVisu.js|1772111868|2351
+s|XCTTwinExpRTWeb\XCTTwinExpRTWeb.mweb\src\extensions\CATE3DTwinGeometry3DGeoVisu.js|1772111868|2351
+t|win_b64\webapps\XCTTwinExpRTWeb\extensions\CATE3DTwinStructure3DGeoVisu.js|1770036274|5955
+s|XCTTwinExpRTWeb\XCTTwinExpRTWeb.mweb\src\extensions\CATE3DTwinStructure3DGeoVisu.js|1770036274|5955

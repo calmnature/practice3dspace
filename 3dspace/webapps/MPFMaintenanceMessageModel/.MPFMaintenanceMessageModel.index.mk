@@ -1,0 +1,12 @@
+m|MPFModels\MPFMaintenanceMessageModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFMaintenanceMessageModel\MPFMaintenanceMessageModel.js|1760176828|1472
+s|MPFModels\MPFMaintenanceMessageModel.mweb\src\MaintenanceMessageCollection.js|1760133128|484
+u|MPFModels\MPFMaintenanceMessageModel.mweb\src\MaintenanceMessageFactory.js|1760133128|1168
+u|MPFModels\MPFMaintenanceMessageModel.mweb\src\MaintenanceMessageModel.js|1760133128|732
+u|MPFModels\MPFMaintenanceMessageModel.mweb\src\PublicMaintenanceMessageDataProxy.js|1760133128|407
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

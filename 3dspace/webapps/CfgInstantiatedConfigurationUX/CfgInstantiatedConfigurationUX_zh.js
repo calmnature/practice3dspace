@@ -1,0 +1,1 @@
+define("DS/CfgInstantiatedConfigurationUX/CfgInstantiatedConfigurationUX_zh",{});define("DS/CfgInstantiatedConfigurationUX/assets/nls/CfgInstantiatedConfigurationUX",{CFG_NoModel_Attached:"未找到产品配置。请选择有产品配置且已附加模型的对象。",CFG_No_ConfigurationAssociation:"没有与所选修订版关联的配置。"});

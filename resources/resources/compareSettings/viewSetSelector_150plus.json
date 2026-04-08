@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "viewSetSelectorArray": [{
+        "viewSetMod": "DS/CompareWidget2/ViewDefModules/Filtered150_viewDefs",
+        "viewSetName": "FILTER_150_VIEWSET",
+        "UseCases": [{
+            "app": "150_PLUS_FILTERS",
+            "roles": ["*"],
+            "minNumberOfObjects": 3,
+            "maxNumberOfObjects": 35,
+            "typeInfoArray": [{
+                "type": "VPMReference",
+                "service": "3DSpace"
+            }]
+        }],
+        "MainToolbarConfig": [{
+            "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+            "DoNotInclude": [
+                "compareSettings.includeFacets.externalRelations",
+                "mainToolbarSwap",
+                "mainToolbarExport",
+                "mainToolbarCustomizationProfile",
+                "mainToolbarEditCustomization",
+                "mainToolbarLeftObjectColor",
+                "mainToolbarLeftObjectString",
+                "mainToolbarRightObjectColor",
+                "mainToolbarRightObjectString"
+            ]
+        }]
+    }]
+}

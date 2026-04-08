@@ -1,0 +1,20 @@
+{
+
+  "setcow_confirm_title": "Set Center of the World",
+  "setcow_confirm_message_single": "Do you want to Set Center of the World {name} into Design Experience ? ",
+  "setcow_notification": "Center of the world saved in the current Design Experience",
+
+  "setcow_OKBtn": "Set",
+  "cow_CancelBtn": "Cancel",
+
+  "resetcow_confirm_title": "Reset Center of the World",
+  "resetcow_confirm_message_single": "Do you want to Reset Center of the World {name} from Design Experience?",
+  "resetcow_notification": "Center of the world reset in the current Design Experience",
+
+  "resetcow_OKBtn": "Reset",
+
+  "setCow": "Set Center Of The World",
+  "resetCow": "Reset Center Of The World",
+  "ExpandUptoCOW": "Expand Upto Center Of The World"
+
+}

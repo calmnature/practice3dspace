@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "summary": "Executes the user defined csi Python script.",
+  "description": "This block is customizable thus the <a href=\"https://executionfw.dsone.3ds.com/docs/python/csi_custom_implementation/#script\">script</a> and the type of the data ports can be changed using the block configuration dialog. For more information please read the following <a href=\"https://executionfw.dsone.3ds.com/docs/graph/advanced_features/#python-block\">documentation</a>.",
+  "controlPorts": {
+    "Call": "when the function is called.",
+    "Success": "when the function returns a successful result.",
+    "Progress": "when the function returns a intermediate result.",
+    "Error": "when the function returns an error."
+  },
+  "dataPorts": {
+    "Call": "the input data when the function is called.",
+    "Success": "the successful data when <code>Success</code> control port is activated.",
+    "Progress": "the intermediate data when <code>Progress</code> control port is activated.",
+    "Error": "the error data when <code>Error</code> control port is activated.",
+    "NodeIdSelector": "to override the node id selector when the function is called."
+  },
+  "settings": {
+  },
+  "example": null
+}

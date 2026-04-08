@@ -1,0 +1,23 @@
+{
+  "$id": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_settings_v1.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$defs": {
+    "HeatmapViewSettings": {
+      "description": "The visualization settings of a Heatmap (e.g. color scale)",
+      "type": "object",
+      "properties": {
+        "complexType": {
+          "description": "Complex-valued Heatmaps visualization type.",
+          "enum": ["real", "imaginary", "magnitude", "phase"]
+        },
+        "schema_id": {
+        "description": "To support better error handling and simplify future upgrades, the data itself needs to specify the schema id against which it was built. Must be the same string as in '$id'.",
+        "const": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_settings_v1.json"
+      }
+      },
+      "additionalProperties": true,
+      "required": ["schema_id"]
+    }
+  },
+  "oneOf": [{ "$ref": "#/$defs/HeatmapViewSettings" }]
+}

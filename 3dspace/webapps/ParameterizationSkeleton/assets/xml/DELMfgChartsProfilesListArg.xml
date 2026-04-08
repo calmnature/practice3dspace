@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELUserExperienceConfiguration" treelistnls="DELUserExperienceConfiguration" modalnls="DELUserExperienceConfiguration" profile="true">
+	<object type="textarea" id="profileName" value="" disabled="false" mandatory="true" displayInTable="true"></object>
+    <object type="combobox" id="format" value="flowDiagram,swimlaneDiagram" disabled="false" onChange="onChangeformatCombo" mandatory="true" displayInDataGrid="true"></object>
+	<object type="checkbox" id="DispIconforProcessCheckbox" value="true" disabled="true" hidden="true" mandatory="false" displayInDataGrid="false"></object>
+	<object type="checkbox" id="DispIconforItemCheckbox" value="true" disabled="true" hidden="true" mandatory="false" displayInDataGrid="false"></object>
+	<object type="checkbox" id="DispIconforResourceCheckbox" value="true" disabled="true" hidden="true" mandatory="false" displayInDataGrid="false"></object>
+    <object type="combobox" id="DispInformationOnFlowCombobox" value="Disp_Info_None,Disp_Info_Description,Disp_Info_ReasonCode" hidden="true" disabled="true" mandatory="false" displayInDataGrid="false"></object>
+    <object type="DELConfigurationTreeListView" id="DELMfgChartsColorListParam" value="" disabled="true" hidden="true" mandatory="true" displayInDataGrid="false"></object>
+	<object type="DELConfigurationTreeListView" id="DELMfgChartsAttriutesListParam" value="" disabled="true" hidden="true" mandatory="true" displayInDataGrid="false"></object>
+	<object type="DELConfigurationTreeListView" id="DELMfgChartsAspectRatiosListParam" value="" disabled="true" hidden="true" mandatory="false" displayInDataGrid="false"></object>	
+</ui>
+

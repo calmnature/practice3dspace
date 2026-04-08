@@ -1,0 +1,159 @@
+{
+  "dslayrm:RawMaterialStrandedMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsrm:RawMaterialMask.Common"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    },
+    "dslayrm:program.strandedThickness",
+    "dslayrm:program.strandedLinearDensity"
+  ],
+
+  "dslayrm:RawMaterialStrandedMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dslayrm:RawMaterialStrandedMask.Default"
+    },
+    "dsmveng:programe.CP.EnterpriseReference.Details"
+  ],
+
+
+
+  "dslayrm:RawMaterialGlueLotionMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsrm:RawMaterialMask.Common"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    }
+  ],
+
+  "dslayrm:RawMaterialGlueLotionMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dslayrm:RawMaterialGlueLotionMask.Default"
+    },
+    "dsmveng:programe.CP.EnterpriseReference.Details"
+  ],
+
+
+
+  "dslayrm:RawMaterialRollGoodMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsrm:RawMaterialMask.Common"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    },
+    "dslayrm:program.rollgoodWidth",
+    "dslayrm:program.rollgoodAreaDensity",
+    "dslayrm:program.rollgoodThickness",
+    "dslayrm:program.rollgoodRepeatedLength"
+  ],
+
+  "dslayrm:RawMaterialRollGoodMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dslayrm:RawMaterialRollGoodMask.Default"
+    },
+    "dsmveng:programe.CP.EnterpriseReference.Details"
+  ],
+
+
+
+
+  "dslayrm:RawMaterialLiquidMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsrm:RawMaterialMask.Common"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    },
+    "dslayrm:program.liquidVolumicMass"
+  ],
+
+  "dslayrm:RawMaterialLiquidMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dslayrm:RawMaterialLiquidMask.Default"
+    },
+    "dsmveng:programe.CP.EnterpriseReference.Details"
+  ],
+
+
+
+
+  "dslayrm:RawMaterialLaminateMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsrm:RawMaterialMask.Common"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    }
+  ],
+
+  "dslayrm:RawMaterialLaminateMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dslayrm:RawMaterialLaminateMask.Default"
+    },
+    "dsmveng:programe.CP.EnterpriseReference.Details"
+  ],
+
+
+
+  "dslayrm:RawMaterialOthersMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsrm:RawMaterialMask.Common"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    },
+    "dslayrm:program.othersVolumicMass"
+  ],
+
+  "dslayrm:RawMaterialOthersMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dslayrm:RawMaterialOthersMask.Default"
+    },
+    "dsmveng:programe.CP.EnterpriseReference.Details"
+  ]
+}

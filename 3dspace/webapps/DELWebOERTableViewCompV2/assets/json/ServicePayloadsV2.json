@@ -1,0 +1,139 @@
+{
+    "expandV2": {
+        "batch": {
+            "expands": [
+                {
+                    "label": "ProgressiveExpand_For_2D_Structure_Expand",
+                    "root": {
+                        "physical_id": ""
+                    },
+                    "filter": {
+                        "all": 1
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid",
+                "ds6w:type",
+                "ds6w:globalType",
+                "IPML.IconName",
+                "interface"
+            ],
+            "select_relation": [
+                "physicalid",
+                "ds6w:type",
+                "ds6w:globalType"
+            ],
+            "format": "entity_relation_occurrence",
+            "hits": {
+                "predefined_computation": [
+                    "icons"
+                ]
+            }
+        }
+    },
+    "RootsStats": {
+        "batch": {
+            "expands": [
+                {
+                    "label": "GetRootStats-uxodtitp-ENOPSTR_AP-1758006438764",
+                    "root": {
+                        "physical_id": "<RootPhysicalId>"
+                    },
+                    "parameters": {
+                        "limit_max_path": 20000
+                    },
+                    "filter": {
+                        "or": {
+                            "filters": [
+                                {
+                                    "and": {
+                                        "filters": [
+                                            {
+                                                "prefix_filter": {
+                                                    "prefix_path": [
+                                                        {
+                                                            "physical_id_path": [
+                                                                "<RootPhysicalId>"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "aggregation_processors": [
+                        {
+                            "synthesis": {
+                                "name": "ProgressiveExpand_FlatSynthesis",
+                                "mode": "flat"
+                            }
+                        },
+                        {
+                            "synthesis": {
+                                "name": "ProgressiveExpand_OccSynthesis",
+                                "mode": "occurence"
+                            }
+                        },
+                        {
+                            "synthesis": {
+                                "name": "ProgressiveExpand_LeafSynthesis",
+                                "mode": "tree_leaf",
+                                "synthesis_only": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "GetRootStats-0-uxodtitp-ENOPSTR_AP-1758006438764",
+                    "root": {
+                        "physical_id": "<RootPhysicalId>"
+                    },
+                    "filter": {
+                        "prefix_filter": {
+                            "prefix_path": [
+                                {
+                                    "physical_id_path": [
+                                        "<RootPhysicalId>"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "aggregation_processors": [
+                        {
+                            "truncate": {
+                                "max_distance_from_prefix": 0,
+                                "prefix_filter": {
+                                    "prefix_path": [
+                                        {
+                                            "physical_id_path": [
+                                                "<RootPhysicalId>"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid"
+            ],
+            "synthesis": [
+                "ProgressiveExpand_FlatSynthesis",
+                "ProgressiveExpand_OccSynthesis",
+                "ProgressiveExpand_LeafSynthesis"
+            ]
+        }
+    }
+}

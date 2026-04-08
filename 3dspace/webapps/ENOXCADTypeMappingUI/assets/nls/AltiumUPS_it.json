@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Mappatura del tipo bus",
+  "EPCLabel": "Componente fisico elettronico",
+  "EPCInfo": "Modifica mappatura dei tipi per il componente fisico elettronico in tipo 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Scheda a circuito stampato (come parte)",
+  "PrintedCircuitBoardInfo": "Modifica mappatura dei tipi per la scheda a circuito stampato in tipo 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Assieme scheda a circuito stampato",
+  "PrintedCircuitBoardAssemblyInfo": "Modifica mappatura dei tipi per l'assieme scheda a circuito stampato in tipo 3DEXPERIENCE"
+}

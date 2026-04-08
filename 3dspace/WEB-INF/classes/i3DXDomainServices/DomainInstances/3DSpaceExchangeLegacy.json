@@ -1,0 +1,9 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "3DSpaceExchangeLegacy",
+    "description": "Admin resources mainly used for Exchange with the 3DEXPERIENCE Platform",
+    "packages": [
+        "PLMReplicationDS",
+        "CATMappingModeler"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+  "$id": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_axis_v1.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "AxisDataTypeEnum": {
+      "description": "Specify the data inherent type of the axis. The plotter uses this to choose appropriate visualization defaults (e.g an xy-point-cloud for 'discrete' or a continuous xy-curve for 'continuous'). If set to 'continuous', the data needs to be strictly monotonically increasing (no schema check, potentially a runtime check later).",
+      "enum": [
+        "discrete",
+        "continuous"
+      ]
+    },
+    "Axis": {
+      "description": "Data describing the axis, e.g. physical unit and additional properties of the data.",
+      "type": "object",
+      "properties": {
+        "axistype": {
+          "$ref": "#/definitions/AxisDataTypeEnum"
+        },
+        "unit3ds": {
+            "$ref": "https://3ds.com/schemas/SIMULIA/ResultsCharts/unit3ds_v1.json"
+        },
+        "magnitude3ds": {
+          "$ref": "https://3ds.com/schemas/SIMULIA/ResultsCharts/magnitude3ds_v1.json"
+        },
+        "customMagnitudeName": {
+          "description": "Custom name for the physical magnitude which will be shown by the plotter. Has preference over Magnitude3DS' internal string. No i18 yet.",
+          "type": "string"
+        },
+        "logfactor": {
+          "description": "Logarithmic factor used for dB-scaling. Can be '20' (e.g. for a field quantity), or '10' (e.g. for a power quantity), or '0' (to explicitly disable dB-scaling). Default is '0'.",
+          "enum": [
+            0,
+            10,
+            20
+          ]
+        }
+      },
+      "required": [
+        "axistype"
+      ],
+      "additionalProperties": false,
+      "dependencies": {
+        "unit3ds": {
+          "required": [
+            "magnitude3ds"
+          ]
+        },
+        "magnitude3ds": {
+          "required": [
+            "unit3ds"
+          ]
+        }
+      }
+    }
+  },
+  "description": "Root schema validating against all defined objects.",
+  "oneOf": [
+    {
+      "$ref": "#/definitions/Axis"
+    }
+  ]
+}

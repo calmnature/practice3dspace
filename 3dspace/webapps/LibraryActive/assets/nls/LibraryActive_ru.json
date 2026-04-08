@@ -1,0 +1,31 @@
+{
+  "activeClassification_cmd": "Активная классификация",
+  "name_Section_FavoriteLibraries": "Избранное",
+  "name_Section_AllLibraries": "Библиотеки",
+  "activeClassification_hover_access": "Доступ",
+  "activeClassification_msg_empty": "Пусто",
+  "activeClassification_msg_noclassfoud": "Классификация не найдена",
+  "activeClassification_btn_focus": "Сфокусировать для установки классификации",
+  "CMDExpandAll": "Развернуть все",
+  "CMDCollapseAll": "Свернуть все",
+  "multiSelectionComponent": {
+    "button_OK": "Классифицировать",
+    "button_Cancel": "Отмена",
+    "widget_name": "Классифицировать в библиотеках",
+    "PLMNewLibraryWidgetName": "Выбрать классы",
+    "PLMNewbutton_OK": "Выбрать",
+    "msg_ClassifyInProgress": "Классификация...",
+    "msg_ClassifySuccessful": "Классификация выполнена успешно.",
+    "title_Classify": "Классифицировать в библиотеках",
+    "msg_ClassifySomeFailed": "Выбранные объекты классифицированы в {successCount} классах и не прошли классификацию в {failCount} классах.",
+    "msg_ClassifyAllAlreadyExists": "Выбранные объекты уже классифицированы в выбранных классах.",
+    "msg_ClassifySomeExists": "Некоторые объекты классифицированы, но есть объекты, которые уже существуют в выбранных классах",
+    "msg_ClassifyFailed": "Ошибка при классификации объектов. Либо у вас нет доступа к классификации, либо классификация уже выполнена в данном классе (классах).",
+    "title_addExistingContentTimeout": "Добавление существующего содержимого занимает больше времени, чем ожидалось.",
+    "subtitle_addExistingContentTimeout": "Операция будет продолжена в фоновом режиме. Через некоторое время результаты будут отображаться в выбранном классе.",
+    "msg_selectNodeToSeeInfo": "Выберите библиотеку или класс для просмотра сведений о них.",
+    "msg_selection_Incorrect": "Текущий выбор некорректен для запуска команды",
+    "msg_info_favoriteadded": "\"{name1}\": добавлено в избранное.",
+    "msg_info_favoriteremoved": "\"{name1}\": удалено из избранного."
+  }
+}

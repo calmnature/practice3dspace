@@ -1,0 +1,43 @@
+{
+  "tooltips": {
+    "indexing": {
+      "title": "Dizin oluşturuluyor",
+      "shortHelp": "Bu nesne hala arama dizini tarafından işleniyor."
+    },
+    "DifferentCollabSpace": {
+      "shortHelp": "Bu nesne, geçerli Yer İşareti Klasörüyle aynı iş birliği alanında depolanmıyor.",
+      "longHelp": "Yer İşareti Klasörleri, birden fazla iş birliği alanından içeriği referans alabilir. Bu içeriğe erişim haklarının farklı olabileceğini unutmayın."
+    }
+  },
+  "placeholder.recent": {
+    "message": "Son Kullanılan görünümü, İçerik Gezgini'nden diğer uygulamalarda açtığınız içeriği gösterir.",
+    "filter": "Filtreyle eşleşen son kullanılan içerik yok."
+  },
+  "placeholder.mycontent": {
+    "message": {
+      "title": "Bu görünüm size yöneliktir.",
+      "message": "Sahip olduğunuz mühendislik içeriğini gösterir.",
+      "tooltip": {
+        "shortHelp": "İçerik Gezgini'ndeki İçeriğim, SOLIDWORKS uygulamasında kullanışlı olan iş birliği alanı içeriğine odaklanır: Fiziksel Ürünler, Teknik Resimler ve Detaylandırma Setleri, Gelişmiş Filtreler ve \"Belge\" tipinde olan her şey. Yer İşareti Klasörlerinin mühendislik içeriğiyle sınırlı olmadığını unutmayın."
+      }
+    },
+    "filter": "Filtreyle eşleşen içeriğiniz yok."
+  },
+  "column_IsBookmarkedColumn": "Yer işareti eklendi",
+  "Filter_Menu": "Filtre Menüsü",
+  "Physical_Product": "Fiziksel Ürün",
+  "Drawing": "3B Teknik Resim",
+  "Reset_Filter": "Filtreyi Sıfırla",
+  "Content_Structure": "İçerik Yapısı",
+  "Maturity_State": "Olgunluk Durumu",
+  "owner": "Sahip",
+  "Type": "Tip",
+  "Shape": "3B Şekil",
+  "Bookmark_Folder": "Yer İşareti Klasörü",
+  "fetchingDocAttribute": "Öznitelikler getiriliyor",
+  "maxLimitDBReached": {
+    "title": "Dizinlenmemiş veri sınırı",
+    "subtitle": "Sonraki dizinleme işleminden sonra içeriği yenileyin.",
+    "message": "{maxNumber} dizinlenmemiş veri sınırına ulaşıldı. Sonuç olarak, bazı bilgiler en son güncellemeleri yansıtmayabilir."
+  }
+}

@@ -1,0 +1,12 @@
+#Prog TimeLimit_ExportAsDesign (iPLMIDSet :  #In PLMIDSet,oPLMIDSet :  #Out PLMIDSet) : VoidType
+  {
+let PLMIDSetTimeLimitRef (PLMIDSet)
+let PLMIDSetTimeLimitParam (PLMIDSet)
+
+PLMIDSetTimeLimitRef = Restrict(iPLMIDSet, "DELTimeLimit/DELTimeLimitReferenceAbstract")
+
+PLMIDSetTimeLimitParam = ExecuteJavaProcedure("com.dassault_systemes.platform.model.process.procedures.ProcedureCalls_GetTimeLimitParam", PLMIDSetTimeLimitRef)
+
+oPLMIDSet = PLMIDSetTimeLimitRef + PLMIDSetTimeLimitParam
+
+}

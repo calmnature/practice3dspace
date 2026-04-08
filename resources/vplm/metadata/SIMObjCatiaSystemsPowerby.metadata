@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2026, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+			Name="SIMObjCatiaSystemsPowerby"
+			Uuid="6417839c-bf0a-470d-bde0-86c05fcffd45" 
+			BelongsToModeler="SIMObjSimulation" 
+			ModelerType="Top" 
+			UseNames="SIMObjSimulation;SIMObjSimulationGeneric" 
+			UseProcedures="SIM_Procedures"
+			CustomerExposition="Programmer">
+
+    <CAAComment>
+      <ShortRole>CATIA Systems Simulation Object types.</ShortRole>
+      <Role>Simulation type for CATIA Systems Simulation Objects</Role>
+    </CAAComment>
+
+    <Class Name="DymolaSimulation" Uuid="08737bb3-8969-44ca-bcb8-cbed9765f5a8"
+                   SuperName="SIMObjSimulationObjectGeneric"  Abstract="No"  Discipline="Yes"
+                   CustomerExposition="Programmer" Specializable="Yes" CustomerExtensible="No"  Abbreviation="dymsim">
+      <Property Name="KweNew_InstanciationMethod" Value="DymolaSimulationPLMNew"/>
+      <Property Name="Searchable" Value="Yes"/>
+      <Property Name="Newable" Value="No"/>
+      <Property Name="IconName" Value="I_FLSystemsPLMNewSimu"/>
+      <Property Name="3DIconName" Value="PSM_FLSystemsPLMNewSimu.cgr"/>
+      <Property Name="Configurable" Value="No"/>
+      <Property Name="Filtrable" Value="No"/> 
+    </Class>
+
+</Package>

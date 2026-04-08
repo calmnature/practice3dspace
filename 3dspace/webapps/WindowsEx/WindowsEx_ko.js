@@ -1,0 +1,1 @@
+define("DS/WindowsEx/WindowsEx_ko",{});define("DS/WindowsEx/assets/nls/translation",{next:"다음",previous:"이전",validate:"검증",cancel:"취소"});

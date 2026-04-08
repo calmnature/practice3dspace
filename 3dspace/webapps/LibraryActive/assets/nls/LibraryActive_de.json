@@ -1,0 +1,31 @@
+{
+  "activeClassification_cmd": "Aktive Klassifizierung",
+  "name_Section_FavoriteLibraries": "Favoriten",
+  "name_Section_AllLibraries": "Bibliotheken",
+  "activeClassification_hover_access": "Zugriff",
+  "activeClassification_msg_empty": "Leer",
+  "activeClassification_msg_noclassfoud": "Keine Klassifizierung gefunden",
+  "activeClassification_btn_focus": "Fokus zum Festlegen der Klassifizierung",
+  "CMDExpandAll": "Alles aufklappen",
+  "CMDCollapseAll": "Alles zuklappen",
+  "multiSelectionComponent": {
+    "button_OK": "Klassifizieren",
+    "button_Cancel": "Abbrechen",
+    "widget_name": "In Bibliotheken klassifizieren",
+    "PLMNewLibraryWidgetName": "Klassen auswählen",
+    "PLMNewbutton_OK": "Auswählen",
+    "msg_ClassifyInProgress": "Wird klassifiziert..",
+    "msg_ClassifySuccessful": "Erfolgreich klassifiziert.",
+    "title_Classify": "In Bibliotheken klassifizieren",
+    "msg_ClassifySomeFailed": "Ausgewählte Objekte in \"{successCount}\"-Klassen klassifiziert und in \"{failCount}\"-Klassen fehlgeschlagen.",
+    "msg_ClassifyAllAlreadyExists": "Ausgewählte Objekte sind bereits in den ausgewählten Klassen klassifiziert.",
+    "msg_ClassifySomeExists": "Manche Objekte sind klassifiziert und manche Objekte sind bereits in den ausgewählten Klassen vorhanden",
+    "msg_ClassifyFailed": "Fehler beim Klassifizieren der Objekte. Entweder haben Sie keinen Zugriff zum Klassifizieren ODER die Klassifizierung in den entsprechenden Klassen ist bereits erfolgt.",
+    "title_addExistingContentTimeout": "Das Hinzufügen vorhandener Inhalte dauert länger als erwartet.",
+    "subtitle_addExistingContentTimeout": "Der Vorgang wird im Hintergrund fortgesetzt. Sie können die Ergebnisse später in der ausgewählten Klasse sehen.",
+    "msg_selectNodeToSeeInfo": "Wählen Sie eine Bibliothek oder Klasse aus, um deren Details anzuzeigen.",
+    "msg_selection_Incorrect": "Die aktuelle Auswahl ist falsch, um den Befehl zu starten",
+    "msg_info_favoriteadded": "{name1} wurde zu den Favoriten hinzugefügt.",
+    "msg_info_favoriteremoved": "{name1} wurde aus den Favoriten entfernt."
+  }
+}

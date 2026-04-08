@@ -1,0 +1,9 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "IRPCPrivate",
+    "description": "IRPC model private, no-URI-addressable entities",
+    "packages": [
+        "PLMCORE",
+        "PLMCOREComposition"
+    ]
+}

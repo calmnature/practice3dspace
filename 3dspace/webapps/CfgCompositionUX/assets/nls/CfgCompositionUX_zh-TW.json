@@ -1,0 +1,8 @@
+{
+  "Work_Under_Check": "無法執行組成。撰寫關聯必須在「進化有效性」之下運作。",
+  "Revision": "修訂版",
+  "Child": "子項",
+  "Edit_Composition": "編輯組成",
+  "Pencil_Tooltip": "撰寫關聯必須在「進化有效性」之下運作，才能編輯組成",
+  "Composition_Error": "擷取組成資訊時發生錯誤"
+}

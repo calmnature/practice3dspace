@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Categoria dispositivo di fissaggio",
+  "V_MfgFastenerStrategy": "Strategia dispositivi di fissaggio",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Candidato alla manutenzione",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Candidato di riserva",
+  "V_RepairType": "Tipo di riparazione",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Livello manutenzione",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Informazioni sul codice",
+  "orderParameters": "Ordine aggiornato",
+  "orderParametersTitle": "Riordina",
+  "orderParametersError": "Errore durante il riordino",
+  "orderParametersMaskMessage": "Aggiornamento dell'ordine",
+  "orderParametersDeleteError": "Errore durante l'eliminazione dell'ordine precedente",
+  "orderParametersSetError": "Errore durante il salvataggio del nuovo ordine",
+  "nonEditableParamTitle": "Attributo non modificabile",
+  "nonEditableParamContent": "L'attributo selezionato non può essere modificato poiché sono utilizzati uno o più parametri nella tabella delle regole che definiscono il gestore dei fissaggi",
+  "deleteParameterTitle": "Attributo non eliminabile",
+  "deleteParameterError": "L'attributo selezionato non può essere eliminato poiché sono utilizzati uno o più parametri nella tabella delle regole che definiscono il gestore dei fissaggi",
+  "attributeName": "Nome attributo",
+  "attributeValue": "Valore attributo"
+}

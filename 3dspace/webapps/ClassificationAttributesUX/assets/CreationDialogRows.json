@@ -1,0 +1,95 @@
+{
+    "elementTypes": {
+        "internalName": "WUXLineEditor",
+        "predicateValue": "WUXAutoComplete",
+        "displayIn6WTagger": "WUXToggle",
+        "titleTranslation": "WUXButton",
+        "title": "WUXLineEditor",
+        "multiValuated": "WUXToggle",
+        "multiLine": "WUXToggle",
+        "authorizedValues": "WUXSelectionChipsEditor",
+        "defaultValue": "WUXAutoComplete",
+        "hasADefaultValue": "WUXToggle",
+        "dimension": "WUXAutoComplete",
+        "displayUnit": "WUXAutoComplete",
+        "displayAsEntered": "WUXToggle",
+        "isEditable": "WUXToggle",
+        "minimumValue": "WUXLineEditor",
+        "maximumValue": "WUXLineEditor"
+    },
+    "attributeType": {
+        "string": [
+            "internalName",
+            "predicateValue",
+            "displayIn6WTagger",
+            "titleTranslation",
+            "title",
+            "multiValuated",
+            "multiLine",
+            "isEditable",
+            "authorizedValues",
+            "defaultValue",
+            "hasADefaultValue"
+        ],
+        "integer": [
+            "internalName",
+            "predicateValue",
+            "displayIn6WTagger",
+            "titleTranslation",
+            "title",
+            "multiValuated",
+            "authorizedValues",
+            "minimumValue",
+            "maximumValue",
+            "defaultValue",
+            "hasADefaultValue"
+        ],
+        "double": [
+            "internalName",
+            "predicateValue",
+            "displayIn6WTagger",
+            "titleTranslation",
+            "title",
+            "multiValuated",
+            "authorizedValues",
+            "minimumValue",
+            "maximumValue",
+            "defaultValue",
+            "hasADefaultValue"
+        ],
+        "boolean": [
+            "internalName",
+            "predicateValue",
+            "displayIn6WTagger",
+            "titleTranslation",
+            "title",
+            "multiValuated",
+            "defaultValue",
+            "hasADefaultValue"
+        ],
+        "date": [
+            "internalName",
+            "predicateValue",
+            "displayIn6WTagger",
+            "titleTranslation",
+            "title",
+            "multiValuated",
+            "defaultValue",
+            "hasADefaultValue"
+        ],
+        "doublewithdim": [
+            "internalName",
+            "predicateValue",
+            "titleTranslation",
+            "title",
+            "dimension",
+            "displayUnit",
+            "displayAsEntered",
+            "multiValuated",
+            "defaultValue",
+            "hasADefaultValue"
+        ]
+    }
+}
+
+

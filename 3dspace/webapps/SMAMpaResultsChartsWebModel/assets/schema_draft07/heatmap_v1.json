@@ -1,0 +1,114 @@
+{
+  "$id": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_v1.json",
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "definitions": {
+    "HeatmapAxisNodalityTypeEnum": {
+      "description": "Data for Heatmaps can be node-centric (i.e. a rectangular value 'around' point (x1,y1)), or cell-centric (i.e. a value inside cell [x1,x2]x[y1,y2]). This choice has runtime implications about the expected matrix size of 'z' (see Heatmap description).",
+      "enum": ["node-centric", "cell-centric"]
+    },
+    "Heatmap": {
+      "description": "Data on a regular 2D Cartesian grid that describes a mapping from a CoDomain value to a color. 'x' defines the x-axis-values as an array of numbers; its length defines the expected number of columns for 'z'. 'y' defines the y-axis-values as array; its length defines the expected number of rows for 'z'. The arrays 'x' and 'y' need to be sorted strictly monotonically increasing. Data can be node-centric (i.e. a value 'around' (x1,y1)), or cell-centric (i.e. a value inside cell [x1,x2]x[y1,y2]).\n For a node-centric representation, matrix size of 'z' has to be sy x sx. For a grid-centric representation, matrix size of 'z' has to be (sy-1) x (sx-1). In case 'z_im' is provided, 'z' and 'z_im' are interpreted as real and imaginary part of complex numbers.",
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "array",
+          "anyOf": [
+            {
+              "items": {
+                "type": "integer"
+              }
+            },
+            {
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        },
+        "y": {
+          "type": "array",
+          "anyOf": [
+            {
+              "items": {
+                "type": "integer"
+              }
+            },
+            {
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        },
+        "z": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": ["number", "null"]
+            }
+          }
+        },
+        "z_im": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": ["number", "null"]
+            }
+          }
+        },
+        "x_axis": {
+            "$ref": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_axis_v1.json"
+        },
+        "x_nodality": {
+          "$ref": "#/definitions/HeatmapAxisNodalityTypeEnum"
+        },
+        "y_axis": {
+            "$ref": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_axis_v1.json"
+        },
+        "y_nodality": {
+          "$ref": "#/definitions/HeatmapAxisNodalityTypeEnum"
+        },
+        "z_axis": {
+              "$ref": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_axis_v1.json"
+        },
+        "heatmapName": {
+          "description": "Heatmap name. No i18n.",
+          "type": "string"
+        },
+        "heatmapNameUser": {
+          "description": "Heatmap name as given by the user, e.g. 'My_efficiency_heatmap'.",
+          "type": "string"
+        },
+        "sensorlist" : {
+          "description": "A list of evaluated Sensors.",
+          "$ref": "https://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_sensor_v1.json#/definitions/HeatmapSensorList"
+          },
+        "version": {
+          "description": "Versioning to prepare future upgrades of this schema. Must be '1'.",
+          "const": 1
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "z",
+        "x_axis",
+        "x_nodality",
+        "y_axis",
+        "y_nodality",
+        "z_axis",
+        "version",
+        "heatmapName"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "description": "Root schema validating against all defined objects.",
+  "oneOf": [
+    {
+      "$ref": "#/definitions/Heatmap"
+    }
+  ]
+}

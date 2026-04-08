@@ -1,0 +1,14 @@
+m|DELWKOApp\DELPPWModelServices_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWModelServices_FD02\DELPPWModelServices_FD02.js|1761365456|40868
+s|DELWKOApp\DELPPWModelServices_FD02.mweb\src\AbstractCollectionUtils.js|1749157476|101615
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\BIUtils.js|1757708473|14753
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\BehaviorUtil.js|1723636921|12374
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\CollectionUtils.js|1742423212|1269
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\ModelUtils.js|1709234769|9331
+u|DELWKOApp\DELPPWModelServices_FD02.mweb\src\Navigation\IndexedDBUtils.js|1679512033|9914
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

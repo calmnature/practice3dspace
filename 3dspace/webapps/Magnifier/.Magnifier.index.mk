@@ -1,0 +1,8 @@
+m|WebVisualization\Magnifier.mweb
+b|j|n,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Magnifier\Magnifier.js|1748059475|5853
+s|WebVisualization\Magnifier.mweb\src\Magnifier.js|1747575877|17173
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

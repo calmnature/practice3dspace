@@ -1,0 +1,22 @@
+{
+    "menu": {
+        "perspective": [{
+                "type": "CheckItem",
+                "id": "model",
+                "nls_key": "Model",
+                "icon": { "iconName": "browsing-structure" , "fontIconFamily": 1}
+            },
+            {
+                "type": "CheckItem",
+                "id": "document",
+                "nls_key": "Document",
+                "icon": { "iconName": "doc" , "fontIconFamily": 1}
+            },
+            {
+                "type": "CheckItem",
+                "id": "wiki",
+                "nls_key": "Wiki",
+                "icon": { "iconName": "book-open", "fontIconFamily": 1}
+            }]
+    }
+}

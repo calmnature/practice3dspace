@@ -1,0 +1,9 @@
+m|DELPPWModules\DELPPWPropertiesModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26042|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWPropertiesModule\DELPPWPropertiesModule.js|1770843355|8605
+s|DELPPWModules\DELPPWPropertiesModule.mweb\src\PropertiesModule.js|1770728499|30473
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

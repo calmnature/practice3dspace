@@ -1,0 +1,79 @@
+{
+  "pgpAttributePayload": {
+    "batch": {
+      "expands": [
+        {
+          "label": "PGP Expand V2 Call",
+          "root": {
+            "physical_id": "<physical_id>"
+          },
+          "graph": {
+            "descending_condition_relation": {
+              "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND (expand3d:true)) OR ((flattenedtaxonomies:types/DELFmiProcessImplementCnx) AND (expand3d:true)) OR ((flattenedtaxonomies:types/DELFmiProcessOutputPrereqMaterializationCnx) AND (expand3d:true)) OR ((flattenedtaxonomies:reltypes/VPMInstance) OR (flattenedtaxonomies:reltypes/VPMRepInstance))"
+            }
+          },
+          "aggregation_processors": [
+            {
+              "truncate": {
+                "match_only_refs": 1,
+                "sequence_filter": {
+                  "sequence": [
+                    {
+                      "uql": "(([bo.PGPShowExtension.V_PGP_Show]:FALSE) OR ([ro.PGPShowExtension.V_PGP_Show]:FALSE))"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "outputs": {
+      "select_object": [
+        "physicalid",
+        "ds6w:type",
+        "bo.PGPShowExtension.V_PGP_Show"
+      ],
+      "select_relation": [
+        "physicalid",
+        "ds6w:type",
+        "ro.PGPShowExtension.V_PGP_Show"
+      ],
+      "select_pgp": [
+        "hide"
+      ],
+      "format": "entity_relation_occurrence"
+    }
+  },
+  "pgpSelectOutputPayload": {
+    "batch": {
+      "expands": [
+        {
+          "label": "PGP Select Output Expand V2 Call",
+          "root": {
+            "physical_id": "<physical_id>"
+          },
+          "graph": {
+            "descending_condition_relation": {
+              "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND (expand3d:true)) OR ((flattenedtaxonomies:types/DELFmiProcessImplementCnx) AND (expand3d:true)) OR ((flattenedtaxonomies:types/DELFmiProcessOutputPrereqMaterializationCnx) AND (expand3d:true)) OR ((flattenedtaxonomies:reltypes/VPMInstance) OR (flattenedtaxonomies:reltypes/VPMRepInstance))"
+            }
+          }
+        }
+      ]
+    },
+    "outputs": {
+      "select_object": [
+        "physicalid",
+        "ds6w:type"
+      ],
+      "select_relation": [
+        "physicalid",
+        "ds6w:type"
+      ],
+      "select_pgp": [
+        "hide"
+      ]
+    }
+  }
+}

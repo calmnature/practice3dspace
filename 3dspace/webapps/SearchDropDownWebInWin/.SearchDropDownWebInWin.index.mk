@@ -1,0 +1,12 @@
+m|SNResultUX\SearchDropDownWebInWin.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26055|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SearchDropDownWebInWin\SearchDropDownPanel.html|1750475874|8115
+s|SNResultUX\SearchDropDownWebInWin.mweb\src\SearchDropDownPanel.html|1750236804|8115
+t|win_b64\webapps\SearchDropDownWebInWin\SearchDropDownWebInWin.js|1771969086|14708
+s|SNResultUX\SearchDropDownWebInWin.mweb\src\BroadcastWinSearchDropDownManager.js|1709202348|3978
+u|SNResultUX\SearchDropDownWebInWin.mweb\src\SearchDropDownPanelMgr.js|1770893999|28266
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

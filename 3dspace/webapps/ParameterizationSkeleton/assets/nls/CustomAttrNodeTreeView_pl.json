@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Kategoria łączników",
+  "V_MfgFastenerStrategy": "Strategia łączników",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Kandydat do konserwacji",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Kandydat zapasowy",
+  "V_RepairType": "Typ naprawy",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Poziom konserwacji",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Informacje o kodzie",
+  "orderParameters": "Kolejność zaktualizowana",
+  "orderParametersTitle": "Zmień kolejność",
+  "orderParametersError": "Błąd podczas zmiany kolejności",
+  "orderParametersMaskMessage": "Aktualizacja kolejności",
+  "orderParametersDeleteError": "Błąd podczas usuwania poprzedniej kolejności",
+  "orderParametersSetError": "Błąd podczas zapisywania nowej kolejności",
+  "nonEditableParamTitle": "Atrybut nie może być edytowany",
+  "nonEditableParamContent": "Wybrany atrybut nie może być edytowany, ponieważ jest wykorzystywany w jednym lub kilku parametrach w tabeli obsługi definicji reguł łączników",
+  "deleteParameterTitle": "Atrybut nie może być usunięty",
+  "deleteParameterError": "Wybrany atrybut nie może zostać usunięty, ponieważ jest wykorzystywany w jednym lub kilku parametrach w tabeli obsługi definicji reguł łączników",
+  "attributeName": "Nazwa atrybutu",
+  "attributeValue": "Wartość atrybutu"
+}

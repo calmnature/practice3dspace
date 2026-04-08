@@ -1,0 +1,17 @@
+{
+  "ClassName": "Nom de la classe",
+  "ClassTitle": "Titre de la classe",
+  "MaturityState": "Etat de maturité",
+  "ClassPath": "Chemin d'accès à la classe",
+  "Owner": "Propriétaire",
+  "CollabSpace": "Espace de collaboration",
+  "Close": "Fermer",
+  "showlabel": "Afficher les classes associées - ",
+  "Find": "Rechercher",
+  "OpenWith": "OuvrirAvec",
+  "NoAccess": "Vous n'avez pas accès à la visualisation de cette classe.",
+  "PartialAccess": "Vous pouvez afficher uniquement les classes auxquelles vous avez accès, même si l'attribut est associé à d'autres classes.",
+  "NoClassesAttached": "L'attribut sélectionné n'est associé à aucune classe.",
+  "ClasslistError": "Erreur lors de l'extraction de la liste des classes",
+  "ClassPathError": "Erreur lors de l'extraction des trajectoires des classes"
+}

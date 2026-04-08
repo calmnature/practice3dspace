@@ -1,0 +1,8 @@
+{
+  "owner" : "rt6",
+  "description" : "Objects managed by BIOVIA Generative Therapeutics Design, stored in MolecularSimulation.",
+  "service": "MolecularSimulation",
+  "urls": {
+    "fetch" : "/3drdfpersist/resources/v0/i3dx/biogtd/fetch"
+  }
+}

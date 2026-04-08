@@ -1,0 +1,11 @@
+m|CATSimulationPlayerWeb\SPYAPI.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.1.25314|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SPYAPI\SPYAPI.js|1762809996|12563
+s|CATSimulationPlayerWeb\SPYAPI.mweb\src\_copyright.js|1423046146|64
+u|CATSimulationPlayerWeb\SPYAPI.mweb\src\SensorsAccess.js|1604085383|16184
+u|CATSimulationPlayerWeb\SPYAPI.mweb\src\SimulationPlayerAPI.js|1762155757|42662
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

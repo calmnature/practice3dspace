@@ -1,0 +1,1 @@
+define("DS/PIMwebI3Sapp/PIMwebI3Sapp_ja",{});define("DS/PIMwebI3Sapp/assets/nls/PIMwebI3Sapp",{title:"干渉シミュレーション",subtitle:"メカニカル干渉シミュレーションを定義して実行します",userAssistanceURL:"enoI3sUserMap/i3s-c-ov.htm",dropMultiNoAutorized:"これらのデータを同時にロードすることはサポートされていません"});

@@ -1,0 +1,31 @@
+{
+  "activeClassification_cmd": "Aktif Sınıflandırma",
+  "name_Section_FavoriteLibraries": "Sık kullanılanlar",
+  "name_Section_AllLibraries": "Kütüphaneler",
+  "activeClassification_hover_access": "Erişim",
+  "activeClassification_msg_empty": "Boş",
+  "activeClassification_msg_noclassfoud": "Sınıflandırma bulunamadı",
+  "activeClassification_btn_focus": "Sınıflandırmayı ayarlamaya odaklanın",
+  "CMDExpandAll": "Tümünü Genişlet",
+  "CMDCollapseAll": "Tümünü Daralt",
+  "multiSelectionComponent": {
+    "button_OK": "Sınıflandır",
+    "button_Cancel": "İptal",
+    "widget_name": "Kütüphanelerde Sınıflandır",
+    "PLMNewLibraryWidgetName": "Sınıf Seç",
+    "PLMNewbutton_OK": "Seç",
+    "msg_ClassifyInProgress": "Sınıflandırılıyor...",
+    "msg_ClassifySuccessful": "Başarıyla Sınıflandırıldı.",
+    "title_Classify": "Kütüphanelerde Sınıflandır",
+    "msg_ClassifySomeFailed": "Seçilen nesneler \"{successCount}\" sınıflarında sınıflandırılmış ve \"{failCount}\" sınıflarında başarısız olmuştur.",
+    "msg_ClassifyAllAlreadyExists": "Seçili nesneler seçili sınıflarda zaten sınıflandırılmış.",
+    "msg_ClassifySomeExists": "Bazı nesneler sınıflandırıldı ve bazı nesneler seçili sınıflarda zaten mevcut",
+    "msg_ClassifyFailed": "Nesneleri sınıflandırırken hata oluştu. Sınıflandırma erişiminiz yok VEYA verilen Sınıflarda zaten sınıflandırılmış.",
+    "title_addExistingContentTimeout": "Mevcut İçerik Ekleme işlemi beklenenden uzun sürüyor.",
+    "subtitle_addExistingContentTimeout": "İşlem arka planda devam eder. Bir süre sonra seçili sınıftaki sonuçları görebilirsiniz.",
+    "msg_selectNodeToSeeInfo": "Ayrıntılarını görmek için bir Kütüphane veya Sınıf seçin.",
+    "msg_selection_Incorrect": "Geçerli seçim komutu başlatmak için doğru değil",
+    "msg_info_favoriteadded": "\"{name1}\" Sık Kullanılanlara eklendi.",
+    "msg_info_favoriteremoved": "\"{name1}\" Sık Kullanılanlardan kaldırıldı."
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "loadingApp": "Loading application",
+    "loadingRefresh": "Refresh application",
+    "noToken": "Tokens Not Available",
+    "noTokenTooltip": "The tokens are currently unavailable. Add more tokens in order to continue Optimization.",
+    "buyToken": "Buy VIO Tokens",
+    "summaryTitle": "Token Summary",
+    "summaryLabel": "Tokens ({usage}% used)",
+    "usageLabel": "{used}/{total}",
+    "getMoreTokens": "Get more Tokens",
+    "tokensHistory": "Token History",
+    "registeredrepLabel": "Objects registered for optimization",
+    "registeredrepLabelNoToken": "Objects ready for optimization",
+    "noRegisteredrep": "Unable to get registered objects",
+    "failedRegisterObject": "Retrieve registered objects failed",
+    "tokenUsage": "Token usage",
+    "tokenStatus": "Token Status",
+    "availableTokens": "Available Tokens",
+    "used": "Consumed Tokens",
+    "total": "Total",
+    "fromLabel": "Usage from ",
+    "toLabel": " to ",
+    "tokens": "Tokens",
+    "noDataConsumed": "No token consumed during that period",
+    "percentUsed": "{percentUsed}% token used",
+    "percentRemaining": "{remaining} ({percentRem}%) tokens remaining",
+    "expDate": "Token Expiry date: {expDate}",
+    "errors": {
+        "requesttimeout": {
+            "title": "Request timeout",
+            "message": "The connection to the server timed out."
+        }
+    },
+    "tokenUsageInfos": "Few hours synchronization  difference between Token Usage and registered objects for optimization.",
+    "months": [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ],
+    "shortMonths": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+    "weekdays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
+    "resetZoomBtn": "Reset Zoom",
+    "status": {
+        "EXCEEDED_Title": "No more tokens available",
+        "EXCEEDED": "You have exceed the number of available since {expiredDate}.\n You enter a 6-month grace period for \"Multiscale Twin HD Navigation Token\" from this date.\n\nPlease renew your token pack to keep generating optimized geometry.",
+        "REJECTED_Title": "No more tokens available",
+        "REJECTED": "You have exceed the number of available since {expiredDate}.\n the 6-month grace period for \"Multiscale Twin HD Navigation Token\" is over.\n\nPlease renew your token pack to keep generating optimized geometry.\nWithout it, team members will now see high-quality geometry for non generated Play Rep, which may lead to longer loading times and increased memory usage."
+    }
+}

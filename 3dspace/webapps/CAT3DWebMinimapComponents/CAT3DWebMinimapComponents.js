@@ -1,0 +1,1 @@
+define("DS/CAT3DWebMinimapComponents/CATCTRMinimapServices",[],(function(){"use strict";function n(n){}return n.prototype.initialize=async function(n){return Promise.resolve()},n.prototype.hasMinimap=function(){return!1},n}));

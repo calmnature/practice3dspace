@@ -1,0 +1,5 @@
+{
+  "errorAction": "[PXP 键值切片]：操作未正确定义",
+  "errorArrayAction": "[PXP 键值切片]：至少有一个操作项阵列未正确定义，请检查索引处的对象： ",
+  "errorActionType": "[PXP 键值切片]：操作类型不正确"
+}

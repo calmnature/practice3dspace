@@ -1,0 +1,16 @@
+{
+  "Perspectives": "Perspektivy",
+  "Switch_Perspective": "Přepnout perspektivu",
+  "Views": "Zobrazení",
+  "Switch_View": "Přepnout zobrazení",
+  "Model": "Model",
+  "View": "Zobrazit",
+  "Document": "Dokument",
+  "Wiki": "Wiki",
+  "Back": "Zpět",
+  "Forward": "Přeposlat",
+  "error": {
+    "timeout": "Inicializace Experience je pomalá a byla přerušena. Zkuste to znovu později.",
+    "invalid_id": "ID objektu je neplatné"
+  }
+}

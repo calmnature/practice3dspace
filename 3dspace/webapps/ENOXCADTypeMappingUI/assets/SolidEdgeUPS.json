@@ -1,0 +1,61 @@
+{
+	"version": "1.0",
+	"typeMappings": [
+		{
+			"mappingId": "assemblyMapping",
+			"label": "assemblyLabel",
+			"info": "assemblyInfo",
+			"cadType": "assembly",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+			"mappingId": "assemblyInstanceMapping",
+			"label": "assemblyInstanceLabel",
+			"info": "assemblyInstanceInfo",
+			"cadType": "assemblyInstance",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+			"mappingId": "componentMapping",
+			"label": "componentLabel",
+			"info": "componentInfo",
+			"cadType": "component",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+			"mappingId": "drawingMapping",
+			"label": "drawingLabel",
+			"info": "drawingInfo",
+			"cadType": "drawing",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+		  "mappingId": "virtualComponentMapping",
+		  "label": "virtualComponentLabel",
+		  "info": "virtualComponentInfo",
+		  "cadType": "virtualComponent",
+		  "mappingType": "busType",
+		  "groupName": "busTypeMapping"
+		},
+		{
+		  "mappingId": "internalComponentMapping",
+		  "label": "internalComponentLabel",
+		  "info": "internalComponentInfo",
+		  "cadType": "internalComponent",
+		  "mappingType": "busType",
+		  "groupName": "busTypeMapping"
+		},
+		{
+		  "mappingId": "internalAssemblyMapping",
+		  "label": "internalAssemblyLabel",
+		  "info": "internalAssemblyInfo",
+		  "cadType": "internalAssembly",
+		  "mappingType": "busType",
+		  "groupName": "busTypeMapping"
+		}
+	]
+}

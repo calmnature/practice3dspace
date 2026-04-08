@@ -1,0 +1,11 @@
+m|MPFModels\MPFLegalEntityType.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFLegalEntityType\MPFLegalEntityType.js|1760176839|1725
+s|MPFModels\MPFLegalEntityType.mweb\src\LegalEntity.js|1760133128|3856
+u|MPFModels\MPFLegalEntityType.mweb\src\LegalEntityType.js|1760133128|2700
+u|MPFModels\MPFLegalEntityType.mweb\src\MPFLegalEntityType.js|1760133128|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

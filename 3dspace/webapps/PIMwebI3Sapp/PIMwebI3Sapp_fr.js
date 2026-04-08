@@ -1,0 +1,1 @@
+define("DS/PIMwebI3Sapp/PIMwebI3Sapp_fr",{});define("DS/PIMwebI3Sapp/assets/nls/PIMwebI3Sapp",{title:"Simulation d'interférence",subtitle:"Définir et exécuter des simulations d’interférences mécaniques",userAssistanceURL:"enoI3sUserMap/i3s-c-ov.htm",dropMultiNoAutorized:"Le chargement simultané de ces données n'est pas pris en charge"});

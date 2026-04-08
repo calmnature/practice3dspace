@@ -1,0 +1,15 @@
+{
+  "errorActionId": "ActionId パラメーターが未定義です",
+  "errorConditions": "条件パラメーターが未定義です",
+  "errorEndpoint": "終了点が未定義、または情報がありません",
+  "errorIncorrectReqOptions": " 要求パラメータが正しくありません",
+  "errorLaunchCmd": " 名前、URI、およびエンドポイント タイプの値は必須です",
+  "errorObjectType": "ObjectType パラメーターが未定義です",
+  "errorObjectsToCreate": "ObjectsToCreate パラメーターが未定義です",
+  "errorOnFail": "onFail コールバックが未定義です",
+  "errorOnSuccess": "onSuccess コールバックが未定義です",
+  "errorObjectsToUpdate": "objectsToUpdate パラメーターが未定義です",
+  "errorObjectsToDelete": "objectsToDelete パラメーターが未定義です",
+  "errorReqAnswerStatus": "回答ステータスがエラーです",
+  "errorReqReturnObjType": "返されるコンテンツがコンテナではありません"
+}

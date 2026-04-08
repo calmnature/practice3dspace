@@ -1,0 +1,23 @@
+{
+	"dsmvfct:FctItem.Mask.Reference.Common": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsmvfct:FctItem.Mask.Reference.Details": [{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmveno:attribute.reference.versionComment",
+		"dsmvfct:FctItemEnterpriseAttributes"
+	],
+	"dsmvfct:FlowItem.Mask.Reference.Details": [{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmvfct:attribute.FlowReference.category",
+		"dsmvfct:FlowItemEnterpriseAttributes"
+	]
+}

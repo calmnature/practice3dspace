@@ -1,0 +1,49 @@
+{
+	"dsprcs:TimeLimit": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"returnResponse": true
+		}
+	},
+	"dsprcs:TimeLimitParameter": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"returnResponse": true,
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"bulkUpdate": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"returnResponse": true
+		},
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10,
+			"returnResponse": true
+		},
+		"delete": {
+			"onPremiseLimit": 1,
+			"onCloudLimit": 1,
+			"returnResponse": true,
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		}
+	}
+}

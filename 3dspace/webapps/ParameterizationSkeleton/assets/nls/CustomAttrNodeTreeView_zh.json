@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "紧固件类别",
+  "V_MfgFastenerStrategy": "紧固件策略",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "维护候选者",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "备用候选者",
+  "V_RepairType": "修复类型",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "维护级别",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "代码信息",
+  "orderParameters": "顺序已更新",
+  "orderParametersTitle": "重新排序",
+  "orderParametersError": "重新排序时出错",
+  "orderParametersMaskMessage": "正在更新顺序",
+  "orderParametersDeleteError": "删除先前的顺序时出错",
+  "orderParametersSetError": "保存新顺序时出错",
+  "nonEditableParamTitle": "属性不可编辑",
+  "nonEditableParamContent": "无法编辑选定属性，因为它已用于“定义紧固件处理程序”表中的一个或多个参数中",
+  "deleteParameterTitle": "属性不可删除",
+  "deleteParameterError": "无法删除选定属性，因为它已用于“定义紧固件处理程序”表中的一个或多个参数中",
+  "attributeName": "属性名称",
+  "attributeValue": "属性值"
+}

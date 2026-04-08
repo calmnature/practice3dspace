@@ -1,0 +1,30 @@
+{
+	"DisplayUnitsFamily": {
+		"corpusTypeList": [
+			{
+				"corpusName": "dsprcs",
+				"implementation": "com.dassault_systemes.delmia.displayproperties.impl.displayunits.DELUXPropertiesDispUntsMfgProcessImpl"
+			},
+			{
+				"corpusName": "dsmfg",
+				"implementation": "com.dassault_systemes.delmia.displayproperties.impl.displayunits.DELUXPropertiesDispUntsMfgItemImpl"
+			}
+		]
+	},
+	"NLSValuesFamily": {
+		"corpusTypeList": [
+			{
+				"corpusName": "dsprcs",
+				"implementation": "com.dassault_systemes.delmia.displayproperties.impl.nlsvalues.DELUXPropertiesNLSValuesMfgProcessImpl"
+			},
+			{
+				"corpusName": "dsmfg",
+				"implementation": "com.dassault_systemes.delmia.displayproperties.impl.nlsvalues.DELUXPropertiesNLSValuesMfgItemImpl"
+			},
+			{
+				"corpusName": "dsrsc",
+				"implementation": "com.dassault_systemes.delmia.displayproperties.impl.nlsvalues.DELUXPropertiesNLSValuesMfgResourceImpl"
+			}
+		]
+	}
+}

@@ -1,0 +1,412 @@
+{
+  "defaultAttributes": [
+    {
+      "dataIndex": "tree",
+      "ds6w": "ds6w:label",
+      "kind": "string",
+      "dbName": "Title",
+      "nature": "attribute",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": false,
+          "groupingLocked": true,
+          "canBeGrouped": false,
+          "removable": false
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:identifier",
+      "ds6w": "ds6w:identifier",
+      "kind": "string",
+      "dbName": "name",
+      "nature": "basic",
+      "visibleFlag": false,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6wg:revision",
+      "ds6w": "ds6wg:revision",
+      "kind": "string",
+      "dbName": "revision",
+      "nature": "basic",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:type",
+      "ds6w": "ds6w:type",
+      "kind": "string",
+      "dbName": "type",
+      "nature": "basic",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true,
+          "canBeGrouped": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6wg:Content Data",
+      "ds6w": "ds6wg:Content Data",
+      "kind": "string",
+      "dbName": "Content Data",
+      "nature": "attribute",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": false
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6wg:Content Text",
+      "ds6w": "ds6wg:Content Text",
+      "kind": "string",
+      "dbName": "Content Text",
+      "nature": "attribute",
+      "visibleFlag": false,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": false
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:refinedInto",
+      "ds6w": "ds6w:refinedInto",
+      "kind": "string",
+      "dbName": "refineInto",
+      "visibleFlag": true,
+      "nature": "attribute",
+      "isAdditionalColumn": true,
+      "provider": "CoverRefineColumnsProvider",
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:covers",
+      "ds6w": "ds6w:covers",
+      "kind": "string",
+      "visibleFlag": true,
+      "dbName": "covers",
+      "nature": "attribute",
+      "isAdditionalColumn": true,
+      "provider": "CoverRefineColumnsProvider",
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "paramContent",
+      "ds6w": "paramContent",
+      "kind": "string",
+      "visibleFlag": true,
+      "nature": "computed",
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:status",
+      "ds6w": "ds6w:status",
+      "kind": "string",
+      "dbName": "current",
+      "nature": "basic",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:priority",
+      "ds6w": "ds6w:priority",
+      "kind": "enumString",
+      "dbName": "Priority",
+      "nature": "attribute",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:difficulty",
+      "ds6w": "ds6w:difficulty",
+      "kind": "enumString",
+      "dbName": "Difficulty",
+      "nature": "attribute",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:importance",
+      "ds6w": "ds6w:importance",
+      "kind": "enumString",
+      "dbName": "User Requirement Importance",
+      "nature": "attribute",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true,
+          "canBeGrouped": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6wg:requirement category",
+      "ds6w": "ds6wg:requirement category",
+      "kind": "string",
+      "dbName": "Requirement Category",
+      "nature": "attribute",
+      "visibleFlag": false,
+      "editableFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true,
+          "canBeGrouped": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:classification",
+      "ds6w": "ds6w:classification",
+      "kind": "string",
+      "dbName": "Requirement Classification",
+      "nature": "attribute",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true,
+          "canBeGrouped": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:reserved",
+      "ds6w": "ds6w:reserved",
+      "kind": "boolean",
+      "dbName": "reserved",
+      "nature": "basic",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true,
+          "canBeGrouped": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:responsible",
+      "ds6w": "ds6w:responsible",
+      "kind": "string",
+      "dbName": "owner",
+      "nature": "basic",
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true,
+          "canBeGrouped": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:project",
+      "ds6w": "ds6w:project",
+      "kind": "string",
+      "dbName": "project",
+      "nature": "basic",
+      "visibleFlag": true,
+      "editableFlag": false,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:organizationResponsible",
+      "ds6w": "ds6w:organizationResponsible",
+      "kind": "string",
+      "dbName": "organization",
+      "nature": "basic",
+      "visibleFlag": true,
+      "editableFlag": false,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:modified",
+      "ds6w": "ds6w:modified",
+      "kind": "datetime",
+      "dbName": "modified",
+      "nature": "basic",
+      "editableFlag": false,
+      "visibleFlag": true,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:description",
+      "ds6w": "ds6w:description",
+      "kind": "string",
+      "dbName": "description",
+      "editableFlag": true,
+      "nature": "basic",
+      "visibleFlag": false,
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    },
+    {
+      "dataIndex": "ds6w:isLastRevision",
+      "ds6w": "ds6w:isLastRevision",
+      "visibleFlag": true,
+      "editableFlag": false,
+      "nature": "basic",
+      "kind": "string",
+      "customisation": {
+        "layout": {
+          "removableFromView": true,
+          "removable": true
+        },
+        "exportable": {
+          "lock": true,
+          "value": true
+        }
+      }
+    }
+  ]
+}

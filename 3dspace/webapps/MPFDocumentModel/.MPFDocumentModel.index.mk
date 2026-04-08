@@ -1,0 +1,12 @@
+m|MPFModels\MPFDocumentModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFDocumentModel\MPFDocumentModel.js|1760176820|1509
+s|MPFModels\MPFDocumentModel.mweb\src\DocumentCollection.js|1760133127|456
+u|MPFModels\MPFDocumentModel.mweb\src\DocumentDataProxy.js|1760133128|327
+u|MPFModels\MPFDocumentModel.mweb\src\DocumentFactory.js|1760133128|1123
+u|MPFModels\MPFDocumentModel.mweb\src\DocumentModel.js|1760133128|1317
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

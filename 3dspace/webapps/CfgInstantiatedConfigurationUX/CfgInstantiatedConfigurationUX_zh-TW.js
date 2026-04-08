@@ -1,0 +1,1 @@
+define("DS/CfgInstantiatedConfigurationUX/CfgInstantiatedConfigurationUX_zh-TW",{});define("DS/CfgInstantiatedConfigurationUX/assets/nls/CfgInstantiatedConfigurationUX",{CFG_NoModel_Attached:"找不到產品模型組態。選擇具有附加產品模型組態之型號的物件。",CFG_No_ConfigurationAssociation:"沒有模型組態與所選修訂版相關聯。"});

@@ -1,0 +1,1 @@
+define("DS/DELReactControls/DELReactControls_ja",{});define("DS/DELReactControls/assets/nls/controls",{sidePanel:{cancel:"キャンセル",apply:"適用"}});

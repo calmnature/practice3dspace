@@ -1,0 +1,11 @@
+{
+  "businessType": "Rodzaj firmy",
+  "company": "Firma",
+  "nonProfitAndEducation": "Non-profit i edukacja",
+  "industry": "Branża",
+  "activity": "Działanie",
+  "website": "Strona internetowa",
+  "description": "Opis",
+  "select": "Wybierz",
+  "fieldIsRequired": "To pole jest wymagane"
+}

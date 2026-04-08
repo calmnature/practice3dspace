@@ -1,0 +1,1 @@
+define("DS/SPYExtUI/SPYExtUI_ja",{});define("DS/SPYExtUI/assets/nls/CATSimNavDataFrameViewXYChartUI",{rootName:"現行のステップ",loadCaseName:"現行の荷重",cartesianShortHelp:"Switch to cartesian display",polarShortHelp:"Switch to polar display",selNoneShortHelp:"Hide all series",selAllShortHelp:"Show all series",selInvertShortHelp:"Invert series visibility"});

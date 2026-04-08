@@ -1,0 +1,358 @@
+{
+    "authorizedPPRTypes": [
+        "PROCESS",
+        "SERVICEPROCESS"
+    ],
+    "filterProxyOptions": {
+        "graph": {
+            "descending_condition_relation": {
+                "uql": "((taxonomies:*DELLmiPPRSystemInstance*)) OR ((taxonomies:*DELLmiOperationPPRInstance*))"
+            }
+        }
+    },
+    "Columns": [
+        {
+            "entityType": "BusinessType",
+            "attribute": "PLMEntity.V_Name",
+            "isBusinessObject": true,
+            "indexAttribute": "bo.PLMEntity.V_Name",
+            "dataIndex": "tree",
+            "defaultColumn": "Title",
+            "columnProperties": {
+                "text": "PROCESS.Title",
+                "description": "PROCESS.Title.description"
+            }
+        },
+        {
+            "entityType": "RelationType",
+            "attribute": "PLMInstance.PLM_ExternalID",
+            "isBusinessObject": false,
+            "indexAttribute": "ro.PLMInstance.PLM_ExternalID",
+            "dataIndex": "InstanceLabel",
+            "defaultColumn": "InstanceLabel",
+            "columnProperties": {
+                "text": "PROCESS.InstanceLabel",
+                "description": "PROCESS.InstanceLabel.description"
+            }
+        },
+        {
+            "entityType": "BusinessType",
+            "attribute": "BusinessType.revision",
+            "isBusinessObject": true,
+            "indexAttribute": "revision",
+            "dataIndex": "Revision",
+            "defaultColumn": "Revision",
+            "columnProperties": {
+                "text": "PROCESS.Revision",
+                "description": "PROCESS.Revision.description"
+            }
+        },
+        {
+            "entityType": "BusinessType",
+            "attribute": "PLMEntity.V_description",
+            "isBusinessObject": true,
+            "indexAttribute": "bo.PLMEntity.V_description",
+            "dataIndex": "Description",
+            "defaultColumn": "Description",
+            "columnProperties": {
+                "text": "PROCESS.Description",
+                "description": "PROCESS.Description.description"
+            }
+        },
+        {
+            "entityType": "BusinessType",
+            "attribute": "BusinessType.current",
+            "isBusinessObject": true,
+            "indexAttribute": "ds6w:status",
+            "dataIndex": "Maturity",
+            "defaultColumn": "Maturity",
+            "columnProperties": {
+                "text": "PROCESS.Maturity",
+                "description": "PROCESS.Maturity.description"
+            }
+        },
+        {
+            "entityType": "BusinessType",
+            "attribute": "DELLmiOperationReference.V_EstimatedTime",
+            "isBusinessObject": true,
+            "indexAttribute": "bo.DELLmiOperationReference.V_EstimatedTime",
+            "dataIndex": "EstimatedTime",
+            "columnProperties": {
+                "text": "PROCESS.EstimatedTime",
+                "description": "PROCESS.EstimatedTime.description"
+            }
+        },
+        {
+            "entityType": "BusinessType",
+            "attribute": "DELLmiOperationReference.V_TimeMode",
+            "isBusinessObject": true,
+            "indexAttribute": "bo.DELLmiOperationReference.V_TimeMode",
+            "dataIndex": "TimeMode",
+            "columnProperties": {
+                "text": "PROCESS.TimeMode",
+                "description": "PROCESS.TimeMode.description"
+            }
+        },
+        {
+            "entityType": "BusinessType",
+            "attribute": "DELLmiOperationReference.V_MeasuredTime",
+            "isBusinessObject": true,
+            "indexAttribute": "bo.DELLmiOperationReference.V_MeasuredTime",
+            "dataIndex": "MeasuredTime",
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.MeasuredTime",
+                "description": "PROCESS.MeasuredTime.description"
+            }
+        },
+        {
+            "entityType": "BusinessType",
+            "attribute": "BusinessType.owner_fullname",
+            "isBusinessObject": true,
+            "indexAttribute": "owner_fullname",
+            "dataIndex": "Owner",
+            "defaultColumn": "Owner",
+            "columnProperties": {
+                "text": "PROCESS.Owner",
+                "description": "PROCESS.Owner.description"
+            }
+        },
+        {
+            "defaultColumn": "Effectivity",
+            "dataIndex": "Effectivity",
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.Effectivity",
+                "description": "PROCESS.Effectivity.description"
+            }
+        },
+        {
+            "defaultColumn": "VariantEffectivity",
+            "dataIndex": "VariantEffectivity",
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.VariantEffectivity",
+                "description": "PROCESS.VariantEffectivity.description"
+            }
+        },
+        {
+            "defaultColumn": "EvolutionEffectivity",
+            "dataIndex": "EvolutionEffectivity",
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.EvolutionEffectivity",
+                "description": "PROCESS.EvolutionEffectivity.description"
+            }
+        },
+        {
+            "defaultColumn": "CurrentEvolutionEffectivity",
+            "dataIndex": "CurrentEvolutionEffectivity",
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.CurrentEvolutionEffectivity",
+                "description": "PROCESS.CurrentEvolutionEffectivity.description"
+            }
+        },
+        {
+            "defaultColumn": "ProjectedEvolutionEffectivity",
+            "dataIndex": "ProjectedEvolutionEffectivity",
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.ProjectedEvolutionEffectivity",
+                "description": "PROCESS.ProjectedEvolutionEffectivity.description"
+            }
+        },
+        {
+            "defaultColumn": "ConfigurationContext",
+            "dataIndex": "ConfigurationContext",
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.ConfigurationContext",
+                "description": "PROCESS.ConfigurationContext.description"
+            }
+        },
+        {
+            "defaultColumn": "SpecificationDocuments",
+            "dataIndex": "SpecificationDocument",
+            "callbacks": {
+                "onClick": {
+                    "handlerId": "DELWebOERRightSidePanelFacetOpen",
+                    "args": {
+                        "facet": "specificationdocuments",
+                        "colDataIndex": "SpecificationDocument"
+                    }
+                }
+            },
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.SpecificationDocuments",
+                "description": "PROCESS.SpecificationDocuments.description",
+                "width": "150px"
+            }
+        },
+        {
+            "defaultColumn": "AttachmentDocuments",
+            "dataIndex": "ReferenceDocument",
+            "callbacks": {
+                "onClick": {
+                    "handlerId": "DELWebOERRightSidePanelFacetOpen",
+                    "args": {
+                        "facet": "referencedocuments",
+                        "colDataIndex": "ReferenceDocument"
+                    }
+                }
+            },
+            "columnProperties": {
+                "visibleFlag": false,
+                "text": "PROCESS.AttachmentDocuments",
+                "description": "PROCESS.AttachmentDocuments.description",
+                "width": "85px"
+            }
+        },
+        {
+            "defaultColumn": "Graph",
+            "dataIndex": "graph",
+            "callbacks": {
+                "onClick": {
+                    "handlerId": "DELWebOERProcessViewToggleGraphView",
+                    "args": {
+                        "activateHandlerId": "DELWebOERActivateGraphView",
+                        "deactivateHandlerId": "DELWebOERDeactivateGraphView"
+                    }
+                }
+            },
+            "columnProperties": {
+                "visibleFlag": false
+            }
+        },
+        {
+            "defaultColumn": "BuildUp",
+            "dataIndex": "buildUp",
+            "callbacks": {
+                "onClick": {
+                    "handlerId": "DELWebOERProcessViewToggleBuildUp",
+                    "args": {
+                        "activateBuildUpHandlerId": "DELWebOERActivateBuildUp",
+                        "deactivateBuildUpHandlerId": "DELWeb3DViewerDeactivateBuildUp"
+                    }
+                }
+            }
+        },
+        {
+            "defaultColumn": "Menu",
+            "dataIndex": "Menu",
+            "columnProperties": {
+                "text": "PROCESS.Menu",
+                "description": "PROCESS.Menu.description"
+            }
+        }
+    ],
+    "contextualMenu": [
+        {
+            "type": "PushItem",
+            "identifier": "Contextual.ExpandAll",
+            "iconAMD": {
+                "module": "DELWebOERTableViewComp",
+                "path": "icons/22/I_ExpandAll.png"
+            },
+            "availableOn": {
+                "position": [
+                    "root",
+                    "intermediate"
+                ]
+            },
+            "submenu": [
+                {
+                    "type": "WAfrDefaultHandlerItem",
+                    "handlerId": "DELWebOERTableViewCompExpandAll"
+                },
+                {
+                    "type": "WAfrDefaultHandlerItem",
+                    "handlerId": "DELWebOERTableViewCompExpandNLevels"
+                },
+                {
+                    "type": "WAfrDefaultHandlerItem",
+                    "handlerId": "DELWebOERTableViewCompCollapseAll"
+                }
+            ]
+        },
+        {
+            "handlerId": "DELWebOERTableViewCompFind",
+            "type": "WAfrDefaultHandlerItem",
+            "availableOn": {
+                "position": [
+                    "all"
+                ]
+            },
+            "args": {
+                "findInColumns": [
+                    "PROCESS.Title",
+                    "PROCESS.InstanceLabel",
+                    "PROCESS.Revision",
+                    "PROCESS.Description",
+                    "PROCESS.Maturity"
+                ]
+            }
+        },
+        {
+            "handlerId": "DELWebOERPropertiesPanelCmd",
+            "type": "WAfrDefaultHandlerItem",
+            "availableOn": {
+                "position": [
+                    "all"
+                ]
+            }
+        },
+        {
+            "type": "PushItem",
+            "identifier": "OpenWith",
+            "availableOn": {
+                "position": [
+                    "all"
+                ]
+            }
+        }
+    ],
+    "defaultContextualMenus": [
+        "GroupBy",
+        "ClearGroupBy"
+    ],
+    "tableView": {
+        "registerTypeRepresentations": {
+            "configLoading": {
+                "stdTemplate": "functionIcon",
+                "semantics": {
+                    "className": "relationRefresh",
+                    "icon": {
+                        "iconName": "reload wux-ui-3ds-spin",
+                        "fontIconFamily": 1
+                    }
+                }
+            }
+        },
+        "destroyTableViewOnAllRootsRemoved": true
+    },
+    "pertViewHandlerId": "DELWebOERTogglePERTViewCmdV2",
+    "excludeGraphOnLastOperationAndWKI": true,
+    "defaultViewerMode": "WorkInstructions",
+    "Behaviors": [
+        {
+            "code": "DS/DELWebOERProcessViewCompV2/behaviors/ProcessTableBehavior",
+            "key": "ProcessTableBehavior",
+            "options": {}
+        }
+    ],
+    "View": {
+        "code": "DS/DELWebTableViewComp/view/TableView",
+        "options": {
+            "panel": true,
+            "panelOptions": {
+                "icon": {
+                    "moduleName": "DELWeb3DOpersReviewAppV2",
+                    "path": "icons/22/I_PPRGeneralSystem.png"
+                },
+                "attachToOtherDockedWindow": true
+            }
+        }
+    }
+}

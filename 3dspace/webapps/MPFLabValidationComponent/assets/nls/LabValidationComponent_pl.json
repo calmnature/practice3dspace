@@ -1,0 +1,14 @@
+{
+  "sellerID": "Identyfikator sprzedawcy",
+  "shopName": "Nazwa sklepu",
+  "lastUpdate": "Ostatnia aktualizacja",
+  "kyc": "Znaj swojego klienta",
+  "showroom": "Wzorcownia",
+  "testOrder": "Kolejność testów",
+  "status": "Stan",
+  "reviewshowroom": "Przejrzyj wzorcownię",
+  "sendTestOrder": "Wyślij zamówienie testowe",
+  "draft": "Wersja robocza",
+  "validated": "Zatwierdzone",
+  "setOffline": "Ustaw tryb offline"
+}

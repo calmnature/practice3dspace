@@ -1,0 +1,49 @@
+[
+    {
+        "ParsingVersion": "2.0",
+        "DeclarativeTypes": [
+            {
+                "ConceptualName": "dsili:IllustratedItem",
+                "ParentType": "DELLmiAbstractProductionEntity",
+                "IsAbstract": true,
+                "ModelerMapping": [
+                    {
+                        "Modeler": "_3DSpaceDB",
+                        "Mapping": "DELIllustratedItemGenericReference",
+                        "Behavior": "REFERENCE"
+                    },
+                    {
+                        "Modeler": "_Index",
+                        "Mapping": "DELIllustratedItemGenericReference",
+                        "Behavior": "CUSTOM",
+                        "Class": "com.dassault_systemes.delmia.crud.illustrated.bytype.index.DELIllstrReferenceIndexExpandExeImpl"
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "ConceptualName": "dsili:PartialScope",
+                        "Transforms": [
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.illustrated.attributes.transforms.DELCRUDIndexProcAttrTransformToPathSR"
+                            }
+                        ]
+                    },
+                    {
+                        "ConceptualName": "customerAttributes",
+                        "Transforms": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

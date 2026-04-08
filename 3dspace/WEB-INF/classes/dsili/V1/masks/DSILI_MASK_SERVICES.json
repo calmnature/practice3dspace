@@ -1,0 +1,93 @@
+{
+    "dsili:DefaultBusMask.utc": [
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+        "dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask.public"
+        }
+    ],
+    "dsili:DefaultRelMask.utc": [
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+        "dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        "dsmveno:attribute.instance.name",
+        "dsmveno:attribute.instance.description"
+    ],
+    "dsili:IllustratedItemMask.Default": [
+        {
+            "property": "reuseMask",
+            "mask": "dsili:DefaultBusMask.utc"
+        },
+        "dsmveno:attribute.reference.versionComment"
+    ],
+    "dsili:IllustratedItemInstanceMask.Default": [
+        {
+            "property": "reuseMask",
+            "mask": "dsili:DefaultRelMask.utc"
+        },
+        "dsmveno:basic.owner.public",
+        "dsmveno:basic.organization",
+        "dsmveno:basic.collabspace",
+        "dsili:instance.reference"
+    ],
+    "dsili:ItemSpecificationMask.Default": [
+        "dsmveno:attribute.reference.name",
+        "dsmveno:basic.id",
+        "dsili:program.getItemSpecificationIsScope",
+        "dsili:program.getItemSpecificationItemRef",
+        "dsili:program.getItemSpecificationItemOcc",
+        "dsili:ItemSpecification.overlap",
+        "dsili:ItemSpecification.csn",
+        "dsili:ItemSpecification.isn"
+    ],
+    "dsili:ItemSpecificationMask.Details": [
+        {
+            "property": "reuseMask",
+            "mask": "dsili:ItemSpecificationMask.Default"
+        },
+        "dsmveno:basic.type.public"
+    ],
+    "dsili:PartialScopeMask.Default": [
+        "dsmveno:basic.id",
+        "dsili:IllustratedItem.partialScope"
+    ],
+    "dsili:IllustratedItemInstanceMask.Details": [
+        {
+            "property": "reuseMask",
+            "mask": "dsili:IllustratedItemInstanceMask.Default"
+        },
+        "dsmveno:basic.instance.reservedByUserId",
+        "dsili:instanceDetails.referencedObject"
+    ],
+    "dsili:DefaultContentMask.utc": [
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+        "dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        "dsmveno:basic.owner.public",
+        "dsmveno:basic.collabspace",
+        "dsmveno:basic.organization"
+    ],
+    "dsili:IllustratedItemInstanceLocateMask": [
+        {
+            "property": "reuseMask",
+            "mask": "dsili:IllustratedItemInstanceMask.Details"
+        },
+        "dsili:parentObject"
+    ],
+    "dsili:ItemSpecificationLocateMask": [
+        {
+            "property": "reuseMask",
+            "mask": "dsili:ItemSpecificationMask.Default"
+        },
+        "dsili:program.getItemSpecificationItemRef"
+    ]
+}

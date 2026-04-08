@@ -1,0 +1,14 @@
+{
+	"actions": [
+		{
+			"id": "AddRequirement",
+			"text": "AddRequirement",
+			"fonticon": "plus"
+		},
+		{
+			"id": "RemoveRequirement",
+			"text": "RemoveRequirement",
+			"fonticon": "tree-delete"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "apiUrl":"v1/chat/completions",
+    "model":"netvibes/nlq-msphi3.5-r2025xfd02",
+    "opModel":"mistralai/codestral-2508",
+    "with_prompt":false,
+    "max_tokens":"80",
+    "top_p":"0.2",
+    "temperature":"0.4",
+    "timeout":"15"
+  }

@@ -1,0 +1,262 @@
+{
+    "ROUTINGS": {
+        "displayIcon": false,
+        "attributeList": [
+            {
+                "nodeType": "process",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMInstance.PLM_ExternalID",
+                "displayAttributeName": true,
+                "maxWidth": "80"
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "displayAttributeName": null,
+                "maxWidth": "20"
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "owner",
+                "displayAttributeName": true,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "4",
+                "mergeWithPreviousRow": null,
+                "name": "DELLmiProductionSystemReference.V_FlowModeIN",
+                "displayAttributeName": true,
+                "maxWidth": "60"
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "5",
+                "mergeWithPreviousRow": true,
+                "name": "DELLmiHeaderOperationReference.V_Interruptible",
+                "displayAttributeName": true,
+                "maxWidth": null
+            }
+        ],
+        "colorList": [
+            {
+                "nodeType": "process",
+                "graphicalElement": "headerBackgroundColor",
+                "color": "#ff1919",
+                "attributeValue": "15",
+                "ruleNumber": "1",
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "attributeCondition": "LessThanOrEqual"
+            },
+            {
+                "nodeType": "process",
+                "graphicalElement": "headerBackgroundColor",
+                "color": "#8ae2fd",
+                "attributeValue": "FirstAllowed",
+                "ruleNumber": "2",
+                "name": "DELLmiProductionSystemReference.V_FlowModeOUT",
+                "attributeCondition": "Equal"
+            }
+        ]
+    },
+    "MANUFACTURING": {
+        "displayIcon": true,
+        "attributeList": [
+            {
+                "nodeType": "item",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.PLM_ExternalID",
+                "displayAttributeName": null,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": null,
+                "name": "revision",
+                "displayAttributeName": true,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "V_AppRoleAndQuantity",
+                "displayAttributeName": null,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "4",
+                "mergeWithPreviousRow": null,
+                "name": "DELFmiMagnitudeExt.V_DimensionType",
+                "displayAttributeName": true,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "5",
+                "mergeWithPreviousRow": null,
+                "name": "V_AppInstanceQuantity",
+                "displayAttributeName": true,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "item",
+                "rowIndex": "6",
+                "mergeWithPreviousRow": null,
+                "name": "V_AppReferenceQuantity",
+                "displayAttributeName": true,
+                "maxWidth": null
+            }
+        ],
+        "colorList": [
+            {
+                "nodeType": "item",
+                "graphicalElement": "tileBackgroundColor",
+                "color": "#e4ffe2",
+                "attributeValue": "500",
+                "ruleNumber": "1",
+                "name": "DELMBOMLotQuantityMgtLength.V_MaxLotQuantity",
+                "attributeCondition": "LessThanOrEqual"
+            },
+            {
+                "nodeType": "item",
+                "graphicalElement": "tileBackgroundColor",
+                "color": "#eecfff",
+                "attributeValue": "100",
+                "ruleNumber": "2",
+                "name": "DELFmiYieldQuantity_Ratio.V_YieldQuantity",
+                "attributeCondition": "Equal"
+            }
+        ]
+    },
+    "RESOURCES": {
+        "displayIcon": false,
+        "attributeList": [
+            {
+                "nodeType": "resource",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": true,
+                "maxWidth": "50"
+            },
+            {
+                "nodeType": "resource",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": null,
+                "name": "Resource.V_TargetCost",
+                "displayAttributeName": true,
+                "maxWidth": null
+            }
+        ],
+        "colorList": [
+            {
+                "nodeType": "resource",
+                "graphicalElement": "tileTextColor",
+                "color": "#3d6aff",
+                "attributeValue": "NCMachine",
+                "ruleNumber": "1",
+                "name": "type",
+                "attributeCondition": "Equal"
+            }
+        ]
+    },
+    "DCPROW": {
+        "displayIcon": true,
+        "attributeList": [
+            {
+                "nodeType": "dcpRow",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMSpecifyHowToCollectDataCnx.V_DCMode",
+                "displayAttributeName": true,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "dcpRow",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": null,
+                "name": "V_AppNormalRange",
+                "displayAttributeName": null,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "dcpRow",
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "DELPrmCriticalityExt.V_Criticality",
+                "displayAttributeName": true,
+                "maxWidth": null
+            }
+        ],
+        "colorList": [
+            {
+                "nodeType": "dcpRow",
+                "graphicalElement": "tileBackgroundColor",
+                "color": "#FFB16E",
+                "attributeValue": "30",
+                "ruleNumber": "1",
+                "name": "V_AppValue",
+                "attributeCondition": "LessThanOrEqual"
+            }
+        ]
+    },
+    "RPPROW": {
+        "displayIcon": true,
+        "attributeList": [
+            {
+                "nodeType": "rppRow",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "V_AppFailureRange",
+                "displayAttributeName": null,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "rppRow",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": null,
+                "name": "V_AppAcceptableRange",
+                "displayAttributeName": null,
+                "maxWidth": null
+            }
+        ],
+        "colorList": [
+            {
+                "nodeType": "rppRow",
+                "graphicalElement": "tileTextColor",
+                "color": "#ffa3fd",
+                "attributeValue": "Key",
+                "ruleNumber": "1",
+                "name": "DELPrmCriticalityExt.V_Criticality",
+                "attributeCondition": "Equal"
+            },
+            {
+                "nodeType": "rppRow",
+                "graphicalElement": "tileBackgroundColor",
+                "color": "#c4efff",
+                "attributeValue": "10",
+                "ruleNumber": "2",
+                "name": "V_AppMinFailureValue",
+                "attributeCondition": "LessThanOrEqual"
+            },
+            {
+                "nodeType": "rppRow",
+                "graphicalElement": "tileTextColor",
+                "color": "#508f4e",
+                "attributeValue": "50",
+                "ruleNumber": "3",
+                "name": "V_AppMaxControlValue",
+                "attributeCondition": "NotEqual"
+            }
+        ]
+    }
+}

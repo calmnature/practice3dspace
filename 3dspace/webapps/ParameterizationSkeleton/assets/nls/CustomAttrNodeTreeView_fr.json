@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Catégorie de fixation",
+  "V_MfgFastenerStrategy": "Stratégie de fixation",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Candidat à la maintenance",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Candidat de rechange",
+  "V_RepairType": "Type de réparation",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Niveau de maintenance",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Info sur le code",
+  "orderParameters": "Ordre mis à jour",
+  "orderParametersTitle": "Réordonner",
+  "orderParametersError": "Erreur lors de la réorganisation",
+  "orderParametersMaskMessage": "Mise à jour de l'ordre",
+  "orderParametersDeleteError": "Erreur lors de la suppression de l'ordre précédent",
+  "orderParametersSetError": "Erreur lors de l'enregistrement du nouvel ordre",
+  "nonEditableParamTitle": "L'attribut n'est pas modifiable",
+  "nonEditableParamContent": "L'attribut sélectionné ne peut pas être modifié car il est utilisé dans un ou plusieurs paramètres de la table de règles définissant le gestionnaire d'attache",
+  "deleteParameterTitle": "L'attribut ne peut pas être supprimé",
+  "deleteParameterError": "L'attribut sélectionné ne peut pas être supprimé car il est utilisé dans un ou plusieurs paramètres de la table de règles définissant le gestionnaire d'attache",
+  "attributeName": "Nom de l'attribut",
+  "attributeValue": "Valeur de l'attribut"
+}

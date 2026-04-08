@@ -1,0 +1,1 @@
+define("DS/MPFCurrencySelectComponent/MPFCurrencySelectComponent_cs",{});define("DS/MPFCurrencySelectComponent/assets/nls/MPFCurrencySelectComponent",{selectCurrency:"Vyberte měnu",currency:"Měna",currencyRequired:"Měna je povinný údaj"});

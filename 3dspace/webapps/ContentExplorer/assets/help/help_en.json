@@ -1,0 +1,18 @@
+{
+"Filter_Assemblies.Title":"Filter on Assemblies",
+"Filter_Assemblies.ShortHelp":"Shows assemblies.",
+"Filter_Assemblies.LongHelp":"Assemblies are defined as SOLIDWORKS assemblies and physical products with the Content Structure tags Root and Intermediate.",
+"Filter_DrawingAnnotations.Title":"Filter on Drawings And Annotations",
+"Filter_DrawingAnnotations.ShortHelp":"Shows drawings and annotation sets.",
+"Filter_DrawingAnnotations.LongHelp":"This filter shows SOLIDWORKS drawings and annotation sets based on physical products.",
+"Filter_Part.Title":"Filter on Parts",
+"Filter_Part.ShortHelp":"Shows parts.",
+"Filter_Part.LongHelp":"Parts are defined as SOLIDWORKS parts and physical products with the Content Structure tags Leaf and Standalone.",
+"SwitchFlat.Title":"Show All Collaborative Space Content",
+"SwitchFlat.ShortHelp":"Shows all the engineering content in this collaborative space in a flat list.",
+"SwitchFlat.LongHelp":"<p>This collaborative space view focuses on engineering content for SOLIDWORKS apps: Physical Product, Drawings and Annotation Sets, Advanced Filters, and anything with the type 'Document'.</p>",
+"SwitchNoFlat.Title":"Show Bookmark Folders",
+"SwitchNoFlat.ShortHelp":"Shows the Bookmark Folders and unbookmarked content in this collaborative space.",
+"SwitchNoFlat.LongHelp":"<p>In this collaborative space view, Bookmark Folders (if any) appear at the top, followed by a list of engineering content that has not been added to any Bookmark Folder, including Physical Products, Drawings and Annotation Sets, Advanced Filters, and anything with the type 'Document'. Bookmark Folders are not limited to engineering content.</p>",
+"Widget.WebHelp":"ENXCoexUserMap/enxcoex-o-ov.htm"
+}

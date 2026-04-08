@@ -1,0 +1,1 @@
+define("DS/SMAMpwControls/SMAMpwControls_tr",{});define("DS/SMAMpwControls/assets/nls/SMAMpwFrameSelector",{frameSelectorPlaceHolder:"Bir kare seçin...",playOnlyTooltip:"Animasyonu geçerli seçime kilitle"});define("DS/SMAMpwControls/assets/nls/SMAMpwLegend",{scaleFactor:"Deformasyon Ölçeği",min:"Min.",max:"Maks."});

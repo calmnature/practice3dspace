@@ -1,0 +1,23 @@
+{
+  "document": "ドキュメント",
+  "videoOnly": "ビデオ",
+  "picture": "ピクチャ",
+  "sound": "オーディオ",
+  "3d_model": "3D モデル",
+  "drawing": "図面",
+  "save": "保存",
+  "cancel": "キャンセル",
+  "errorMin": "次の値未満の値は設定できません ",
+  "errorMax": "最大サイズ",
+  "submitComplete": "更新が正常に完了しました",
+  "submitFailure": "送信に失敗しました",
+  "help": "ファイル拡張子のサポート",
+  "mb": "{value}Mb",
+  "acceptAllFileExtensions": "すべてのファイル拡張子を受け入れる",
+  "disallowHighRiskFileExtensions": "高リスクのファイル拡張子 (.exe、.bat など) を許可しません。詳細については、ユーザー アシスタンスを参照してください。",
+  "permitOnlySupportedMediaTypes": "サポートされているメディア タイプ (ピクチャ/オーディオ/ビデオ/3D モデル/ドキュメントなど) のみを許可します",
+  "forAllTypes": "すべてのタイプに",
+  "restrictUploadFileBySize": "アップロード ファイルのサイズをタイプ別に制限:",
+  "fileExtensionSupport": "ファイル拡張子のサポート",
+  "maximumUploadFileSize": "最大アップロード ファイル サイズ"
+}

@@ -1,0 +1,1 @@
+define("DS/CfgInstantiatedConfigurationUX/CfgInstantiatedConfigurationUX_ko",{});define("DS/CfgInstantiatedConfigurationUX/assets/nls/CfgInstantiatedConfigurationUX",{CFG_NoModel_Attached:"제품 사양이 확인되지 않았습니다. 제품 사양이 포함된 모델이 부착된 개체를 선택하십시오.",CFG_No_ConfigurationAssociation:"선택된 리비전에 연결된 사양이 없습니다."});

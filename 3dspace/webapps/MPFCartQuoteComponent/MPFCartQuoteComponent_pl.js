@@ -1,0 +1,1 @@
+define("DS/MPFCartQuoteComponent/MPFCartQuoteComponent_pl",{});define("DS/MPFCartQuoteComponent/assets/nls/CartQuoteComponent",{downloadQuote:"Pobierz wycenę"});

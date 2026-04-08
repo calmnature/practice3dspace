@@ -1,0 +1,12 @@
+m|MPFModels\MPFModelFactory.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26038|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFModelFactory\MPFModelFactory.js|1770442906|13293
+s|MPFModels\MPFModelFactory.mweb\src\Factory.js|1760133128|2683
+u|MPFModels\MPFModelFactory.mweb\src\MPFFactories.js|1770414941|9029
+u|MPFModels\MPFModelFactory.mweb\src\MPFFactoriesV2.js|1770414941|10545
+u|MPFModels\MPFModelFactory.mweb\src\MPFModelFactory.js|1760133129|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

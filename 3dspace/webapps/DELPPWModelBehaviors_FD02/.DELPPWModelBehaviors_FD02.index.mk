@@ -1,0 +1,17 @@
+m|DELWKOApp\DELPPWModelBehaviors_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWModelBehaviors_FD02\DELPPWModelBehaviors_FD02.js|1761365456|32584
+s|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\CapableResourceLinkBehaviour.js|1679512457|23728
+t|win_b64\webapps\DELPPWModelBehaviors_FD02\assets\json\NonModelAttributeInfo.json|1723277661|636
+s|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\assets\json\NonModelAttributeInfo.json|1678125559|636
+u|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\DataCollectWKIBehavior.js|1679512460|29690
+u|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\DocumentBehavior.js|1679512463|26186
+u|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\ImplementBehavior.js|1758026080|75819
+u|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\InterWidgetComBehavior.js|1679512482|1304
+u|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\ResourceBehavior.js|1679512505|1519
+u|DELWKOApp\DELPPWModelBehaviors_FD02.mweb\src\SpecifyScopeIntentDialog.js|1758026558|7559
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,14 @@
+{
+  "dsrdg:RenderingScene": {
+    "summary": "Rendering Scene Representation",
+    "description": "Rendering Scene Representation",
+    "PUBLICMasks": [ "dsmvrdg:RenderingSceneMask.Default" ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PUBLICExcludedURIs": [ "GETAll", "getItems", "locate", "bulkfetch", "BULKUPDATE", "PATCH", "PATCHBulk", "DELETE", "DELETEBulk" ]
+  }
+}

@@ -1,0 +1,9 @@
+m|DELPPWPlugins\DELPPWPlugins.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26026|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWPlugins\DELPPWPlugins.js|1769463463|1226
+s|DELPPWPlugins\DELPPWPlugins.mweb\src\Plugins.js|1768997316|2542
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

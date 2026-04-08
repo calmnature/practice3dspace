@@ -1,0 +1,12 @@
+{
+  "xRevision": "Revisão",
+  "xRevision_Exists": "A revisão já existe. Use o comando de revisão para exibir as revisões e ramificações do objeto selecionado",
+  "Close": "Fechar",
+  "allocationSuccess": "Alocação bem-sucedida",
+  "allocationFailed": "Falha na alocação",
+  "deallocationSuccess": "Desalocação bem-sucedida",
+  "deallocationFailed": "Falha na desalocação",
+  "Object_Not_Configurable": "Este objeto selecionado não é configurável",
+  "Composition_Not_Exist": "A composição não existe na instância selecionada",
+  "Composition_Error": "Erro ao obter informações sobre a composição"
+}

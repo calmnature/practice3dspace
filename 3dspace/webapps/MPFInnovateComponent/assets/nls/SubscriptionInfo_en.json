@@ -1,0 +1,15 @@
+{
+  "subscriptionInformation": "Subscription information",
+  "gettingStarted_title": "Getting started",
+  "gettingStarted_intro": "You will receive several emails after you make your purchase.",
+  "gettingStarted_part1": "Subscription confirmation right after the order confirmation: This email confirms your order content and contains the link to our terms.",
+  "gettingStarted_part2": "Get started with your subscription few minutes after the order confirmation: This email contains a link to your 3DEXPERIENCE platform with all the apps in this offer. Be sure to bookmark this link.",
+  "gettingStarted_part3": "You will also receive an email to confirm your email address if you have created a new account.",
+  "subscriptionsAndRenewals_title": "Subscriptions & renewals",
+  "subscriptionsAndRenewals_text_renewable_renewWithBlank": "Your subscription will automatically renew. You can stop the renewal until 5 days before the end of your subscription.",
+  "subscriptionsAndRenewals_text_renewable_renewWithDefined": "Your subscription will automatically renew at the standard price. You can stop the renewal until 5 days before the end of your subscription.",
+  "subscriptionsAndRenewals_text_noRenewable": "This is a fixed period subscription and will not automatically renew. To continue using your subscription, please place another order.",
+  "needMoreInfo_title": "Need more information?",
+  "needMoreInfo_text": "Read the {faq}",
+  "faq": "FAQ"
+}

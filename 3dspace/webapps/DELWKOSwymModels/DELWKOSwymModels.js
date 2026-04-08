@@ -1,0 +1,1 @@
+define("DS/DELWKOSwymModels/DELWKOPersonModel",["UWA/Core","UWA/Class/Model"],(function(e,n){"use strict";return n.extend({name:"DELWKOPersonModel",PPRTYPE:"PERSON",type:"Person"})}));

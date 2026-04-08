@@ -1,0 +1,40 @@
+{
+	"dsprcs:TimeLimitMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DefaultBusMask.utc"
+		}
+	],
+	"dsprcs:TimeLimitMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:TimeLimitMask.Default"
+		},
+		"dsmveno:basic.reference.reservedByUserId",
+		"dsmveno:attribute.reference.createdFrom",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsprcs:TimeLimitParameterMask.Default": [
+		"dsmveno:attribute.reference.title",
+		"dsmveno:attribute.reference.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsprcs:TimeLimitParameter.eventCode",
+		"dsprcs:TimeLimitParameter.nbOccurrence",
+		"dsprcs:TimeLimitParameter.tlStage",
+		"dsprcs:TimeLimitParameter.tlValue",
+		"dsprcs:TimeLimitParameter.tlMargin"
+	],
+	"dsprcs:Mask.DiscreteTimeLimitEnterpriseAttributes.Default": [
+		"dsprcs:DiscreteTimeLimitEnterpriseAttributes"
+	],
+	"dsprcs:Mask.PeriodicTimeLimitEnterpriseAttributes.Default": [
+		"dsprcs:PeriodicTimeLimitEnterpriseAttributes"
+	]
+}

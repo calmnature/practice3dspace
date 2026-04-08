@@ -1,0 +1,1 @@
+define("DS/MPFShopCardComponent/MPFShopCardComponent_pl",{});define("DS/MPFShopCardComponent/assets/nls/ShopCardComponent",{requestAPart:"Zamów część",moreInformation:"Więcej informacji",getAQuote:"Uzyskaj wycenę",reviews:"recenzje",directPurchase:"zakup bezpośredni",viewMore:"Wyświetl więcej",buyNow:"Kup teraz",selectForQuote:"Wybierz dla wyceny",deselect:"Anuluj wybór"});

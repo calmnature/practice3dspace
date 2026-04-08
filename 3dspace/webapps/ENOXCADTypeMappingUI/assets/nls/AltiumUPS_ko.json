@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "버스 유형 매핑",
+  "EPCLabel": "전자 물리적 구성 요소",
+  "EPCInfo": "전자 물리적 구성 요소의 유형 매핑을 3DEXPERIENCE 유형으로 수정",
+  "PrintedCircuitBoardLabel": "인쇄 회로 기판(파트로)",
+  "PrintedCircuitBoardInfo": "인쇄 회로 기판의 유형 매핑을 3DEXPERIENCE 유형으로 수정",
+  "PrintedCircuitBoardAssemblyLabel": "인쇄 회로 기판 어셈블리",
+  "PrintedCircuitBoardAssemblyInfo": "인쇄 회로 기판 어셈블리의 유형 매핑을 3DEXPERIENCE 유형으로 수정"
+}

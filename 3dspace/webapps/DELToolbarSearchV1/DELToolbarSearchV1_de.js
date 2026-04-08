@@ -1,0 +1,1 @@
+define("DS/DELToolbarSearchV1/DELToolbarSearchV1_de",{});define("DS/DELToolbarSearchV1/assets/nls/DELToolbarSearch",{search:"Suchen",closeBtn:"Ausblenden"});

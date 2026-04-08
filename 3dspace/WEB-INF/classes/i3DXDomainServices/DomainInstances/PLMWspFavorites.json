@@ -1,0 +1,7 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "PLMWspFavorites",
+	"description"    : "The domain instance for  favorites in 3DSpace, this includes silver & authoring favorites,  Search favorites (deprecated)",
+	"packages"       : ["PLMWspFavoriteSearch","PLMWspFavoriteNavigation","PLMWspFavoriteAuthoring","PLMWspFavoriteConnection","PLMWspFavoriteDisciplines","PLMWspQuery"]
+}
+

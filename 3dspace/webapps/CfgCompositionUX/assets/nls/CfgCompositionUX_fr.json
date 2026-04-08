@@ -1,0 +1,8 @@
+{
+  "Work_Under_Check": "La composition ne peut pas être effectuée. Le contexte de création doit être Travailler sous une effectivité d'évolution.",
+  "Revision": "Révision",
+  "Child": "Enfant",
+  "Edit_Composition": "Modifier la composition",
+  "Pencil_Tooltip": "Le contexte de création doit être Travailler sous une effectivité d'évolution pour modifier la composition",
+  "Composition_Error": "Erreur lors de l'extraction des informations de composition"
+}

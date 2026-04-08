@@ -1,0 +1,64 @@
+
+#modalLoaderContainer {
+  height: 100%;
+  position: relative;
+}
+
+#app-container-PSVApp {
+  display: grid;
+  grid-template-rows: 40px 1fr; 
+  height: 100vh; 
+  width: 100%;
+  position: relative;
+}
+
+.toolbar-container-PSVApp {
+  align-self: center;
+}
+
+/* .dgv-container-odtSampleApp {
+  height: 100px;
+} */
+
+.find-container-odtSampleApp {
+  position: absolute;
+  top: 18px;
+  right: 118px;
+}
+
+.ws-container-PSVApp {
+  height: 100vh; 
+  position: relative;
+}
+
+.MachineTableCSS{
+  height: 270px;
+  position: sticky !important;
+top: 20px !important; 
+bottom: 30px !important;
+} 
+
+.swimLaneChart-odtSampleApp
+{
+  height: 90vh;
+   max-width: 100vw;
+}
+
+.my-container-class {
+  position: relative;
+	flex: 1 1 auto;
+}
+
+.my-top-container-class {
+  display: flex;
+  flex-direction: column;
+	height: 100%;
+}
+
+/* .expanderinMBOM{
+  height: 600px;
+  border: 1px solid;
+} */
+
+
+

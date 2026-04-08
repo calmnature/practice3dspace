@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="XModel">
+<Domain id="LifecycleTopology">
+		<Family id="Product_Configuration" collabApps="ProductPlanningAndProgram">
+			<Constant id="policyID" value="Product Configuration"/>
+			<Constant id="modifyTopology" value="false"/>
+			<Constant id="renameStates" value="false"/>
+			<!--<Constant id="appType" value="CBP"/>-->
+			<Constant id="NLSStateFileName" value="emxFrameworkStringResource.properties"/>
+			<!--<Constant id="lang" value="en,fr"/>-->
+
+			<GovernedType id="Product_Configuration">
+				<Constant id="typeId" value="Product Configuration"/>
+				<Constant id="supportedRules" value="RejectIfConfigurationNotUniqueOrValidCR"/>
+			</GovernedType>
+
+			<State id="Preliminary">
+				<Constant id="sysName" value="Preliminary"/>
+				<Constant id="isRemovable" value="false"/>
+				<Constant id="NLSKey" value="emxFramework.State.Product_Configuration.Preliminary"/>
+			</State>
+			<State id="In_Work">
+				<Constant id="sysName" value="In Work"/>
+				<Constant id="isRemovable" value="false"/>
+				<Constant id="NLSKey" value="emxFramework.State.Product_Configuration.In_Work"/>
+			</State>	
+			<State id="Frozen">
+				<Constant id="sysName" value="Frozen"/>
+				<Constant id="isRemovable" value="false"/>
+				<Constant id="NLSKey" value="emxFramework.State.Product_Configuration.Frozen"/>
+			</State>
+			<State id="Active">
+				<Constant id="sysName" value="Active"/>
+				<Constant id="isRemovable" value="false"/>
+				<Constant id="NLSKey" value="emxFramework.State.Product_Configuration.Active"/>
+			</State>
+			<State id="Inactive">
+				<Constant id="sysName" value="Inactive"/>
+				<Constant id="isRemovable" value="false"/>
+				<Constant id="NLSKey" value="emxFramework.State.Product_Configuration.Inactive"/>
+			</State>
+
+            <Transition id="PreliminarytoIn_Work">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Preliminary"/>
+                <Constant id="targetState" value="In Work"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="In_WorktoFrozen">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="In Work"/>
+                <Constant id="targetState" value="Frozen"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="FrozentoActive">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Frozen"/>
+                <Constant id="targetState" value="Active"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="ActivetoInactive">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Active"/>
+                <Constant id="targetState" value="Inactive"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+	
+		</Family>
+	</Domain>
+</OOTBParameterization>

@@ -1,0 +1,8 @@
+{
+  "Work_Under_Check": "Nie można wykonać kompozycji. Kontekst tworzenia musi działać w ramach Skuteczności ewolucji.",
+  "Revision": "Poprawka",
+  "Child": "Potomek",
+  "Edit_Composition": "Edytuj kompozycję",
+  "Pencil_Tooltip": "Kontekst tworzenia musi działać w obszarze Skuteczności ewolucji, aby moża było edytować kompozycję",
+  "Composition_Error": "Wystąpił błąd podczas pobierania informacji o kompozycji"
+}

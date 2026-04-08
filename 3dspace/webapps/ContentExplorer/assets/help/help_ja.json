@@ -1,0 +1,18 @@
+{
+"Filter_Assemblies.Title":"アセンブリーでフィルタ",
+"Filter_Assemblies.ShortHelp":"アセンブリーを表示します。",
+"Filter_Assemblies.LongHelp":"アセンブリーは、SOLIDWORKS アセンブリーと、コンテンツ構造タグ「Root 」および「Intermediate」を持つ物理プロダクトとして定義されます。",
+"Filter_DrawingAnnotations.Title":"図面とアノテート アイテムでフィルタ",
+"Filter_DrawingAnnotations.ShortHelp":"図面とアノテート アイテム セットを表示します。",
+"Filter_DrawingAnnotations.LongHelp":"このフィルタは、物理プロダクトに基づいて SOLIDWORKS 図面とアノテート アイテム セットを表示します。",
+"Filter_Part.Title":"パーツでフィルタ",
+"Filter_Part.ShortHelp":"パーツを表示します。",
+"Filter_Part.LongHelp":"パーツは、コンテンツ構造タグ「リーフ」および「スタンドアロン」を持つ SOLIDWORKS パーツと物理プロダクトとして定義されます。",
+"SwitchFlat.Title":"すべてのコラボレーション スペース コンテンツを表示",
+"SwitchFlat.ShortHelp":"このコラボレーション スペースのすべてのエンジニアリング コンテンツをフラット リストに表示します。",
+"SwitchFlat.LongHelp":"<p>このコラボレーション スペース ビューでは、SOLIDWORKS アプリケーションのエンジニアリング コンテンツ (物理プロダクト、図面と注釈セット、拡張フィルタ、および「ドキュメント」タイプのすべて) に焦点を当てます。</p>",
+"SwitchNoFlat.Title":"ブックマーク フォルダーを表示します",
+"SwitchNoFlat.ShortHelp":"ブックマーク フォルダーとブックマークされていないコンテンツをこのコラボレーション スペースに表示します。",
+"SwitchNoFlat.LongHelp":"<p>このコラボレーション スペース ビューでは、ブックマーク フォルダ (存在する場合) が上部に表示され、次にどのブックマーク フォルダにも追加されていないエンジニアリング コンテンツのリストが続きます。エンジニアリング コンテンツには、物理プロダクト、図面と注釈セット、拡張フィルタ、およびタイプが 'ドキュメント' のすべてが含まれます。ブックマーク フォルダはエンジニアリング コンテンツに限定されません。</p>",
+"Widget.WebHelp":"ENXCoexUserMap/enxcoex-o-ov.htm"
+}

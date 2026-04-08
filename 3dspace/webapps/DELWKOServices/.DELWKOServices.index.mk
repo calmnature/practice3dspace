@@ -1,0 +1,17 @@
+m|DELWKOApp\DELWKOServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOServices\DELWKOServices.js|1761365465|27505
+s|DELWKOApp\DELWKOServices.mweb\src\DELWKOAuthoringService.js|1722961655|6864
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOEventsService.js|1708125467|12855
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOEventsServiceCloud.js|1758887695|13112
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOExternalService.js|1715839068|17958
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOExternalServiceCloud.js|1715839627|18926
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOLandingPageService.js|1688399798|6947
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOModelService.js|1689635023|4539
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOModelServiceCloud.js|1724759891|4915
+u|DELWKOApp\DELWKOServices.mweb\src\DELWKOPublicServices.js|1757001235|1335
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

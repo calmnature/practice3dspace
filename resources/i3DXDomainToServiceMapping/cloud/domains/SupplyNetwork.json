@@ -1,0 +1,8 @@
+{
+	"owner" : "JIC",
+	"description" : "Objects managed by Supply Network Management application",
+    "service": "3dnetwork",
+    "urls": {
+		"fetch" : "/3drdfpersist/resources/SupplyNetwork/v1/i3dx/fetch"
+	}
+}

@@ -1,0 +1,1 @@
+define("DS/MPFUtils/MPFUtils_cs",{});define("DS/MPFUtils/assets/nls/MPFUtils",{bytes:"bajtů",kiloByte:"kB",megaByte:"MB",gigaByte:"GB",teraByte:"TB"});

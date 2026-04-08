@@ -1,0 +1,12 @@
+m|SocialGlobe\SocialGlobeServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26029|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SocialGlobeServices\SocialGlobeServices.js|1769718136|10252
+s|SocialGlobe\SocialGlobeServices.mweb\src\Geocoding\GeocodingServices.js|1724872030|6226
+u|SocialGlobe\SocialGlobeServices.mweb\src\MapNavigator\MapNavigatorServices.js|1769713541|2987
+u|SocialGlobe\SocialGlobeServices.mweb\src\Passport\iPassportServices.js|1724872030|6485
+u|SocialGlobe\SocialGlobeServices.mweb\src\i3DDashboard\i3DDriveServices.js|1724872030|28001
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

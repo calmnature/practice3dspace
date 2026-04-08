@@ -1,0 +1,58 @@
+{
+	"dsprcs:TimeLimit": {
+		"kindOf": "root",
+		"beType": "type_DELTimeLimitReferenceAbstract",
+		"classesTypes": "type_DELDiscreteTimeLimitReference,type_DELPeriodicTimeLimitReference",
+		"patchCSRF": true,
+		"search": true,
+		"contentLinks": [
+			"dsprcs:TimeLimitParameter"
+		],
+		"extensionLinks": [
+			"dsprcs:DiscreteTimeLimitEnterpriseAttributes",
+			"dsprcs:PeriodicTimeLimitEnterpriseAttributes"
+		],
+		"cestamp": true,
+		"defaultMask": "dsprcs:TimeLimitMask.Default",
+		"customerAttribute": true,
+		"customizationSupport": true,
+		"isPublic": true,
+		"changeSupport": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": true
+		},
+		"publicResourceURI": "/resources/v1/modeler/dsprcs/dsprcs:TimeLimit/{pid}"
+	},
+	"dsprcs:TimeLimitParameter": {
+		"kindOf": "content",
+		"beType": "type_DELTimeLimitParameterAbstract",
+		"classesTypes": "type_DELTimeLimitThresholdParameter,type_DELTimeLimitTriggerParameter",
+		"patchCSRF": true,
+		"search": false,
+		"cestamp": true,
+		"defaultMask": "dsprcs:TimeLimitParameterMask.Default",
+		"customerAttribute": true,
+		"customizationSupport": false,
+		"isPublic": true,
+		"changeSupport": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": true
+		}
+	},
+	"dsprcs:DiscreteTimeLimitEnterpriseAttributes": {
+		"kindOf": "extension",
+		"beType": "XP_DELDiscreteTimeLimitReference_Ext",
+		"defaultMask": "dsprcs:Mask.DiscreteTimeLimitEnterpriseAttributes.Default",
+		"isPublic": false
+	},
+	"dsprcs:PeriodicTimeLimitEnterpriseAttributes": {
+		"kindOf": "extension",
+		"beType": "XP_DELPeriodicTimeLimitReference_Ext",
+		"defaultMask": "dsprcs:Mask.PeriodicTimeLimitEnterpriseAttributes.Default",
+		"isPublic": false
+	}
+}

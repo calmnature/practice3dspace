@@ -1,0 +1,14 @@
+{
+  "label_space_concept_root": "Корень концепции пространства",
+  "label_search": "Поиск",
+  "label_search_spConceptRoot": "Выбрать корень концепции пространства",
+  "label_search_title": "Выбрать элемент",
+  "label_spacebrowser_initialization": "Инициализация браузера пространства...",
+  "label_spacebrowser_webinwin_initialization": "Инициализация конфигурации WebInWin...",
+  "label_spacebrowser_configuration_initialization": "Инициализация конфигурации виджета...",
+  "label_spacebrowser_construction": "Создание браузера пространства...",
+  "message_no_space_concept_root_selected": "Корень концепции пространства не выбран",
+  "error_get_space_hierarchy": "Сбой при получении иерархии пространства для выбранного корня пространства",
+  "error_missing_space_media": "Службы выделения пространства недоступны. Уточните у администратора, установлен ли требуемый носитель.",
+  "error_request_timedOut": "Время ожидания запроса истекло!"
+}

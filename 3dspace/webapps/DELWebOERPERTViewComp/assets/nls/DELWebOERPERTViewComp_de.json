@@ -1,0 +1,8 @@
+{
+  "Toolbar.LinkedItemsInPERT.Label": "Verknüpfte Elemente in PERT-Ansicht anzeigen/ausblenden",
+  "Toolbar.LinkedItemsInPERT.ToolTip.ShortHelp": "Schaltet die Sichtbarkeit der implementierten Elementkacheln für die Operation ein bzw. aus",
+  "Toolbar.LinkedItemsInPERT.ToolTip.LongHelp": "Blendet die mit der Operation verknüpften Kacheln für implementierte Elemente ein oder aus. Wenn diese Option aktiviert ist, werden die implementierten Elemente unter der Operation angezeigt. Wenn sie deaktiviert sind, werden sie ausgeblendet.",
+  "Toolbar.LinkedResourcesInPERT.Label": "Verknüpfte Ressourcen in PERT-Ansicht anzeigen/ausblenden",
+  "Toolbar.LinkedResourcesInPERT.ToolTip.ShortHelp": "Schaltet die Sichtbarkeit der verknüpften Ressourcenkacheln für die Operation ein bzw. aus",
+  "Toolbar.LinkedResourcesInPERT.ToolTip.LongHelp": "Blendet die mit der Operation verknüpften Ressourcenkacheln ein oder aus. Wenn diese Option aktiviert ist, werden die verknüpften Ressourcen unter der Operation angezeigt. Wenn sie deaktiviert ist, werden sie ausgeblendet."
+}

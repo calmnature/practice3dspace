@@ -1,0 +1,17 @@
+{
+  "busTypeMapping": "Mapeamento do tipo de barramento",
+  "assemblyLabel": "Montagem",
+  "assemblyInfo": "Modifique o mapeamento de tipo do tipo CAD de montagem para o tipo 3DEXPERIENCE",
+  "assemblyInstanceLabel": "Instância da montagem",
+  "assemblyInstanceInfo": "Modifique o mapeamento do tipo CAD assemblyInstance para o tipo 3DEXPERIENCE",
+  "componentLabel": "Componente",
+  "componentInfo": "Modifique o mapeamento de tipo do tipo CAD de componente para o tipo 3DEXPERIENCE",
+  "drawingLabel": "Desenho",
+  "drawingInfo": "Modifique o mapeamento de tipo do tipo CAD de desenho para o tipo 3DEXPERIENCE",
+  "virtualComponentLabel": "Componente virtual",
+  "virtualComponentInfo": "Modificar o mapeamento de tipos para o tipo CAD do componente virtual para o tipo 3DEXPERIENCE",
+  "internalComponentLabel": "Componente interno",
+  "internalComponentInfo": "Modificar o mapeamento de tipos para o tipo CAD do componente interno para o tipo 3DEXPERIENCE",
+  "internalAssemblyLabel": "Montagem interna",
+  "internalAssemblyInfo": "Modifique o mapeamento de tipo do tipo CAD de montagem interna para o tipo 3DEXPERIENCE"
+}

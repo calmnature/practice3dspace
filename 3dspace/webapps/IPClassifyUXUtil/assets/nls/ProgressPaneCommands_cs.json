@@ -1,0 +1,14 @@
+{
+  "Cancel": "Zrušit",
+  "PROGRESS": "Průběh",
+  "Pending": "Čeká na vyřízení",
+  "Completed": "Dokončeno",
+  "Failed": "Nezdařilo se",
+  "PartiallyFailed": "Částečně se nezdařilo",
+  "Cancelled": "Zrušeno",
+  "Ending": "Bezpečné zastavení",
+  "CancelAll": "Zrušit vše",
+  "inProgress": "Probíhá",
+  "loadingText": "Probíhá načítání...",
+  "searching": "Hledání v kořenových záložkách"
+}

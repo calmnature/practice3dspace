@@ -1,0 +1,9 @@
+m|VENMathjs\VENMathjs2.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25344|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\VENMathjs2\VENMathjs2.js|1765404021|508
+s|VENMathjs\VENMathjs2.mweb\src\VENMathjs2.js|1764802000|1403
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

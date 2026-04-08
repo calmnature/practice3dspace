@@ -1,0 +1,10 @@
+m|DELWebViewerBase\DELWebViewerEvents.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26052|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWebViewerEvents\DELWebViewerEvents.js|1771639763|3789
+s|DELWebViewerBase\DELWebViewerEvents.mweb\src\Event.js|1677837239|5072
+u|DELWebViewerBase\DELWebViewerEvents.mweb\src\EventCollection.js|1769781211|6743
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

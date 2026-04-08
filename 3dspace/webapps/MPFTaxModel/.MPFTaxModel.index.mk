@@ -1,0 +1,15 @@
+m|MPFModels\MPFTaxModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFTaxModel\MPFTaxModel.js|1760176845|1996
+s|MPFModels\MPFTaxModel.mweb\src\MPFTaxAreaCollection.js|1760133131|1434
+u|MPFModels\MPFTaxModel.mweb\src\MPFTaxAreaDataProxy.js|1760133131|794
+u|MPFModels\MPFTaxModel.mweb\src\MPFTaxAreaModel.js|1760133131|864
+u|MPFModels\MPFTaxModel.mweb\src\MPFTaxModel.js|1760133131|0
+u|MPFModels\MPFTaxModel.mweb\src\TaxEstimationDataProxy.js|1760133131|836
+u|MPFModels\MPFTaxModel.mweb\src\TaxEstimationFactory.js|1760133132|782
+u|MPFModels\MPFTaxModel.mweb\src\TaxEstimationModel.js|1760133132|950
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

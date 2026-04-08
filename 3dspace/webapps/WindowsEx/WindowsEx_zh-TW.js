@@ -1,0 +1,1 @@
+define("DS/WindowsEx/WindowsEx_zh-TW",{});define("DS/WindowsEx/assets/nls/translation",{next:"下一個",previous:"上一個",validate:"驗證",cancel:"取消"});

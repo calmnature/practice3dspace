@@ -1,0 +1,182 @@
+{
+    "version": "1.0",
+    "settings": [
+        {
+            "id": "ECADUPSPCBReferenceDesignator",
+            "uitype": "textbox",
+            "label": "ECADUPSPCBReferenceDesignatorLabel",
+            "info": "ECADUPSPCBReferenceDesignatorInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-PCBReferenceDesignator",
+            "groupName": "ProductStructureGroupLabel"
+        },
+        {
+            "id": "ECADUPSFindNumberMode",
+            "uitype": "combobox",
+            "label": "ECADUPSFindNumberModeLabel",
+            "info": "ECADUPSFindNumberModeInfo",
+            "range": [
+                "OFF",
+                "ECAD",
+                "MCAD"
+            ],
+            "rangelabel": [
+                "fn_Off",
+                "fn_driven_by_ECAD",
+                "fn_driven_by_MCAD"
+            ],
+            "mode": "basic",
+            "attribute": "ECADUPS-FindNumberMode",
+            "groupName": "ProductStructureGroupLabel"
+        },
+        {
+            "id": "ECADUPSECADFindNumberAttribute",
+            "uitype": "textbox",
+            "label": "ECADUPSECADFindNumberAttributeLabel",
+            "info": "ECADUPSECADFindNumberAttributeInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-ECADFindNumberAttribute",
+            "groupName": "ProductStructureGroupLabel"
+        },
+        {
+            "id": "ECADUPSPackageNameProperty",
+            "uitype": "textbox",
+            "label": "ECADUPSPackageNamePropertyLabel",
+            "info": "ECADUPSPackageNamePropertyInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-PackageNameProperty",
+            "groupName": "SaveGroupLabel"
+        },
+        {
+            "id": "ECADUPSPackageDescriptionProperty",
+            "uitype": "textbox",
+            "label": "ECADUPSPackageDescriptionPropertyLabel",
+            "info": "ECADUPSPackageDescriptionPropertyInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-PackageDescriptionProperty",
+            "groupName": "SaveGroupLabel"
+        },
+        {
+            "id": "CadenceAllegroUPSCheckoutFolderNaming",
+            "uitype": "combobox",
+            "label": "CadenceAllegroUPSCheckoutFolderNamingLabel",
+            "info": "CadenceAllegroUPSCheckoutFolderNamingInfo",
+            "range": [
+                "NAME",
+                "TITLE",
+                "NAME_TITLE"
+            ],
+            "rangelabel": [
+                "Folder_Name",
+                "Folder_Title",
+                "Folder_Name_Title"
+            ],
+            "mode": "basic",
+            "attribute": "ECADUPS-CheckoutFolderNaming",
+            "groupName": "OpenGroupLabel"
+        },
+        {
+            "id": "ECADUPSOrCADUseCIS",
+            "uitype": "switch",
+            "label": "ECADUPSOrCADUseCISLabel",
+            "info": "ECADUPSOrCADUseCISInfo",
+            "mode": "basic",
+            "attribute": "CadenceAllegroUPS-OrCADUseCIS",
+            "groupName": "OrCADCaptureLabel"
+        },
+        {
+            "id": "ECADUPSUseClassification",
+            "uitype": "switch",
+            "label": "ECADUPSUseClassificationLabel",
+            "info": "ECADUPSUseClassificationInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-UseClassification",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "ECADUPSElectronicLibrary",
+            "uitype": "textbox",
+            "label": "ECADUPSElectronicLibraryLabel",
+            "info": "ECADUPSElectronicLibraryInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-ElectronicLibrary",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "ECADClassificationPathDefinitionProperty",
+            "uitype": "textbox",
+            "label": "ECADClassificationPathDefinitionPropertyLabel",
+            "info": "ECADClassificationPathDefinitionPropertyInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-ClassificationPathDefinitionProperty",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "CadenceAllegroUPSOrCADECADCategories",
+            "uitype": "multilineTextbox",
+            "label": "CadenceAllegroUPSOrCADECADCategoriesLabel",
+            "info": "CadenceAllegroUPSOrCADECADCategoriesInfo",
+            "mode": "basic",
+            "nbRows": "10",
+            "attribute": "CadenceAllegroUPS-OrCADECADCategories",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "CadenceAllegroUPSOrCADEnterpriseItemNumberProperty",
+            "uitype": "textbox",
+            "label": "CadenceAllegroUPSOrCADEnterpriseItemNumberPropertyLabel",
+            "info": "CadenceAllegroUPSOrCADEnterpriseItemNumberPropertyInfo",
+            "mode": "basic",
+            "attribute": "CadenceAllegroUPS-OrCADEnterpriseItemNumberProperty",
+            "groupName": "EnterpriseItemNumberLabel"
+        },
+        {
+            "id": "ECADUPSSettingsResource",
+            "uitype": "fileupload",
+            "label": "ECADUPSSettingsResourceLabel",
+            "info": "ECADUPSSettingsResourceInfo",
+            "btnUploadLabel": "ECADUPSSettingsResourceUploadLabel",
+            "btnCurrentLabel": "ECADUPSSettingsResourceCurrentLabel",
+            "targetUpload": "resourcefile",
+            "targetName": "CadenceAllegro-Settings",
+            "validExtns": [
+                "zip"
+            ],
+            "mode": "advanced",
+            "className": "com.dassault_systemes.adminsetting.connector.cadence.CadenceAllegroSettingsResource",
+            "groupName": "ECADUPSSettingsGroupLabel"
+        },
+        {
+            "id": "ECADUPSScriptsResource",
+            "uitype": "fileupload",
+            "label": "ECADUPSScriptsResourceLabel",
+            "info": "ECADUPSScriptsResourceInfo",
+            "btnUploadLabel": "ECADUPSScriptsResourceUploadLabel",
+            "btnCurrentLabel": "ECADUPSScriptsResourceCurrentLabel",
+            "targetUpload": "resourcefile",
+            "targetName": "CadenceAllegro-ManufacturingScripts",
+            "validExtns": [
+                "zip"
+            ],
+            "mode": "advanced",
+            "className": "com.dassault_systemes.adminsetting.connector.cadence.CadenceAllegroScriptsResource",
+            "groupName": "ECADUPSSettingsGroupLabel"
+        },
+        {
+            "id": "ECADUPSComponentDBResource",
+            "uitype": "fileupload",
+            "label": "ECADUPSComponentDBResourceLabel",
+            "info": "ECADUPSComponentDBResourceInfo",
+            "btnUploadLabel": "ECADUPSComponentDBResourceUploadLabel",
+            "btnCurrentLabel": "ECADUPSComponentDBResourceCurrentLabel",
+            "targetUpload": "resourcefile",
+            "targetName": "CadenceAllegro-ComponentDB",
+            "validExtns": [
+                "zip"
+            ],
+            "mode": "advanced",
+            "className": "com.dassault_systemes.adminsetting.connector.cadence.CadenceAllegroCompDbResource",
+            "groupName": "ECADUPSSettingsGroupLabel"
+        }
+    ]
+}

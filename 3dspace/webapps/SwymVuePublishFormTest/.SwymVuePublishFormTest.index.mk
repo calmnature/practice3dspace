@@ -1,0 +1,16 @@
+m|SwymVuePublishForm\SwymVuePublishFormTest.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.1.25340|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SwymVuePublishFormTest\Reset.css|1764990706|2608
+s|SwymVuePublishForm\SwymVuePublishFormTest.mweb\src\Reset.css|1764971952|7695
+t|win_b64\webapps\SwymVuePublishFormTest\Styles.css|1764990706|2012
+s|SwymVuePublishForm\SwymVuePublishFormTest.mweb\src\Styles.css|1764971952|2392
+t|win_b64\webapps\SwymVuePublishFormTest\SwymVuePublishFormTest.html|1764990706|1061
+s|SwymVuePublishForm\SwymVuePublishFormTest.mweb\src\SwymVuePublishFormTest.html|1764971952|1061
+t|win_b64\webapps\SwymVuePublishFormTest\SwymVuePublishFormTest.js|1764990707|2882
+s|SwymVuePublishForm\SwymVuePublishFormTest.mweb\src\SwymVuePublishFormTest.js|1764971952|6917
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

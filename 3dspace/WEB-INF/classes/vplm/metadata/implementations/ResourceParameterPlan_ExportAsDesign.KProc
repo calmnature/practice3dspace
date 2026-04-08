@@ -1,0 +1,15 @@
+#Prog ResourceParameterPlan_ExportAsDesign (iPLMIDSet :  #In PLMIDSet,oPLMIDSet :  #Out PLMIDSet) : VoidType
+  {
+
+let PLMIDSetParamPlan (PLMIDSet)
+let PLMIDSetParamPlanRow (PLMIDSet)
+  
+PLMIDSetParamPlan = Restrict(iPLMIDSet, "DELResourceParameterPlan/DELResourceParameterPlanAbstract")
+
+/* Retrieves parameter plans and their parameters */
+PLMIDSetParamPlanRow = ExecuteJavaProcedure("com.dassault_systemes.platform.model.process.procedures.ProcedureCalls_GetParametersFromRscParamPlans",PLMIDSetParamPlan)
+
+oPLMIDSet = iPLMIDSet + PLMIDSetParamPlanRow
+  
+}
+

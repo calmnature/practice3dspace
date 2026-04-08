@@ -1,0 +1,1 @@
+define("DS/SMAMpwControls/SMAMpwControls_zh-TW",{});define("DS/SMAMpwControls/assets/nls/SMAMpwLegend",{frameSelectorPlaceHolder:"選擇畫格...",scaleFactor:"變形縮放",playOnlyTooltip:"將動畫鎖定至目前的所選範圍",min:"最小：",max:"最大："});define("DS/SMAMpwControls/assets/nls/SMAMpwFrameSelector",{frameSelectorPlaceHolder:"Select a frame...",playOnlyTooltip:"Lock Animation to the current selection"});

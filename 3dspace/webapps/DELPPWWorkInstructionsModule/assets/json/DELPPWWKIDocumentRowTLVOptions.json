@@ -1,0 +1,177 @@
+{
+    "DELPPWWKIDocumentRow": {
+        "columnConfig": {
+            "Columns": {
+                "Column": [
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Title",
+                        "displayType": "NonEditable",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Name",
+                        "displayType": "NonEditable",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Revision",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Description",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_MaturityState",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Created",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Modified",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Policy",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_Owner",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    },
+                    {
+                        "dicoType": "DCPDCCRPPDocumentRow",
+                        "dataIndex": "V_CollabSpace",
+                        "displayType": "NonEditable",
+                        "minWidth": "100",
+                        "visibleFlag": false
+                    }
+                ]
+            }
+        },
+        "dataGridViewOptions": {
+            "showRowIndexFlag": true,
+            "showSelectionCheckBoxesFlag": "OnOver",
+            "enableDragAndDrop": true,
+            "showTagger": false,
+            "isEditable": false
+        },
+        "toolbarOptions": {
+            "entries": [
+                {
+                    "id": "Upload",
+                    "dataElements": {
+                        "typeRepresentation": "functionIcon",
+						"tooltip": {
+							"title": "DELPPWWKIDocumentManagementUI.Tooltip.UploadDocument.Title",
+							"shortHelp": "DELPPWWKIDocumentManagementUI.Tooltip.UploadDocument.ShortHelp"
+						},
+                        "icon": {
+                            "iconName": "upload",
+                            "fontIconFamily": 1
+                        },
+                        "position": "far",
+                        "category": "upload"
+                    }
+                },
+                {
+                    "id": "Plus",
+                    "dataElements": {
+                        "typeRepresentation": "functionIcon",
+						"tooltip": {
+							"title": "DELPPWWKIDocumentManagementUI.Tooltip.AddExistingDocument.Title",
+							"shortHelp": "DELPPWWKIDocumentManagementUI.Tooltip.AddExistingDocument.ShortHelp"
+						},
+                        "icon": {
+                            "iconName": "plus",
+                            "fontIconFamily": 1
+                        },
+                        "position": "far",
+                        "category": "add"
+                    }
+                },
+                {
+                    "id": "Remove",
+                    "dataElements": {
+                        "typeRepresentation": "functionIcon",
+						"tooltip": {
+							"title": "DELPPWWKIDocumentManagementUI.Tooltip.DeleteDocument.Title",
+							"shortHelp": "DELPPWWKIDocumentManagementUI.Tooltip.DeleteDocument.ShortHelp"
+						},
+                        "icon": {
+                            "iconName": "remove",
+                            "fontIconFamily": 1
+                        },
+                        "position": "far",
+                        "category": "remove",
+                        "disabled": true
+                    }
+                },
+                {
+                    "id": "Download",
+                    "dataElements": {
+                        "typeRepresentation": "functionIcon",
+                        "tooltip": {
+                            "title": "DELPPWWKIDocumentManagementUI.Tooltip.DownloadDocument.Title",
+                            "shortHelp": "DELPPWWKIDocumentManagementUI.Tooltip.DownloadDocument.ShortHelp"
+                        },
+                        "icon": {
+                            "iconName": "download",
+                            "fontIconFamily": 1
+                        },
+                        "position": "far",
+                        "category": "download",
+                        "disabled": true
+                    }
+                }
+            ]
+        },
+        "contextualMenuOptions": {
+            "entries": [
+                {
+                    "id": "Download",
+                    "type": "PushItem",
+                    "title": "Download",
+                    "icon": {
+                        "iconName": "download",
+                        "fontIconFamily": 1
+                    }
+                },
+                {
+                    "id": "Remove",
+                    "type": "PushItem",
+                    "title": "Remove",
+                    "icon": {
+                        "iconName": "remove",
+                        "fontIconFamily": 1
+                    }
+                }
+            ]
+        }
+    }
+}

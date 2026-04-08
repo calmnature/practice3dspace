@@ -1,0 +1,9 @@
+m|MPFCore\MPFRequireConfig.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26038|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFRequireConfig\MPFRequireConfig.js|1770442903|1053
+s|MPFCore\MPFRequireConfig.mweb\src\RequireConfig.js|1770414940|2411
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

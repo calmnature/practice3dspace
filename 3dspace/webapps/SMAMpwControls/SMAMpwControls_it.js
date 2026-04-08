@@ -1,0 +1,1 @@
+define("DS/SMAMpwControls/SMAMpwControls_it",{});define("DS/SMAMpwControls/assets/nls/SMAMpwFrameSelector",{frameSelectorPlaceHolder:"Selezionare una cornice...",playOnlyTooltip:"Blocca l'animazione alla selezione corrente"});define("DS/SMAMpwControls/assets/nls/SMAMpwLegend",{scaleFactor:"Scala di deformazione",min:"Min:",max:"Max:"});

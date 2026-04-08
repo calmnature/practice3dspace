@@ -1,0 +1,725 @@
+{
+  "resourceDependencies": [
+    {
+      "alias": null,
+      "dependencyId": "dp-3dspace-000000.3DSpace",
+      "projectId": "dp-3dspace-000000",
+      "resourceId": "3DSpace",
+      "@class": "com.exalead.apollo.resource.ResourceDependency"
+    },
+    {
+      "alias": "enovia_security",
+      "dependencyId": null,
+      "projectId": "dp-3dspace-000000",
+      "resourceId": "enovia_security",
+      "@class": "com.exalead.apollo.resource.ResourceDependency"
+    },
+    {
+      "alias": null,
+      "dependencyId": "dp-3dspace-000000.3DSpaceTransformed",
+      "projectId": "dp-3dspace-000000",
+      "resourceId": "3DSpaceTransformed",
+      "@class": "com.exalead.apollo.resource.ResourceDependency"
+    }
+  ],
+  "resourceId": "b41708bc-38a3-41eb-8d9e-25e886ed81ad",
+  "resourceMetadata": [
+    {
+      "key": "visible",
+      "value": "true",
+      "@class": "com.exalead.apollo.resource.ResourceMetadata"
+    },
+    {
+      "key": "version",
+      "value": "5.4",
+      "@class": "com.exalead.apollo.resource.ResourceMetadata"
+    }
+  ],
+  "@class": "com.exalead.apollo.dataquery.DataQuery",
+  "name": "New data query",
+  "aliasTypes": [],
+  "maxMemory": null,
+  "metadata": [
+    {
+      "key": "id",
+      "value": "f695bbf2-e40e-4da4-b9f8-22cf1004ca54",
+      "@class": "com.exalead.apollo.dataquery.DataQueryMetadata"
+    },
+    {
+      "key": "name",
+      "value": "New data query",
+      "@class": "com.exalead.apollo.dataquery.DataQueryMetadata"
+    }
+  ],
+  "outputs": [
+    {
+      "description": "",
+      "enabled": true,
+      "inputName": "input",
+      "linkToGraphOutput": "out",
+      "name": "out",
+      "@class": "com.exalead.apollo.dataquery.ResultSet",
+      "aggregations": [],
+      "dimensions": [],
+      "fields": [
+        {
+          "expression": "input.MVSTRF[\"ds6w_58_label\"][0]",
+          "name": "label",
+          "synthetic": false,
+          "@class": "com.exalead.apollo.dataquery.Field"
+        }
+      ],
+      "filters": [],
+      "inferFieldsFromInput": null,
+      "primaryFields": [],
+      "resultSetPredicateTargetParameter": null,
+      "views": [
+        {
+          "aggregations": [],
+          "dimensions": [],
+          "fields": [],
+          "filters": [],
+          "ignoreFiltersFromDimensions": [],
+          "ignoreFiltersFromFields": [],
+          "labels": null,
+          "name": "SGITable",
+          "@class": "com.exalead.apollo.dataquery.TableView",
+          "computeCount": true,
+          "fieldInstances": [],
+          "fieldNames": [
+            "label"
+          ],
+          "filterableFieldNames": null,
+          "resultWindow": {
+            "limit": 10,
+            "offset": 0,
+            "stableResultOrder": true,
+            "@class": "com.exalead.apollo.dataquery.ResultWindow"
+          },
+          "sorters": [
+            {
+              "expression": "label",
+              "nullsLast": "true",
+              "orderAsc": "true",
+              "@class": "com.exalead.apollo.dataquery.ValueSorter"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": [],
+  "processingGraph": {
+    "description": null,
+    "graphInputs": [],
+    "graphOutputs": [
+      {
+        "linkTo": "83b575bb-781f-4398-9801-45d14206c5c3",
+        "name": "out",
+        "style": {
+          "coordinates": {
+            "x": 1210,
+            "y": 440,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.GraphOutput"
+      }
+    ],
+    "id": null,
+    "operators": [
+      {
+        "description": "",
+        "id": "c9b793e1-d35e-4278-920a-d102f6866aaf",
+        "style": {
+          "coordinates": {
+            "x": 110,
+            "y": 550,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Search",
+        "expression": "bookmarkRoot->project.name == $CollabSpaceName",
+        "indexUnit": {
+          "parameterName": null,
+          "value": "dp-3dspace-000000.3DSpace",
+          "@class": "com.exalead.apollo.dataquery.Constant"
+        },
+        "matchingAnnotation": null,
+        "output": {
+          "name": "3266a719-022c-443e-afde-857b90e64f42",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "scoringType": "TFIDF",
+        "variable": {
+          "itemClass": {
+            "parameterName": null,
+            "value": "er.bo.Workspace",
+            "@class": "com.exalead.apollo.dataquery.ItemClass"
+          },
+          "name": "bookmarkRoot",
+          "@class": "com.exalead.apollo.dataquery.SearchVariable"
+        }
+      },
+      {
+        "description": "",
+        "id": "9bd9316b-3328-4760-93d7-0a194c6dd949",
+        "style": {
+          "coordinates": {
+            "x": 0,
+            "y": 440,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Search",
+        "expression": "spaceObject = (Item.fromUri(uri: object.uri, indexUnit: $index3DSpace) AS Item<er.BusinessObject>);\r\n\r\nobject.MVSTRF[\"project\"][0]==$CollabSpaceName \r\nAND NOT (spaceObject->iov.`_inverted_accessbyname.pass`[\"no\"] || []).anyMatch(v => v IN @acl_list)\r\nAND NOT (spaceObject->dov.`_inverted_accessbyname.pass`[\"no\"] || []).anyMatch(v => v IN @acl_list)\r\nAND NOT (spaceObject->iov.`_inverted_accessbyname.pass`[\"maybeNo\"] || []).anyMatch(v => v IN @acl_list)\r\nAND NOT (spaceObject->dov.`_inverted_accessbyname.pass`[\"maybeNo\"] || []).anyMatch(v => v IN @acl_list)\r\nAND\r\n(\r\n  (spaceObject->iov.`_inverted_accessbyname.pass`[\"yes\"] || []).anyMatch(v => v IN @acl_list) \r\n  OR\r\n  (spaceObject->dov.`_inverted_accessbyname.pass`[\"yes\"] || []).anyMatch(v => v IN @acl_list)\r\n)\r\nAND\r\n@vaultedObjectTypes.containsKey(object.MVSTRF[\"type\"][0])\r\nAND\r\nNOT spaceObject->policy.hidden",
+        "indexUnit": {
+          "parameterName": null,
+          "value": "dp-3dspace-000000.3DSpaceTransformed",
+          "@class": "com.exalead.apollo.dataquery.Constant"
+        },
+        "matchingAnnotation": null,
+        "output": {
+          "name": "22211f37-91ce-47fb-961b-3188b010086f",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "scoringType": "TFIDF",
+        "variable": {
+          "itemClass": {
+            "parameterName": null,
+            "value": "pivot.PLMReferenceTransformed",
+            "@class": "com.exalead.apollo.dataquery.ItemClass"
+          },
+          "name": "object",
+          "@class": "com.exalead.apollo.dataquery.SearchVariable"
+        }
+      },
+      {
+        "description": "",
+        "id": "8cae95e6-0e8b-422a-accf-79ba2b880a13",
+        "style": {
+          "coordinates": {
+            "x": 110,
+            "y": 330,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.GraphCall",
+        "graph": {
+          "@class": "com.exalead.apollo.dataquery.ReferenceGraphContainer",
+          "name": "enovia_security",
+          "processingGraphInterface": null
+        },
+        "inputBindings": [],
+        "outputBindings": [
+          {
+            "name": "cfd63ee9-ecf1-45c3-87fc-f8134f78bdb3",
+            "@class": "com.exalead.apollo.dataquery.OutputBinding",
+            "graphOutputName": "out",
+            "type": null
+          }
+        ],
+        "parameterBindings": [
+          {
+            "graphParameterName": "indexUnit",
+            "@class": "com.exalead.apollo.dataquery.IndexUnitParameterBinding",
+            "indexUnit": {
+              "parameterName": null,
+              "value": "dp-3dspace-000000.3DSpace",
+              "@class": "com.exalead.apollo.dataquery.Constant"
+            }
+          },
+          {
+            "graphParameterName": "login",
+            "@class": "com.exalead.apollo.dataquery.ParameterBinding",
+            "parameterValue": "User.login()"
+          },
+          {
+            "graphParameterName": "loginRole",
+            "@class": "com.exalead.apollo.dataquery.ParameterBinding",
+            "parameterValue": "\"\""
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "767a5ecc-0278-4ced-8a20-727dc3469c39",
+        "style": {
+          "coordinates": {
+            "x": 330,
+            "y": 330,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.ToVariable",
+        "input": {
+          "linkTo": "cfd63ee9-ecf1-45c3-87fc-f8134f78bdb3",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "variableName": "acl_list"
+      },
+      {
+        "description": "",
+        "id": "2458abfc-141b-4149-bc1c-b095c3997e73",
+        "style": {
+          "coordinates": {
+            "x": 110,
+            "y": 220,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Search",
+        "expression": "connectionType.name == \"Vaulted Objects\"",
+        "indexUnit": {
+          "parameterName": null,
+          "value": "dp-3dspace-000000.3DSpace",
+          "@class": "com.exalead.apollo.dataquery.Constant"
+        },
+        "matchingAnnotation": null,
+        "output": {
+          "name": "0bc1f811-31d7-45d2-8cd3-71103143bc1a",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "scoringType": "TFIDF",
+        "variable": {
+          "itemClass": {
+            "parameterName": null,
+            "value": "er.ConnectionType",
+            "@class": "com.exalead.apollo.dataquery.ItemClass"
+          },
+          "name": "connectionType",
+          "@class": "com.exalead.apollo.dataquery.SearchVariable"
+        }
+      },
+      {
+        "description": "",
+        "id": "5d6344e1-e92b-4bb1-bf27-3af78cd159d6",
+        "style": {
+          "coordinates": {
+            "x": 1210,
+            "y": 220,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.ToVariable",
+        "input": {
+          "linkTo": "4eb9bb9b-951d-4ebe-9321-dbd04882cbae",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "variableName": "vaultedObjectTypes"
+      },
+      {
+        "description": "",
+        "id": "54366491-822b-45b6-b8ea-93d28c6cd668",
+        "style": {
+          "coordinates": {
+            "x": 330,
+            "y": 220,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.ToStream",
+        "expression": "input->totype.values",
+        "input": {
+          "linkTo": "0bc1f811-31d7-45d2-8cd3-71103143bc1a",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "output": {
+          "name": "76fcd1ce-2c1d-4d49-aeed-85ad1809d4e1",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "outputExpression": ""
+      },
+      {
+        "description": "",
+        "id": "eef3e5c9-2467-4795-b09a-870637001c41",
+        "style": {
+          "coordinates": {
+            "x": 550,
+            "y": 220,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.ToStream",
+        "expression": "input.derivative.keys",
+        "input": {
+          "linkTo": "76fcd1ce-2c1d-4d49-aeed-85ad1809d4e1",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "output": {
+          "name": "3c35f74b-816f-40e3-8231-76b826135ce5",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "outputExpression": ""
+      },
+      {
+        "description": "",
+        "id": "85b751b3-ffc9-42e6-9e5c-a03e6d23664b",
+        "style": {
+          "coordinates": {
+            "x": 550,
+            "y": 110,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.MapOp",
+        "expression": "input.name",
+        "input": {
+          "linkTo": "76fcd1ce-2c1d-4d49-aeed-85ad1809d4e1",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "output": {
+          "name": "90e1ef81-4f01-4788-834e-04d59f150b9f",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "processingGraph": null,
+        "state": null
+      },
+      {
+        "description": "",
+        "id": "7078e730-0b30-41e8-8503-322b37d0e8b9",
+        "style": {
+          "coordinates": {
+            "x": 770,
+            "y": 220,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Union",
+        "inputs": [
+          {
+            "linkTo": "90e1ef81-4f01-4788-834e-04d59f150b9f",
+            "name": "input",
+            "@class": "com.exalead.apollo.dataquery.OperatorInput"
+          },
+          {
+            "linkTo": "3c35f74b-816f-40e3-8231-76b826135ce5",
+            "name": "input1",
+            "@class": "com.exalead.apollo.dataquery.OperatorInput"
+          }
+        ],
+        "output": {
+          "name": "4511c7e5-98fe-422f-9bcf-6d712dc12509",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        }
+      },
+      {
+        "description": "",
+        "id": "27c46f99-72a5-4578-9939-9456ef5f5896",
+        "style": {
+          "coordinates": {
+            "x": 990,
+            "y": 220,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Aggregate",
+        "aggregatorContainer": {
+          "@class": "com.exalead.apollo.dataquery.SingleAggregatorContainer",
+          "aggregator": {
+            "id": "",
+            "name": "",
+            "@class": "com.exalead.apollo.dataquery.Aggregator",
+            "function": {
+              "filterExpression": "",
+              "@class": "com.exalead.apollo.dataquery.ToMapAggregationFunction",
+              "keyExpression": "input",
+              "multiValued": false,
+              "valueExpression": "input"
+            }
+          }
+        },
+        "input": {
+          "linkTo": "4511c7e5-98fe-422f-9bcf-6d712dc12509",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "output": {
+          "name": "4eb9bb9b-951d-4ebe-9321-dbd04882cbae",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        }
+      },
+      {
+        "description": "",
+        "id": "cc569a39-5681-4dd4-8ff5-5d233f5e2083",
+        "style": {
+          "coordinates": {
+            "x": 330,
+            "y": 550,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.GraphTraverser",
+        "context": {
+          "globalVariables": [],
+          "nodeVariables": [],
+          "pathVariables": [
+            {
+              "defaultValue": "[]",
+              "name": "path",
+              "type": "List<Tuple<name:String>>",
+              "@class": "com.exalead.apollo.dataquery.VariableDefinition"
+            }
+          ],
+          "@class": "com.exalead.apollo.dataquery.GraphProcessingContext"
+        },
+        "finalEmitExpression": "",
+        "initialProcessor": "bookmarkRoot",
+        "input": {
+          "linkTo": "3266a719-022c-443e-afde-857b90e64f42",
+          "name": "bookmarkRoot",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "maxDepth": 512,
+        "output": {
+          "name": "c56ee3e0-0ea6-4a00-b574-85234e526053",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "processors": [
+          {
+            "actions": {
+              "contextUpdates": [
+                {
+                  "expression": "[...path,{name:bookmarkRoot.physicalid}]",
+                  "name": "path",
+                  "@class": "com.exalead.apollo.dataquery.VariableUpdate"
+                }
+              ],
+              "emitExpression": "",
+              "emitPredicate": "",
+              "@class": "com.exalead.apollo.dataquery.ProcessorActions"
+            },
+            "actionsAfterTransition": null,
+            "name": "bookmarkRoot",
+            "stopNodesTraversal": "",
+            "transition": {
+              "@class": "com.exalead.apollo.dataquery.ExplicitNodesTransition",
+              "to": "bookmarkRel",
+              "neighborsExpression": "bookmarkRoot->from.filter( rel => rel IS Item<er.co.`Data Vaults`> OR rel IS Item<er.co.`Vaulted Objects`>)"
+            },
+            "@class": "com.exalead.apollo.dataquery.NodeProcessor"
+          },
+          {
+            "actions": {
+              "contextUpdates": [],
+              "emitExpression": "",
+              "emitPredicate": "",
+              "@class": "com.exalead.apollo.dataquery.ProcessorActions"
+            },
+            "actionsAfterTransition": null,
+            "name": "bookmarkRel",
+            "stopNodesTraversal": "",
+            "transition": {
+              "@class": "com.exalead.apollo.dataquery.ConditionalTransition",
+              "fallbackTransition": {
+                "@class": "com.exalead.apollo.dataquery.ExplicitNodesTransition",
+                "to": "object",
+                "neighborsExpression": "bookmarkRel->to"
+              },
+              "switchPredicate": "bookmarkRel IS Item<er.co.`Data Vaults`> OR\r\nbookmarkRel IS Item<er.co.`Sub Vaults`>",
+              "transition": {
+                "@class": "com.exalead.apollo.dataquery.ExplicitNodesTransition",
+                "to": "bookmarkFolder",
+                "neighborsExpression": "bookmarkRel->to"
+              }
+            },
+            "@class": "com.exalead.apollo.dataquery.NodeProcessor"
+          },
+          {
+            "actions": {
+              "contextUpdates": [
+                {
+                  "expression": "[...path,{name:bookmarkFolder.physicalid}]",
+                  "name": "path",
+                  "@class": "com.exalead.apollo.dataquery.VariableUpdate"
+                }
+              ],
+              "emitExpression": "",
+              "emitPredicate": "",
+              "@class": "com.exalead.apollo.dataquery.ProcessorActions"
+            },
+            "actionsAfterTransition": null,
+            "name": "bookmarkFolder",
+            "stopNodesTraversal": "",
+            "transition": {
+              "@class": "com.exalead.apollo.dataquery.ExplicitNodesTransition",
+              "to": "bookmarkRel",
+              "neighborsExpression": "bookmarkFolder->from.filter( rel => rel IS Item<er.co.`Data Vaults`> OR rel IS Item<er.co.`Vaulted Objects`> OR rel IS Item<er.co.`Sub Vaults`>)"
+            },
+            "@class": "com.exalead.apollo.dataquery.NodeProcessor"
+          },
+          {
+            "actions": {
+              "contextUpdates": [],
+              "emitExpression": "{\r\n    object : object,\r\n    path : path\r\n}",
+              "emitPredicate": "true /*NOT (object->iov.`_inverted_accessbyname.pass`[\"no\"] || []).anyMatch(v => v IN @acl_list)\r\nAND NOT (object->dov.`_inverted_accessbyname.pass`[\"no\"] || []).anyMatch(v => v IN @acl_list)\r\nAND NOT (object->iov.`_inverted_accessbyname.pass`[\"maybeNo\"] || []).anyMatch(v => v IN @acl_list)\r\nAND NOT (object->dov.`_inverted_accessbyname.pass`[\"maybeNo\"] || []).anyMatch(v => v IN @acl_list)\r\nAND\r\n(\r\n  (object->iov.`_inverted_accessbyname.pass`[\"yes\"] || []).anyMatch(v => v IN @acl_list) \r\n  OR\r\n  (object->dov.`_inverted_accessbyname.pass`[\"yes\"] || []).anyMatch(v => v IN @acl_list)\r\n)*/",
+              "@class": "com.exalead.apollo.dataquery.ProcessorActions"
+            },
+            "actionsAfterTransition": null,
+            "name": "object",
+            "stopNodesTraversal": "",
+            "transition": null,
+            "@class": "com.exalead.apollo.dataquery.NodeProcessor"
+          }
+        ],
+        "traversalMode": "DFS"
+      },
+      {
+        "description": "",
+        "id": "0b16579b-97d0-4f4d-bf31-4d349094025a",
+        "style": {
+          "coordinates": {
+            "x": 550,
+            "y": 440,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.BinaryJoin",
+        "aggregate": false,
+        "expression": "object.uri == input.object.uri",
+        "leftInput": {
+          "linkTo": "cffeec33-0e2c-416d-bcf0-ccc1e3b38ab0",
+          "name": "object",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "output": {
+          "name": "75f66f92-f674-4888-a127-4a771cfab787",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "outputExpression": "object",
+        "rightInput": {
+          "linkTo": "c56ee3e0-0ea6-4a00-b574-85234e526053",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "type": "LEFT_EXCLUDING"
+      },
+      {
+        "description": "",
+        "id": "492ac146-e822-4b4b-9b09-41fca5319488",
+        "style": {
+          "coordinates": {
+            "x": 990,
+            "y": 440,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Limit",
+        "input": {
+          "linkTo": "702b45d4-c7fb-49a6-8588-fa2660aafcdd",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "nbElementsToKeep": "$limit",
+        "output": {
+          "name": "83b575bb-781f-4398-9801-45d14206c5c3",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "skip": "$skip"
+      },
+      {
+        "description": "SGISort",
+        "id": "8cffd492-026b-46ce-b87b-3668b00a1e4e",
+        "style": {
+          "coordinates": {
+            "x": 770,
+            "y": 440,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Sort",
+        "input": {
+          "linkTo": "75f66f92-f674-4888-a127-4a771cfab787",
+          "name": "input",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "output": {
+          "name": "702b45d4-c7fb-49a6-8588-fa2660aafcdd",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        },
+        "sorters": [
+          {
+            "expression": "input.MVSTRF[\"ds6w_58_label\"]",
+            "nullsLast": "true",
+            "orderAsc": "true",
+            "@class": "com.exalead.apollo.dataquery.ValueSorter"
+          }
+        ],
+        "stableResultOrder": false
+      },
+      {
+        "description": "SGIFilter",
+        "id": "a9ceef11-c2a5-4e48-b673-b3cea25101b8",
+        "style": {
+          "coordinates": {
+            "x": 220,
+            "y": 440,
+            "@class": "com.exalead.apollo.dataquery.Point"
+          },
+          "@class": "com.exalead.apollo.dataquery.Style"
+        },
+        "@class": "com.exalead.apollo.dataquery.Filter",
+        "expression": "\r\nobject.MVSTRF[\"ds6w_58_label\"][0] == \"Boule\"",
+        "input": {
+          "linkTo": "22211f37-91ce-47fb-961b-3188b010086f",
+          "name": "object",
+          "@class": "com.exalead.apollo.dataquery.OperatorInput"
+        },
+        "output": {
+          "name": "cffeec33-0e2c-416d-bcf0-ccc1e3b38ab0",
+          "@class": "com.exalead.apollo.dataquery.OperatorOutput"
+        }
+      }
+    ],
+    "parameters": [
+      {
+        "name": "CollabSpaceName",
+        "@class": "com.exalead.apollo.dataquery.Parameter",
+        "defaultValue": "\"Common Space\"",
+        "returnType": "String",
+        "variableDefinitions": []
+      },
+      {
+        "name": "limit",
+        "@class": "com.exalead.apollo.dataquery.Parameter",
+        "defaultValue": "50",
+        "returnType": "Integer",
+        "variableDefinitions": []
+      },
+      {
+        "name": "skip",
+        "@class": "com.exalead.apollo.dataquery.Parameter",
+        "defaultValue": "0",
+        "returnType": "Integer",
+        "variableDefinitions": []
+      },
+      {
+        "name": "index3DSpace",
+        "@class": "com.exalead.apollo.dataquery.IndexUnitParameter",
+        "defaultIndexUnit": "dp-3dspace-000000.3DSpace"
+      }
+    ],
+    "@class": "com.exalead.apollo.dataquery.ProcessingGraph"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cancel": "取消",
+  "customerSuccessPartner": "客户成功合作伙伴",
+  "edit": "编辑",
+  "errorPartnerSave": "无法保存合作伙伴",
+  "localPartner": "我们经认证的本地合作伙伴可在项目的每个阶段为您提供支持和专家指导，帮助您充分利用我们的产品。他们将在您购买后尽快与您联系。",
+  "next": "下一步",
+  "noLocalPartner": "我们目前没有经认证的本地合作伙伴可在项目的每个阶段为您提供支持和专家指导。在此期间，Dassault Systèmes 客户成功团队将为您服务，并在您购买后尽快与您联系。",
+  "selectForMe": "为我选择一个",
+  "selectAPartner": "请选择客户成功合作伙伴",
+  "severalLocalPartners": "请从以下经认证的本地合作伙伴中选择一家，在项目的每个阶段为您提供支持和专家指导。他们将在您购买后尽快与您联系。如果您已经与其中一家合作，敬请从以下列表中选择他们。",
+  "yourPartner": "您的合作伙伴",
+  "yourSelectedPartner": "您选择的合作伙伴"
+}

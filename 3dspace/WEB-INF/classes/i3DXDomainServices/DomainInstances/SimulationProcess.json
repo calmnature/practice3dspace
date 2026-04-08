@@ -1,0 +1,13 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "SimulationProcess",
+    "description": "Simulation engineering process related.",
+    "packages": [
+        "SLM",
+        "SLMDoc",
+        "SLMResources",
+        "SLMSimulationAbstract",
+        "TestCase",
+        "VV"
+    ]
+}

@@ -1,0 +1,9 @@
+<meta charset="UTF-8"/>
+CurrentTitle="Titolo corrente della simulazione: ";
+AliasAtGeneration="Alias della simulazione al momento della generazione: ";
+CaseName="Nome del caso: ";
+FromCase="- dal caso";
+ContentName="Nome contenuto: ";
+ActiveContents="Contenuti: ";
+
+

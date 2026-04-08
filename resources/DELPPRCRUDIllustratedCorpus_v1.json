@@ -1,0 +1,29 @@
+[
+    {
+        "ParsingVersion": "2.0",
+        "Corpus": [
+            {
+                "version": "1.0",
+                "ArchiCompatiableVersions": [
+                    "VERSION_4"
+                ],
+                "CorpusCompatibilities": [
+                    {
+                        "Corpus": "MBOM_CORPUS",
+                        "Versions": [
+                            "2.0"
+                        ]
+                    }
+                ],
+                "DeclarativeTypeResources": [
+                    "DELPPRCRUDBaseTypes.json",
+                    "DELPPRCRUDIllustratedBaseTypes.json",
+                    "DELPPRCRUDIllustratedRefTypes.json",
+                    "DELPPRCRUDIllustratedInstTypes.json",
+                    "DELPPRCRUDIllustratedConnTypes.json"
+                ],
+                "DeclarativeTypes": []
+            }
+        ]
+    }
+]

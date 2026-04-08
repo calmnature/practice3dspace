@@ -1,0 +1,12 @@
+m|DELWKOApp\DELWKOLinksModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOLinksModule\DELWKOLinksModule.js|1760176770|31789
+s|DELWKOApp\DELWKOLinksModule.mweb\src\DELWKOLinks.js|1705601507|16811
+u|DELWKOApp\DELWKOLinksModule.mweb\src\DELWKOLinksCloud.js|1755273937|16856
+u|DELWKOApp\DELWKOLinksModule.mweb\src\DELWKOLinksUI.js|1744996402|51937
+u|DELWKOApp\DELWKOLinksModule.mweb\src\DELWKOLinksUICloud.js|1759865990|53034
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+
+  <title>Space Hierarchy</title>
+
+  <meta name="author" content="Dassault Systèmes" />
+  <meta name="brand" content="CATIA" />
+  <meta name="description" content="CATIA Space Hierarchy" />
+  <meta name="debugMode" content="false" />
+
+  <script type="text/javascript" src="CATSpwSpaceHierarchy.js"></script>
+  <link rel="stylesheet" href="CATSpwSpaceHierarchy.css" type="text/css" />
+ 
+ <script>
+    (function(){
+      if(typeof widget !== 'undefined'){
+        let spaceHierarchyWidget = new SpaceHierarchyWidget( {'widget':widget} );
+      }
+    })();
+  </script>
+
+</head>
+<body>
+  <section class="search-section">
+    <section class="label-space-concept-root"></section>
+    <section class="label-space-concept-root-name"></section>
+    <section class="search-icon" title="Select Space Concept Root"></section>
+  </section>
+  <section class="dgv-container"></section>
+</body>
+</html>

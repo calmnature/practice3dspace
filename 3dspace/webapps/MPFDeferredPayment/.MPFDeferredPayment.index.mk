@@ -1,0 +1,12 @@
+m|MPFComponents\MPFDeferredPayment.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFDeferredPayment\MPFDeferredPayment.js|1760176820|11838
+s|MPFComponents\MPFDeferredPayment.mweb\src\DeferredPaymentNoticeHelper.js|1760133097|1513
+u|MPFComponents\MPFDeferredPayment.mweb\src\DeferredPaymentNotices.js|1760133097|13576
+u|MPFComponents\MPFDeferredPayment.mweb\src\DeferredPaymentNoticesFactory.js|1760133097|5474
+u|MPFComponents\MPFDeferredPayment.mweb\src\MPFDeferredPayment.js|1760133097|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

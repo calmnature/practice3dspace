@@ -1,0 +1,23 @@
+{
+  "document": "文件",
+  "videoOnly": "視訊",
+  "picture": "圖片",
+  "sound": "音訊",
+  "3d_model": "3D 模型",
+  "drawing": "工程圖",
+  "save": "儲存",
+  "cancel": "取消",
+  "errorMin": "您設定的值不能小於 ",
+  "errorMax": "最大尺寸",
+  "submitComplete": "更新成功",
+  "submitFailure": "無法傳送",
+  "help": "副檔名支援",
+  "mb": "{value}Mb",
+  "acceptAllFileExtensions": "接受所有檔案副檔名",
+  "disallowHighRiskFileExtensions": "不允許高風險檔案副檔名 (例如 .exe、.bat)。如需更多資訊，請參閱使用者協助。",
+  "permitOnlySupportedMediaTypes": "僅允許支援的媒體類型 (圖片/音訊/視訊/3D 模型/文件...)",
+  "forAllTypes": "適用於所有類型",
+  "restrictUploadFileBySize": "依類型限制上傳檔案大小：",
+  "fileExtensionSupport": "副檔名支援",
+  "maximumUploadFileSize": "上傳檔案大小上限"
+}

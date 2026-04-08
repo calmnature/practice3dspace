@@ -1,0 +1,40 @@
+{
+	"tenant_based_services": [
+		"3DSpace",
+		"3DSearch",
+		"6WTags"
+	],
+
+	"index_services": {
+		"select_bo": [
+			"physicalid",
+			"logicalid",
+			"majorid",
+			"ds6w:isLastRevision",
+			"ds6w:reserved",
+			"ds6w:reservedBy",
+			"ds6w:identifier",
+			"ds6w:label",
+			"ds6w:description",
+			"ds6w:type",
+			"ds6w:revision",
+			"ds6w:created",
+			"ds6w:modified",
+			"ds6w:status",
+			"ds6w:responsible"
+		],
+		"select_rel": [
+			"physicalid",
+			"ds6w:label",
+			"ds6w:description",
+			"ds6w:type",
+			"ds6w:modified",
+			"ds6w:reserved",
+			"ds6w:reservedBy"
+		]
+	},
+
+	"type_spaceRoot": "SPP_SpaceConceptRoot",
+	"type_space_concept_node": "SPP_SpaceConceptNode",
+	"type_design_ref": "SSM_DesignSpaceRef"
+}

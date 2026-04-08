@@ -1,0 +1,15 @@
+m|i3DX6WAccessUIServices\SixwDictionaryAccess.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26017|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SixwDictionaryAccess\SixwDictionaryAccess.js|1760176873|9969
+s|i3DX6WAccessUIServices\SixwDictionaryAccess.mweb\src\SixwDicoUtils.js|1753166725|15955
+t|win_b64\webapps\SixwDictionaryAccess\assets\SixwDicoSettings.json|1768640662|1303
+s|i3DX6WAccessUIServices\SixwDictionaryAccess.mweb\src\assets\SixwDicoSettings.json|1766129051|1303
+u|i3DX6WAccessUIServices\SixwDictionaryAccess.mweb\src\SixwDictionaryAccess3DSpace.js|1734523306|7023
+u|i3DX6WAccessUIServices\SixwDictionaryAccess.mweb\src\SixwDictionaryAccessAPI.js|1732118496|12893
+u|i3DX6WAccessUIServices\SixwDictionaryAccess.mweb\src\SixwDictionaryAccessRDF.js|1734524760|339
+u|i3DX6WAccessUIServices\SixwDictionaryAccess.mweb\src\SixwRequestUtils.js|1708506328|489
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

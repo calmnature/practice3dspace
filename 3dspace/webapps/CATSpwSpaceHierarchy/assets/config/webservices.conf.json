@@ -1,0 +1,8 @@
+{
+    "getSpaceHierarchy": "/resources/v1/modeler/spw/spaceHierarchy/",
+    "pnoCredential":"/resources/modeler/pno/person?current=true&select=preferredcredentials&select=collabspaces",
+    "getCSRFToken":"/resources/v1/application/E6WFoundation/CSRF",
+
+    "getSecurityContext": "/resources/pno/person/getsecuritycontext",
+    "getConfigurationSettings": "/resources/modeler/configuration/settingsServices/getConfigurationSettings"
+}

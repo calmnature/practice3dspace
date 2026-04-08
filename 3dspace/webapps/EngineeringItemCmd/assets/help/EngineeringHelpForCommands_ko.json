@@ -1,0 +1,8 @@
+{
+"SetThePartNumber.Title":"품번 설정",
+"SetThePartNumber.ShortHelp":"엔터프라이즈 파트의 품번 설정",
+"SetThePartNumber.LongHelp":"파트 번호를 설정할 제품을 하나 이상 선택합니다. 파트 번호는 특정 산업에서 사용되는 특정 파트 설계의 ID입니다. 그 목적은 해당 파트에 대한 참조를 단순화하는 것입니다. 파트 번호는 단일 회사 내 그리고 때에 따라 여러 기업 간 파트 설계를 명확하게 식별합니다.",
+"SetThePartNumber.WebHelp":"XengUserMap/xen-t-EINumber-setting.htm",
+"SetThePartNumber.WebHelp.ENOPSTR_AP":"PsteUserMap/shared-c-SettingEIN-Rules.htm",
+"SetThePartNumber.PanelHelp":"PsteUAPanelMap/shared-c-SettingEIN-Rules.htm"
+}

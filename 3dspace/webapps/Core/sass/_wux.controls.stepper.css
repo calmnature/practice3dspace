@@ -1,0 +1,26 @@
+/* Style Variables
+   =============== */
+.wux-controls-stepper {
+    --step-max-width: 280px;
+
+    --step-padding-left-horizontal: 14px;
+    --step-padding-left-vertical: 10px;
+    --step-padding-right: 10px;
+
+    --step-stepicon-size: 50px;
+
+    --step-body-margin-left: 24px;
+
+    --step-body-title-font-size: 12px;
+    --step-body-title-font-family: arial;
+    --step-body-title-font-weight: bold;
+
+    --step-body-description-font-size: 12px;
+    --step-body-description-font-family: arial;
+    --step-body-description-font-weight: normal;
+
+    --step-chevron-size: 38px; 
+    
+    --step-body-max-width-horizontal: calc(var(--step-max-width) - var(--step-padding-left-horizontal) - var(--step-stepicon-size) - var(--step-body-margin-left) - var(--step-padding-right));
+    --step-body-max-width-vertical  : calc(var(--step-max-width) - var(--step-padding-left-vertical) - var(--step-stepicon-size) - var(--step-body-margin-left) - var(--step-padding-right));
+}

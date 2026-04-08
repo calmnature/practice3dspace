@@ -1,0 +1,49 @@
+{
+    "dspos:AxisSystemReference": {
+        "isPublic":true,
+        "kindOf": "root",
+        "beType": "type_AxisSystemReference",
+        "classesType": "type_AxisSystemReference,type_ShellAxisSystemReference",
+        "patchCSRF":true,
+        "search":true,
+        "contentLinks": ["dspos:AxisSystemInstance"],
+        "extensionLinks": [],
+        "defaultMask": "dsmvpos:AxisSystemReferenceMask.Default",
+        "attributeMappingClass": "com.dassault_systemes.catia.xapps.dspos.V1.dictionaries.POSXAxisSystemReferenceAttributeDictionary",
+        "cestamp":true,
+        "customerAttribute":false,
+        "customizationSupport":true,
+        "patchChangeLog":true,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        }
+    },
+    "dspos:AxisSystemInstance": {
+        "isPublic":true,
+        "kindOf": "content",
+        "beType": "relationship_AxisSystemInstance",
+        "patchCSRF":true,
+        "extensionLinks": [],
+        "defaultMask": "dsmvpos:AxisSystemInstanceMask.Default",
+        "attributeMappingClass": "com.dassault_systemes.catia.xapps.dspos.V1.dictionaries.POSXAxisSystemInstanceAttributeDictionary",
+        "cestamp":true,
+        "patchChangeLog":true,
+        "customerAttribute":false,
+        "customizationSupport":true,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        }
+    },
+    "dspos:PositioningSpec": {
+        "isPublic":true,
+        "kindOf":"extension",
+        "beType": "virtual_PositioningSpec",
+        "rootLinks": ["dseng:MultiPositionsItem"],
+        "contentLinks": ["dseng:EngInstance"],
+        "defaultMask": "dsmvpos:PositioningSpec.Default"
+    }
+}

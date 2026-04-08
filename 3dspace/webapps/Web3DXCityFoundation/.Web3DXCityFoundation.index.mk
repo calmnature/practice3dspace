@@ -1,0 +1,17 @@
+m|Web3DXCityFoundation\Web3DXCityFoundation.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26029|3.2
+r|G:\R428\BSF\.
+t|Web3DXCityFoundation\Web3DXCityFoundation.mweb\LocalGenerated\win_b64\StringProvider.js|1769718039|855
+s|Web3DXCityFoundation\Web3DXCityFoundation.mweb\src\StringProvider.ts|1769713541|562
+t|win_b64\typings\Web3DXCityFoundation\StringProvider.d.ts|1769718039|212
+s|Web3DXCityFoundation\Web3DXCityFoundation.mweb\src\StringProvider.ts|1769713541|562
+t|win_b64\webapps\Web3DXCityFoundation\Web3DXCityFoundation.js|1769718149|5965
+s|Web3DXCityFoundation\Web3DXCityFoundation.mweb\src\Geocoder.js|1724872034|18853
+u|Web3DXCityFoundation\Web3DXCityFoundation.mweb\LocalGenerated\win_b64\StringProvider.js|1769718039|855
+u|Web3DXCityFoundation\Web3DXCityFoundation.mweb\src\StringProvider.ts|1769713541|562
+u|Web3DXCityFoundation\Web3DXCityFoundation.mweb\src\Web3DXCityFoundation.js|1724872034|0
+u|Web3DXCityFoundation\Web3DXCityFoundation.mweb\tsconfig.user.json|0|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

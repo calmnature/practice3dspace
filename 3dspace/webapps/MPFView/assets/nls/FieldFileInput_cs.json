@@ -1,0 +1,17 @@
+{
+  "noFileSelected": "Není vybrán žádný soubor",
+  "noValidFileSelected": "Není vybrán platný soubor",
+  "isRequired": "{0} je povinný údaj",
+  "isInvalid": "{0} je neplatná hodnota",
+  "wrongFileType": "Nesprávný typ souboru",
+  "fileTooBig": "Souboru překračuje maximální velikost {0}",
+  "bytes": "bajtů",
+  "kiloByte": "kB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "fileUploadFailed": "Nahrání souboru se nezdařilo. Zkuste to znovu.",
+  "replaceImage": "Nahradit obrázek",
+  "loading": "Probíhá načítání...",
+  "fileCouldNotBeLoaded": "Soubor nelze nahrát"
+}

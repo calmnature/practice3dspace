@@ -1,0 +1,9 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "PlmParameter",
+    "description": "The domain instance for PlmParameter in 3DSpace",
+    "packages": [
+        "PLMParameter",
+        "ParameterPort"
+    ]
+}

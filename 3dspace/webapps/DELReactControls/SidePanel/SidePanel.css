@@ -1,0 +1,1 @@
+.side-panel{display:flex;flex-direction:column;height:100%;position:relative}.side-panel__content{padding:.5rem;flex-grow:1;overflow:auto;position:relative}.side-panel__bottom{display:flex;justify-content:flex-end;align-items:center;background-color:#f1f1f1;padding:5px;border-top:1px solid #e2e4e3;height:50px}

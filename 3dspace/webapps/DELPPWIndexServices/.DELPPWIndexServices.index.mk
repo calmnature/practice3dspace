@@ -1,0 +1,10 @@
+m|DELPPWModels\DELPPWIndexServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26024|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWIndexServices\DELPPWIndexServices.js|1769229313|4957
+s|DELPPWModels\DELPPWIndexServices.mweb\src\IndexParser.js|1765817103|16602
+u|DELPPWModels\DELPPWIndexServices.mweb\src\IndexParserNode.js|1532440436|2050
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

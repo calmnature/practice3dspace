@@ -1,0 +1,1 @@
+define("DS/DELToolbarSearchV1/DELToolbarSearchV1_ja",{});define("DS/DELToolbarSearchV1/assets/nls/DELToolbarSearch",{search:"検索",closeBtn:"非表示"});

@@ -1,0 +1,65 @@
+{
+	"dsprcs:ItemSpecificationApplicability": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10,
+			"returnResponse": true
+		},
+		"create": {
+			"onPremiseLimit": 50,
+			"onCloudLimit": 1,
+			"returnResponse": true,
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "scopeContext",
+						"crudKey": "scopeContext",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey": "URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey": "usagePointsTarget",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.enovia.xapps.dsprcs.V1.utils.dsprcsFormatUagePointTarget"
+					},
+					{
+						"payloadKey": "implementingOcc",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$LinkableOccurence"
+					}
+				]
+			]
+		},
+		"bulkUpdate": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"returnResponse": true,
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "usagePointsTarget",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.enovia.xapps.dsprcs.V1.utils.dsprcsFormatUagePointTarget"
+					}
+				]
+			]
+		},
+		"delete": {
+			"onPremiseLimit": 1,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		}
+	}
+}

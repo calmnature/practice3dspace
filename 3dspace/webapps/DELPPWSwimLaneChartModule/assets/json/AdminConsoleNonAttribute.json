@@ -1,0 +1,123 @@
+{
+    "V_AppRoleAndQuantity": {
+        "Name": "V_AppRoleAndQuantity",
+        "Entity": "Link",
+        "Type": "List"
+    },
+    "V_AppReferenceQuantity": {
+        "Name": "V_AppReferenceQuantity",
+        "Entity": "Reference",
+        "Type": "String",
+        "NLS": "AdminConsoleNonAttribute.ReferenceQuantity.Title"
+    },
+    "V_AppInstanceQuantity": {
+        "Name": "V_AppInstanceQuantity",
+        "Entity": "Instance",
+        "Type": "String",
+        "NLS": "AdminConsoleNonAttribute.InstanceQuantity.Title"
+    },
+    "V_AppTitle": {
+        "Name": "V_AppTitle",
+        "Entity": "Reference",
+        "Type": "String",
+        "NLS": ["mode", "title"]
+    },
+    "V_AppAcceptableRange": {
+        "Name": "V_AppAcceptableRange",
+        "Entity": "Reference",
+        "Min": "minAcceptableValue",
+        "Max": "maxAcceptableValue",
+        "Type": "Range",
+        "NLS": "AdminConsoleNonAttribute.AcceptableRange.Title"
+    },
+    "V_AppNormalRange": {
+        "Name": "V_AppNormalRange",
+        "Entity": "Reference",
+        "Min": "minControlValue",
+        "Max": "maxControlValue",
+        "Type": "Range",
+        "NLS": "AdminConsoleNonAttribute.ControlRange.Title"
+    },
+    "V_AppFailureRange": {
+        "Name": "V_AppFailureRange",
+        "Entity": "Reference",
+        "Min": "minEoFValue",
+        "Max": "maxEoFValue",
+        "Type": "Range",
+        "NLS": "AdminConsoleNonAttribute.FailureRange.Title"
+    },
+    "V_AppMinAcceptableValue": {
+        "Name": "minAcceptableValue",
+        "Entity": "Reference",
+        "Type": "String"
+    },
+    "V_AppMaxAcceptableValue": {
+        "Name": "maxAcceptableValue",
+        "Entity": "Reference",
+        "Type": "String"
+    },
+    "V_AppMinControlValue": {
+        "Name": "minControlValue",
+        "Entity": "Reference",
+        "Type": "String"
+    },
+    "V_AppMaxControlValue": {
+        "Name": "maxControlValue",
+        "Entity": "Reference",
+        "Type": "String"
+    },
+    "V_AppMinFailureValue": {
+        "Name": "minEoFValue",
+        "Entity": "Reference",
+        "Type": "String"
+    },
+    "V_AppMaxFailureValue": {
+        "Name": "maxEoFValue",
+        "Entity": "Reference",
+        "Type": "String"
+    },
+    "V_AppValue": {
+        "Name": "value",
+        "Entity": "Reference",
+        "Type": "String"
+    },
+    "consumingObjectsLabel": {
+        "Name": "consumingObjectsLabel",
+        "NLS": "AdminConsoleNonAttribute.ConsumingObjects.Title"
+    },
+    "V_ConsumingObjects": {
+        "Name": "V_ConsumingObjects",
+        "Entity": "Reference",
+        "Type": "List"
+    },
+    "V_ConsumedObject": {
+        "Name": "V_ConsumedObject",
+        "Entity": "Reference",
+        "Type": "String",
+        "NLS": "AdminConsoleNonAttribute.ConsumedObject.Title"
+    },
+    "V_SpecificationLimitRange": {
+        "Name": "V_SpecificationLimitRange",
+        "Entity": "Reference",
+        "Min": "lowerSpecificationLimit",
+        "Max": "upperSpecificationLimit",
+        "Type": "Range",
+        "NLS": "AdminConsoleNonAttribute.SpecificationLimitRange.Title"
+    },
+    "V_RoutineReleaseLimitRange": {
+        "Name": "V_RoutineReleaseLimitRange",
+        "Entity": "Reference",
+        "Min": "lowerRoutineReleaseLimit",
+        "Max": "upperRoutineReleaseLimit",
+        "Type": "Range",
+        "NLS": "AdminConsoleNonAttribute.RoutineReleaseLimitRange.Title"
+    },
+    "V_AcceptanceCriteriaRange": {
+        "Name": "V_AcceptanceCriteriaRange",
+        "Entity": "Reference",
+        "Min": "min",
+        "Max": "max",
+        "Type": "Range",
+        "NLS": "AdminConsoleNonAttribute.AcceptanceCriteriaRange.Title"
+    }
+}

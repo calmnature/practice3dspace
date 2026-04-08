@@ -1,0 +1,1 @@
+define("DS/PIMwebI3Sapp/PIMwebI3Sapp_en",{});define("DS/PIMwebI3Sapp/assets/nls/PIMwebI3Sapp",{title:"Interference Simulation",subtitle:"Define and run mechanical interference simulations",userAssistanceURL:"enoI3sUserMap/i3s-c-ov.htm",dropMultiNoAutorized:"Loading these data at the same time is not supported"});

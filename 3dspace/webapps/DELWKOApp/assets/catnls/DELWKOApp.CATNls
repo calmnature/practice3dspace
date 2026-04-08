@@ -1,0 +1,95 @@
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELWKOApp.LandingPage.Title="Home";
+DELWKOApp.Refresh.Title="Refresh selected Object(s)";
+DELWKOApp.Hide.Title= "Remove selected object(s)";
+DELMFNApp.Edit.Title="Edit";
+DELWKOApp.HideAll.Title="Remove all object(s)";
+DELWKOApp.RefreshAll.Title="Refresh All";
+DELWKOApp.ToggleAuxiliaryView.Title="Auxiliary View";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELWKOApp.Authoring.Title="Authoring";
+
+DELWKOApp.CreateWorkOrderFromProcess.Title="Create Work Order from Process";
+
+DELWKOApp.InsertAlert.Title="Alert Instruction";
+DELWKOApp.InsertDataCollectPlan.Title="Data Collect Plan Instruction";
+DELWKOApp.InsertDataCollectChecklist.Title="Data Collect Checklist Instruction";
+DELWKOApp.InsertSignOff.Title="Sign Off Instruction";
+DELWKOApp.InsertInstruction.Title="Text Instruction";
+
+//MGA
+DELWKOApp.CreateInstance.Title="Create Instance";
+DELWKOApp.SearchAndAddInstanceCommand.Title="Insert";
+DELMFNApp.InsertAsCopy.Title="Insert as Copy";
+DELWKOApp.DetachInstance.Title="Detach";
+DELWKOApp.CreateCapableResourceStructureLink.Title="Create CapableResource Structure";
+DELWKOApp.ManageCapableResources.Title="Manage CapableResources";
+DELWKOApp.CreateLink.Title="Create Link";
+DELWKOApp.Relations.Title="Relations";
+DELWKOApp.DisplayProperties.Title="Information";
+DELWKOApp.ShowCharacteristicsCmd.Title="Characteristics Management";
+DELWKOApp.ShowConsolidatedCharactscsCmd.Title="Characteristics Management: Consolidated View";
+DELWKOApp.ManageInconsistentLinks.Title="Change Impact Management";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELWKOApp.Lifecycle.Title="Lifecycle";
+DELWKOApp.changeMaturity.Title="Change Maturity...";
+DELWKOApp.revise.Title="New Revision...";
+DELWKOApp.Delete.Title="Delete";
+DELWKOApp.duplicate.Title="Duplicate";
+DELWKOApp.DuplicateAdv.Title="Advanced Duplicate";
+DELWKOApp.MaturityCmdCloud.Title="Change Maturity...";
+
+//=============================================================================
+// 								Documents
+//=============================================================================
+DELWKOApp.Document.Title="Document";
+DELWKOApp.AttachDocument.Title="Attach Document";
+DELWKOApp.SearchDocument.Title="Search and Add Document";
+DELWKOApp.ManageDocuments.Title="Manage Documents";
+
+//=============================================================================
+// 								View
+//=============================================================================
+//MGA
+DELWKOApp.View.Title="View";
+DELWKOApp.ItemsView.Title="Show Manufacturing Items View";
+DELWKOApp.ResourcesView.Title="Show Resources View";
+DELWKOApp.WorkOrderView.Title="Show Work Order View";
+DELWKOApp.BottomBlock.Title="Show Bottom Block";
+DELWKOApp.LeftBlock.Title="Show Left Block";
+DELWKOApp.RightBlock.Title="Show Right Block";
+DELWKOApp.BottomAndLeftBlock.Title="Show Left and Bottom Block";
+DELWKOApp.BottomAndRightBlock.Title="Show Right and Bottom Block";
+DELWKOApp.ShowGraphView.Title="Show Graph View";
+DELWKOApp.ShowLinksFilterMenu.Title="Show Links Filter Menu";
+DELWKOApp.ProductFlowCmd.Title="Work Order Flow Diagram";
+DELWKOApp.ExpandAll.Title="Expand All";
+DELWKOApp.ExpandNLevel.Title="Expand N Level";
+DELWKOApp.CollapseAll.Title="Collapse All";
+DELWKOApp.UserDefinedExplore.Title="User Defined Explore";
+DELWKOApp.ShowLogPanel.Title="Show Log";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELWKOApp.Tools.Title="Tools";
+DELWKOApp.EditViewPreferences.Title="Edit View Preferences";
+DELWKOApp.LayoutPreferences.Title="Layout Preferences";
+DELWKOApp.ExportCSV.Title="Export CSV";
+DELWKOApp.RelationalExplorerCmd.Title="Related Objects";
+DELWKOApp.BIEssentialsCmd.Title="B.I. Essentials";
+DELWKOApp.LoadRelations.Title="Load Relations";
+
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELWKOApp.Configuration.Title="Configuration";

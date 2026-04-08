@@ -1,0 +1,23 @@
+{
+  "document": "문서",
+  "videoOnly": "비디오",
+  "picture": "사진",
+  "sound": "오디오",
+  "3d_model": "3D 모델",
+  "drawing": "도면",
+  "save": "저장",
+  "cancel": "취소",
+  "errorMin": "다음보다 작은 값을 설정할 수 없음 ",
+  "errorMax": "최대 크기",
+  "submitComplete": "업데이트 성공",
+  "submitFailure": "보내기 실패",
+  "help": "파일 확장자 지원",
+  "mb": "{value} Mb",
+  "acceptAllFileExtensions": "모든 파일 확장자 허용",
+  "disallowHighRiskFileExtensions": "위험성이 높은 파일 확장자 허용 안 함(예: .exe, .bat). 자세한 내용은 사용자 지원을 참조하십시오.",
+  "permitOnlySupportedMediaTypes": "지원되는 미디어 유형만 허용(사진/오디오/비디오/3D 모델/문서...)",
+  "forAllTypes": "모든 유형의 경우",
+  "restrictUploadFileBySize": "유형별로 업로드 파일 크기 제한:",
+  "fileExtensionSupport": "파일 확장자 지원",
+  "maximumUploadFileSize": "최대 업로드 파일 크기"
+}

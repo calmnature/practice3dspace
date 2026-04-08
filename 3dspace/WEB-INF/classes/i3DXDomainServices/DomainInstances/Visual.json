@@ -1,0 +1,10 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Visual",
+    "description": "Content, that only serves visual purposes.",
+    "packages": [
+        "PLM3DXAmbienceEnvironment",
+        "PLM3DXGlobeEnvironment",
+		"XCTAppearance"
+    ]
+}

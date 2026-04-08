@@ -1,0 +1,20 @@
+{
+  "pref_showWorkUnder": "Mostra lavoro sotto",
+  "pref_securityCtx": "Credenziali",
+  "pref_3DEXPERIENCEPlatform": "3DEXPERIENCE platform",
+  "pref_autoSwitchMode": "Passaggio automatico dalla modalità di creazione alla modalità Indice",
+  "range_zeroMin": "Mai",
+  "range_oneMin": "1 minuto",
+  "range_threeMin": "3 minuti",
+  "range_fiveMin": "5 minuti",
+  "range_tenMin": "10 minuti",
+  "button_OK": "OK",
+  "cmd_warp": "Avvolgi",
+  "cmd_unwrap": "Non avvolgere",
+  "cmd_CustomViews": "Viste personalizzate",
+  "cmd_export": "Esporta",
+  "msg_wraping": "Applicazione ritorno a capo in corso...",
+  "msg_unwraping": "Annullamento ritorno a capo in corso...",
+  "msg_loading": "Caricamento in corso...",
+  "label_TestMethod": "Metodi di prova"
+}

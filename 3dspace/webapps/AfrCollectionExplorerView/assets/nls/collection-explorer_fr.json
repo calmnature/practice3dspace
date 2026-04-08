@@ -1,0 +1,10 @@
+{
+  "NLS_ViewModeIconTooltip": "Vue",
+  "NLS_ThumbnailView": "Vue Miniature",
+  "NLS_TileView": "Vue Mosaïque",
+  "NLS_DataGridView": "Vue Grille de données",
+  "NLS_ListViewTitleColumnHeaderLabel": "Titre",
+  "NLS_DropMessage": "ou déposer votre contenu n'importe où",
+  "NLS_NoContent": "Il n'y a pas de contenu à afficher.",
+  "NLS_DnDPlaceholder": "Veuillez faire glisser et déposer votre contenu n'importe où pour commencer."
+}

@@ -1,0 +1,11 @@
+//=============================================================================
+// 								Rsc
+//=============================================================================
+
+DELWKOAppCloud.ManageLink.Icon.Normal="I_DELPPRAssignmentPanelCmd.png";
+
+//-------------------------------------------------
+//				WKO -LifeCycle
+//-------------------------------------------------
+DELWKOAppCloud.DeleteCmdCloud.Icon.Normal="I_DCPRowDelete.png";
+DELWKOAppCloud.MaturityCmdCloud.Icon.Normal="I_LifeCycleManagement32x.png";

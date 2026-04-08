@@ -1,0 +1,1 @@
+define("DS/MPFMiniCartComponent/MPFMiniCartComponent_cs",{});define("DS/MPFMiniCartComponent/assets/nls/MiniCartComponent",{items:"Položky: {itemCount}",viewCart:"Zobrazit košík"});

@@ -1,0 +1,1 @@
+define("DS/DELWKOViewModels/DELWKOViewModels_fr",{});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewMPVCustomView",{label:"Vue personnalisée du superviseur de production"});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewPSLCustomView",{label:"Vue personnalisée du planificateur de production"});

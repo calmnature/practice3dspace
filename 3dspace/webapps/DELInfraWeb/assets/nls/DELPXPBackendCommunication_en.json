@@ -1,0 +1,15 @@
+{    
+	"errorActionId": "ActionId parameter is undefined",
+	"errorConditions": "conditions parameter is undefined",
+	"errorEndpoint": "end point is undefined or information is missing",
+	"errorIncorrectReqOptions": " incorrect request parameters",
+	"errorLaunchCmd": " name, uri and endpoint type values are mandatory",
+	"errorObjectType": "ObjectType parameter is undefined",
+	"errorObjectsToCreate": "ObjectsToCreate parameter is undefined",
+	"errorOnFail": "onFail callback is undefined",
+	"errorOnSuccess": "onSuccess callback is undefined",	
+	"errorObjectsToUpdate": "objectsToUpdate parameter is undefined",
+	"errorObjectsToDelete": "objectsToDelete parameter is undefined",
+	"errorReqAnswerStatus":"answer status is an error",
+	"errorReqReturnObjType":"content returned is not  a container"	
+}

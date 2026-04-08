@@ -1,0 +1,10 @@
+{
+  "onholdmessage" : "Why are you placing '{name}' on Hold ?",
+  "resumemessage" : "Are you sure you want to release this hold ?",
+  "checkOptOnHoldmessage" : "All children will be put on hold",
+  "checkOptResumemessage" : "All children will be resumed",
+  "title" : "Place on Hold",
+  "resumetitle" : "Release Hold",
+  "placeholder" : "Enter On Hold comment",
+  "note" : "Note : This will pause production until further action is taken."
+}

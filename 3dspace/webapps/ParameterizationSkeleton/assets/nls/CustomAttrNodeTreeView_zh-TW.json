@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "扣件類別",
+  "V_MfgFastenerStrategy": "扣件策略",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "維護候選對象",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "備用候選對象",
+  "V_RepairType": "修復類型",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "維護層級",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "代碼資訊",
+  "orderParameters": "順序已更新",
+  "orderParametersTitle": "調整順序",
+  "orderParametersError": "調整順序時發生錯誤",
+  "orderParametersMaskMessage": "更新順序",
+  "orderParametersDeleteError": "刪除上一個順序時發生錯誤",
+  "orderParametersSetError": "儲存新順序時發生錯誤",
+  "nonEditableParamTitle": "屬性無法編輯",
+  "nonEditableParamContent": "無法編輯所選屬性，因為它是「定義扣件處置器的規則」表格中使用的一或多個參數",
+  "deleteParameterTitle": "屬性無法刪除",
+  "deleteParameterError": "無法刪除所選屬性，因為它是「定義扣件處置器的規則」表格中使用的一或多個參數",
+  "attributeName": "屬性名稱",
+  "attributeValue": "屬性值"
+}

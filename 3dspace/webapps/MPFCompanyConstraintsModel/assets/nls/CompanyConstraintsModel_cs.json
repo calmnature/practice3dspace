@@ -1,0 +1,16 @@
+{
+  "errorName": "Název společnosti je povinný údaj",
+  "errorTaxRegId": "Formát IČO je neplatný",
+  "noSpecialCharacterMessage": "Povoleny jsou pouze alfanumerické znaky (bez diakritiky)",
+  "errorPersonalIdNUmberFormat": "Formát osobního identifikačního čísla je neplatný",
+  "errorRegistrationIdFormat": "Formát registračního čísla je neplatný",
+  "errorCountry": "Země je povinný údaj",
+  "name": "jméno",
+  "registrationId": "Registrační číslo",
+  "taxRegistrationId": "IČO",
+  "personalIdNumber": "osobní identifikační číslo",
+  "url": "URL",
+  "country": "země",
+  "isRequired": "{0} je povinný údaj",
+  "formatIsInvalid": "formát {0} je neplatný"
+}

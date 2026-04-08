@@ -1,0 +1,34 @@
+.xsr-viewnav-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.xsr-viewnav-container .xsr-viewnav-left,
+.xsr-viewnav-container .xsr-viewnav-right {
+  width: 30px;
+  height: 100%;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  color: #838487;
+  background-color: #f3f4f4;
+}
+.xsr-viewnav-container .xsr-viewnav-left .hidden,
+.xsr-viewnav-container .xsr-viewnav-right .hidden {
+  display: none;
+}
+.xsr-viewnav-container .xsr-viewnav-content {
+  flex: 1;
+}
+.xsr-viewnav-container .xsr-viewnav-content.message {
+  color: rgb(119, 121, 124);
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

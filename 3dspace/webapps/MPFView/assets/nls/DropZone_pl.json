@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "Tutaj upuść zawartość",
+  "orMessage": "lub",
+  "upContent": "Prześlij zawartość",
+  "wrongFileType": "Nieprawidłowy typ pliku",
+  "fileTooBig": "Rozmiar pliku przekracza ograniczenie {0}",
+  "bytes": "bajtów",
+  "kiloByte": "kB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "filesExceedSizeOf": "{0} / {1} plików przekracza limit rozmiaru {2}",
+  "filesHaveWrongFormat": "{0} / {1} plików ma nieprawidłowy format"
+}

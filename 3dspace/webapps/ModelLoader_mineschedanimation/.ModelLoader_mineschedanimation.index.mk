@@ -1,0 +1,11 @@
+m|GEOV1WebVisu\ModelLoader_mineschedanimation.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25293|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ModelLoader_mineschedanimation\ModelLoader_mineschedanimation.js|1760994104|20609
+s|GEOV1WebVisu\ModelLoader_mineschedanimation.mweb\src\GEOMSAMeshNode.js|1558353462|8954
+u|GEOV1WebVisu\ModelLoader_mineschedanimation.mweb\src\GEOMSAResult3D.js|1547457750|6903
+u|GEOV1WebVisu\ModelLoader_mineschedanimation.mweb\src\loader.js|1760686895|45674
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

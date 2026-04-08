@@ -1,0 +1,11 @@
+m|DibWebUtils\DibWebUtils.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26049|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DibWebUtils\DibWebUtils.js|1771450830|14811
+s|DibWebUtils\DibWebUtils.mweb\src\DibFavoriteContextAccess.js|1768846965|17079
+u|DibWebUtils\DibWebUtils.mweb\src\DibQueryToolbox.js|1750321821|38466
+u|DibWebUtils\DibWebUtils.mweb\src\DibWebUtils.js|1483970879|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

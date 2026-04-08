@@ -1,0 +1,22 @@
+.setcow-warning-row {
+  display: flex;
+  align-items: flex-start;   /* top align with icon */
+}
+
+.setcow-warning-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   /* THIS fixes centering */
+  margin-left: 8px;
+  text-align: left;          /* force left alignment */
+}
+
+.setcow-warning-label {
+  font-size: 13px;
+  font-weight: bold;
+  background: transparent;
+  line-height: 18px;
+  text-align: left;          /* force left alignment */
+  width: 100%;               /* prevents shrink-centering */
+}
+

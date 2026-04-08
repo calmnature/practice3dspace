@@ -1,0 +1,23 @@
+{
+  "setParameters": "Parameter gespeichert",
+  "setParametersTitle": "Speichern",
+  "setParametersError": "Fehler beim Speichern der Parameter",
+  "deleteParameter": "Parameter gelöscht",
+  "deleteParameterTitle": "Löschen",
+  "deleteParameterError": "Fehler beim Löschen der Parameter",
+  "modifyParameter": "Parameter geändert",
+  "modifyParameterTitle": "Ändern",
+  "modifyParameterError": "Fehler beim Ändern der Parameter",
+  "columnMandatory": "Die Spalte %1 ist obligatorisch",
+  "containUnsupportedChars": "%1 enthält eines oder mehrere der folgenden nicht unterstützten Zeichen \n %2",
+  "confirmDeleteTitle": "Löschen bestätigen",
+  "confirmDeleteContent": "Möchten Sie diese Zeile wirklich löschen? Dieser Vorgang kann nicht widerrufen werden.",
+  "Add": "Neue Zeile hinzufügen",
+  "orderParameters": "Reihenfolge aktualisiert",
+  "orderParametersTitle": "Neu anordnen",
+  "orderParametersError": "Fehler bei der Neuanordnung",
+  "orderParametersMaskMessage": "Reihenfolge wird aktualisiert",
+  "orderParametersDeleteError": "Fehler beim Löschen der vorherigen Reihenfolge",
+  "orderParametersSetError": "Fehler beim Speichern der neuen Reihenfolge",
+  "loadingMask": "Wird geladen"
+}

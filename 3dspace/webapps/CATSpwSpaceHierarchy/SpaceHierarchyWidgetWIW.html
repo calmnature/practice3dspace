@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+
+  <title>Space Hierarchy</title>
+
+  <meta name="author" content="Dassault Systèmes" />
+  <meta name="brand" content="CATIA" />
+  <meta name="description" content="CATIA Space Hierarchy" />
+  <meta name="debugMode" content="false" />
+
+  <!-- AMDLoader -->
+  <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+  <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+  <!-- UWA -->
+  <link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+  <script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+  
+  <!-- Web Fundamentals -->
+  <script type="text/javascript" src="../WebUX/WebUX.js"></script>
+    
+  <script type="text/javascript" src="CATSpwSpaceHierarchy.js"></script>
+  <link rel="stylesheet" href="CATSpwSpaceHierarchy.css" type="text/css" />
+
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    .module, .moduleWrapper {
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+    }
+
+    .moduleHeader, .moduleFooter {
+      padding: 0px;
+      height: 0px;
+    }
+  </style>
+ 
+ <script>
+    /* global widget */
+    function createSpaceBrowser(options){
+      require([
+        'UWA/Core'
+      ], function(UWA){
+        options.widget = widget;
+        options.isWebInWin = true;
+        let spaceHierarchyWidget = new SpaceHierarchyWidget( options );
+      });
+    };
+ </script>
+
+</head>
+<body>
+  <section class="search-section">
+    <section class="label-space-concept-root"></section>
+    <section class="label-space-concept-root-name"></section>
+    <section class="search-icon" title="Select Space Concept Root"></section>
+  </section>
+  <section class="dgv-container"></section>
+</body>
+</html>

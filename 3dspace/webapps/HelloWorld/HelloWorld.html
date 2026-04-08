@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cerate Person</title>
+    
+    <meta name="author" content="SCI1" />
+    <meta name="description" content="Cerate Person Widget" />
+    <meta name="apiVersion" content="1.0" />
+    <meta name="debugMode" content="true" />
+    <meta name="strictMode" content="false" />
+    
+    <!-- Widget files -->
+    <link rel="stylesheet" type="text/css" href="styles/HelloWorld.css" />
+    <script>
+    //<![CDATA[
+        require(['DS/HelloWorld/scripts/HelloWorld'], 
+            function (HelloWorld)
+            {
+                'use strict';
+                if (document.readyState === 'complete'){
+                    HelloWorld.onLoadWidget();
+                } else {
+                    widget.addEvent('onLoad', HelloWorld.onLoadWidget);
+                }
+                
+                widget.addEvent('onRefresh', HelloWorld.onLoadWidget);
+                widget.addEvent("onSearch", HelloWorld.onSearchWidget);
+                widget.addEvent("onResetSearch", HelloWorld.onResetSearchWidget);
+        
+            }
+        );
+    //]]>
+    </script>
+    <!-- Application JS End -->
+</head>
+<body>
+<p>Widget is Loading...</p>
+</body>
+</html>

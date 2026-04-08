@@ -1,0 +1,14 @@
+{
+	"dsmvlog:Extension.ArchitectureExtension.ArchitectureNumber":{
+         "property":"attribute[ArchitectureExtension.V_ArchitectureNumber]",
+         "key":"architectureNumber",
+         "example":"ArchitectureNumber Value"
+      },
+	"dsmvlog:Extension.Field.ProposedSolution": {
+         "property": "computed",
+         "key": "proposedSolution",
+         "example": "com.dassault_systemes.catia.xapps.dslog.V1.openapi.custom.PUBLIC.getProposedSolution",
+         "description": "Get the proposed solutions",
+         "label": "ENOXLogical.Field.Label.ProposedSolution"
+      }
+}

@@ -1,0 +1,14 @@
+{
+  "from": "Od",
+  "pricePerMonth": "{price} / měsíc",
+  "pricePerMonthNoTax": "{price} / měsíc (bez daní)",
+  "subsInfo": "Roční nebo čtvrtletní předplatná",
+  "buy": "Koupit",
+  "buyNow": "Koupit nyní",
+  "upToDiscount": "Sleva až {percentage} %",
+  "worldOffer": "Nabídka 3DEXPERIENCE World",
+  "untilMarch": "Do 31. března 2020",
+  "taxExcl": "Bez daní",
+  "perMonth": "Měsíčně",
+  "includingPlatform": "Včetně platformy <b>3D</b>EXPERIENCE platform"
+}

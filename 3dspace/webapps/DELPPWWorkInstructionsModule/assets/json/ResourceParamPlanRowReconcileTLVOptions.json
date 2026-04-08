@@ -1,0 +1,60 @@
+{
+    "DELResourceParameterRow": {
+        "columnConfig": {
+            "Columns": {
+                "Column": [
+                    {
+                        "dataIndex": "V_RPPTitle",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "NonEditable",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPLName",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPRLinkedCapableResouce",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMagnitude",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "typeRepresentation": "url",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPDescription",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "NonEditable",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_PossibleValues",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_MinValue_disp",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_MaxValue_disp",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    }
+                ]
+            }
+        }
+    }
+}
+

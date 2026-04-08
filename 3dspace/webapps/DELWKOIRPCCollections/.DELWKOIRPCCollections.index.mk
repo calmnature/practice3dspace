@@ -1,0 +1,11 @@
+m|DELWKOApp\DELWKOIRPCCollections.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOIRPCCollections\DELWKOIRPCCollections.js|1760176774|4245
+s|DELWKOApp\DELWKOIRPCCollections.mweb\src\DELWKOConnectionCollection.js|1755271925|4226
+u|DELWKOApp\DELWKOIRPCCollections.mweb\src\DELWKOInstanceCollection.js|1732322086|1776
+u|DELWKOApp\DELWKOIRPCCollections.mweb\src\DELWKOReferenceCollection.js|1747775671|3686
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

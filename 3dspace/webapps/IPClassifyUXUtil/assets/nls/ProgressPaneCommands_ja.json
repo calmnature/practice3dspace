@@ -1,0 +1,14 @@
+{
+  "Cancel": "キャンセル",
+  "PROGRESS": "進行状況",
+  "Pending": "保留中",
+  "Completed": "完了済み",
+  "Failed": "失敗",
+  "PartiallyFailed": "部分的に失敗",
+  "Cancelled": "キャンセル済み",
+  "Ending": "安全に停止する",
+  "CancelAll": "すべてキャンセル",
+  "inProgress": "進行中",
+  "loadingText": "ロード中です...",
+  "searching": "ルート ブックマーク内を検索しています"
+}

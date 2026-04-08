@@ -1,0 +1,86 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "V_Name",
+				"status": "RW"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "originated"
+			},	
+			{
+				"name": "policy"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "current"
+			},	
+			{
+				"name": "owner",
+				"status": "RW"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			},		
+			{
+				"name": "Alternate Reference.Domain",
+				"status": "RW"
+			},
+			{
+				"name": "Alternate Reference.UsageMixability",
+				"status": "RW"
+			}
+		]
+	},
+	"Create": {
+		"attributes": [
+			{
+				"name": "V_Name",
+				"status": "RW"
+			},
+			{
+				"name": "name",
+				"status": "RO"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "policy",
+				"status": "RO"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"owner": {
+				"mandatory": true
+			},
+			"V_Name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			},
+			"Title": {
+				"mandatory": true
+			}
+		}
+	}
+}

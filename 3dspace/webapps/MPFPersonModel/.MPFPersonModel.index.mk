@@ -1,0 +1,15 @@
+m|MPFModels\MPFPersonModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFPersonModel\MPFPersonModel.js|1760176842|6613
+s|MPFModels\MPFPersonModel.mweb\src\MePersonDataProxy.js|1760133129|1367
+u|MPFModels\MPFPersonModel.mweb\src\MPFPersonModel.js|1760133129|0
+u|MPFModels\MPFPersonModel.mweb\src\PersonCollection.js|1760133129|4858
+u|MPFModels\MPFPersonModel.mweb\src\PersonDataProxy.js|1760133129|399
+u|MPFModels\MPFPersonModel.mweb\src\PersonFactory.js|1760133130|1912
+u|MPFModels\MPFPersonModel.mweb\src\PersonModel.js|1760133130|5873
+u|MPFModels\MPFPersonModel.mweb\src\ShopPersonsDataProxy.js|1760133130|2552
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,10 @@
+{
+  "firstName": "Imię",
+  "lastName": "Nazwisko",
+  "emailAddress": "Adres e-mail",
+  "birthData": "Data urodzenia",
+  "organization": "Organizacja",
+  "phoneNumber": "Numer telefonu",
+  "xIsInvalid": "Pole {x} jest nieprawidłowe",
+  "xIsRequired": "Pole {x} jest wymagane"
+}

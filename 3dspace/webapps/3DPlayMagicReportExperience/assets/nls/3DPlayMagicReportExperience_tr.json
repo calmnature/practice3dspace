@@ -1,0 +1,16 @@
+{
+  "Perspectives": "Perspektifler",
+  "Switch_Perspective": "Bakış açısını değiştir",
+  "Views": "Görünümler",
+  "Switch_View": "Görünümü değiştir",
+  "Model": "Model",
+  "View": "Görünüm",
+  "Document": "Belge",
+  "Wiki": "Viki",
+  "Back": "Geri",
+  "Forward": "İleri",
+  "error": {
+    "timeout": "Deneyim başlatma işlemi yavaş ve iptal edildi. Lütfen daha sonra tekrar deneyin.",
+    "invalid_id": "Nesne kimliği geçersiz"
+  }
+}

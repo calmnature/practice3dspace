@@ -1,0 +1,94 @@
+<meta charset="UTF-8"/>
+//======================================================================================= 
+//=======================================================================================
+// COPYRIGHT DASSAULT SYSTEMES 2023
+
+
+// --- Option Group ---------------------------------
+// ------------------------------------------------------
+GroupOption="Options principales";
+GroupOption.LongHelp="Pour grouper les options";
+GroupOption.ShortHelp="options";
+SelectExpandlevel="Développer le niveau";
+SelectOption.LongHelp="une option";
+SelectOption.ShortHelp="option";
+SelectCustomExpandlevel=" ";
+SelectCustomCompletionlevel=" ";
+SelectLinkcompletion="Achèvement de la liaison";
+
+
+// --- Status -------------------------------------------
+// ------------------------------------------------------
+Definition.Title="Transition CAO";
+CADTransitioned.Name="Transféré en CAO";
+CADTransitioned.WhenApplied="Transféré en CAO";
+OthersCAD.Name="d'autres CAO";
+OthersCAD.WhenApplied="d'autres CAO";
+3DEXPERIENCECATIA.Name="3DEXPERIENCE CATIA";
+3DEXPERIENCECATIA.WhenApplied="3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.Name="Autres CAO vers 3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.WhenApplied="Autres CAO vers 3DEXPERIENCE CATIA";
+
+
+
+// --- Operation -------------------------------------
+// ---------------------------------------------------
+OthersCADto3DEXPERIENCECATIA.Enabled.Name="Convertir en 3DEXPERIENCE CATIA";
+
+OthersCAD3DEXPERIENCECATIA.Enabled.Name="Convertir en 3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.Disabled.Name="Convertir en 3DEXPERIENCE CATIA";
+
+
+// --- Execution -------------------------------------
+// ---------------------------------------------------
+CADTransitionCommand.Execute.Ok="OK";
+CADTransitionCommand.Execute.Cancel="Annuler";
+
+Option.UseMpgTable="Utiliser les tables de mappage";
+Option.UseMpgTable.LongHelp="Utiliser les tables de mappage";
+Option.UseMpgTable.ShortHelp="Utiliser les tables de mappage";
+OptionGroup.GeneralOptions="Options générales...";
+OptionGroup.GeneralOptions.LongHelp="Options générales";
+OptionGroup.GeneralOptions.ShortHelp="Options générales";
+OptionGroup.AdvancedOptions="Options avancées...";
+OptionGroup.AdvancedOptions.LongHelp="Options avancées";
+OptionGroup.AdvancedOptions.ShortHelp="Options avancées";
+
+
+ExecutionMode.Title="Mode d'exécution";
+ExecutionMode.ExecModeCombo.Title="Mode de conversion";
+ExecutionMode.ExecModeAsNew="Convertir en nouvel objet";
+ExecutionMode.ExecModeAsNewRevision="Convertir en nouvelle révision";
+ExecutionMode.ExecModeAsNewBranch="Convertir en nouvelle branche";
+ExecutionMode.ExecModeMapping.Title="Utiliser les tables de mappage";
+ExecutionMode.ExecModeForceUpdate.Title="Mise à jour forcée";
+ExecutionMode.ExecModeOverwrite.Title="Autoriser le remplacement";
+
+
+Report.ReportName="3DEXPERIENCE CAD Transition_GlobalResult_";
+Report.TimeFormat="%Y-%m-%d__%Hh%Mm%Ss";
+Report.Adm.Name="Rapport de conversion des documents";
+
+
+Option.ReportDir="Répertoire du rapport :";
+Option.ReportDir.LongHelp="Répertoire du rapport";
+Option.ReportDir.ShortHelp="Répertoire du rapport";
+
+Option.ReportName="Nom du rapport :";
+Option.ReportName.LongHelp="Nom du rapport";
+Option.ReportName.ShortHelp="Nom du rapport";
+
+Option.ReportNameSuffix="Suffixe du rapport d'objet :";
+Option.ReportNameSuffix.LongHelp="Suffixe du rapport d'objet";
+Option.ReportNameSuffix.ShortHelp="Suffixe du rapport d'objet";
+
+OptionGroup.Report="Rapport";
+OptionGroup.Report.LongHelp="Rapport";
+OptionGroup.Report.ShortHelp="Rapport";
+
+Option.ReportBtn="Rapport";
+Option.ReportBtn.LongHelp="Rapport";
+Option.ReportBtn.ShortHelp="Rapport";
+
+
+

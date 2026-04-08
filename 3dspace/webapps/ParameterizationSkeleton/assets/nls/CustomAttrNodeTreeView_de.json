@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Verbindungselementkategorie",
+  "V_MfgFastenerStrategy": "Verbindungselementstrategie",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Wartungskandidat",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Ersatzteilkandidat",
+  "V_RepairType": "Reparaturtyp",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Wartungsebene",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Code-Info",
+  "orderParameters": "Anordnung aktualisiert",
+  "orderParametersTitle": "Neu anordnen",
+  "orderParametersError": "Fehler bei der Neuanordnung",
+  "orderParametersMaskMessage": "Anordnung wird aktualisiert",
+  "orderParametersDeleteError": "Fehler beim Löschen des vorherigen Auftrags",
+  "orderParametersSetError": "Fehler beim Speichern des neuen Auftrags",
+  "nonEditableParamTitle": "Attribut kann nicht bearbeitet werden",
+  "nonEditableParamContent": "Das ausgewählte Attribut kann nicht bearbeitet werden, da es in einem oder mehreren Parametern in der Tabelle zum Definieren von Verbindungselementen verwendet wird",
+  "deleteParameterTitle": "Attribut kann nicht gelöscht werden",
+  "deleteParameterError": "Das ausgewählte Attribut kann nicht gelöscht werden, da es in einem oder mehreren Parametern in der Tabelle zum Definieren von Verbindungselementen verwendet wird",
+  "attributeName": "Attributname",
+  "attributeValue": "Attributwert"
+}

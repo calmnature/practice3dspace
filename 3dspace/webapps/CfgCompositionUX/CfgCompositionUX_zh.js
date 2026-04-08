@@ -1,0 +1,1 @@
+define("DS/CfgCompositionUX/CfgCompositionUX_zh",{});define("DS/CfgCompositionUX/assets/nls/CfgCompositionUX",{Work_Under_Check:"无法执行组成。创作上下文必须是衍生有效性工作范围。",Revision:"修订版",Child:"子",Edit_Composition:"编辑组成",Pencil_Tooltip:"创作上下文必须是衍生有效性工作范围才能编辑组成",Composition_Error:"获取组成信息时出错"});

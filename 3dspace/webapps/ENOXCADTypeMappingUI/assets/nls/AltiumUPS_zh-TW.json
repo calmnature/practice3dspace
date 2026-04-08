@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "匯流排類型對應",
+  "EPCLabel": "電子實體零組件",
+  "EPCInfo": "將電子實體零組件的類型對應修改為 3DEXPERIENCE 類型",
+  "PrintedCircuitBoardLabel": "印刷電路板 (作為零件)",
+  "PrintedCircuitBoardInfo": "將印刷電路板的類型對應修改為 3DEXPERIENCE 類型",
+  "PrintedCircuitBoardAssemblyLabel": "印刷電路板組合件",
+  "PrintedCircuitBoardAssemblyInfo": "將印刷電路板組合件的類型對應修改為 3DEXPERIENCE 類型"
+}

@@ -1,0 +1,14 @@
+{
+  "column_Visibility": "可視性",
+  "isVisible": "非表示にする",
+  "isVisibleTooltip": "学習者に表示されています。\nクリックすると非表示になります",
+  "isHidden": "表示する",
+  "isHiddenTooltip": "学習者には表示されていません。\nクリックすると表示されます",
+  "progressMultiple": "{targetfolder} 項目を含む {objectsAdded} の表示/非表示の変更。",
+  "progressSingle": "{targetfolder} の表示/非表示の変更 ",
+  "msgSuccess": "{itemCount} 項目の表示/非表示が正常に変更されました。",
+  "msgError": "{itemCount} 項目の表示/非表示の変更に失敗しました。",
+  "msgMultipleSuccess": "{itemCount} 項目の表示/非表示が正常に変更されました。",
+  "msgMultipleError": "{itemCount} 項目の表示/非表示の変更に失敗しました。",
+  "msgMaturityError": "項目の完成度の変更に失敗したため、表示/非表示の変更に失敗しました。"
+}

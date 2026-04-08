@@ -1,0 +1,8 @@
+{
+  "Work_Under_Check": "구성을 수행할 수 없습니다. 작성 컨텍스트는 전개 효과성 아래에서 작업해야 합니다.",
+  "Revision": "리비전",
+  "Child": "하위",
+  "Edit_Composition": "구성 편집",
+  "Pencil_Tooltip": "작성 컨텍스트로 구성을 편집하려면 전개 효과성에서 작업해야 합니다.",
+  "Composition_Error": "구성 정보를 가져오는 중 오류 발생"
+}

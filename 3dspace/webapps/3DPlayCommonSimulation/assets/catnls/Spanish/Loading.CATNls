@@ -1,0 +1,11 @@
+<meta charset="UTF-8"/>
+Loading.Failed="Error al cargar Simulation Experience";
+Loading.TimeOut="Solo se ha recuperado una parte del contenido de la experiencia. Puede obtener más información en el comando Elegir contenido";
+Loading.NoDataAccess="No se han podido encontrar los datos. Es posible que se hayan eliminado o que ya no sea posible acceder a ellos";
+Loading.NoValidStream="No se ha encontrado contenido de experiencia válido";
+Loading.NoLightWeightStream="No se ha encontrado contenido de Simulation Experience para este elemento";
+Loading.FilteredContent="No se puede mostrar ningún contenido de experiencia en esta aplicación. Puede obtener más información en el comando Elegir contenido";
+Loading.EdgeLevel="Esta versión de Microsoft Edge no es compatible. Actualice a la versión 1803 de Windows 10 o a una posterior.";
+Loading.EdgeLevelWin10app="Esta versión de Windows 10 no es compatible. Actualice a la versión 1803 de Windows 10 o a una superior.";
+Loading.FileTreeRegeneration="Considere la posibilidad de regenerar el contenido de su experiencia para mejorar su rendimiento.";
+

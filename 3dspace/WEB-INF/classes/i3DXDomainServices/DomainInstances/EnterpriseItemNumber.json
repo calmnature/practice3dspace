@@ -1,0 +1,6 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "EnterpriseItemNumber",
+    "description": "The domain instance for EnterpriseItemNumber in 3DSpace",
+    "packages": ["ENOXENGEnterpriseReference"]
+}

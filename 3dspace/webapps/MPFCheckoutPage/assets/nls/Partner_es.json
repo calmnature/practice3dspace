@@ -1,0 +1,14 @@
+{
+  "cancel": "Cancelar",
+  "customerSuccessPartner": "Socio de satisfacción del cliente",
+  "edit": "Editar",
+  "errorPartnerSave": "No se puede guardar el socio",
+  "localPartner": "Nuestro socio certificado local está a su disposición para ayudarle y proporcionarle asesoramiento experto en cada etapa de su proyecto para que pueda sacarle el máximo partido a nuestros productos. Se pondrá en contacto con usted a la menor brevedad posible tras realizar la compra.",
+  "next": "Siguiente",
+  "noLocalPartner": "Actualmente no contamos con un socio certificado local disponible para ayudarle y proporcionarle orientación experta en cada etapa de su proyecto. Mientras tanto, el equipo de satisfacción del cliente de Dassault Systèmes estará a su disposición y se pondrá en contacto con usted a la menor brevedad posible tras realizar la compra.",
+  "selectForMe": "Seleccionar uno por mí",
+  "selectAPartner": "Seleccione un socio de satisfacción del cliente",
+  "severalLocalPartners": "Seleccione uno de los siguientes socios certificados locales para que le ayude y proporcione orientación experta en cada etapa de su proyecto. Se pondrá en contacto con usted a la menor brevedad posible tras realizar la compra. Si ya está colaborando con uno, selecciónelo en la siguiente lista.",
+  "yourPartner": "Su socio",
+  "yourSelectedPartner": "El socio seleccionado"
+}

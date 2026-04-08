@@ -1,0 +1,14 @@
+{
+  "label_space_concept_root": "空间概念根",
+  "label_search": "搜索",
+  "label_search_spConceptRoot": "选择空间概念根",
+  "label_search_title": "选择项目",
+  "label_spacebrowser_initialization": "初始化空间浏览器...",
+  "label_spacebrowser_webinwin_initialization": "初始化 WebInWin 配置...",
+  "label_spacebrowser_configuration_initialization": "初始化小组件配置...",
+  "label_spacebrowser_construction": "构造空间浏览器...",
+  "message_no_space_concept_root_selected": "未选择空间概念根",
+  "error_get_space_hierarchy": "无法获取选定空间根的空间层次结构",
+  "error_missing_space_media": "空间分配服务不可用。请与管理员确认是否已安装所需的媒体。",
+  "error_request_timedOut": "请求超时！"
+}

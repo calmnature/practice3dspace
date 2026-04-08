@@ -1,0 +1,1 @@
+define("DS/MPFCurrencySelectComponent/MPFCurrencySelectComponent_pl",{});define("DS/MPFCurrencySelectComponent/assets/nls/MPFCurrencySelectComponent",{selectCurrency:"Wybierz walutę",currency:"Waluta",currencyRequired:"Wymagana jest waluta"});

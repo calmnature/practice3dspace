@@ -1,0 +1,1 @@
+define("DS/CfgInstantiatedConfigurationUX/CfgInstantiatedConfigurationUX_pl",{});define("DS/CfgInstantiatedConfigurationUX/assets/nls/CfgInstantiatedConfigurationUX",{CFG_NoModel_Attached:"Nie znaleziono konfiguracji produktu. Wybierz obiekt z dołączonym modelem z konfiguracją produktu.",CFG_No_ConfigurationAssociation:"Żadna konfiguracja nie jest powiązana z wybraną wersją."});

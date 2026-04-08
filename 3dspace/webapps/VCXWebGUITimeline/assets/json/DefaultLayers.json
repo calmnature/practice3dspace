@@ -1,0 +1,15 @@
+{
+    "name": "Root",
+    "icon": "_",
+    "children": [
+        {
+            "name": "Camera",
+            "icon": "videocamera",
+            "type": "Camera",
+            "isFixed": true,
+            "order": 0,
+            "isMandatory": true,
+            "blocks": []
+        }
+    ]
+}

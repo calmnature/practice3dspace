@@ -1,0 +1,14 @@
+m|WebUX\Developer.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.3.26017|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Developer\Developer.js|1768640600|10937
+s|WebUX\Developer.mweb\src\Developer.js|1441270527|0
+u|WebUX\Developer.mweb\src\HistoryManager.js|1767622453|2113
+u|WebUX\Developer.mweb\src\Portal.js|1502182851|8495
+u|WebUX\Developer.mweb\src\ReleaseNotes.js|1767622599|4241
+u|WebUX\Developer.mweb\src\SandBoxIframe.js|1767622709|4014
+u|WebUX\Developer.mweb\src\UnsafeHTMLDisplay.js|1551362390|7865
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

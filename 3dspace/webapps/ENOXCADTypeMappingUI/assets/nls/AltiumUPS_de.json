@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Bustypzuordnung",
+  "EPCLabel": "Elektronische physische Komponente",
+  "EPCInfo": "Ändern Sie die Typzuordnung der elektronischen physischen Komponente in den Typ 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Leiterplatte (als Teil)",
+  "PrintedCircuitBoardInfo": "Ändern Sie die Typzuordnung für Leiterplatte in den Typ 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Leiterplattenbaugruppe",
+  "PrintedCircuitBoardAssemblyInfo": "Ändern Sie die Typzuordnung für Leiterplattenbaugruppe in den Typ 3DEXPERIENCE"
+}

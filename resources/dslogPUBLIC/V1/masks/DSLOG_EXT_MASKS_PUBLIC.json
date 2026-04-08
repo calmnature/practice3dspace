@@ -1,0 +1,8 @@
+{
+   "dsmvlog:ArchitectureReference.Details":[
+      "dsmvlog:Extension.ArchitectureExtension.ArchitectureNumber"
+   ],
+   "dsmvlog:ProposedSolution.Details":[
+      "dsmvlog:Extension.Field.ProposedSolution"
+   ]
+}

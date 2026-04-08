@@ -1,0 +1,12 @@
+m|DELPPWProcessModules\DELPPWUsagePointsManagerModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26062|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWUsagePointsManagerModule\DELPPWUsagePointsManagerModule.js|1772573033|21848
+s|DELPPWProcessModules\DELPPWUsagePointsManagerModule.mweb\src\UsagePointsManagerModule.js|1772199932|19263
+t|win_b64\webapps\DELPPWUsagePointsManagerModule\assets\json\UsagePointsTLVOptions.json|1770071143|824
+s|DELPPWProcessModules\DELPPWUsagePointsManagerModule.mweb\src\assets\json\UsagePointsTLVOptions.json|1768393536|824
+u|DELPPWProcessModules\DELPPWUsagePointsManagerModule.mweb\src\UsagePointsManagerUI.js|1772200346|70071
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

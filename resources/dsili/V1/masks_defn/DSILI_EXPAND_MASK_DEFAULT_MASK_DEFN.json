@@ -1,0 +1,21 @@
+{
+    "rootMetaType": "dsili:IllustratedItem",
+    "addPathsToResponse": true,
+    "dsili:IllustratedItem": {
+        "mask": "dsili:IllustratedItemMask.Default",
+        "cestamp": true
+    },
+    "dsili:IllustratedItemInstance": {
+        "mask": "dsili:IllustratedItemInstanceMask.Default",
+        "fields": [
+            "dsili:instance.parent",
+            "dsili:instance.reference"
+        ],
+        "cestamp": true
+    },
+    "dsili:ItemSpecification": {
+        "mask": "dsili:DefaultContentMask.utc",
+        "cestamp": true,
+        "composer": true
+    }
+}

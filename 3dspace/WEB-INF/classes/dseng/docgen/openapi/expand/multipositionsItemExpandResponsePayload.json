@@ -1,0 +1,66 @@
+{
+  "properties": {
+    "totalItems": {
+      "type": "integer",
+      "example": 3
+    },
+    "member": {
+      "type": "array",
+      "example": [
+        {
+          "name": "ppa-24739540-00000001",
+          "title": "Multi Positions Item00000001",
+          "description": "",
+          "id": "525BB056E85A0000632C29F10013C46B",
+          "type": "VPMReferenceExtPos",
+          "modified": "9/22/2022 11:25:05 AM",
+          "created": "9/22/2022 11:25:05 AM",
+          "cestamp": "525BB056E85A0000632C29F000130444",
+          "revision": "A",
+          "state": "IN_WORK",
+          "owner": "Me",
+          "organization": "Company Name",
+          "collabspace": "3DS Collab Space"
+        },
+        {
+          "name": "ppa-24739540-00000002",
+          "title": "Multi Positions Item00000002",
+          "description": "",
+          "id": "525BB056E85A0000632C29F10013C46C",
+          "type": "VPMReferenceExtPos",
+          "modified": "9/22/2022 11:25:05 AM",
+          "created": "9/22/2022 11:25:05 AM",
+          "cestamp": "525BB056E85A0000632C29F000130445",
+          "revision": "A",
+          "state": "IN_WORK",
+          "owner": "Me",
+          "organization": "Company Name",
+          "collabspace": "3DS Collab Space"
+        },
+        {
+          "id": "6216B0565CBD180067D0047F00000039",
+          "type": "VPMInstance",
+          "modified": "9/22/2022 11:25:05 AM",
+          "created": "9/22/2022 11:25:05 AM",
+          "cestamp":"6216B0565CBD180067D0047F00000AEA",
+          "name": "Physical Product00000180.1"
+        },
+        {
+          "Path": ["525BB056E85A0000632C29F10013C46B", "6216B0565CBD180067D0047F00000039", "525BB056E85A0000632C29F10013C46C"]
+        }
+      ]
+    },
+    "nlsLabel": {
+      "type": "object",
+      "example": {
+        "id": "Id",
+        "type": "Type",
+        "modified": "Modification Date",
+        "created": "Creation Date",
+        "revision": "Revision",
+        "state": "State",
+        "owner": "Owner"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "document": "Dokument",
+  "videoOnly": "Video",
+  "picture": "Bild",
+  "sound": "Audio",
+  "3d_model": "3D-Modell",
+  "drawing": "Zeichnung",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "errorMin": "Sie können keinen Wert eingeben, der kleiner ist als ",
+  "errorMax": "Maximale Größen",
+  "submitComplete": "Aktualisierung erfolgreich",
+  "submitFailure": "Fehler beim Senden",
+  "help": "Dateierweiterungsunterstützung",
+  "mb": "{value} MB",
+  "acceptAllFileExtensions": "Alle Dateierweiterungen akzeptieren",
+  "disallowHighRiskFileExtensions": "Dateierweiterungen mit hohem Risiko nicht zulassen (z. B. .exe, .bat) Weitere Informationen finden Sie in der Benutzerhilfe.",
+  "permitOnlySupportedMediaTypes": "Nur unterstützte Medientypen zulassen (Bild/Audio/Video/3D-Modell/Dokument...)",
+  "forAllTypes": "Für alle Typen",
+  "restrictUploadFileBySize": "Größe der Upload-Datei nach Typ einschränken:",
+  "fileExtensionSupport": "Dateierweiterungsunterstützung",
+  "maximumUploadFileSize": "Maximale Upload-Dateigröße"
+}

@@ -1,0 +1,18 @@
+{
+	"dsmvimpl:program.ReferencedObjects": {
+		"property": "computed",
+		"key": "referencedObjects",
+		"description": "Associated Implementing and Implemented Objects",
+		"example": "",
+		"label": "dsimpl.referencedObjects.Field",
+		"fetchOnce": true
+	},
+	"dsmvimpl:ImplLink.FTACnxType": {
+		"property": "computed",
+		"key": "FTACnxType",
+		"description": "FTACnxType attribute (0, 1, ...). If not defined returned value is -1",
+		"example": "",
+		"label": "dsimpl.FTACnxType.Field",
+		"fetchOnce": true
+	}
+}

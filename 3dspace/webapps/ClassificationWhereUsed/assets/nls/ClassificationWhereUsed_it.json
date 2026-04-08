@@ -1,0 +1,17 @@
+{
+  "ClassName": "Nome classe",
+  "ClassTitle": "Titolo della classe",
+  "MaturityState": "Stato maturità",
+  "ClassPath": "Percorso di classe",
+  "Owner": "Proprietario",
+  "CollabSpace": "Area di collaborazione",
+  "Close": "Chiudi",
+  "showlabel": "Mostra classi associate - ",
+  "Find": "Trova",
+  "OpenWith": "ApriCon",
+  "NoAccess": "Non è possibile visualizzare le classi associate.",
+  "PartialAccess": "È possibile visualizzare solo le classi a cui si ha accesso, anche se l'attributo è associato a più classi.",
+  "NoClassesAttached": "L'attributo selezionato non è associato ad alcuna classe.",
+  "ClasslistError": "Errore durante il recupero dell'elenco di classi",
+  "ClassPathError": "Errore durante il recupero dei percorsi di classe"
+}

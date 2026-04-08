@@ -1,0 +1,12 @@
+{
+  "isCellEditableColumns": {
+    "title": "Można edytować z poziomu karty Widok"
+  },
+  "attributeForEditingColumns": {
+    "title": "Atrybut edycji komórki"
+  },
+  "ClassificationAttributes": {
+    "title": "Klasyfikacja"
+  },
+  "instance": "Wystąpienie"
+}

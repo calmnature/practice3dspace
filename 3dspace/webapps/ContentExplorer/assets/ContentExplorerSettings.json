@@ -1,0 +1,50 @@
+{
+    "padsettings": {
+        "enopad": {
+            "run_options": { 
+                "maxPathsForSearch": {
+                    "value": "300"
+                },
+                "authorized_root_types": {
+                    "value": [
+                    "MCAD Assembly",
+                    "MCAD Component",
+                    "CATDrawing",
+                    "VPMReference",
+                    "VPMRepReference",
+                    "Change Action",
+                    "ENOStrRefinementSpecification"
+                ]
+                }
+            },
+            "debug_options": {
+                "expandSaveLimitation": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Limite expand size saved"
+                    }
+                },
+                "activateFUN085903": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Activate Hide the Terminal representation (FUN085903)"
+                    }
+                },
+                "Activate_relationsColumns": {
+                    "value": false
+                }
+            },
+            "settings": {
+                "activateBIFilter": {
+                    "value": true
+                }
+            }
+        }
+    },
+    "view_settings": {
+        "sortPersistence": true
+    }
+}
+

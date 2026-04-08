@@ -1,0 +1,1 @@
+Proj4js.defs["EPSG:5224"] = "+proj=mod_krovak +axis=swu +lat_0=49.5 +lon_0=42.5 +alpha=30.2881397222222 +k=0.9999 +x_0=5000000 +y_0=5000000 +ellps=bessel +pm=ferro +towgs84=572.213,85.334,461.94,4.9732,1.529,5.2484,3.5378 +units=m +no_defs +type=crs";

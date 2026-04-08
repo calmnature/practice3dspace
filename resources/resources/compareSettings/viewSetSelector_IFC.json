@@ -1,0 +1,2983 @@
+{
+	"version": "1.0",
+	"viewSetSelectorArray": [
+		{
+			"viewSetMod": "DS/CATCivilCompareRulesIntegration/viewdef/CivilViewDefinition",
+			"viewSetName": "IFC_STANDARD_VIEW",
+			"UseCases": [
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecChimney",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecCovering",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecCurtainWall",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecDoor",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecOtherArchitecturalElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecRailing",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecRamp",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecRampFlight",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecRoof",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecShadingDevice",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecStair",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecStairFlight",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecWindow",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecFacility",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecFoundation",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecSite",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecTerrain",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecBuildingElementPart",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecDiscreteAccessory",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecImpactProtectionDevice",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecMechanicalFastener",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecMechanicalFastenerAnchor",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecMechanicalFastenerCoupler",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecReinforcingBar",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecReinforcingMesh",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecSign",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecSignal",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecTendon",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecTendonAnchor",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecTendonConduit",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecFurnishingElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecElementAssembly",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecProject",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecSpatialZone",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "ConstructionDriver",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecBeam",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecBearing",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecCable",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecCaissonFoundation",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecColumn",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecCuttingElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecFooting",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecMember",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecOpeningElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecOtherStructuralElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecPile",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecPlate",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecSlab",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecStiffener",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecWall",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecTransportElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecVirtualElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeOtherArchitecturalElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Bridge",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeAbutment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeAnchorBlock",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeArch",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeDeck",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeHangerBelt",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgePier",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeSpan",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeStayBelt",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeSuspensionSystem",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeTower",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeArchSegment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeCrosshead",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeDeckSegment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeHangerCable",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeOtherStructuralElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgePierSegment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeStayCable",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeSuspensionCable",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeTowerSegment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BridgeWay",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Building",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BuildingShellAndCore",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BuildingSpace",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BuildingStorey",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "BuildingStructure",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "DamOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Dam",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "DamOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSDistributionLine",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSDistributionSpan",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSElectricPole",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSElectricPowerSystem",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSHighVoltagePylon",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSHighVoltageSpan",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSHighVoltageTransmissionLine",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSOutputPosition",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSPowerPlant",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSubstation",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSwitchPosition",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSwitchYard",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSTransformerCell",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSTransformerCenter",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSAuxiliarTransformer",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSBattery",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSBusbar",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSCable",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSCableAssembly",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSCableDevice",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSCapacitor",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSCapacitorBank",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSCoil",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSControlBox",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSControlEquipment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSConversionSF6",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSConverter",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSDisconnector",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSDisconnectorToEarth",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSDivider",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSEarthingGrid",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSEarthingPoints",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSEquipment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSEquipmentAssembly",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSEquipmentPole",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSInterface",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSMeasureProtection",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSMeasureTransformer",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSMobileLink",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSMVSupply",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSOpFlexEquipment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSPanel",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSPhaseShiftingTransformer",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSPowerTransformer",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSProtection",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSProtectionAssembly",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSPylonDevice",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSReactance",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSRectifier",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSResistor",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSAXPLC",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSShieldBox",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSShuntReactor",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSignalCoil",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSplice",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSStabilizerTransformer",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSStringInsulator",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSubstationConnection",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSurgeArrester",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "EPSSwitch",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "MarineFacility",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "MarineOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "NatureLake",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "NatureOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "NaturePlant",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "NaturePlantCover",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "NatureRiver",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "NatureSea",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwayOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwayTrackPanel",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwayTrackRail",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwayTrackSleeper",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwayTrackTurnout",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Railway",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwayOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwayStretch",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RailwaySwitch",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "AecKerb",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RoadOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Road",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RoadInterchange",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RoadIntersection",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RoadOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RoadRamp",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "RoadStretch",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SignageArmCantilever",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SignageHighMast",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SignageMarker",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SignageOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SignageOverheadStructure",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SignagePictorial",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SignagePole",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeExcavationWorks",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeFillingWorks",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeGroundReinforcementElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeLayer",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeReinforcedSoilElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeRetainingElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeStockpile",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Subgrade",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "SubgradeRetainingStructure",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelRingSegment",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundExcavationworks",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundLining",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundSupport",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundWaterproofing",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "CutCoverTunnel",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Tunnel",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelBay",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelFullTunnelSpace",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelInterchange",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelOtherSpace",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelRing",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "TunnelStretch",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundAccessPortal",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundAdit",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundCavern",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundConnection",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundCrossPassage",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundEnlargement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundGallery",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundIncline",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundProfileTransition",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundShaft",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "UndergroundSpace",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSDistributionLine",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSTransmissionLine",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSWaterStorage",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSWaterSupplySystem",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSWaterTreatmentPlant",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSOtherElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSSupport",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "WSSThrustBlock",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "Drainage",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "DrainageCulvert",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "DrainageOtherSpatialStructureElement",
+							"service": "3DSpace"
+						}
+					]
+				},
+				{
+					"app": "COMPARE",
+					"roles": [
+						"COVIC",
+						"CONSC"
+					],
+					"typeInfoArray": [
+						{
+							"type": "DrainageTrench",
+							"service": "3DSpace"
+						}
+					]
+				}
+			],
+			"MainToolbarConfig": [
+				{
+					"Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+					"DoNotInclude": [
+						"compareSettings.includeFacets.externalRelations"
+					]
+				}
+			]
+		}
+	]
+}

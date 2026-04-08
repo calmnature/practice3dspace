@@ -1,0 +1,24 @@
+{
+	"dsimpl:ImplLink": {
+		"summary": "Implement Link",
+		"description": "Implement Link between Implementing and Implemented objects",
+		"PUBLICMasks": [
+			"dsmvimpl:ImplLink.Base",
+			"dsmvimpl:ImplLink.ReferencedObjects"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICFields": [],
+		"PROTECTEDFields": [
+			"dsmvimpl:ImplLink.FTACnxType"
+		],
+		"PRIVATEFields": [],
+		"PUBLICExcludedURIs": [
+			"getItems",
+			"GETAll",
+			"BULKUPDATE",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	}
+}

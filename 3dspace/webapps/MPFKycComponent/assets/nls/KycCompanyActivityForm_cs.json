@@ -1,0 +1,11 @@
+{
+  "businessType": "Typ podniku",
+  "company": "Společnost",
+  "nonProfitAndEducation": "Nezisková nebo vzdělávací instituce",
+  "industry": "Odvětví",
+  "activity": "Aktivita",
+  "website": "Web",
+  "description": "Popis",
+  "select": "Vybrat",
+  "fieldIsRequired": "Toto pole je povinné"
+}

@@ -1,0 +1,8 @@
+{
+  "Toolbar.LinkedItemsInPERT.Label": "Afficher/Masquer les éléments liés dans la vue PERT",
+  "Toolbar.LinkedItemsInPERT.ToolTip.ShortHelp": "Active/désactive la visibilité des mosaïques d'éléments implémentés pour l'opération",
+  "Toolbar.LinkedItemsInPERT.ToolTip.LongHelp": "Affiche ou masque les mosaïques d'éléments implémentés liées à l'opération. Lorsque cette option est activée, les éléments implémentés apparaissent sous l'opération ; lorsqu'elle est désactivée, ils sont masqués.",
+  "Toolbar.LinkedResourcesInPERT.Label": "Afficher/Masquer les ressources liées dans la vue PERT",
+  "Toolbar.LinkedResourcesInPERT.ToolTip.ShortHelp": "Active/désactive la visibilité des mosaïques de ressources liées pour l'opération",
+  "Toolbar.LinkedResourcesInPERT.ToolTip.LongHelp": "Affiche ou masque les mosaïques de ressources liées à l'opération. Lorsque cette option est activée, les ressources liées apparaissent sous l'opération ; lorsqu'elle est désactivée, elles sont masquées."
+}

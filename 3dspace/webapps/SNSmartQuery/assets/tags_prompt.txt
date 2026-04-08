@@ -1,0 +1,480 @@
+## Goal
+Identify the conditions in the Users Query.
+
+## Context
+Condition is a mini query composing of 3 things:
+1. tag (property)
+2. value (value against the property)
+3. operator (connector between tag and value)
+
+Structure of condition: Where tags inside square bracket, followed by operator, followed by value.
+This "operator" depends on the type of information:
+- for numerical, it can be "<", "<=", ">", ">=", ":"
+- for date, it can be "<", ">", ":", "<=", ">="
+- for string & boolean, it is simply ":"
+
+** TimeLine management
+For timeline, consider replying the equivalents:
+- for day(d), week(w), month(m), quarter(q), half(h), year(y)
+  - today -> @@d@@
+  - yesterday -> @@d-1@@
+  - 10 days ago -> @@d-10@@
+  - 10 days into future -> @@d+10@@
+  - this year -> @@y@@
+  - last year -> @@y-1@@
+  - 2 years ago -> @@y-2@@
+  - this month -> @@m@@
+  - next month -> @@m+1@@
+  - this week -> @@w@@
+  - last week -> @@w-1@@
+  - this quarter -> @@q@@
+  - last quarter -> @@q-1@@
+  - first half -> @@h1@@
+  - second half -> @@h2@@
+  - 2nd June 2023 -> @@d2m6y2023@@
+  - 31st March 2040 -> @@d31m3y2040@@
+  - January 2030 -> @@m1y2030@@
+  - April -> @@m4@@
+  - week 23 -> @@w23@@
+  - week 43 of year 2030 -> @@w43y2030@@
+  - h1 2023 -> @@h1y2023@@
+  - q2 of 2020 -> @@q2y2020@@
+  - q4 -> @@q4@@
+
+** ME keyword
+For ME context (like "created by me", "owned by me", "my"), use @@me@@
+
+** Structure of Input **
+Input object consists of
+1. User query
+2. Type
+3. Kind
+// where {Type} & {Kind} fields give "Type of object" information.
+
+### Sample input
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: find physical product with bead fastener extension godSpeedThunder 14mm/s created today,
+  Type: [Physical Product],
+  Kind: [Bead Fastener]
+}
+
+## Steps ##
+Step 1: Query decomposition
+- Break the query into chunks from the available tags & Object-type info.
+- Examine every tag, even after finding a match, to see if a better one exists
+- Chunks: 'find physical product', 'with bead fastener extension', 'godSpeedThunder 14mm/s', 'created today'
+Step 2: Dereferencing "object type" info from User Query
+- get rid of chunks that capture "type"/"kind" field information.
+- USE Case insensitive phrase match for this step.
+- Dereferenced Chunks: 'godSpeedThunder 14mm/s', 'created today'
+Step 3: Building conditions
+ - for the dereferenced chunks build conditions
+ - Maintain the exact form present in {tags} list, char by char.
+ - Examine every tag, even after finding a match, to see if a better one exists
+ - don't match by Synonymy meaning of the tag, Match by phrase not by meaning of the tag.
+ - if NO tag matches the chunk, skip {building conditions} step for that Chunk.
+  Conditions: '[GodSpeedThunder]:14', '[Created]:@@d@@'
+Note: if everything is already captured in the input, return [].
+
+## Hypothetical Example
+If available tags = ['Shut thE door', 'Open window']
+Query: shut the door HEllo
+Types: []
+Explanation: identifying is critical, even when the tag is "too generic" or "absurd". NO mater what , Always Maintain the Same form (capitalization) as in {tags}.
+Conditions:
+'[Shut thE door]:"HEllo"'
+## Examples for learning
+
+**Example 1**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: get me objects with ABC as title,
+  Type: [],
+  Kind: []
+}
+Chucks: 'get me objects', 'with ABC as title'
+Dereferenced Chunks: 'with ABC as title'
+Explanation: "objects" is too generic, hence is ignored
+Conditions:
+'[Title]:"ABC"'
+
+---
+
+**Example 3**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: find post card with like less than or equal to 30 And owned by me,
+  Type: [Post],
+  Kind: []
+}
+Chunks: 'find post card', 'with like less than or equal to 30', 'owned by me'
+Dereferenced Chunks: 'post card', 'with like less than or equal to 30', 'owned by me'
+
+Conditions:
+'post card', '[Likes]<=30', '[Owner]:@@me@@'
+
+---
+
+**Example 4**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: WIKI page created on March 2nd 2014,
+  Type: [Wiki page],
+  Kind: []
+}
+Chunks: 'WIKI page', 'created on March 2nd 2014'
+Dereferenced Chunks: 'created on March 2nd 2014'
+Explanation: chunk "WIKI page" matches entry in type, hence is ignore.
+Conditions:
+'[Created]:@@d2m3y2014@@'
+
+---
+
+**Example 5**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: 3dshape with cad extension kind modified this week,
+  Type: [3D Shape],
+  Kind: [CAD Extension]
+}
+Chunks: '3dshape', 'with cad extension kind', 'modified this week'
+Dereferenced Chunks: 'modified this week'
+Conditions:
+'[Modification Date]:@@w@@'
+
+---
+
+**Example 6**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: find physical products created today, owned by archer,
+  Type: [Physical Product],
+  Kind: []
+}
+Chunks: 'find physical products', 'created today', 'owned by archer'
+Dereferenced Chunks: 'created today', 'owned by archer'
+Explanation: As part of dereferencing "find physical products" chunk is removed as it matches type "Physical Product".
+Conditions:
+'[Created]:@@d@@', '[Owner]:"archer"'
+
+---
+
+**Example 7**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: valantinarust_loadfanange & Rockhard corporation limited,
+  Type: [ValantinaRust_load Fanange, rock hard Co orporation limited],
+  Kind: []
+}
+Chunks: 'valantinarust_loadfanange', 'Rockhard corporation limited'
+Dereferenced Chunks: ''
+Explanation: both the chunks match (case insensitive) the given types, hence removed as part of dereferencing step.
+Conditions:
+''
+
+---
+
+**Example 8**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: find systems validation model and loops text,
+  Type: [Systems Validation Model, Loop],
+  Kind: []
+}
+Chunks: 'find systems validation model', 'loops text'
+Dereferenced Chunks: 'loops text'
+Conditions:
+'[LooPs]:"text"'
+
+---
+
+**Example 9**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+{
+  User Query: give me recipe master copies and collaborative credential "hello world",
+  Type: [Recipe Master Copy, Collaboration Package],
+  Kind: []
+}
+Chunks: 'give me recipe master copies', 'collaborative credential "hello world"'
+Dereferenced Chunks: 'collaborative credential "hello world"'
+Conditions:
+'hello world'
+Explanation: chunk 'give me recipe master copy' is ignored as it directly refers a type.
+// Conditions is ONLY "hello world" even with chunk 'collaborative credential "hello world"' because there  is no tag "collaborative credential".
+
+---
+
+**Example 10**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: physical products created after 2024 and has is last revision true,
+  Type: [Physical Product],
+  Kind: []
+}
+Chunks: 'physical product', 'created after 2024', 'has is last revision true'
+Dereferenced Chunks: 'created after 2024', 'has is last revision true'
+Conditions:
+'[Created]>@@y2024@@', '[Is Last Revision]:"true"'
+
+---
+
+**Example 11**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: Hole mir Fenster mit änderungshistorie wahr,
+  Type: [Fenster],
+  Kind: []
+}
+Chunks: 'Hole mir Fenste', 'mit änderungshistorie wahr'
+Dereferenced Chunks: 'mit änderungshistorie wahr'
+// Independent of language, capture boolean values in English. Always use "true"/"false"
+Conditions:
+'[Änderungshistorie]:"true"'
+
+---
+
+**Example 12**
+**Input**
+{
+  User Query: Hole mir Profilübergang mit Änderungshistorie falsch,
+  Type: [Profilübergang],
+  Kind: []
+}
+Chunks: 'Hole mir Profilübergang', 'mit Änderungshistorie falsch'
+Dereferenced Chunks: 'mit Änderungshistorie falsch'
+// Note: Independent of language, capture boolean values in English. Always use "true"/"false"
+Conditions:
+'[Änderungshistorie]:"false"'
+
+---
+
+**Example 13**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: find car with loop me,
+  Type: [Race Car, Loop],
+  Kind: []
+}
+Chunks: 'find car', 'with loop me'
+Dereferenced Chunks: 'find car', 'with loop me'
+Conditions:
+'car', '[Loop]:@@me@@'
+// loop as tag is a better match here, in that case it captures all info in the sentence.
+// Chunk "find car" is a partial match, hence it is still present in "Dereferenced Chunks"
+// here car is a key entity, hence is captured
+// if sentence was "find race car with loop me", conditions is only "['[Loop]:@@me@@']"
+
+---
+
+**Example 14**
+**Input**
+{
+  User Query: cars with loops me,
+  Type: [Car],
+  Kind: []
+}
+Conditions:
+'[LooPs]:@@me@@'
+
+---
+
+**Example 15**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: Post in play 3DExperince! community,
+  Type: [Post],
+  Kind: []
+}
+// When "in" is used in context of community use "Community" tag. user is looking for object of type post inside community play 3DExperience!
+Conditions:
+'[Community]:"play 3DExperience!"'
+
+---
+
+**Example 16**
+**Input**
+{
+  User Query: find Cars in 'play 3DExperince! community',
+  Type: [Car],
+  Kind: []
+}
+
+Explanation: when things are in between quotes, assume it as one entity.
+// When "in" is used in context of community use "Community" tag
+// user is looking for object of type car inside community "play 3DExperince! community"
+Conditions:
+'[Community]:"play 3DExperience! community"'
+
+---
+
+**Example 17**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: 3dexperience type with 'group Index' kind created before June 23rd,
+  Type: [3DExperience],
+  Kind: [Group Index]
+}
+Conditions:
+'[Created]:@@d23m6@@'
+
+---
+
+**Example 18**
+**Input**
+{
+  User Query: post created by arnold, ralph,
+  Type: [Post],
+  Kind: []
+}
+Explanation: Observe How "parenthesis" & "OR" are used to capture similar Entities.
+Conditions:
+'[Created By]:("arnold" OR "ralph")'
+
+---
+
+**Example 19**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: posts created by 'jhgjda, ralph',
+  Type: [Post],
+  Kind: []
+}
+Explanation: When things are in quotes, assume it as One entity
+Conditions:
+'[Created By]:"jhgjda, ralph"'
+
+---
+
+**Example 20**
+**Input**
+{
+  User Query: post created by jhgjda, 'ralph tony', barni & gerad,
+  Type: [Post],
+  Kind: []
+}
+Chunks: 'post', "created by jhgjda, 'ralph tony', barni & gerad"
+Dereferenced Chunks: "created by jhgjda, 'ralph tony', barni & gerad"
+Explanation: chunk(post) is a exact match of type "Post", hence is removed. When things are in quotes, assume it as One entity. it should not be split/processed, it is just for consumption.
+Conditions:
+'[Created By]:("jhgjda" OR "ralph tony" OR "barni" OR "gerad")'
+
+---
+
+**Example 21**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: space   ship created by aman arora,
+  Type: []
+}
+Chunks: 'space ship', 'created by aman arora'
+Dereferenced Chunks: 'space ship', 'created by aman arora'
+Conditions:
+'space ship', '[Created By]:"aman arora"'
+---
+
+**Example 21**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: epsilon market & stray hat pirate,
+  Type: [Epsilon Market, Stray Hat Pirate]
+}
+Chunks: 'epsilon market', 'stray hat pirate'
+Dereferenced Chunks: ''
+Explanation: Chunk (epsilon market) and chunk (stray hat pirate) match the exactly match types provided. hence are removed in Dereferencing step.
+Conditions:
+''
+
+---
+
+**Example 22**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: star wars post with owner dravid,
+  Type: [Post],
+  Kind: []
+}
+Chunks: 'star wars', 'post', 'with owner dravid'
+Dereferenced Chunks: 'star wars', 'with owner dravid'
+// When you have a key entity, but if DO NOT have a matching/relevant tag, just capture value. here "star wars" looks like a important filter hence is captured.
+Conditions:
+'star wars', '[Owner]:"dravid"'
+
+---
+
+**Example 23**
+**Input**
+{
+  User Query: bring pet water   bottle created by reno,
+  Type: [],
+  Kind: []
+}
+Chunks: 'bring pet water bottle', 'created by reno'
+Dereferenced Chunks: 'bring pet water bottle', 'created by reno'
+// When you have a key entity and that is not a Listed {Type}, but if DO NOT have a matching/relevant tag, just capture value. Like "pet water bottle" here.
+Conditions:
+'pet water bottle', '[Owner]:"reno"'
+
+---
+
+**Example 24**
+**Input**
+if available tags = [Title, Likes, Owner, Created, Modification Date, Collaborative Space, Änderungshistorie, Is Last Revision, LooPs, Loop, Community, Created By, GodSpeedThunder bird, GodSpeedThunder]
+
+{
+  User Query: find valantinarust_loadfanange & rockhard corporation limited,
+  Type: [ValantinaRust_load Fanange, rock hard Co orporation limited],
+  Kind: [Vant]
+}
+Chunks: 'valantinarust_loadfanange', 'rockhard corporation limited'
+Dereferenced Chunks: ''
+Explanation: as part of refrencing step both chunks are removed.
+Conditions:
+''
+
+---
+
+## Rules (Strictly)
+  - Ignore Chunks that match entries in TYPE/KIND field. KEEP Partial matches, ONLY IGNORE EXACT MATCHES(Plural forms as well). Check by phrase matching, ignore case.
+  - Conditions is a Array of Key/value pairs.
+  - In decomposition & Building conditions steps, strictly check every tag, even after finding a match, to see if a better one exists (Case Insensitive phrase match)
+  - # Plain‑text‑only mode (do NOT remove)
+    - You must output **exactly one plain‑text token** and nothing else.
+    - Do NOT wrap the answer in markdown, code fences, JSON, XML, or any other container.
+    - Do NOT add a trailing newline, spaces, or any explanatory text.
+
+## Task
+Take a deep breath and Generate ONLY "Conditions" for below input
+if available tags = [__TAGS__]
+Input:
+__INFO__
+
+NOTE: Don't add any additional text or explanation or code.
+Conditions:

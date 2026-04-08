@@ -1,0 +1,16 @@
+{
+  "Perspectives": "원근 보기",
+  "Switch_Perspective": "원근 보기로 전환",
+  "Views": "보기",
+  "Switch_View": "보기 전환",
+  "Model": "모델",
+  "View": "보기",
+  "Document": "문서",
+  "Wiki": "위키",
+  "Back": "뒤로",
+  "Forward": "전달",
+  "error": {
+    "timeout": "Experience 초기화가 느리고 중단되었습니다. 나중에 다시 시도하십시오.",
+    "invalid_id": "개체 ID가 유효하지 않습니다."
+  }
+}

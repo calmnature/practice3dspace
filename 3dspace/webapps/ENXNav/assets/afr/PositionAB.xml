@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+      <Template syp:name="ENOXSceneHeaders" Target="CATCmdHeadersList">
+            <CATCmdHeadersList>
+                  <!-- POSITION SECTION-->
+                  <CATCommandHeader ID="CATPAEXcmd" HelpResourceFile="CATPAEXCommands/CATPAEXCommandsHelpForCommands" ClassName="DS/CATPAEXCommands/commands/CATPAEXcmd" ResourceFile="CATPAEXCommands/CATPAEXCommands" Available="1" />
+            </CATCmdHeadersList>
+      </Template>
+
+      <Template syp:name="ENOXSceneWkbAccess" Target="CATCmdWorkbench">
+            <CATCmdWorkbench Name="ENOXSceneWkb">
+                  <CATCmdContainer Name="XSCPosition" RepresentationType="AfrActionBarSection">
+                        <CATCmdStarter Name="Postion" Command="CATPAEXcmd" />            
+                  </CATCmdContainer>
+            </CATCmdWorkbench>
+      </Template>
+</Styles>

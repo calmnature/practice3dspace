@@ -1,0 +1,2 @@
+/*! Copyright 2019 Dassault Systèmes */
+"undefined"!=typeof mathjs?define("DS/VENMathjs2/VENMathjs2",[],(function(){"use strict";return mathjs})):-1===require.toUrl("DS/VENMathjs").indexOf("Mathjs-15.1.0")&&function(){"use strict";var t=require.toUrl("DS/Mathjs-15.1.0/math");t.indexOf("?")>-1&&(t=t.substring(0,t.indexOf("?"))),require.config({paths:{"DS/VENMathjs2":t},shim:{"DS/VENMathjs2":{exports:"redux"}}})}(),define("DS/VENMathjs2/VENMathjs2",["DS/VENMathjs2"],(function(t){"use strict";return t}));

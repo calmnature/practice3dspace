@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Bağlama Elemanı Kategorisi",
+  "V_MfgFastenerStrategy": "Bağlama Elemanı Stratejisi",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Bakım Adayı",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Yedek Aday",
+  "V_RepairType": "Onarım Tipi",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Bakım Seviyesi",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Kod Bilgisi",
+  "orderParameters": "Sıralama Güncellendi",
+  "orderParametersTitle": "Yeniden Sırala",
+  "orderParametersError": "Yeniden sıralama hatası",
+  "orderParametersMaskMessage": "Sıralama Güncelleniyor",
+  "orderParametersDeleteError": "Önceki Sıralama silinirken hata oluştu",
+  "orderParametersSetError": "Yeni Sıralama kaydedilirken hata oluştu",
+  "nonEditableParamTitle": "Öznitelik düzenlenemez",
+  "nonEditableParamContent": "Seçili öznitelik, Bağlama Elemanı Tutamacını Tanımlayan Kurallar tablosunda bir veya daha fazla parametrede kullanıldığından düzenlenemiyor",
+  "deleteParameterTitle": "Öznitelik silinemez",
+  "deleteParameterError": "Seçili öznitelik, Bağlama Elemanı Tutamacını Tanımlayan Kurallar tablosunda bir veya daha fazla parametrede kullanıldığından silinemez",
+  "attributeName": "Öznitelik Adı",
+  "attributeValue": "Öznitelik Değeri"
+}

@@ -1,0 +1,21 @@
+{
+  "Error_Plateforminfo": "Les informations sur la plateforme ne sont pas disponibles",
+  "Error_NoObject": "Aucune référence reçue",
+  "Error_Format": "Le format de l'objet reçu est incorrect",
+  "Error_ResourceFail": "Echec de l'extraction de la ressource",
+  "Error_EmptyResponse": "La réponse est vide",
+  "Error_NoDataReturned": "Aucune donnée n'a été renvoyée",
+  "Error_PromisesFail": "Echec de l'exécution de la promesse",
+  "Error_ParseFail": "Impossible d'analyser la réponse",
+  "Error_ObjectNotFound": "Objet introuvable",
+  "Error_Expand": "La demande de développement a échoué : entrée incorrecte",
+  "Errro_PlatformInfo": "La demande d'informations sur la plateforme a échoué : entrée incorrecte",
+  "Error_SecurityContext": "Echec de l'extraction des informations d'identification",
+  "Error_ResourceLinkFail": "Des liens vers des ressources ont été trouvés, mais les ressources ne peuvent pas être affichées.",
+  "Error_MoreScopes": "Le processus d'entrée possède plusieurs éléments de portée définis.",
+  "Error_NoScope": "Le processus d'entrée ne possède pas d'élément de portée défini.",
+  "error_NotAllowedObject": "Type d'objet non pris en charge",
+  "error_NotAllowedObject_msg": "Le type d'objet déposé n'est pas pris en charge en entrée.",
+  "error_IncorrectObject": "Objet incorrect",
+  "error_IncorrectObject_msg": "L'objet déposé n'est pas correct."
+}

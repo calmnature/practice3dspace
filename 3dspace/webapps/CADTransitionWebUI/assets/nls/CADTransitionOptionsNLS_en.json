@@ -1,0 +1,23 @@
+{
+  "cadtransitionoptions.execmode.label": "Execution Mode",
+  "cadtransitionoptions.execmode.coversion.label": "Transition as",
+  "cadtransitionoptions.execmode.coversion.value": [
+    "New Object"
+  ],
+  "cadtransitionoptions.execmode.expand.label": "Expand Level",
+  "cadtransitionoptions.execmode.expand.value": [
+    "Expand All",
+    "No Expand",
+    "Custom Expand Depth"
+  ],
+  "cadtransitionoptions.addopts.label": "Additional Options",
+  "cadtransitionoptions.addopts.linkcomp.label": "Link Completion",
+  "cadtransitionoptions.addopts.linkcomp.value": [
+    "Full Link Completion",
+    "No Link Completion",
+    "Custom Link Completion"
+  ],
+  "cadtransitionoptions.addopts.maptable.label": "Use Mapping Tables",
+  "cadtransitionoptions.addopts.update.label": "Force Update",
+  "cadtransitionoptions.addopts.overwrite.label": "Allow Overwrite"
+}

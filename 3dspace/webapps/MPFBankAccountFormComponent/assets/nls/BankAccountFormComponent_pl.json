@@ -1,0 +1,13 @@
+{
+  "iban": "IBAN",
+  "swift": "SWIFT",
+  "bsbNumber": "Numer BSB",
+  "abaNumber": "Numer ABA",
+  "bankNumber": "Numer banku",
+  "transitNumber": "Numer tranzytu",
+  "accountNumber": "Numer konta",
+  "validationFailure": "Nie można zapisać informacji o koncie. Sprawdź, czy informacje są poprawne.",
+  "saveFailure": "Przepraszamy, wystąpił błąd lub wprowadzone informacje są nieprawidłowe.",
+  "modificationPolicy": "Należy pamiętać, że te informacje będą edytowalne dopiero po zakończeniu procesu walidacji.",
+  "bankAccountSaved": "Informacje o koncie bankowym zostały pomyślnie zapisane."
+}

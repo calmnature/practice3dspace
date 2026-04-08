@@ -1,0 +1,69 @@
+{
+    "dsili:IllustratedItem": {
+        "kindOf": "root",
+        "beType": "type_DELIllustratedItemGenericReference",
+        "classesTypes": "type_DELIllustratedItemHeaderReference,type_DELIllustratedItemReference,type_DELIllustratedItemFigureReference",
+        "patchCSRF": true,
+        "search": true,
+        "contentLinks": [
+            "dsili:IllustratedItemInstance",
+            "dsili:ItemSpecification"
+        ],
+        "extensionLinks": [
+            "dsili:PartialScope"
+        ],
+        "cestamp": true,
+        "defaultMask": "dsili:IllustratedItemMask.Default",
+        "customerAttribute": true,
+        "customizationSupport": true,
+        "isPublic": true,
+        "changeSupport": true,
+        "optionCheck": {
+            "modify": true,
+            "produce": true,
+            "navigate": true
+        },
+        "publicResourceURI": "/resources/v1/modeler/dsili/dsili:IllustratedItem/{pid}"
+    },
+    "dsili:IllustratedItemInstance": {
+        "kindOf": "content",
+        "beType": "relationship_DELIllustratedItemGenericInstance",
+        "classesTypes": "relationship_DELIllustratedItemInstance,relationship_DELIllustratedItemFigureInstance",
+        "extensionLinks": [],
+        "cestamp": true,
+        "isPublic": true,
+        "changeSupport": true,
+        "defaultMask": "dsili:IllustratedItemInstanceMask.Default",
+        "customerAttribute": true,
+        "customizationSupport": true,
+        "optionCheck": {
+            "modify": true,
+            "produce": true,
+            "navigate": true
+        }
+    },
+    "dsili:ItemSpecification": {
+        "kindOf": "content",
+        "beType": "MfgProductionPlanning",
+        "defaultMask": "dsili:ItemSpecificationMask.Default",
+        "isPublic": true,
+        "cestamp": true,
+        "indexBulkFetchMaxLimit": 500,
+        "optionCheck": {
+            "modify": true,
+            "produce": true,
+            "navigate": true
+        }
+    },
+    "dsili:PartialScope": {
+        "kindOf": "extension",
+        "beType": "virtual_DELIllustratedItemGenericReference",
+        "defaultMask": "dsili:PartialScopeMask.Default",
+        "isPublic": false,
+        "optionCheck": {
+            "modify": true,
+            "produce": true,
+            "navigate": true
+        }
+    }
+}

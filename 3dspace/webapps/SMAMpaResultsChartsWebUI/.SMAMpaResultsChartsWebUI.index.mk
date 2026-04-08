@@ -1,0 +1,11 @@
+m|SMAMpaResultsChartsWebUI\SMAMpaResultsChartsWebUI.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.3.26052|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SMAMpaResultsChartsWebUI\SMAMpaResultsChartsWebUI.js|1771639788|24190
+s|SMAMpaResultsChartsWebUI\SMAMpaResultsChartsWebUI.mweb\src\HeatmapPlot.js|1770977251|36779
+u|SMAMpaResultsChartsWebUI\SMAMpaResultsChartsWebUI.mweb\src\HeatmapUI.js|1756216621|36800
+u|SMAMpaResultsChartsWebUI\SMAMpaResultsChartsWebUI.mweb\src\lib\VenPlotly.js|1753884935|964
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

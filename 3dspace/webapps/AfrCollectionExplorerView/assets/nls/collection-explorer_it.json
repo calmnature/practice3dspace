@@ -1,0 +1,10 @@
+{
+  "NLS_ViewModeIconTooltip": "Vista",
+  "NLS_ThumbnailView": "Vista miniatura",
+  "NLS_TileView": "Vista affiancata",
+  "NLS_DataGridView": "Vista griglia dati",
+  "NLS_ListViewTitleColumnHeaderLabel": "Titolo",
+  "NLS_DropMessage": "o rilasciare il contenuto in un punto qualsiasi",
+  "NLS_NoContent": "Nessun contenuto da visualizzare.",
+  "NLS_DnDPlaceholder": "Trascinare il contenuto e rilasciarlo in un punto qualsiasi per iniziare."
+}

@@ -1,0 +1,1 @@
+define("DS/W3DDashboardSearchOpenHereActions/W3DDashboardSearchOpenHereActions_de",{});define("DS/W3DDashboardSearchOpenHereActions/assets/nls/main",{openHere:"Hier öffnen"});

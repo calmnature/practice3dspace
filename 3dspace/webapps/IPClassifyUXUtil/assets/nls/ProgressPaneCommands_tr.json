@@ -1,0 +1,14 @@
+{
+  "Cancel": "İptal",
+  "PROGRESS": "İlerleme",
+  "Pending": "Beklemede",
+  "Completed": "Tamamlandı",
+  "Failed": "Başarısız",
+  "PartiallyFailed": "Kısmen Başarısız",
+  "Cancelled": "İptal Edildi",
+  "Ending": "Güvenli Şekilde Duruluyor",
+  "CancelAll": "Tümünü İptal Et",
+  "inProgress": "Devam Ediyor",
+  "loadingText": "Yükleniyor...",
+  "searching": "Kök Yer İşaretlerinde Arama"
+}

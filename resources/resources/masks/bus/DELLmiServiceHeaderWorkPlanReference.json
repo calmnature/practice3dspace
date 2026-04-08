@@ -1,0 +1,83 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type",
+				"status": "RO"
+			},
+			{
+				"name": "V_Name",
+				"status": "RW"
+			},
+			{
+				"name": "PLM_ExternalID",
+				"status": "RO"
+			},
+			{
+				"name": "revision",
+				"status": "RO"
+			},
+			{
+				"name": "V_description",
+				"status": "RW"
+			},
+			{
+				"name": "V_versionComment",
+				"status": "RW"
+			},
+			{
+				"name": "originated",
+				"status": "RO"
+			},
+			{
+				"name": "modified",
+				"status": "RO"
+			},
+			{
+				"name": "owner",
+				"status": "RO"
+			},
+			{
+				"name": "organization",
+				"status": "RO"
+			},
+			{
+				"name": "project",
+				"status": "RO"
+			},
+			{
+				"name": "current",
+				"status": "RO"
+			}
+		]
+	},
+	"Create": {
+		"attributes": [
+			{
+				"name": "V_Name",
+				"status": "RW"
+			},
+			{
+				"name": "V_description",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"owner": {
+				"mandatory": true
+			},
+			"V_Name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			},
+			"PLM_ExternalID": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			},
+			"name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			}
+		}
+	},
+	"revision": "2"
+}

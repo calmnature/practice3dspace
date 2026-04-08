@@ -1,0 +1,1040 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELSBOMDiscreteReferenceAbst",
+				"ParentType": "DELFmiFunctionPPRDiscreteReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMDiscreteReferenceAbst",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMDiscreteReferenceAbst",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMAggregatedReferenceAbst",
+				"ParentType": "DELSBOMDiscreteReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMAggregatedReferenceAbst",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMAggregatedReferenceAbst",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "maintenanceCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "spareCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMAggregatedAbstEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMAggregatedComponentReference",
+				"ParentType": "DELSBOMAggregatedReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMAggregatedComponentReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMAggregatedComponentReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:SBOMAggregatedComponentEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMAggregatedUsageReference",
+				"ParentType": "DELSBOMAggregatedReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMAggregatedUsageReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMAggregatedUsageReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "sbomCorrespondingComponent",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.SBOMCorrespondingComponentSR3DSpaceSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.getters.MfgItemPathSR3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELMIACRUDIndexMBOMAttrTransformToPathSR"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMAggregatedUsageEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMZonalReferenceAbst",
+				"ParentType": "DELSBOMDiscreteReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMZonalReferenceAbst",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMZonalReferenceAbst",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMZoneReference",
+				"ParentType": "DELSBOMZonalReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMZoneReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMZoneReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:SBOMZonalAbstEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMMaintenanceZoneEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMZoneUsageReference",
+				"ParentType": "DELSBOMZonalReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMZoneUsageReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMZoneUsageReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "sbomCorrespondingComponent",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.SBOMCorrespondingComponentSR3DSpaceSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.getters.MfgItemPathSR3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELMIACRUDIndexMBOMAttrTransformToPathSR"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMMaintenanceZoneUsageEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMSoftwareReferenceAbst",
+				"ParentType": "DELSBOMDiscreteReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMSoftwareReferenceAbst",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMSoftwareReferenceAbst",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:SBOMSoftwareAbstEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMSofttwareUAndCAbst",
+				"ParentType": "DELSBOMSoftwareReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMSofttwareUAndCAbst",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMSofttwareUAndCAbst",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "maintenanceLevel",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMaintenanceLevelExt.V_MaintenanceLevel"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMaintenanceLevelExt.V_MaintenanceLevel"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "maintenanceCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "spareCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "essentiality",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMSofttwareUAndCAbst.V_Essentiality"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMSofttwareUAndCAbst.V_Essentiality"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replacementType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMSofttwareUAndCAbst.V_ReplacementType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMSofttwareUAndCAbst.V_ReplacementType"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMSoftwareComponentReference",
+				"ParentType": "DELSBOMSofttwareUAndCAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMSoftwareComponentReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMSoftwareComponentReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:SBOMSoftwareComponentEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMSoftwareUsageReference",
+				"ParentType": "DELSBOMSofttwareUAndCAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMSoftwareUsageReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMSoftwareUsageReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "sbomCorrespondingComponent",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.SBOMCorrespondingComponentSR3DSpaceSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.getters.MfgItemPathSR3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELMIACRUDIndexMBOMAttrTransformToPathSR"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMSoftwareUsageEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMSoftwareItemReference",
+				"ParentType": "DELSBOMSoftwareReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMSoftwareItemReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMSoftwareItemReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "softwareSize",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELFmiSoftwareSizeAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELFmiSoftwareSizeAttributeQuantityTransform"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiSoftwareSizeAttributeChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMSoftwareItemEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMHardwareReferenceAbst",
+				"ParentType": "DELSBOMDiscreteReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMHardwareReferenceAbst",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMHardwareReferenceAbst",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:SBOMHardwareAbstEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMHardwareUAndCAbst",
+				"ParentType": "DELSBOMHardwareReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMHardwareUAndCAbst",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMHardwareUAndCAbst",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "maintenanceLevel",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMaintenanceLevelExt.V_MaintenanceLevel"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMaintenanceLevelExt.V_MaintenanceLevel"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "maintenanceCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "spareCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "essentiality",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_Essentiality"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_Essentiality"
+							}
+						]
+					},
+					{
+						"ConceptualName": "lifeLimit",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_LifeLimit"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_LifeLimit"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBF",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_EstimatedMTBF"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_EstimatedMTBF"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBUR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_EstimatedMTBUR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_EstimatedMTBUR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTTR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_EstimatedMTTR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_EstimatedMTTR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_Repairable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_Repairable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_RepairType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_RepairType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replaceable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_Replaceable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_Replaceable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replacementType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_ReplacementType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_ReplacementType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "access",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareUAndCAbst.V_Access"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareUAndCAbst.V_Access"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMHardwareComponentReference",
+				"ParentType": "DELSBOMHardwareUAndCAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMHardwareComponentReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMHardwareComponentReference",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMHardwareUsageReference",
+				"ParentType": "DELSBOMHardwareUAndCAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMHardwareUsageReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMHardwareUsageReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "sbomCorrespondingComponent",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.SBOMCorrespondingComponentSR3DSpaceSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.getters.MfgItemPathSR3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELMIACRUDIndexMBOMAttrTransformToPathSR"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "sbomInZoneRelation",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.SBOMInZoneRelationSR3DSpaceSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.getters.MfgItemPathSR3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELMIACRUDIndexMBOMAttrTransformToPathSR"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "sbomAccessPointRelation",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.SBOMAccessPointRelationSR3DSpaceSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.getters.MfgItemPathSR3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELMIACRUDIndexMBOMAttrTransformToPathSR"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.MBOMSemanticRelationship3DSpaceChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMHardwareUsageEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMHardwareItemReference",
+				"ParentType": "DELSBOMHardwareReferenceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMHardwareItemReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMHardwareItemReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "consumptionRate",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELFmiConsumptionRateAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELFmiConsumptionRateAttributeQuantityTransform"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConsumptionRateAttributeChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "scrapRate",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELFmiScrapRateAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELFmiScrapRateAttributeQuantityTransform"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiScrapRateAttributeChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "spare",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareItemReference.V_Spare"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSBOMHardwareItemReference.V_Spare"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:SBOMHardwareItemEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

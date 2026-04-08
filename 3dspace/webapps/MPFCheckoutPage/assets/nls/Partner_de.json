@@ -1,0 +1,14 @@
+{
+  "cancel": "Abbrechen",
+  "customerSuccessPartner": "Kundenerfolgspartner",
+  "edit": "Bearbeiten",
+  "errorPartnerSave": "Partner kann nicht gespeichert werden",
+  "localPartner": "Unser zertifizierter Partner vor Ort steht Ihnen in jeder Phase Ihres Projekts zur Seite und bietet Ihnen fachkundige Unterstützung, damit Sie optimalen Nutzen aus unseren Produkten ziehen. Er wird sich kurz nach dem Kauf mit Ihnen in Verbindung setzen.",
+  "next": "Weiter",
+  "noLocalPartner": "Derzeit haben wir keinen zertifizierten Partner vor Ort für Sie, der Sie in jeder Phase Ihres Projekts unterstützt und Ihnen fachkundige Beratung bietet. In der Zwischenzeit steht Ihnen das Kundenerfolgsteam von Dassault Systèmes zur Verfügung, das sich kurz nach dem Kauf mit Ihnen in Verbindung setzen wird.",
+  "selectForMe": "Wählen Sie einen für mich aus",
+  "selectAPartner": "Wählen Sie einen Kundenerfolgspartner aus",
+  "severalLocalPartners": "Wählen Sie einen der folgenden zertifizierten lokalen Partner aus, der Sie unterstützen und in jeder Phase Ihres Projekts fachkundig beraten wird. Er wird sich kurz nach dem Kauf mit Ihnen in Verbindung setzen. Wenn Sie bereits mit einem dieser Partner zusammenarbeiten, können Sie ihn in der folgenden Liste auswählen.",
+  "yourPartner": "Ihr Partner",
+  "yourSelectedPartner": "Ihr ausgewählter Partner"
+}

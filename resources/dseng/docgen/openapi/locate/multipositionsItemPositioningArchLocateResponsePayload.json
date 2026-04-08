@@ -1,0 +1,57 @@
+{
+  "properties": {
+    "totalItems": {
+      "type": "integer",
+      "example": 1
+    },
+    "member": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "EE562168015FFCF14F940A513C63AA77"
+          },
+          "dseng:MultiPositionsItem": {
+            "type": "object",
+            "properties": {
+              "totalItems": {
+                "type": "integer",
+                "example": "3"
+              },
+              "member": {
+                "type": "array",
+                "example": [
+                  {
+                    "name": "ppa-24739540-00000001",
+                    "title": "Multi Positions Item00000001",
+                    "description": "",
+                    "id": "525BB056E85A0000632C29F10013C46B",
+                    "type": "VPMReferenceExtPos",
+                    "modified": "9/22/2022 11:25:05 AM",
+                    "created": "9/22/2022 11:25:05 AM",
+                    "cestamp": "525BB056E85A0000632C29F000130444",
+                    "relativePath": "/resources/v1/modeler/dseng/dseng:MultiPositionsItem/525BB056E85A0000632C29F10013C46B"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "nlsLabel": {
+      "type": "object",
+      "example": {
+        "id": "Id",
+        "type": "Type",
+        "modified": "Modification Date",
+        "created": "Creation Date",
+        "revision": "Revision",
+        "state": "State",
+        "owner": "Owner"
+      }
+    }
+  }
+}

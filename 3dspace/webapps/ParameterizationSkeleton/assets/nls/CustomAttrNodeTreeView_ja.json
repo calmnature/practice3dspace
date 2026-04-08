@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "ファスナー カテゴリ",
+  "V_MfgFastenerStrategy": "ファスナー戦略",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "保全候補",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "予備候補",
+  "V_RepairType": "修理タイプ",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "保全レベル",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "コード情報",
+  "orderParameters": "順序が更新されました",
+  "orderParametersTitle": "リオーダ",
+  "orderParametersError": "リオーダ時のエラー",
+  "orderParametersMaskMessage": "順序を更新しています",
+  "orderParametersDeleteError": "前の順序を削除するときにエラーが発生しました",
+  "orderParametersSetError": "新規順序を保存するときにエラーが発生しました",
+  "nonEditableParamTitle": "属性は編集できません",
+  "nonEditableParamContent": "選択した属性は、Rules Defining Fastener Handler テーブルの 1 つ以上のパラメーターで使用されているため、編集できません",
+  "deleteParameterTitle": "属性は削除できません",
+  "deleteParameterError": "選択した属性は、Rules Defining Fastener Handler テーブルの 1 つ以上のパラメーターで使用されているため、削除できません",
+  "attributeName": "属性名",
+  "attributeValue": "属性値"
+}

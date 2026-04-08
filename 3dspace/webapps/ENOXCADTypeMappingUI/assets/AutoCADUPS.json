@@ -1,0 +1,13 @@
+{
+	"version": "1.0",
+	"typeMappings": [
+		{
+			"mappingId": "drawingMapping",
+			"label": "drawingLabel",
+			"info": "drawingInfo",
+			"cadType": "drawing",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		}
+	]
+}

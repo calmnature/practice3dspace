@@ -1,0 +1,15 @@
+{
+  "errorActionId": "ActionId 参数未定义",
+  "errorConditions": "条件参数未定义",
+  "errorEndpoint": "终点未定义或信息缺失",
+  "errorIncorrectReqOptions": " 请求参数不正确",
+  "errorLaunchCmd": " 名称、URI 和端点类型值是必需的",
+  "errorObjectType": "ObjectType 参数未定义",
+  "errorObjectsToCreate": "ObjectsToCreate 参数未定义",
+  "errorOnFail": "onFail 回调未定义",
+  "errorOnSuccess": "onSuccess 回调未定义",
+  "errorObjectsToUpdate": "objectsToUpdate 参数未定义",
+  "errorObjectsToDelete": "objectsToDelete 参数未定义",
+  "errorReqAnswerStatus": "回答状态为错误",
+  "errorReqReturnObjType": "返回的内容不是容器"
+}

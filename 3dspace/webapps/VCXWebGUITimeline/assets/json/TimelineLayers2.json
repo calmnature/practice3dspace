@@ -1,0 +1,3172 @@
+{
+  "name": "Root",
+  "icon": "_",
+  "isFixed": true,
+  "isMandatory": true,
+  "children": [
+    {
+      "name": "Child 1",
+      "icon": "3dproduct",
+      "type": "Type_1",
+      "order": 0,
+      "blocks": [
+        {
+          "property": "Color",
+          "start": 173,
+          "end": 433,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 363,
+          "end": 373,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 218,
+          "end": 357,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 259,
+          "end": 322,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 185,
+          "end": 353,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 321,
+          "end": 448,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 396,
+          "end": 477,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 182,
+          "end": 433,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 214,
+          "end": 249,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 165,
+          "end": 236,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 199,
+          "end": 427,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 336,
+          "end": 337,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 359,
+          "end": 361,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 71,
+          "end": 450,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 395,
+          "end": 487,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 218,
+          "end": 339,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 112,
+          "end": 466,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 306,
+          "end": 340,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 83,
+          "end": 113,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 94,
+          "end": 114,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 261,
+          "end": 343,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 376,
+          "end": 495,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 56,
+          "end": 287,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 395,
+          "end": 481,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 332,
+          "end": 333,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 129,
+          "end": 225,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 237,
+          "end": 387,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 240,
+          "end": 309,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 98,
+          "end": 167,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 106,
+          "end": 303,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 181,
+          "end": 348,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 116,
+          "end": 161,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 324,
+          "end": 469,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 358,
+          "end": 428,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 182,
+          "end": 319,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 329,
+          "end": 340,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 290,
+          "end": 334,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 311,
+          "end": 323,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 279,
+          "end": 388,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 305,
+          "end": 462,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 102,
+          "end": 499,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 360,
+          "end": 391,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 277,
+          "end": 436,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 324,
+          "end": 473,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 338,
+          "end": 423,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 217,
+          "end": 307,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 345,
+          "end": 469,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 112,
+          "end": 497,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 184,
+          "end": 457,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 361,
+          "end": 459,
+          "keyframeType": "camera",
+          "color": "black"
+        }
+      ],
+      "t0": 47,
+      "delta": 24
+    },
+    {
+      "name": "Child 2",
+      "icon": "camera",
+      "type": "Type_2",
+      "order": 1,
+      "blocks": [
+        {
+          "property": "Neutral",
+          "start": 47,
+          "end": 264,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 396,
+          "end": 478,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 90,
+          "end": 162,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 388,
+          "end": 487,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 34,
+          "end": 56,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 110,
+          "end": 341,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 178,
+          "end": 289,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 227,
+          "end": 285,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 27,
+          "end": 309,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 294,
+          "end": 347,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 242,
+          "end": 298,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 128,
+          "end": 417,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 131,
+          "end": 306,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 173,
+          "end": 373,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 154,
+          "end": 418,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 194,
+          "end": 330,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 176,
+          "end": 221,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 395,
+          "end": 420,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 380,
+          "end": 456,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 371,
+          "end": 500,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 310,
+          "end": 396,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 389,
+          "end": 431,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 226,
+          "end": 315,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 83,
+          "end": 319,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 241,
+          "end": 299,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 314,
+          "end": 436,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 228,
+          "end": 279,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 305,
+          "end": 346,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 352,
+          "end": 435,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 14,
+          "end": 159,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 37,
+          "end": 89,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 181,
+          "end": 242,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 103,
+          "end": 400,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 272,
+          "end": 468,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 381,
+          "end": 394,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 115,
+          "end": 455,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 228,
+          "end": 370,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 20,
+          "end": 304,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 325,
+          "end": 386,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 287,
+          "end": 474,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 196,
+          "end": 305,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 343,
+          "end": 439,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 268,
+          "end": 336,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 187,
+          "end": 232,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 245,
+          "end": 329,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 111,
+          "end": 221,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 343,
+          "end": 347,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 126,
+          "end": 473,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 123,
+          "end": 292,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 135,
+          "end": 398,
+          "keyframeType": "camera",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "name": "Child 3",
+      "icon": "3dproduct",
+      "type": "Type_3",
+      "order": 2,
+      "blocks": [
+        {
+          "property": "Neutral",
+          "start": 65,
+          "end": 286,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 72,
+          "end": 418,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 294,
+          "end": 443,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 232,
+          "end": 417,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 189,
+          "end": 367,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 334,
+          "end": 376,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 328,
+          "end": 375,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 93,
+          "end": 174,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 249,
+          "end": 274,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 157,
+          "end": 494,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 83,
+          "end": 162,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 6,
+          "end": 286,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 225,
+          "end": 405,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 340,
+          "end": 353,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 346,
+          "end": 368,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 102,
+          "end": 138,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 1,
+          "end": 139,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 345,
+          "end": 353,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 201,
+          "end": 304,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 259,
+          "end": 420,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 35,
+          "end": 306,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 237,
+          "end": 443,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 294,
+          "end": 494,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 268,
+          "end": 385,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 147,
+          "end": 264,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 49,
+          "end": 385,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 157,
+          "end": 184,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 309,
+          "end": 460,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 38,
+          "end": 143,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 135,
+          "end": 145,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 68,
+          "end": 390,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 69,
+          "end": 288,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 301,
+          "end": 480,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 121,
+          "end": 364,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 30,
+          "end": 309,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 27,
+          "end": 448,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 315,
+          "end": 348,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 204,
+          "end": 448,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 349,
+          "end": 359,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 392,
+          "end": 430,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 180,
+          "end": 410,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 182,
+          "end": 242,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 364,
+          "end": 420,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 55,
+          "end": 386,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 272,
+          "end": 436,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 162,
+          "end": 476,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 103,
+          "end": 278,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 381,
+          "end": 437,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 322,
+          "end": 359,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 264,
+          "end": 485,
+          "keyframeType": "diamond"
+        }
+      ]
+    },
+    {
+      "name": "Child 4",
+      "icon": "ambience-backplate",
+      "type": "Type_4",
+      "order": 3,
+      "blocks": [
+        {
+          "property": "Neutral",
+          "start": 299,
+          "end": 361,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 82,
+          "end": 212,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 79,
+          "end": 193,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 70,
+          "end": 168,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 104,
+          "end": 138,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 354,
+          "end": 452,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 233,
+          "end": 476,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 74,
+          "end": 132,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 165,
+          "end": 369,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 117,
+          "end": 206,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 394,
+          "end": 451,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 258,
+          "end": 301,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 181,
+          "end": 286,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 19,
+          "end": 168,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 112,
+          "end": 118,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 2,
+          "end": 288,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 23,
+          "end": 211,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 291,
+          "end": 334,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 36,
+          "end": 210,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 217,
+          "end": 319,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 361,
+          "end": 365,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 192,
+          "end": 399,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 379,
+          "end": 442,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 383,
+          "end": 446,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 203,
+          "end": 236,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 265,
+          "end": 289,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 256,
+          "end": 284,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 57,
+          "end": 484,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 209,
+          "end": 338,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 286,
+          "end": 386,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 88,
+          "end": 345,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 280,
+          "end": 364,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 114,
+          "end": 379,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 353,
+          "end": 454,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 350,
+          "end": 415,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 267,
+          "end": 327,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 92,
+          "end": 248,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 190,
+          "end": 457,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 54,
+          "end": 109,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 278,
+          "end": 406,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 295,
+          "end": 296,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 65,
+          "end": 453,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 77,
+          "end": 478,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 370,
+          "end": 500,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 370,
+          "end": 394,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 361,
+          "end": 465,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 324,
+          "end": 464,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 97,
+          "end": 307,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 313,
+          "end": 378,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 51,
+          "end": 161,
+          "keyframeType": "circle"
+        }
+      ]
+    },
+    {
+      "name": "Child 5",
+      "icon": "camera",
+      "type": "Type_5",
+      "order": 4,
+      "blocks": [
+        {
+          "property": "Highlight",
+          "start": 352,
+          "end": 415,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 329,
+          "end": 448,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 176,
+          "end": 468,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 63,
+          "end": 260,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 165,
+          "end": 248,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 360,
+          "end": 410,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 52,
+          "end": 288,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 11,
+          "end": 428,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 173,
+          "end": 497,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 73,
+          "end": 292,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 359,
+          "end": 363,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 58,
+          "end": 228,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 1,
+          "end": 479,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 353,
+          "end": 357,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 189,
+          "end": 446,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 315,
+          "end": 318,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 327,
+          "end": 495,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 371,
+          "end": 485,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 118,
+          "end": 478,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 235,
+          "end": 281,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 370,
+          "end": 445,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 349,
+          "end": 462,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 150,
+          "end": 456,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 148,
+          "end": 448,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 263,
+          "end": 335,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 302,
+          "end": 424,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 223,
+          "end": 488,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 236,
+          "end": 393,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 54,
+          "end": 155,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 208,
+          "end": 412,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 344,
+          "end": 379,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 125,
+          "end": 343,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 314,
+          "end": 371,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 106,
+          "end": 151,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 266,
+          "end": 354,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 62,
+          "end": 397,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 256,
+          "end": 326,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 60,
+          "end": 251,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 217,
+          "end": 436,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 384,
+          "end": 426,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 277,
+          "end": 425,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 349,
+          "end": 475,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 230,
+          "end": 395,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 12,
+          "end": 493,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 297,
+          "end": 456,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 119,
+          "end": 379,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 232,
+          "end": 415,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 114,
+          "end": 292,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 280,
+          "end": 339,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 255,
+          "end": 418,
+          "keyframeType": "circle"
+        }
+      ]
+    },
+    {
+      "name": "Child 6",
+      "icon": "ambience-backplate",
+      "type": "Type_6",
+      "order": 5,
+      "blocks": [
+        {
+          "property": "Color",
+          "start": 387,
+          "end": 466,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 176,
+          "end": 343,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 298,
+          "end": 488,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 90,
+          "end": 190,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 289,
+          "end": 486,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 124,
+          "end": 310,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 170,
+          "end": 376,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 311,
+          "end": 440,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 235,
+          "end": 330,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 351,
+          "end": 365,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 75,
+          "end": 318,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 110,
+          "end": 364,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 171,
+          "end": 344,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 251,
+          "end": 356,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 369,
+          "end": 474,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 285,
+          "end": 381,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 50,
+          "end": 213,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 29,
+          "end": 141,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 381,
+          "end": 441,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 268,
+          "end": 346,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 142,
+          "end": 456,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 189,
+          "end": 497,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 112,
+          "end": 454,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 165,
+          "end": 381,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 29,
+          "end": 220,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 234,
+          "end": 255,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 165,
+          "end": 186,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 377,
+          "end": 467,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 248,
+          "end": 388,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 51,
+          "end": 64,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 173,
+          "end": 372,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 245,
+          "end": 360,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 180,
+          "end": 355,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 40,
+          "end": 303,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 270,
+          "end": 424,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 247,
+          "end": 455,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 330,
+          "end": 433,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 98,
+          "end": 198,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 94,
+          "end": 198,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 30,
+          "end": 120,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 219,
+          "end": 396,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 338,
+          "end": 372,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 251,
+          "end": 321,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 112,
+          "end": 360,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 349,
+          "end": 468,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 167,
+          "end": 489,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 234,
+          "end": 458,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 120,
+          "end": 184,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 336,
+          "end": 424,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 361,
+          "end": 467,
+          "keyframeType": "square"
+        }
+      ]
+    },
+    {
+      "name": "Child 7",
+      "icon": "3dproduct",
+      "type": "Type_7",
+      "order": 6,
+      "blocks": [
+        {
+          "property": "Color",
+          "start": 293,
+          "end": 469,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 171,
+          "end": 360,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 238,
+          "end": 294,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 400,
+          "end": 479,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 95,
+          "end": 367,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 384,
+          "end": 449,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 334,
+          "end": 420,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 304,
+          "end": 489,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 128,
+          "end": 436,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 380,
+          "end": 412,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 184,
+          "end": 452,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 180,
+          "end": 339,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 233,
+          "end": 405,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 291,
+          "end": 494,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 272,
+          "end": 351,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 334,
+          "end": 473,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 188,
+          "end": 380,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 178,
+          "end": 252,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 303,
+          "end": 431,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 294,
+          "end": 344,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 105,
+          "end": 368,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 136,
+          "end": 137,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 338,
+          "end": 367,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 150,
+          "end": 160,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 225,
+          "end": 232,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 173,
+          "end": 198,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 104,
+          "end": 345,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 222,
+          "end": 384,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 356,
+          "end": 358,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 285,
+          "end": 320,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 305,
+          "end": 496,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 127,
+          "end": 403,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 301,
+          "end": 434,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 397,
+          "end": 407,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 381,
+          "end": 483,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 189,
+          "end": 368,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 188,
+          "end": 212,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 383,
+          "end": 388,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 218,
+          "end": 461,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 189,
+          "end": 330,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 166,
+          "end": 211,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 391,
+          "end": 423,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 333,
+          "end": 461,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 328,
+          "end": 449,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 278,
+          "end": 416,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 212,
+          "end": 390,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 397,
+          "end": 500,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 337,
+          "end": 352,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 97,
+          "end": 298,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 318,
+          "end": 390,
+          "keyframeType": "square"
+        }
+      ],
+      "t0": 89,
+      "delta": 35
+    },
+    {
+      "name": "Child 8",
+      "icon": "camera",
+      "type": "Type_8",
+      "order": 7,
+      "blocks": [
+        {
+          "property": "Opacity",
+          "start": 291,
+          "end": 417,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 326,
+          "end": 471,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 80,
+          "end": 146,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 195,
+          "end": 215,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 276,
+          "end": 301,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 365,
+          "end": 382,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 70,
+          "end": 296,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 137,
+          "end": 253,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 185,
+          "end": 265,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 68,
+          "end": 349,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 362,
+          "end": 369,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 186,
+          "end": 494,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 61,
+          "end": 215,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 173,
+          "end": 477,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 21,
+          "end": 190,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 161,
+          "end": 191,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 159,
+          "end": 302,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 385,
+          "end": 494,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 132,
+          "end": 357,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 5,
+          "end": 146,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 128,
+          "end": 213,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 199,
+          "end": 489,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 10,
+          "end": 451,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 324,
+          "end": 408,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 362,
+          "end": 482,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 337,
+          "end": 458,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 124,
+          "end": 202,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 17,
+          "end": 284,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 9,
+          "end": 105,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 261,
+          "end": 323,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 105,
+          "end": 284,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 126,
+          "end": 189,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 6,
+          "end": 117,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 355,
+          "end": 482,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 223,
+          "end": 490,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 112,
+          "end": 406,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 45,
+          "end": 302,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 269,
+          "end": 343,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 192,
+          "end": 203,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 283,
+          "end": 301,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 24,
+          "end": 251,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 64,
+          "end": 210,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 189,
+          "end": 279,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 157,
+          "end": 456,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 254,
+          "end": 284,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 69,
+          "end": 413,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 143,
+          "end": 320,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 332,
+          "end": 461,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 371,
+          "end": 471,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 79,
+          "end": 392,
+          "keyframeType": "square"
+        }
+      ]
+    },
+    {
+      "name": "Child 9",
+      "icon": "camera",
+      "type": "Type_9",
+      "order": 8,
+      "blocks": [
+        {
+          "property": "Position",
+          "start": 244,
+          "end": 287,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 249,
+          "end": 337,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 252,
+          "end": 395,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 208,
+          "end": 416,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 154,
+          "end": 283,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 72,
+          "end": 80,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 309,
+          "end": 398,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 194,
+          "end": 243,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 51,
+          "end": 52,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 166,
+          "end": 279,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 278,
+          "end": 289,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 225,
+          "end": 435,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 254,
+          "end": 489,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 83,
+          "end": 227,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 2,
+          "end": 45,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 123,
+          "end": 290,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 287,
+          "end": 326,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 114,
+          "end": 251,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 139,
+          "end": 410,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 157,
+          "end": 267,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 29,
+          "end": 397,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 53,
+          "end": 107,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 332,
+          "end": 424,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 289,
+          "end": 362,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 54,
+          "end": 179,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 341,
+          "end": 356,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Camera",
+          "start": 7,
+          "end": 405,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 89,
+          "end": 211,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 313,
+          "end": 410,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 290,
+          "end": 461,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 114,
+          "end": 444,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 316,
+          "end": 361,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 24,
+          "end": 113,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 309,
+          "end": 495,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 174,
+          "end": 267,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 398,
+          "end": 454,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 214,
+          "end": 361,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Neutral",
+          "start": 221,
+          "end": 319,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 146,
+          "end": 210,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 299,
+          "end": 313,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 178,
+          "end": 225,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 171,
+          "end": 246,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 267,
+          "end": 442,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Position",
+          "start": 50,
+          "end": 255,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Position",
+          "start": 310,
+          "end": 322,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Opacity",
+          "start": 82,
+          "end": 285,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 277,
+          "end": 474,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Highlight",
+          "start": 110,
+          "end": 170,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 272,
+          "end": 491,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 27,
+          "end": 222,
+          "keyframeType": "square"
+        }
+      ]
+    },
+    {
+      "name": "Child 10",
+      "icon": "ambience-backplate",
+      "type": "Type_10",
+      "order": 9,
+      "blocks": [
+        {
+          "property": "Color",
+          "start": 62,
+          "end": 443,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 224,
+          "end": 269,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 285,
+          "end": 368,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Position",
+          "start": 64,
+          "end": 477,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Color",
+          "start": 151,
+          "end": 186,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 221,
+          "end": 258,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 95,
+          "end": 471,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 242,
+          "end": 378,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 168,
+          "end": 469,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 101,
+          "end": 274,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Position",
+          "start": 397,
+          "end": 475,
+          "keyframeType": "diamond"
+        },
+        {
+          "property": "Highlight",
+          "start": 123,
+          "end": 347,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 33,
+          "end": 354,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 135,
+          "end": 265,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 190,
+          "end": 437,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Opacity",
+          "start": 113,
+          "end": 159,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Camera",
+          "start": 187,
+          "end": 325,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Camera",
+          "start": 85,
+          "end": 103,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Opacity",
+          "start": 219,
+          "end": 394,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 384,
+          "end": 488,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 392,
+          "end": 453,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 367,
+          "end": 412,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 44,
+          "end": 143,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 247,
+          "end": 461,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 163,
+          "end": 424,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 320,
+          "end": 378,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 19,
+          "end": 286,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 367,
+          "end": 397,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 116,
+          "end": 412,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 344,
+          "end": 475,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 288,
+          "end": 343,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 235,
+          "end": 461,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 271,
+          "end": 412,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 296,
+          "end": 429,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Neutral",
+          "start": 346,
+          "end": 366,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 66,
+          "end": 147,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 324,
+          "end": 328,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Color",
+          "start": 339,
+          "end": 406,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 149,
+          "end": 221,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Color",
+          "start": 25,
+          "end": 188,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 152,
+          "end": 315,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Camera",
+          "start": 333,
+          "end": 494,
+          "keyframeType": "camera",
+          "color": "black"
+        },
+        {
+          "property": "Neutral",
+          "start": 140,
+          "end": 143,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Highlight",
+          "start": 67,
+          "end": 177,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Opacity",
+          "start": 366,
+          "end": 470,
+          "keyframeType": "circle"
+        },
+        {
+          "property": "Highlight",
+          "start": 112,
+          "end": 483,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 83,
+          "end": 500,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 358,
+          "end": 372,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Color",
+          "start": 125,
+          "end": 463,
+          "keyframeType": "square"
+        },
+        {
+          "property": "Neutral",
+          "start": 15,
+          "end": 426,
+          "keyframeType": "square"
+        }
+      ]
+    }
+  ]
+}

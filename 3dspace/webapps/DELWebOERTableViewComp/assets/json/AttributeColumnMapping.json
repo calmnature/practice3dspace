@@ -1,0 +1,28 @@
+{
+    "String": {
+        "typeRepresentation": "string",
+        "alignment": "left",
+        "groupableFlag": true,
+        "wrappableFlag": true
+    },
+    "Double": {
+        "typeRepresentation": "double",
+        "alignment": "right",
+        "groupableFlag": true
+    },
+    "Integer": {
+        "typeRepresentation": "string",
+        "alignment": "right",
+        "groupableFlag": true
+    },
+    "Boolean": {
+        "typeRepresentation": "bool",
+        "alignment": "center",
+        "groupableFlag": true
+    },
+    "Date": {
+        "typeRepresentation": "date",
+        "alignment": "left",
+        "groupableFlag": true
+    }
+}

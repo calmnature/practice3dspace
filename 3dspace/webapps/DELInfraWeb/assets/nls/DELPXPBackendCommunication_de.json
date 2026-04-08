@@ -1,0 +1,15 @@
+{
+  "errorActionId": "ActionId-Parameter ist nicht definiert",
+  "errorConditions": "Bedingungsparameter ist nicht definiert",
+  "errorEndpoint": "Endpunkt ist nicht definiert oder Informationen fehlen",
+  "errorIncorrectReqOptions": " Falsche Anforderungsparameter",
+  "errorLaunchCmd": " Werte für Name, URI und Endpunkttyp sind obligatorisch",
+  "errorObjectType": "ObjectType-Parameter ist nicht definiert",
+  "errorObjectsToCreate": "ObjectsToCreate-Parameter ist nicht definiert",
+  "errorOnFail": "onFail-Callback ist nicht definiert",
+  "errorOnSuccess": "onSuccess-Callback ist nicht definiert",
+  "errorObjectsToUpdate": "objectsToUpdate-Parameter ist nicht definiert",
+  "errorObjectsToDelete": "objectsToDelete-Parameter ist nicht definiert",
+  "errorReqAnswerStatus": "Antwortstatus ist ein Fehler",
+  "errorReqReturnObjType": "Der zurückgegebene Inhalt ist kein Container"
+}

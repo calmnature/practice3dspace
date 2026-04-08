@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="DELWorkInstructions" regSuite="DELWorkInstructionsParams">
+		<Family id="DELWorkInstructionsGeneralSettingsFamily">
+			<Parameter id="SupportLargeTextCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="SupportLargeTextArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+		</Family>
+		<Family id="DELSmartInstructionsDisplayFamily">
+			<Parameter id="DELSmartInstructionsDisplayListParam">
+				<Argument id="DELSmartInstructionsDisplayProfilesListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

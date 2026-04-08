@@ -1,0 +1,24 @@
+{
+    "dsili:instanceDetails.referencedObject": {
+        "isReferencedObject": true
+    },
+    "dsili:parentObject": {
+        "isReferencedObject": true,
+        "isSingleValued": true
+    },
+    "dsili:program.getItemSpecificationItemRef": {
+        "isReferencedObject": true,
+        "isSingleValued": true
+    },
+    "dsili:program.getItemSpecificationItemOcc": {
+        "isReferencedObject": true,
+        "metaTypeNameForPublicURI": "dsmfg:MfgItemInstance",
+        "3dspaceParentPaths": "from.physicalid",
+        "indexParentPaths": "from.physicalid"
+    },
+    "dsili:IllustratedItem.partialScope": {
+        "isReferencedObject": true,
+        "isSingleValued": true,
+        "keyInResponse": "dsili:PartialScope"
+    }
+}

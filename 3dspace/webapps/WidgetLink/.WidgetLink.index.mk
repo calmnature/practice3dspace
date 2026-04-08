@@ -1,0 +1,13 @@
+m|WebappsUtils\WidgetLink.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26017|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WidgetLink\WidgetLink.js|1768640705|7350
+s|WebappsUtils\WidgetLink.mweb\src\AbstractWidgetLink.js|1761678754|10708
+u|WebappsUtils\WidgetLink.mweb\src\ExternalWidgetLink.js|1768605935|8184
+u|WebappsUtils\WidgetLink.mweb\src\WidgetLink.js|1764367166|5875
+u|WebappsUtils\WidgetLink.mweb\src\WidgetLinkData.js|1757441729|2778
+u|WebappsUtils\WidgetLink.mweb\src\WidgetLinkView.js|1757441729|2134
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

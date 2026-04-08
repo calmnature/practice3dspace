@@ -1,0 +1,23 @@
+{
+  "cadtransitionoptions.execmode.label": "실행 모드",
+  "cadtransitionoptions.execmode.coversion.label": "다음으로 전환:",
+  "cadtransitionoptions.execmode.coversion.value": [
+    "새 개체"
+  ],
+  "cadtransitionoptions.execmode.expand.label": "레벨 확장",
+  "cadtransitionoptions.execmode.expand.value": [
+    "모두 확장",
+    "확장 없음",
+    "사용자 정의 확장 깊이"
+  ],
+  "cadtransitionoptions.addopts.label": "추가 옵션",
+  "cadtransitionoptions.addopts.linkcomp.label": "링크 완료",
+  "cadtransitionoptions.addopts.linkcomp.value": [
+    "전체 링크 완료",
+    "링크 완료 없음",
+    "사용자 정의 링크 완료"
+  ],
+  "cadtransitionoptions.addopts.maptable.label": "매핑 테이블 사용",
+  "cadtransitionoptions.addopts.update.label": "강제 업데이트",
+  "cadtransitionoptions.addopts.overwrite.label": "덮어쓰기 허용"
+}

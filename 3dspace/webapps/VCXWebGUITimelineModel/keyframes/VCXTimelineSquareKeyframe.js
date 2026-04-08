@@ -1,0 +1,1 @@
+var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};define("DS/VCXWebGUITimelineModel/keyframes/VCXTimelineSquareKeyframe",["require","exports","DS/VCXWebGUITimelineModel/keyframes/VCXTimelineKeyframe"],(function(e,r,i){"use strict";i=__importDefault(i);class t extends i.default{drawV2(e,r,i,t){super.drawV2(e,r,i,t)}}return t}));

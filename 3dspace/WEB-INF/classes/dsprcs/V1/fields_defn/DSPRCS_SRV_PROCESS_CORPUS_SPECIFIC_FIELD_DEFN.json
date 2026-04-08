@@ -1,0 +1,16 @@
+{
+	"dsprcs:usagePointsTarget": {
+		"transformationMethod": "com.dassault_systemes.enovia.xapps.dsprcs.V1.computed_properties.dsprcsSrvProcessComputedProperties.buildUsagePointsTargetForIndex"
+	},
+	"dsprcs:componentContext": {
+		"transformationMethod": "com.dassault_systemes.enovia.xapps.dsprcs.V1.computed_properties.dsprcsSrvProcessComputedProperties.buildComponentContextForIndex"
+	},
+	"dsprcs:UsagePointApplicability": {
+		"transformationMethod": "com.dassault_systemes.enovia.xapps.dsprcs.V1.computed_properties.dsprcsSrvProcessComputedProperties.buildUsagePointApplicabilityForIndex"
+	},
+	"dsprcs:implementingOcc": {
+		"isReferencedObject": true,
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	}
+}

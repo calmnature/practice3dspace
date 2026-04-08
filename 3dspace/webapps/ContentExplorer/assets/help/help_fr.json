@@ -1,0 +1,18 @@
+{
+"Filter_Assemblies.Title":"Filtrer les assemblages",
+"Filter_Assemblies.ShortHelp":"Affiche les assemblages.",
+"Filter_Assemblies.LongHelp":"Les assemblages sont définis comme des assemblages SOLIDWORKS et des produits physiques avec les balises de structure du contenu Racine et Intermédiaire.",
+"Filter_DrawingAnnotations.Title":"Filtrer les mises en plan et les annotations",
+"Filter_DrawingAnnotations.ShortHelp":"Affiche les mises en plan et les ensembles d'annotations.",
+"Filter_DrawingAnnotations.LongHelp":"Ce filtre affiche les mises en plan et les ensembles d'annotations SOLIDWORKS basés sur des produits physiques.",
+"Filter_Part.Title":"Filtrer les pièces",
+"Filter_Part.ShortHelp":"Affiche les pièces.",
+"Filter_Part.LongHelp":"Les pièces sont définies comme des pièces SOLIDWORKS et des produits physiques avec les balises de structure de contenu Feuille et Autonome.",
+"SwitchFlat.Title":"Afficher tout le contenu de l'espace de collaboration",
+"SwitchFlat.ShortHelp":"Affiche tout le contenu d'ingénierie de cet espace de collaboration dans une liste plate.",
+"SwitchFlat.LongHelp":"<p>Cette vue d'espace de collaboration se concentre sur le contenu d'ingénierie pour les apps SOLIDWORKS : produit physique, mises en plan et ensembles d'annotations, filtres avancés et tout élément de type 'Document'.</p>",
+"SwitchNoFlat.Title":"Afficher les dossiers de signets",
+"SwitchNoFlat.ShortHelp":"Affiche les dossiers de signets et le contenu non marqué dans cet espace de collaboration.",
+"SwitchNoFlat.LongHelp":"<p>Dans cette vue de l'espace de collaboration, les dossiers de signets (le cas échéant) apparaissent en haut, suivis d'une liste de contenu d'ingénierie qui n'a été ajouté à aucun dossier de signets, y compris les produits physiques, les mises en plan et les ensembles d'annotations, les filtres avancés et tout autre élément de type 'Document'. Les dossiers de signets ne sont pas limités au contenu d'ingénierie.</p>",
+"Widget.WebHelp":"ENXCoexUserMap/enxcoex-o-ov.htm"
+}

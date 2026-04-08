@@ -1,0 +1,10 @@
+m|DELWKOApp\DELPPWAuthorLinksModule_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWAuthorLinksModule_FD02\DELPPWAuthorLinksModule_FD02.js|1761365455|13798
+s|DELWKOApp\DELPPWAuthorLinksModule_FD02.mweb\src\AuthorLinksUI.js|1755803715|16514
+u|DELWKOApp\DELPPWAuthorLinksModule_FD02.mweb\src\AuthorLinksUIManager.js|1748557986|50313
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,22 @@
+{
+    "activateJsonGenerator": true,
+    "publicationTaxonomy": "types/PLMEntity/PLMPort/LPAbstractPort",
+    "typesToNotReturn": [
+        "XCADAssemblyRepReference",
+        "XCADAssemblyRepInstance",
+        "SIMObjSimulationCategoryReference",
+        "SIMObjSimulationCategoryInstance",
+        "LPPrivateRepReference",
+        "LPPrivateRepInstance",
+        "DMUValidationReviewInstance",
+        "DMUValidationReviewReference",
+        "DIFViewStream",
+        "DIFBackgroundViewRep",
+        "DIFViewStreamInstance",
+        "DIFBackgroundViewRepInstance",
+        "Document Proxy"
+    ],
+    "excludedDefaultProfiles": [
+        "XCAD_Pointed"
+    ]
+}

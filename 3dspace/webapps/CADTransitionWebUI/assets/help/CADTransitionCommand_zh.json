@@ -1,0 +1,7 @@
+{
+"CADTransitionCommand.Title":"CAD 转换到 3DExperience",
+"CADTransitionCommand.ShortHelp":"将具有 CAD 格式的 3DExperience 内容转换为 3DExperience 本机数据。",
+"CADTransitionCommand.LongHelp":"通过 CAD 转换，您可以转换具有 CAD 格式的选定 3DExperience 内容。使用提供的选项，您可以自定义数据的迁移方式。",
+"CADTransitionCommand.WebHelp":"PsteUserMap/postconv-t-CADTransition.htm",
+"CADTransitionCommand.PanelHelp":"PsteUAPanelMap/postconv-t-CADTransition.htm"
+}

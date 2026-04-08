@@ -1,0 +1,8 @@
+{
+"SetThePartNumber.Title":"Imposta numero elemento impresa",
+"SetThePartNumber.ShortHelp":"Imposta numero elemento impresa per parti aziendali",
+"SetThePartNumber.LongHelp":"Selezionare uno o più prodotti per impostarne il numero di parte. Il numero di parte è un identificativo di un particolare progetto di parte utilizzato in un determinato settore. Il suo scopo è semplificare il riferimento a quella parte. Un numero di parte identifica in modo inequivocabile un progetto di parte all'interno di una singola azienda e talvolta di più aziende.",
+"SetThePartNumber.WebHelp":"XengUserMap/xen-t-EINumber-setting.htm",
+"SetThePartNumber.WebHelp.ENOPSTR_AP":"PsteUserMap/shared-c-SettingEIN-Rules.htm",
+"SetThePartNumber.PanelHelp":"PsteUAPanelMap/shared-c-SettingEIN-Rules.htm"
+}

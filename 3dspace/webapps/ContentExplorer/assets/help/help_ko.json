@@ -1,0 +1,18 @@
+{
+"Filter_Assemblies.Title":"어셈블리로 필터링",
+"Filter_Assemblies.ShortHelp":"어셈블리를 표시합니다.",
+"Filter_Assemblies.LongHelp":"어셈블리는 SOLIDWORKS 어셈블리와 콘텐츠 구조 태그 Root와 Intermediate가 있는 실제 제품으로 정의됩니다.",
+"Filter_DrawingAnnotations.Title":"도면과 주석으로 필터링",
+"Filter_DrawingAnnotations.ShortHelp":"도면과 주석 세트를 표시합니다.",
+"Filter_DrawingAnnotations.LongHelp":"이 필터는 실제 제품을 기반으로 한 SOLIDWORKS 도면과 주석 세트를 표시합니다.",
+"Filter_Part.Title":"파트로 필터링",
+"Filter_Part.ShortHelp":"파트를 표시합니다.",
+"Filter_Part.LongHelp":"파트는 SOLIDWORKS 파트와 콘텐츠 구조 태그 Leaf와 Standalone이 있는 실제 제품으로 정의됩니다.",
+"SwitchFlat.Title":"모든 협업 공간 콘텐츠 표시",
+"SwitchFlat.ShortHelp":"이 협업 공간의 모든 엔지니어링 콘텐츠를 단순 목록으로 표시합니다.",
+"SwitchFlat.LongHelp":"<p>이 협업 공간 보기는 SOLIDWORKS 앱의 엔지니어링 콘텐츠(실제 제품, 도면과 주석 세트, 고급 필터, '문서' 유형의 모든 항목)에 초점을 맞춥니다.</p>",
+"SwitchNoFlat.Title":"북마크 폴더 표시",
+"SwitchNoFlat.ShortHelp":"이 협업 공간의 북마크 폴더와 북마크되지 않은 콘텐츠를 표시합니다.",
+"SwitchNoFlat.LongHelp":"<p>이 협업 공간 보기에서 북마크 폴더(있는 경우)가 맨 위에 표시되고 이어서 실제 제품, 도면과 주석 세트, 고급 필터, '문서' 유형의 모든 항목을 포함하여 북마크 폴더에 추가되지 않은 엔지니어링 콘텐츠 목록이 표시됩니다. 북마크 폴더는 엔지니어링 콘텐츠로만 제한되지 않습니다.</p>",
+"Widget.WebHelp":"ENXCoexUserMap/enxcoex-o-ov.htm"
+}

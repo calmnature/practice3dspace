@@ -1,0 +1,16 @@
+m|DELWKOApp\DELWKOModelBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26024|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOModelBehaviors\DELWKOModelBehaviors.js|1769229320|87257
+s|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOAssignedWorkCenterLinkBehavior.js|1768261754|17779
+u|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOCapableResourceLinkBehavior.js|1755807512|31021
+u|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOInterWidgetComBehavior.js|1749237725|1443
+u|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOLinkBehavior.js|1752615086|55664
+u|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOLinkBehaviorCloud.js|1765973316|59479
+u|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOModelBehavior.js|1759337069|88244
+u|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOModelBehaviorCloud.js|1760114520|90930
+u|DELWKOApp\DELWKOModelBehaviors.mweb\src\DELWKOProductFlowBehavior.js|1736274683|14251
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

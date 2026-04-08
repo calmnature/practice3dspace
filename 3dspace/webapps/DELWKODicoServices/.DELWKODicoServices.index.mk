@@ -1,0 +1,15 @@
+m|DELWKOApp\DELWKODicoServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKODicoServices\DELWKODicoServices.js|1760176777|14883
+s|DELWKOApp\DELWKODicoServices.mweb\src\DELWKOAttributeConfigExt.js|1742306315|24334
+t|win_b64\webapps\DELWKODicoServices\assets\json\DELWKOProperties.json|1723277708|51992
+s|DELWKOApp\DELWKODicoServices.mweb\src\assets\json\DELWKOProperties.json|1701807908|51992
+t|win_b64\webapps\DELWKODicoServices\assets\json\ModelTypes.json|1760176773|5360
+s|DELWKOApp\DELWKODicoServices.mweb\src\assets\json\ModelTypes.json|1752180774|5360
+u|DELWKOApp\DELWKODicoServices.mweb\src\DELWKOCustoXmlUtils.js|1753282497|13817
+u|DELWKOApp\DELWKODicoServices.mweb\src\DELWKODicoUtils.js|1752515322|33655
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

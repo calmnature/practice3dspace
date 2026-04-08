@@ -1,0 +1,20 @@
+{
+  "pref_showWorkUnder": "Показать работу при",
+  "pref_securityCtx": "Учетные данные",
+  "pref_3DEXPERIENCEPlatform": "3DEXPERIENCE platform",
+  "pref_autoSwitchMode": "Автоматическое переключение из режима разработки в режим индексирования",
+  "range_zeroMin": "Никогда",
+  "range_oneMin": "1 минута",
+  "range_threeMin": "3 минуты",
+  "range_fiveMin": "5 минут",
+  "range_tenMin": "10 минут",
+  "button_OK": "ОК",
+  "cmd_warp": "Перенос",
+  "cmd_unwrap": "Без переноса",
+  "cmd_CustomViews": "Пользовательские виды",
+  "cmd_export": "Экспорт",
+  "msg_wraping": "Свертка...",
+  "msg_unwraping": "Отмена свертки...",
+  "msg_loading": "Загрузка...",
+  "label_TestMethod": "Методы тестирования"
+}

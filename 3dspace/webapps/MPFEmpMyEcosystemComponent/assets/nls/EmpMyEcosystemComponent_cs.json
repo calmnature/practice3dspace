@@ -1,0 +1,22 @@
+{
+  "communityProvidersHeader": "Poskytovatelé služeb v komunitě",
+  "communityProvidersInfo": "Vyhledejte a vyberte poskytovatele služeb z celosvětové komunity Dassault Systemes.",
+  "selectComunityProvidersLabel": "Vyberte stávající poskytovatele služeb v komunitě",
+  "internalProvidersHeader": "Poskytovatelé služeb v mojí společnosti",
+  "internalProvidersInfo": "Definujte interního poskytovatele služeb pro vaši společnost.",
+  "declareInternalProviderLabel": "Definovat interního poskytovatele služeb",
+  "allowNonSelectedProvidersLabel": "Umožněte svým nákupčím zobrazovat a odesílat objednávky nevybraným poskytovatelům",
+  "edit": "Upravit",
+  "moreInformation": "Další informace",
+  "internalServiceProvider": "Interní poskytovatel služeb",
+  "serviceName": "Název služby",
+  "savingError": "Při ukládání došlo k chybě. Zkuste to znovu.",
+  "save": "Uložit",
+  "saving": "Ukládání",
+  "oneResult": "1 výsledek",
+  "results": "Počet výsledků: {0}",
+  "select": "Vybrat",
+  "deselect": "Zrušit výběr",
+  "xLabsFound": "Bylo nalezeno {0} poskytovatelů služeb pro „{1}“",
+  "oneLabFound": "Byl nalezen 1 poskytovatel služeb pro „{0}“"
+}

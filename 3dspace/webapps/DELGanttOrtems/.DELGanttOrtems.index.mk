@@ -1,0 +1,9 @@
+m|DELUXBusinessWeb\DELGanttOrtems.mweb
+b|j|n,u
+b|c|n,u
+v|6.428.0.25209|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELGanttOrtems\DELGanttOrtems.js|1525278158|0
+s|DELUXBusinessWeb\DELGanttOrtems.mweb\src\DELGanttOrtems.js|1525278158|0
+t|win_b64\webapps\DELGanttOrtems\webgantt.js|1753455135|1200485
+s|DELUXBusinessWeb\DELGanttOrtems.mweb\src\webgantt.js|1753455135|1200485

@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "总线类型映射",
+  "EPCLabel": "电子物理零部件",
+  "EPCInfo": "将电子物理零部件的类型映射修改为 3DEXPERIENCE 类型",
+  "PrintedCircuitBoardLabel": "印刷电路板（即零件）",
+  "PrintedCircuitBoardInfo": "将印刷电路板类型映射修改为 3DEXPERIENCE 类型",
+  "PrintedCircuitBoardAssemblyLabel": "印刷电路板装配体",
+  "PrintedCircuitBoardAssemblyInfo": "将印刷电路板装配体的类型映射修改为 3DEXPERIENCE 类型"
+}

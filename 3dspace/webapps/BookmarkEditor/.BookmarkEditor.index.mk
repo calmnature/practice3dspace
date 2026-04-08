@@ -1,0 +1,11 @@
+m|FolderNGUX\BookmarkEditor.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26017|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\BookmarkEditor\BookmarkEditor.js|1768640568|13867
+s|FolderNGUX\BookmarkEditor.mweb\src\BookmarkEditor.js|1765201968|3573
+u|FolderNGUX\BookmarkEditor.mweb\src\plugins\BkPlugin.js|1763659293|28645
+u|FolderNGUX\BookmarkEditor.mweb\src\utils\DocumentUtils.js|1734518448|4695
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

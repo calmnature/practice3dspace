@@ -1,0 +1,1 @@
+define("DS/CfgCompositionUX/CfgCompositionUX_ja",{});define("DS/CfgCompositionUX/assets/nls/CfgCompositionUX",{Work_Under_Check:"構成を実行できません。オーサリング コンテキストは、展開使用条件の下で作業する必要があります。",Revision:"リビジョン",Child:"子",Edit_Composition:"コンポジションを編集",Pencil_Tooltip:"構成を編集するには、オーサリング コンテキストは、展開使用条件の下で作業する必要があります。",Composition_Error:"構成の情報の取得中にエラーが発生しました"});

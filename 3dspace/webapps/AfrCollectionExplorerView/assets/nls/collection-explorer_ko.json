@@ -1,0 +1,10 @@
+{
+  "NLS_ViewModeIconTooltip": "보기",
+  "NLS_ThumbnailView": "섬네일 보기",
+  "NLS_TileView": "타일 보기",
+  "NLS_DataGridView": "데이터 그리드 보기",
+  "NLS_ListViewTitleColumnHeaderLabel": "제목",
+  "NLS_DropMessage": "또는 아무 곳에 콘텐츠 놓기",
+  "NLS_NoContent": "표시할 콘텐츠가 없습니다.",
+  "NLS_DnDPlaceholder": "시작하려면 콘텐츠를 아무 곳으로 끌어 놓으십시오."
+}

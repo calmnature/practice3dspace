@@ -1,0 +1,1 @@
+define("DS/DELPPWMoreAttributesWizardModule/MoreAttributesWizardModule",["UWA/Core"],(function(e){"use strict";return{behaviors:["MoreAttributesWizardBehavior","WUXNodeModelBehavior","TreeListViewBehavior","UXFactoryBehavior"],creator:function(e,r,t,o,i){return{name:"MoreAttributesWizardModule",listenTo:function(){return{}},onStart:function(e,r){r()},onStop:function(){}}}}}));

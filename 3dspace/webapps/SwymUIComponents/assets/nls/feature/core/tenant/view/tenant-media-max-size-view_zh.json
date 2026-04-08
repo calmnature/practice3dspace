@@ -1,0 +1,23 @@
+{
+  "document": "文档",
+  "videoOnly": "视频",
+  "picture": "图片",
+  "sound": "音频",
+  "3d_model": "3D 模型",
+  "drawing": "工程图",
+  "save": "保存",
+  "cancel": "取消",
+  "errorMin": "您不能设置小于以下值的值 ",
+  "errorMax": "最大大小",
+  "submitComplete": "更新成功",
+  "submitFailure": "发送失败",
+  "help": "文件扩展名支持",
+  "mb": "{value}Mb",
+  "acceptAllFileExtensions": "接受所有文件扩展名",
+  "disallowHighRiskFileExtensions": "不允许高风险文件扩展名（例如 .exe、.bat）。更多信息请参阅用户帮助。",
+  "permitOnlySupportedMediaTypes": "仅允许支持的媒体类型（图片/音频/视频/3D 模型/文档...）",
+  "forAllTypes": "对于所有类型",
+  "restrictUploadFileBySize": "按类型限制上传文件大小：",
+  "fileExtensionSupport": "文件扩展名支持",
+  "maximumUploadFileSize": "最大上传文件大小"
+}

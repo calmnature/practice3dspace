@@ -1,0 +1,7 @@
+{
+  "isRequired": "{0} je povinný údaj",
+  "isInvalid": "{0} je neplatná hodnota",
+  "title": "Název",
+  "description": "Popis",
+  "image": "Obrázek"
+}

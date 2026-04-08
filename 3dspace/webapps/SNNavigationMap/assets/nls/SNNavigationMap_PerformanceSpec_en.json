@@ -1,0 +1,18 @@
+{
+	"PerformanceSpecRelations": "Performance Specification Relations",
+	"Characteristics_Test_Method": "Characteristics Test Method",
+	"Characteristics_Test_Method_to": "Impacted Test Methods",
+	"Characteristics_Test_Method_from": "Impacted Products",
+	"Performance_Spec_Of": "Performance Specifications",
+	"Performance_Spec_Of_to": "Performance Specifications",
+	"Performance_Spec_Of_from": "Products",
+	"Performance_Specification": "Characteristics Test Methods",
+	"Performance_Specification_to": "Characteristics Test Methods",
+	"Performance_Specification_from": "Performance Specifications",
+	"Used_Characteristics_Templates_On_PS": "Characteristic Templates",
+	"Used_Characteristics_Templates_On_PS_to": "Characteristic Templates",
+	"Used_Characteristics_Templates_On_PS_from": "Performance Specifications",
+	"Used_Characteristics_Templates_On_Prd": "Characteristic Templates",
+	"Used_Characteristics_Templates_On_Prd_to": "Characteristic Templates",
+	"Used_Characteristics_Templates_On_Prd_from": "Products"
+}

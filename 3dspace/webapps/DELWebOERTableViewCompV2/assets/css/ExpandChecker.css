@@ -1,0 +1,9 @@
+.del-expandchecker-content {
+  display: grid;
+  gap: 15px; }
+
+.del-expandchecker-checker {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 5px;
+  align-items: center; }

@@ -1,0 +1,34 @@
+{
+  "ManufacturedPart": "Manufactured Part",
+  "DetailedFasten": "Detailed Fasten",
+	
+  "FastenerWithoutSecondaryFastener": "Fastener without secondary fastener",
+  "FastenerWithSecondaryFastenerFixingAComponentToOnlyOnePart": "Fastener with secondary fastener fixing a component to only one part",
+  "FastenerWithSecondaryFastenerFixingAComponentToSeveralParts": "Fastener with secondary fastener fixing a component to several parts",
+  "HalfFastenerWithSecondaryFastenerFixingAComponentToOnlyOnePart": "Half fastener with secondary fastener fixing a component to only one part",
+  "HalfFastenerWithSecondaryFastenerFixingAComponentToSeveralParts": "Half fastener with secondary fastener fixing a component to several parts",
+  "SecondaryFastenerFasteningComponentsToOnlyOnePart": "Secondary fastener fastening components to only one part",
+  "SecondaryFastenerFasteningComponentsToSeveralParts": "Secondary fastener fastening components to several parts",
+
+  "Any": "Any",
+  "NoDrillAtAssembly": "No Drill At Assembly",
+  "MostAtAssembly": "Most At Assembly",
+  "Balanced": "Balanced",
+  "Fitted": "Fitted",
+
+  "Undefined": "Undefined",
+
+  "Positioning": "Positioning",
+
+  "DRILL": "Drill",
+  "PREDRILL": "Predrill",
+  "PROVIDE": "Provide",
+  "NODRILL": "No Drill",
+
+  "FIXED": "Fixed",
+	"NOTFIXED": "Not Fixed",
+	"ALL": "All",
+
+  "OOTB": "Default",
+  "custo": "Custom"
+}

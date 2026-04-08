@@ -1,0 +1,1 @@
+define("DS/SPYExtUI/SPYExtUI_zh",{});define("DS/SPYExtUI/assets/nls/CATSimNavDataFrameViewXYChartUI",{rootName:"当前步骤",loadCaseName:"当前负载",cartesianShortHelp:"Switch to cartesian display",polarShortHelp:"Switch to polar display",selNoneShortHelp:"Hide all series",selAllShortHelp:"Show all series",selInvertShortHelp:"Invert series visibility"});

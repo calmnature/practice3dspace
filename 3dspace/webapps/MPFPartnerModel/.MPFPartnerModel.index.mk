@@ -1,0 +1,12 @@
+m|MPFModels\MPFPartnerModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26038|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFPartnerModel\MPFPartnerModel.js|1770442909|1605
+s|MPFModels\MPFPartnerModel.mweb\src\PartnerCollection.js|1760133129|397
+u|MPFModels\MPFPartnerModel.mweb\src\PartnerDataProxy.js|1760133129|528
+u|MPFModels\MPFPartnerModel.mweb\src\PartnerFactory.js|1760133129|988
+u|MPFModels\MPFPartnerModel.mweb\src\PartnerModel.js|1770414941|1000
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

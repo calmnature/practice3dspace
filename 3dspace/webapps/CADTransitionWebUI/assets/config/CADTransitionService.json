@@ -1,0 +1,12 @@
+{
+  "roles": [
+    "PAU",
+	"InternalDS"
+  ],
+  "service": {
+    "id": "xcaddataprocessor",
+    "url": "/resources/v1/modeler/xdpjobs/postprocess",
+    "base": "/webapps"
+  }
+}
+

@@ -1,0 +1,1 @@
+define("DS/SPYExtUI/SPYExtUI_de",{});define("DS/SPYExtUI/assets/nls/CATSimNavDataFrameViewXYChartUI",{rootName:"Aktueller Schritt",loadCaseName:"Aktuelle Last",cartesianShortHelp:"Switch to cartesian display",polarShortHelp:"Switch to polar display",selNoneShortHelp:"Hide all series",selAllShortHelp:"Show all series",selInvertShortHelp:"Invert series visibility"});

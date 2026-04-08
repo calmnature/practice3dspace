@@ -1,0 +1,11 @@
+m|DELWebViewerController\DELWebViewerWorkInstructionControllerV2.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25307|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWebViewerWorkInstructionControllerV2\DELWebViewerWorkInstructionControllerV2.js|1762208794|12710
+s|DELWebViewerController\DELWebViewerWorkInstructionControllerV2.mweb\src\DELImporter.js|1723542068|2457
+u|DELWebViewerController\DELWebViewerWorkInstructionControllerV2.mweb\src\WorkInstructionController.js|1761894553|29113
+u|DELWebViewerController\DELWebViewerWorkInstructionControllerV2.mweb\src\WorkInstructionDataManager.js|1761798309|16141
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

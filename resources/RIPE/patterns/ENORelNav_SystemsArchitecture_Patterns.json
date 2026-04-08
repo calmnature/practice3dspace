@@ -1,0 +1,36 @@
+{
+    "relations": [
+        {
+            "name": "ProposedSolution_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "ProposedSolution"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ProposedSolution_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "ProposedSolution"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

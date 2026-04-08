@@ -1,0 +1,79 @@
+{
+  "loadingApp": "Uygulama yükleniyor",
+  "loadingRefresh": "Uygulamayı yenile",
+  "noToken": "Belirteçler Kullanılamıyor",
+  "noTokenTooltip": "Belirteçler şu anda kullanılamıyor. Optimizasyon işlemine devam etmek için daha fazla belirteç ekleyin.",
+  "buyToken": "VIO Belirteçleri Satın Al",
+  "summaryTitle": "Belirteç Özeti",
+  "summaryLabel": "Belirteçler (%{usage} kullanılıyor)",
+  "usageLabel": "{used}/{total}",
+  "getMoreTokens": "Daha Fazla Belirteç Al",
+  "tokensHistory": "Belirteç Geçmişi",
+  "registeredrepLabel": "Optimizasyon için kaydedilen nesneler",
+  "registeredrepLabelNoToken": "Optimizasyon için hazır nesneler",
+  "noRegisteredrep": "Kayıtlı nesneler alınamıyor",
+  "failedRegisterObject": "Kayıtlı nesneler alınamadı",
+  "tokenUsage": "Belirteç kullanımı",
+  "tokenStatus": "Belirteç Durumu",
+  "availableTokens": "Mevcut Belirteçler",
+  "used": "Tüketilen Belirteçler",
+  "total": "Toplam",
+  "fromLabel": "Kullanım başlangıcı ",
+  "toLabel": " bitiş ",
+  "tokens": "Belirteçler",
+  "noDataConsumed": "Bu süre içinde tüketilen belirteç yok",
+  "percentUsed": "%{percentUsed} belirteç kullanıldı",
+  "percentRemaining": "{remaining} (%{percentRem}) belirteç kaldı",
+  "expDate": "Belirteç Geçerlilik tarihi: {expDate}",
+  "errors": {
+    "requesttimeout": {
+      "title": "İstek zaman aşımına uğradı",
+      "message": "Sunucu bağlantısı zaman aşımına uğradı."
+    }
+  },
+  "tokenUsageInfos": "Belirteç Kullanımı ile optimizasyon için kayıtlı nesneler arasında birkaç saat senkronizasyon farkı var.",
+  "months": [
+    "Ocak",
+    "Şubat",
+    "Mart",
+    "Nisan",
+    "Mayıs",
+    "Haziran",
+    "Temmuz",
+    "Ağustos",
+    "Eylül",
+    "Ekim",
+    "Kasım",
+    "Aralık"
+  ],
+  "shortMonths": [
+    "Oca",
+    "Şub",
+    "Mar",
+    "Nis",
+    "Mayıs",
+    "Haz",
+    "Tem",
+    "Ağu",
+    "Eyl",
+    "Eki",
+    "Kas",
+    "Ara"
+  ],
+  "weekdays": [
+    "Pazar",
+    "Pazartesi",
+    "Salı",
+    "Çarşamba",
+    "Perşembe",
+    "Cuma",
+    "Cumartesi"
+  ],
+  "resetZoomBtn": "Yakınlaştırmayı Sıfırla",
+  "status": {
+    "EXCEEDED_Title": "Başka belirteç yok",
+    "EXCEEDED": "{expiredDate} itibarıyla, kullanılabilir sayıyı aştınız.\n Bu tarihten itibaren \"Çok Ölçekli İkiz HD Navigasyon Belirteci\" için 6 aylık bir ödemesiz döneme girdiniz.\n\nOptimize edilmiş geometri oluşturmaya devam etmek için lütfen belirteç paketinizi yenileyin.",
+    "REJECTED_Title": "Başka belirteç yok",
+    "REJECTED": "{expiredDate} itibarıyla, kullanılabilir sayıyı aştınız.\n \"Çok Ölçekli İkiz HD Navigasyon Belirteci\" için 6 aylık ödemesiz dönem sona erdi.\n\nOptimize edilmiş geometri oluşturmaya devam etmek için lütfen belirteç paketinizi yenileyin.\nEkip üyeleri, bu paket olmadan, oluşturulmamış Gösterim Oynatma için yüksek kaliteli geometri görecek ve bu da daha uzun yükleme süreleri ve daha fazla bellek kullanımına neden olabilir."
+  }
+}

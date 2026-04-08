@@ -1,0 +1,12 @@
+{
+  "details": "détails :",
+  "error_ContainerNotDefined": "Le conteneur div n'est pas correctement défini dans le fichier HTML, vérifiez l'attribut d'élément de données !",
+  "error_ContainerNotFound": "Le conteneur div est introuvable !",
+  "error_Css": "Avertissement d'initialisation : au moins un fichier de ressources css est introuvable !",
+  "error_Init": "Erreur d'initialisation : la ressource d'amorçage de l'app est introuvable !",
+  "error_MissingOptions": "Les options d'initialisation sont incomplètes ou manquantes !",
+  "error_RootComponentPath": "Le chemin du composant racine n'est pas correctement défini dans le fichier HTML, vérifiez l'attribut du composant de données !",
+  "error_RootComponentModule": "Le composant racine n'est pas correctement défini : l'objet composant doit être exporté par défaut !",
+  "error_LoadingModule_NoDefault": " n'est pas correctement défini : aucune exportation par défaut !",
+  "notAvailable": "Indisponible"
+}

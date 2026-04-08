@@ -1,0 +1,16 @@
+{
+  "domestic": "Tuzemsko",
+  "europe": "Evropa",
+  "northAmerica": "Severní Amerika",
+  "southAmerica": "Jižní Amerika",
+  "asia": "Asie a Tichomoří",
+  "africa": "Afrika",
+  "middleEast": "Blízký východ",
+  "standardShipping": "Standardní spedice",
+  "expressShipping": "Expresní spedice",
+  "shippingCostSimulation": "Simulace dopravného",
+  "errorOccured": "Došlo k chybě. Zkuste to znovu později.",
+  "kg": "kg",
+  "lbs": "lb",
+  "upTo": "Až do"
+}

@@ -1,0 +1,34 @@
+{
+	"actions": [
+		{
+			"launcher": "addPerformanceCharacteristics",
+			"nls_key": "label_addPerfChar_new",
+			"icon": "MeasurementCharacteristics_2",
+			"applicableType": [
+				"PerformanceSpec"
+			],
+			"excludeType": [],
+			"applicableAt": [
+				"ItemTabActions"
+			],
+			"access": [],
+			"isAvailableOnMultiSelect": false,
+			"isVisibleForMEI": false
+		},
+		{
+			"launcher": "addPerformanceCharacteristicsUsingCharTempate",
+			"nls_key": "label_addPerfChar_using_Char_template",
+			"icon": "MeasurementCharacteristics_2",
+			"applicableType": [
+				"PerformanceSpec"
+			],
+			"excludeType": [],
+			"applicableAt": [
+				"ItemTabActions"
+			],
+			"access": [],
+			"isAvailableOnMultiSelect": false,
+			"isVisibleForMEI": false
+		}
+	]
+}

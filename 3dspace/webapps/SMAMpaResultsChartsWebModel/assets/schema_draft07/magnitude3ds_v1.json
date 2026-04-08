@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://3ds.com/schemas/SIMULIA/ResultsCharts/magnitude3ds_v1.json",
+  "oneOf": [
+    {
+      "$ref": "#/definitions/Magnitude3DS"
+    }
+  ],
+  "definitions": {
+    "NLSString": {
+      "description": "A string which has national language support (nls). Example : '[['en-US', 'Torque'],['de-DE','Drehmoment']]'.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "maxItems": 2,
+        "minItems": 2,
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "Magnitude3DS": {
+      "description": "A physical 3DS magnitude (e.g. TORQUE) and its related representations.",
+      "type": "object",
+      "required": [
+        "internalMagnitudeName",
+        "nlsName"
+      ],
+      "properties": {
+        "internalMagnitudeName": {
+          "type": "string"
+        },
+        "nlsName": {
+          "$ref": "#/definitions/NLSString"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

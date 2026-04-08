@@ -1,0 +1,10 @@
+{
+  "NLS_ViewModeIconTooltip": "Ansicht",
+  "NLS_ThumbnailView": "Miniaturbildansicht",
+  "NLS_TileView": "Kachelansicht",
+  "NLS_DataGridView": "Datenrasteransicht",
+  "NLS_ListViewTitleColumnHeaderLabel": "Titel",
+  "NLS_DropMessage": "oder legen Sie Ihre Inhalte an einer beliebigen Stelle ab",
+  "NLS_NoContent": "Es liegen keine Inhalte zur Anzeige vor.",
+  "NLS_DnDPlaceholder": "Ziehen Sie Ihre Inhalte einfach per Drag and Drop an eine beliebige Stelle, um zu starten."
+}

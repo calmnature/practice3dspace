@@ -1,0 +1,10 @@
+m|CATSimulationPlayerWeb\SPYAnim.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25314|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SPYAnim\SPYAnim.js|1762809996|2397
+s|CATSimulationPlayerWeb\SPYAnim.mweb\src\_copyright.js|1742291323|63
+u|CATSimulationPlayerWeb\SPYAnim.mweb\src\DataDisplayAnimationAbstract.js|1762101565|8843
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

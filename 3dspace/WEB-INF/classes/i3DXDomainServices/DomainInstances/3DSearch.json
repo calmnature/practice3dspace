@@ -1,0 +1,7 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "3DSearch",
+	"description"    : "The domain instance for 3DSearch in 3DSpace",
+	"packages"       : ["3DSearch"]
+}
+

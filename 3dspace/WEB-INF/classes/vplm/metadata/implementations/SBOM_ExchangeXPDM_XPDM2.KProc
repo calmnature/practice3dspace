@@ -1,0 +1,29 @@
+/*********************************************************************************************************************************/
+/* Exchange XPDM procedure for Process                                                                                        */
+/* --> Retrieves all agregated PLM objects (References, Ref Instances, Rep References, Rep Instances, Ports and Connections)     */
+/*********************************************************************************************************************************/
+#Prog SBOM_ExchangeXPDM_XPDM2( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+	let PLMIDSetSBOMRefForCorrespondingComponent (PLMIDSet)
+	let PLMIDSetSBOMRefForAccessPoint (PLMIDSet)
+	let PLMIDSetSBOMRefForInZone (PLMIDSet)
+	let PLMIDSetCorrespondingComponent (PLMIDSet)
+	let PLMIDSetAccessPoint (PLMIDSet)
+	let PLMIDSetInZone (PLMIDSet)
+
+	PLMIDSetSBOMRefForCorrespondingComponent = Restrict(iPLMIDSet, "DELSBOMModel/DELSBOMHardwareUsageReference")  + Restrict(iPLMIDSet, "DELSBOMModel/DELSBOMAggregatedUsageReference") + Restrict(iPLMIDSet, "DELSBOMModel/DELSBOMZoneUsageReference") + Restrict(iPLMIDSet, "DELSBOMModel/DELSBOMSoftwareUsageReference")  
+	PLMIDSetSBOMRefForAccessPoint = Restrict(iPLMIDSet, "DELSBOMModel/DELSBOMHardwareUsageReference") 
+	PLMIDSetSBOMRefForInZone = Restrict(iPLMIDSet, "DELSBOMModel/DELSBOMHardwareUsageReference") 
+
+	/* Retrieves all corresponding components*/
+	PLMIDSetCorrespondingComponent = ExecuteJavaProcedure("com.dassault_systemes.platform.model.sbom.procedures.ProcedureCalls_correspondingComponentsFromSR", PLMIDSetSBOMRefForCorrespondingComponent)
+
+	/* Retrieves all access point*/
+	PLMIDSetAccessPoint = ExecuteJavaProcedure("com.dassault_systemes.platform.model.sbom.procedures.ProcedureCalls_inZonePointedObjectsFromSR", PLMIDSetSBOMRefForAccessPoint)
+
+	/* Retrieves all in zone*/
+	PLMIDSetInZone = ExecuteJavaProcedure("com.dassault_systemes.platform.model.sbom.procedures.ProcedureCalls_correspondingComponentsFromSR", PLMIDSetSBOMRefForInZone)
+	
+
+	oPLMIDSet = iPLMIDSet + PLMIDSetCorrespondingComponent + PLMIDSetAccessPoint + PLMIDSetInZone
+}

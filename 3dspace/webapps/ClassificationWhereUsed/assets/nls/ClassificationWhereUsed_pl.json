@@ -1,0 +1,17 @@
+{
+  "ClassName": "Nazwa klasy",
+  "ClassTitle": "Tytuł klasy",
+  "MaturityState": "Stan dojrzałości",
+  "ClassPath": "Ścieżka klasy",
+  "Owner": "Właściciel",
+  "CollabSpace": "Przestrzeń współpracy",
+  "Close": "Zamknij",
+  "showlabel": "Pokaż powiązane klasy - ",
+  "Find": "Znajdź",
+  "OpenWith": "OpenWith",
+  "NoAccess": "Nie masz dostępu do wyświetlenia powiązanych klas.",
+  "PartialAccess": "Można wyświetlić tylko klasy, do których masz dostęp, nawet jeśli atrybut jest powiązany z większą liczbą klas.",
+  "NoClassesAttached": "Wybrany atrybut nie jest powiązany z żadną klasą.",
+  "ClasslistError": "Wystąpił błąd podczas pobierania listy klas",
+  "ClassPathError": "Wystąpił błąd podczas pobierania ścieżek klas"
+}

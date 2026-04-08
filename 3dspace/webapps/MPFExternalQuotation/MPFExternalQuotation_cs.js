@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_cs",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"Externí adresa URL cenové nabídky",activateExternalQuotation:"Povolit externí cenovou nabídku"});

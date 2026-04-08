@@ -1,0 +1,17 @@
+{
+  "noFileSelected": "Nie wybrano pliku",
+  "noValidFileSelected": "Nie wybrano prawidłowego pliku",
+  "isRequired": "Pole {0} jest wymagane",
+  "isInvalid": "Pole {0} jest nieprawidłowe",
+  "wrongFileType": "Nieprawidłowy typ pliku",
+  "fileTooBig": "Rozmiar pliku przekracza ograniczenie {0}",
+  "bytes": "bajtów",
+  "kiloByte": "kB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "fileUploadFailed": "Przesyłanie pliku nie powiodło się. Spróbuj ponownie.",
+  "replaceImage": "Zastąp obraz",
+  "loading": "Ładowanie…",
+  "fileCouldNotBeLoaded": "Nie można załadować pliku"
+}

@@ -1,0 +1,1 @@
+define("DS/MPFShopCardComponent/MPFShopCardComponent_cs",{});define("DS/MPFShopCardComponent/assets/nls/ShopCardComponent",{requestAPart:"Požádat o díl",moreInformation:"Další informace",getAQuote:"Získejte nabídku",reviews:"recenze",directPurchase:"přímý nákup",viewMore:"Zobrazit více",buyNow:"Koupit nyní",selectForQuote:"Vybrat pro cenovou nabídku",deselect:"Zrušit výběr"});

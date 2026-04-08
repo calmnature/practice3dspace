@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" targetNamespace="DS_DELPPWConfiguration" xmlns:mstns="DS_DELPPWConfiguration" xmlns="DS_DELPPWConfiguration" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="Label">
+    <xs:complexType>
+      <xs:attribute name="dataIndex" form="unqualified" type="xs:string" />
+      <xs:attribute name="dicoType" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Column">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="dicoType" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="dicoType" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="Label" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="Column" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="dataIndex" form="unqualified" type="xs:string" />
+      <xs:attribute name="minWidth" form="unqualified" type="xs:string" />
+      <xs:attribute name="display" form="unqualified" type="xs:string" />
+      <xs:attribute name="dicoType" form="unqualified" type="xs:string" />
+      <xs:attribute name="displayType" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Config">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Columns" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+	            <xs:element name="Label" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="Column" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="name" form="unqualified" type="xs:string" />
+      <xs:attribute name="Title" form="unqualified" type="xs:string" />
+      <xs:attribute name="Description" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" >
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+	      <xs:element ref="Label" />
+        <xs:element ref="Column" />
+        <xs:element ref="Config" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

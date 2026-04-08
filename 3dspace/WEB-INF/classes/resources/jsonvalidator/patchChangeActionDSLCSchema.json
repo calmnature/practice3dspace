@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title":"PATCH Change Action DSLC Schema",
+  "type": "object",
+  "properties": {
+    "add": {
+      "type": "array",
+      "description": "Array of items to add",
+      "items": {
+        "type": "object",
+        "description": "An item in the add array",
+        "additionalProperties": true,
+        "propertyNames": {
+          "not": {
+            "enum": [
+              "prerequiredDependencies",
+              "prerequiringDependencies",
+              "corequiringDependencies"
+            ]
+          }
+        }
+      }
+    },
+    "remove": {
+      "type": "array",
+      "description": "Array of items to remove",
+      "items": {
+        "type": "object",
+        "description": "An item in the remove array",
+        "additionalProperties": true,
+        "propertyNames": {
+          "not": {
+            "enum": [
+              "prerequiredDependencies",
+              "prerequiringDependencies",
+              "corequiringDependencies"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
+

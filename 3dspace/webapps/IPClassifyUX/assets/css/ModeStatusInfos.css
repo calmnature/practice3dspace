@@ -1,0 +1,54 @@
+.mode_status {
+  position: absolute;
+  bottom: 18px;
+  right: 5px;
+  z-index: 2000;
+
+  &.with_progress {
+        height: 20px;
+        width: 20px;
+    right: 40px;
+    bottom: 40px;
+  }
+}
+
+.fonticon-info:hover .mode_status {
+  visibility: visible;
+}
+
+.wux-ui-3ds-attention:hover .mode_status {
+  visibility: visible;
+}
+.mode_status_loader_div {
+  position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.mode_status_fonticon_info_div {
+  position: absolute;
+  top:20px;
+  left:20px;
+}
+.mode_status_span {
+  display: inline-block;
+  width: 14.5px;
+
+}
+
+.mode_status_fonticon_attention_div {
+  position: absolute;
+  top:0;
+  left:0;
+  color:#E87B00;
+}
+
+.mode_status .wux-controls-progressbar {
+  transform: scale(0.5) !important;
+}
+.dbIndexDialogModal{
+    max-width: 450px;
+    overflow: visible;
+    display:flex;
+    gap:5px;
+    align-items:center;
+}

@@ -1,0 +1,14 @@
+{
+  "cancel": "Cancel",
+  "customerSuccessPartner": "Customer success partner",
+  "edit": "Edit",
+  "errorPartnerSave": "Unable to save partner",
+  "localPartner": "Our local certified partner is available to support you and provide expert guidance at every stage of your project to help you get the most out of our products. They will reach out to you shortly after your purchase.",
+  "next": "Next",
+  "noLocalPartner": "We currently do not have a local certified partner available to support you and provide expert guidance at every stage of your project. In the interim, Dassault Systèmes customer success team will be available for you and reach out to you shortly after your purchase.",
+  "selectForMe": "Select one for me",
+  "selectAPartner": "Please select a customer success partner",
+  "severalLocalPartners": "Please select one of the following local certified partners to support you and provide expert guidance at every stage of your project. They will reach out to you shortly after your purchase. If you are already working with one of them, feel free to select them from the list below.",
+  "yourPartner": "Your partner",
+  "yourSelectedPartner": "Your selected partner"
+}

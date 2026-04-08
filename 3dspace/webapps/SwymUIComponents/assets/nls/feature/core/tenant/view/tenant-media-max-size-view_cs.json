@@ -1,0 +1,23 @@
+{
+  "document": "Dokument",
+  "videoOnly": "Video",
+  "picture": "Obrázek",
+  "sound": "Zvuk",
+  "3d_model": "3D model",
+  "drawing": "Výkres",
+  "save": "Uložit",
+  "cancel": "Zrušit",
+  "errorMin": "Nelze nastavit hodnotu menší než ",
+  "errorMax": "Maximální velikosti",
+  "submitComplete": "Aktualizace proběhla úspěšně",
+  "submitFailure": "Odeslání se nezdařilo",
+  "help": "Podpora přípony souboru",
+  "mb": "{value} MB",
+  "acceptAllFileExtensions": "Přijmout všechny přípony souborů",
+  "disallowHighRiskFileExtensions": "Zakázat přípony souborů s vysokým rizikem (např. .exe, .bat). Další informace najdete v Asistentovi uživatele.",
+  "permitOnlySupportedMediaTypes": "Povolit pouze podporované typy médií (obraz / zvuk / video / 3D model / dokument...)",
+  "forAllTypes": "Pro všechny typy",
+  "restrictUploadFileBySize": "Omezit velikost nahrávaného souboru podle typu:",
+  "fileExtensionSupport": "Podpora přípony souboru",
+  "maximumUploadFileSize": "Maximální velikost nahrávaného souboru"
+}

@@ -1,0 +1,139 @@
+# Goal
+  Custom Named entity recognition
+  Understand the Query (user's intention) and identify the object-types "user is looking for". User intent is crucial.
+  Custom Named entity recognition out of Available tasks.
+  Refer "Available types" section to find all object-types present.
+
+# How
+Match types by phrase against the Sentence. best match type wins. Should almost match the type (also match on any capitalization, plural form)
+match the types against the sentence. not the other way.
+Check whether the entity matches User intent or not.
+
+# Criteria
+-Match entities in available types to the sentence.
+-Entitiy Should be present in Sentence by phrase.
+
+## Hypothetical Example
+  If available types = ['shut theDoor#', 'open window', 'Unknown type', 'Unknown']
+  Query: find shut the door & unknown type with title HEllo
+  Entity:
+  'shut theDoor#', 'Unknown type'
+  Note: Even when the type is "too generic" or "absurd" or "too random", identifying is critical.
+
+## Examples with Sample types
+  Sample Types = [Trojan, Silver coin, Silver coin Eagle, Trojan horse, Trojan net horse, AvoCado, Animal, Animal type, Community, Worm, Sea horse]
+
+### Example 1
+  Query: trojans
+  Entity:
+  'Trojan'
+  Comment: // user is looking for "Trojan" type
+
+### Example 2
+  Query: trojan created by Arnaol
+  Entity:
+  'Trojan'
+  Comment: // match on plurals as well
+
+### Example 3
+  Query: silver coins pending this friday
+  Entity:
+  'Silver coin'
+
+### Example 4
+  Query: fetch me silver coin eagles pending this friday
+  Entity:
+  'Silver coin Eagle'
+
+### Example 5
+  Query: eagle pending this friday
+  Entity:
+  null
+
+### Example 6
+  Query: get me (trojan, silvercoin, avocado) created by trony
+  Entity:
+  'Trojan', 'Silver coin', 'AvoCado'
+
+### Example 7
+  Query: forget silver coin i am looking for trojan horses drafted by reno
+  Entity:
+  'Trojan horse'
+
+### Example 8
+  Query: return avoCados, silver coin with title trojan
+  Entity:
+  'AvoCado', 'Silver coin'
+  Note: here "trojan" is used in context of title property, not as a object type. Hence "Trojan" is wrong answer.
+
+### Example 9
+  Query: silver coins in xyz community
+  Entity:
+  'Silver coin'
+  Note: "in" when used in context of community, stands for "inside the community". Meaning: "Silver coin" objects that are inside a community of title XYZ
+  // here community is NOT the object of interest, only "Silver coin" is the object type of interest.
+
+### Example 10
+  Query: pull out trojan extension
+  Entity:
+  'Trojan'
+  Explanation:
+  // Extension & type mean the same thing
+
+### Example 11
+  Query: bring object of Trojan kind
+  Entity:
+  'Trojan'
+  Explanation:
+  // Kind & type mean the same thing
+
+### Example 12
+  Query: get trojans, trojan horse, animals with title hillo
+  Entity:
+  'Trojan', 'Trojan horse', 'Animal'
+
+### Example 13
+  Query: Bring me roller coaster
+  Entity:
+  null
+
+### Example 14
+  Query: pull out bamboo and animal friendly pesticide
+  Entity:
+  null
+  Comment: <<Incorrect: here "Animal" would have been wrong, as intent doesn't match. User is looking for Pesticide/bamboo but we don't have either in our list, hence answer is []>>
+
+### Example 15
+  Query: find me sea horse
+  Entity:
+  'Sea horse'
+
+### Example 15
+  Query: find me a horse
+  Entity:
+  null
+
+### Example 15
+  Query: get that book worm
+  <<Incorrect: Here "Worm" would have wrong, as book worm is a whole different type of entity, Not a worm, does not match user intent. Understand the sentence.>>
+  Entity:
+  null
+
+### Available types ###
+  Here are actual types in {Database}: [__INFO__].
+
+# Rules
+  Strictly, match only Exact matches (all words of the entity must be present Except for stop words like "the", "of", pronounciations - french ("d", "l")) & ignore partial matches (where key words are missing).
+  Once you find a match, dont stop, continue to look for Better matching Entity (by phrase) till the end of list.
+  ALSO Match on plural forms as well.
+  ONLY return entities in the form present in {Available types} section.
+  For capitalization, tense, spacing & punctuation, refer to the exact form in the {Database}. Check char by char.
+  Entities can be unreal, still you need to match.
+  return in order found in the sentence.
+  Strict: DONT return a {type} that is not originally present in query Or that does not match the user intent.
+  STRICTLY PICK ONLY FROM {Available types}, DO NOT return a entity that is not present in {actual types}.
+
+# Task
+  Generate {ONLY} value of "Entity" for below Query. Note: No additional text or explanation or code.
+  For User's Query: __QUERY__
+  Entity:

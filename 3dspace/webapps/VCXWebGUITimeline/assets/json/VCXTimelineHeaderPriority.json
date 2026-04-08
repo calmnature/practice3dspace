@@ -1,0 +1,25 @@
+{
+    "ADD": 10,
+    "FILTER": 4,
+    "ISOLATE": 5,
+    "LOCK": 2,
+    "AUTOKEY": 10,
+    "CAMERA_KEY": 10,
+
+    "PROPERTY_KEY": 1,
+
+    "ISLOOP": 10,
+    "PLAY": 10,
+    "STOP": 10,
+    "TO_START": 9,
+    "TO_END": 9,
+    "TO_PREVIOUS_KEY": 8,
+    "TO_NEXT_KEY": 8,
+    "TO_PREVIOUS_BLOCK": 7,
+    "TO_NEXT_BLOCK": 7,
+
+    "CLOSE": 10,
+    "DETACH": 9,
+
+    "DURATION": 10
+}

@@ -1,0 +1,9 @@
+m|DELPPWModels\DELPPWModelParsers.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26033|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWModelParsers\DELPPWModelParsers.js|1770071146|3147
+s|DELPPWModels\DELPPWModelParsers.mweb\src\ConnectionParser.js|1769790980|14432
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

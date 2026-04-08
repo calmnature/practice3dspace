@@ -1,0 +1,10 @@
+{
+  "onholdmessage": "Warum setzen Sie '{name}' auf Anhalten?",
+  "resumemessage": "Möchten Sie dieses Anhalten wirklich freigeben?",
+  "checkOptOnHoldmessage": "Alle untergeordneten Elemente werden angehalten",
+  "checkOptResumemessage": "Alle untergeordneten Elemente werden fortgesetzt",
+  "title": "Anhalten",
+  "resumetitle": "Anhalten freigeben",
+  "placeholder": "Kommentar zum Anhalten eingeben",
+  "note": "Hinweis: Dadurch wird die Produktion unterbrochen, bis weitere Maßnahmen ergriffen werden."
+}

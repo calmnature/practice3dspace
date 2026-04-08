@@ -1,0 +1,21 @@
+{
+  "Error_Plateforminfo": "平台信息不可用",
+  "Error_NoObject": "未收到参考",
+  "Error_Format": "收到的对象格式不正确",
+  "Error_ResourceFail": "无法获取资源",
+  "Error_EmptyResponse": "响应为空",
+  "Error_NoDataReturned": "未返回任何数据",
+  "Error_PromisesFail": "承诺执行失败",
+  "Error_ParseFail": "无法解析该响应",
+  "Error_ObjectNotFound": "未找到对象",
+  "Error_Expand": "扩展请求失败：输入不正确",
+  "Errro_PlatformInfo": "平台信息请求失败：输入不正确",
+  "Error_SecurityContext": "无法获取凭据",
+  "Error_ResourceLinkFail": "找到资源链接，但无法显示资源。",
+  "Error_MoreScopes": "输入流程具有多个范围项目。",
+  "Error_NoScope": "输入流程没有范围项目。",
+  "error_NotAllowedObject": "不受支持的对象类型",
+  "error_NotAllowedObject_msg": "不支持将放置的对象类型作为输入。",
+  "error_IncorrectObject": "对象不正确",
+  "error_IncorrectObject_msg": "放置的对象不正确。"
+}

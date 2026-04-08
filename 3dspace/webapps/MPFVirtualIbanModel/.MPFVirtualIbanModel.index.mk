@@ -1,0 +1,15 @@
+m|MPFModels\MPFVirtualIbanModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFVirtualIbanModel\MPFVirtualIbanModel.js|1760176850|4212
+s|MPFModels\MPFVirtualIbanModel.mweb\src\CompanyVirtualIbanDataProxy.js|1760133132|2357
+u|MPFModels\MPFVirtualIbanModel.mweb\src\MPFVirtualIbanModel.js|1760133132|0
+u|MPFModels\MPFVirtualIbanModel.mweb\src\MeOnlineInstanceVirtualIbanDataProxy.js|1760133132|712
+u|MPFModels\MPFVirtualIbanModel.mweb\src\MeVirtualIbanDataProxy.js|1760133132|2040
+u|MPFModels\MPFVirtualIbanModel.mweb\src\VirtualIbanCollection.js|1760133132|625
+u|MPFModels\MPFVirtualIbanModel.mweb\src\VirtualIbanFactory.js|1760133132|3622
+u|MPFModels\MPFVirtualIbanModel.mweb\src\VirtualIbanModel.js|1760133132|3109
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

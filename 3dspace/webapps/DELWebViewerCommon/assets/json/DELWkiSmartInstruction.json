@@ -1,0 +1,34 @@
+{
+  "wkisi_mbom_item_": {
+    "color": "",
+    "img": {
+      "src": "InsertProvide",
+      "style": "width:16px;height:16px;margin-right:6px;vertical-align:middle;",
+      "class": "ckx-img-item"
+    },
+    "contenteditable": "false",
+    "style": "\nborder: none;\nborder-radius: 4px;\nmargin: 2px;\nfont-weight: bold;\n"
+  },
+  "wkisi_rsc_resource_": {
+    "color": "",
+    "img": {
+      "src": "ToolDevice",
+      "style": "width:16px;height:16px;margin-right:6px;vertical-align:middle;",
+      "class": "ckx-img-resource"
+    },
+    "contenteditable": "false",
+    "style": "\nborder: none;\nborder-radius: 4px;\nmargin: 2px;\nfont-weight: bold;\n"
+  },
+  "wkisi_free_txt_": {
+    "color": "",
+    "img": {},
+    "contenteditable": "false",
+    "style": "\nborder: none;\nborder-radius: 4px;\nmargin: 2px;\nfont-weight: bold;\n"
+  },
+  "wkisi_predefined_txt_": {
+    "color": "",
+    "img": {},
+    "contenteditable": "false",
+    "style": "\nborder: none;\nborder-radius: 4px;\nmargin: 2px;\nfont-weight: bold;\n"
+  }
+}

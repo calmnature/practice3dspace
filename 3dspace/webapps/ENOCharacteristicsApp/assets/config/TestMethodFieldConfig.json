@@ -1,0 +1,21 @@
+{
+    "Test Method Specification": [
+        "id",
+        "ds6w:status",
+        "ds6w:revision",
+        "ds6w:identifier",
+        "ds6w:i3dx",
+        "ds6w:type",
+        "ds6w:label",
+        "sourceid"
+    ],
+    "dslab:activity": [
+        "id",
+        "ds6w:status",
+        "ds6w:label",
+        "ds6w:identifier",
+        "ds6w:i3dx_value",
+        "ds6w:type",
+        "sourceid"
+    ]
+}

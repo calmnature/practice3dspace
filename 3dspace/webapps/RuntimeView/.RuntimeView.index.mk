@@ -1,0 +1,13 @@
+m|WebFoundation\RuntimeView.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26017|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\RuntimeView\RuntimeView.js|1768640663|7057
+s|WebFoundation\RuntimeView.mweb\src\Abstract.js|1767697116|17647
+u|WebFoundation\RuntimeView.mweb\src\FileManager.js|1467294877|790
+u|WebFoundation\RuntimeView.mweb\src\NLSManager.js|1767609522|1703
+u|WebFoundation\RuntimeView.mweb\src\RSCManager.js|1767609558|1863
+u|WebFoundation\RuntimeView.mweb\src\RuntimeView.js|1427881347|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

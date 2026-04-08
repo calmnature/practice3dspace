@@ -1,0 +1,1 @@
+define("DS/DELWKOViewModels/DELWKOViewModels_de",{});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewMPVCustomView",{label:"Benutzerdefinierte Ansicht für Produktionsleiter"});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewPSLCustomView",{label:"Benutzerdefinierte Ansicht für Produktionsplaner"});

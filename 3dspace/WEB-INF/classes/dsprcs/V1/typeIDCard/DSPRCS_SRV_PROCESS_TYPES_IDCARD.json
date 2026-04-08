@@ -1,0 +1,19 @@
+{
+	"dsprcs:ItemSpecificationApplicability": {
+		"kindOf": "content",
+		"beType": "type_MfgProductionPlanningApplicability",
+		"patchCSRF": true,
+		"search": true,
+		"cestamp": true,
+		"defaultMask": "dsprcs:ItemSpecificationApplicabilityMask.Default",
+		"customerAttribute": true,
+		"customizationSupport": true,
+		"isPublic": true,
+		"changeSupport": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": true
+		}
+	}
+}

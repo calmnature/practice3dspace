@@ -1,0 +1,11 @@
+m|VENCKEditor\CKEditor.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25314|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CKEditor\CKEditor.htm|1723277615|900
+s|VENCKEditor\CKEditor.mweb\src\CKEditor.htm|1455189920|900
+t|win_b64\webapps\CKEditor\CKEditor.js|1762809986|604
+s|VENCKEditor\CKEditor.mweb\src\CKEditor.js|1762348859|1432
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

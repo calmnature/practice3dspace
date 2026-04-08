@@ -1,0 +1,1 @@
+define("DS/DELPPWInstructionPlugins/InstructionPlugins",["UWA/Class"],(function(n){"use strict";return n.singleton({getMap:function(){return{InstructionEnvironmentVarsPlugin:"DS/DELPPWInstructionModelPlugins/InstructionEnvironmentVarsPlugin"}}})}));

@@ -1,0 +1,13 @@
+m|SMAMpwXCTWebIntegration\SMAXCTSimBridge.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26045|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SMAXCTSimBridge\SMAXCTSimBridge.js|1771038425|17158
+s|SMAMpwXCTWebIntegration\SMAXCTSimBridge.mweb\src\_copyright.js|1742291323|63
+u|SMAMpwXCTWebIntegration\SMAXCTSimBridge.mweb\src\AVPDataDisplayAnimation.js|1746685766|3366
+u|SMAMpwXCTWebIntegration\SMAXCTSimBridge.mweb\src\DSXMBridge.js|1770203888|86785
+u|SMAMpwXCTWebIntegration\SMAXCTSimBridge.mweb\src\ECDSXMStreamsAccess.js|1757576165|4775
+u|SMAMpwXCTWebIntegration\SMAXCTSimBridge.mweb\src\LWfromDSXMFactory.js|1750678111|3667
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

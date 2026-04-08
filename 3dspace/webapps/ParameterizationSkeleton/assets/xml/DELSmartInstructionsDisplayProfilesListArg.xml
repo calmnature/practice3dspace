@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELWorkInstructionsConfiguration" treelistnls="DELWorkInstructionsConfiguration" modalnls="DELWorkInstructionsConfiguration" profile="true">
+	<object type="textarea" id="profileName" value="" disabled="false" mandatory="true" displayInDataGrid="true"></object>
+    <object type="DELConfigurationTreeListView" id="DELSmartInstructionsDisplayListParam" value="" disabled="true" hidden="true" mandatory="true" displayInDataGrid="false"></object>
+</ui>
+

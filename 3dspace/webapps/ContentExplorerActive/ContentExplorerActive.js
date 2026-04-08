@@ -1,0 +1,1 @@
+define("DS/ContentExplorerActive/ContentExplorerActive",["DS/FolderActive/FolderActive"],(function(e){return{ContentExplorerActive:e,ActivePanel:{create:async function(t){return new e(t)}}}}));

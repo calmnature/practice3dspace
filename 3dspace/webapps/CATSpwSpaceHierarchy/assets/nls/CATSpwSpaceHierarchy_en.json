@@ -1,0 +1,17 @@
+{
+  "label_space_concept_root": "Space Concept Root",
+  "label_search": "Search",
+  "label_search_spConceptRoot": "Select a Space Concept Root",
+  "label_search_title": "Select an item",
+
+  "label_spacebrowser_initialization": "Initialize Space Browser...",
+  "label_spacebrowser_webinwin_initialization": "Initialize WebInWin configuration...",
+  "label_spacebrowser_configuration_initialization": "Initialize widget configuration...",
+  "label_spacebrowser_construction": "Construct the Space Browser...",
+
+  "message_no_space_concept_root_selected": "No Space Concept Root selected",
+
+  "error_get_space_hierarchy": "Failed to get the space hierarchy of the Space Root selected",
+  "error_missing_space_media": "Space allocation services are not available. Check with your administrator the required media is installed.",
+  "error_request_timedOut": "The request has timed out!"
+}

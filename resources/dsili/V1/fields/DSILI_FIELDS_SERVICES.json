@@ -1,0 +1,89 @@
+{
+    "dsili:instanceDetails.referencedObject": {
+        "property": "computed",
+        "key": "referencedObject"
+    },
+    "dsili:parentObject": {
+        "property": "computed",
+        "key": "parentObject",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsili.implementations.dsiliOpenAPIImpl.parentObject"
+    },
+    "dsili:program.getItemSpecificationIsScope": {
+        "property": "computed",
+        "key": "isScope",
+        "example": true,
+        "fetchOnce": true,
+        "description": "Indication of whether this is item act as scope or not. If false, then means this is implement link."
+    },
+    "dsili:program.getItemSpecificationItemRef": {
+        "property": "computed",
+        "key": "itemRef",
+        "example": "",
+        "fetchOnce": true,
+        "description": "Reference to the scope manufacturing item."
+    },
+    "dsili:program.getItemSpecificationItemOcc": {
+        "property": "computed",
+        "key": "itemOcc",
+        "example": "",
+        "fetchOnce": true,
+        "description": "Occurrence path for the related manufacturing item instance that the operation is acting upon."
+    },
+    "dsili:IllustratedItem.partialScope": {
+        "property": "computed",
+        "key": "dsili:PartialScope",
+        "example": "",
+        "fetchOnce": true,
+        "description": "Partial Scope Linked MBOM Object."
+    },
+    "dsili:instance.parent": {
+        "property": "from.physicalid",
+        "key": "parent",
+        "example": "9FF50FB000008BF0614199720000DE53",
+        "description": "Physical ID of the object to which the instance is aggregated"
+    },
+    "dsili:instance.reference": {
+        "property": "to.physicalid",
+        "key": "reference",
+        "example": "EE562168015FFCF14F940A513C63AA77",
+        "description": "Instance to side object physical id"
+    },
+    "dsili:ItemSpecification.overlap": {
+        "property": "attribute[MfgProductionPlanning.V_Overlap]",
+        "key": "overlap",
+        "format": "boolean",
+        "example": "true or false",
+        "description": "overlap value"
+    },
+    "dsili:ItemSpecification.csn": {
+        "property": "attribute[PLMEntity.V_Name]",
+        "key": "csn",
+        "example": "10",
+        "description": ""
+    },
+    "dsili:ItemSpecification.isn": {
+        "property": "attribute[PLMEntity.V_description]",
+        "key": "isn",
+        "example": "A",
+        "description": ""
+    },
+    "dsili:ItemSpecification.usage": {
+        "property": "attribute[PLMEntity.V_usage]",
+        "key": "usage",
+        "example": "A",
+        "description": ""
+    },
+    "dsili:ItemSpecification.implLinkUsage": {
+        "property": "attribute[bo.ImplementLinkUsageFamily.V_ImplLinkUsage]",
+        "key": "implLinkUsage",
+        "example": "A",
+        "description": ""
+    },
+    "dsili:ItemSpecification.symbolicID": {
+        "property": "attribute[SymbolicID.V_SymbolicID]",
+        "key": "symbolicID",
+        "example": "A",
+        "description": ""
+    }
+}

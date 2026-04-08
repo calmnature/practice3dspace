@@ -1,0 +1,9 @@
+m|DELPPWItemModules\DELPPWItemModules.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26047|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWItemModules\DELPPWItemModules.js|1771278861|1465
+s|DELPPWItemModules\DELPPWItemModules.mweb\src\ItemModules.js|1770290467|2264
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

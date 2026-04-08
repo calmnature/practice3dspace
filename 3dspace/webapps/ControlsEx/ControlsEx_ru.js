@@ -1,0 +1,1 @@
+define("DS/ControlsEx/ControlsEx_ru",{});define("DS/ControlsEx/assets/nls/translation",{information:"Информация",home:"Главная",expand:"Развернуть",collapse:"Свернуть",no_unit:"Нет соответствующих единиц измерения",collapseStepper:"Свернуть вид этапов"});

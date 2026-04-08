@@ -1,0 +1,12 @@
+{
+  "details": "详细信息：",
+  "error_ContainerNotDefined": "未在 HTML 文件中正确定义容器 div，请检查 data-element 属性！",
+  "error_ContainerNotFound": "未找到容器 div 元素！",
+  "error_Css": "初始化警告：至少一个 css 资源文件无法找到！",
+  "error_Init": "初始化错误：找不到应用程序引导程序资源！",
+  "error_MissingOptions": "初始化选项不完整或缺失！",
+  "error_RootComponentPath": "未在 HTML 文件中正确定义根组件路径，请检查 data-component 属性！",
+  "error_RootComponentModule": "未正确定义根组件：组件对象必须导出为默认值！",
+  "error_LoadingModule_NoDefault": " 未正确定义：无默认导出！",
+  "notAvailable": "不可用"
+}

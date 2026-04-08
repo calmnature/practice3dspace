@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_zh",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"视图",NLS_ThumbnailView:"缩略图视图",NLS_TileView:"平铺视图",NLS_DataGridView:"数据网格视图",NLS_ListViewTitleColumnHeaderLabel:"标题",NLS_DropMessage:"或将您的内容放置到任意位置",NLS_NoContent:"没有内容可供显示。",NLS_DnDPlaceholder:"请将您的内容拖放到任意位置以开始。"});

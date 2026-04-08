@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- XR Manager Configuration  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2025, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+		 Name="CATXRMConfigurationPrdExt"
+		 ModelerType="Top"
+		 UseNames="PRODUCTCFG"
+         Uuid="9889a4dc-6283-4a8d-a1e4-25031d8c356c"
+		 CustomerExposition="Programmer"
+         >
+
+	<Comment>[3DEXPERIENCER2026xFD01] 2025/09/23 - Initial creation : contain only Model base tracking extension</Comment>
+
+	<Extension Name="CATXRMConfigurationPrdExtension_MBT"
+			   Abstract="No"
+			   ScopeNames="VPMReference"
+			   IconName="I_PrdXRConfExt_MBT"
+			   CustomerExposition="Programmer"
+			   Searchable="Yes"
+			   Uuid="9cc8dc90-61bc-440e-85fd-d572d10f1e3d"
+			   V6Exportable="No"
+			   >
+
+	</Extension>
+
+</Package>

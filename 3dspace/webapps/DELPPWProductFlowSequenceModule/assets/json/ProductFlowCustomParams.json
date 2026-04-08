@@ -1,0 +1,144 @@
+{
+    "attributes": {
+        "displayInfoOnFlow": "Disp_Info_Description",
+        "displayProcessIcon": true,
+        "attributeList": [
+            {
+                "nodeType": "process",
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": true,
+                "maxWidth": "90"
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": null,
+                "maxWidth": "10"
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "5",
+                "mergeWithPreviousRow": null,
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "displayAttributeName": false,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "6",
+                "mergeWithPreviousRow": true,
+                "name": "DELLmiOperationReference.V_MeasuredTime",
+                "displayAttributeName": false,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "PLMInstance.PLM_ExternalID",
+                "displayAttributeName": true,
+                "maxWidth": null
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "4",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_description",
+                "displayAttributeName": null,
+                "maxWidth": "80"
+            },
+            {
+                "nodeType": "process",
+                "rowIndex": "7",
+                "mergeWithPreviousRow": null,
+                "name": "SequenceNumber",
+                "displayAttributeName": true,
+                "maxWidth": "80"
+            }
+        ]
+    },
+    "colors": {
+        "colorParamsList": [
+            {
+                "graphicalElement": "headerBackgroundColor",
+                "color": "#bdf6fc",
+                "attributeValue": "---.000",
+                "ruleNumber": "1",
+                "name": "revision",
+                "attributeCondition": "Equal",
+                "nodeType": "process"
+            },
+            {
+                "graphicalElement": "headerBackgroundColor",
+                "color": "#d4ffb0",
+                "attributeValue": "Header 1",
+                "ruleNumber": "2",
+                "name": "PLMEntity.V_Name",
+                "attributeCondition": "NotEqual",
+                "nodeType": "process"
+            },
+            {
+                "graphicalElement": "tileBackgroundColor",
+                "color": "#fcbdbd",
+                "attributeValue": "10",
+                "ruleNumber": "3",
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "attributeCondition": "GreaterThanOrEqual",
+                "nodeType": "process"
+            },
+            {
+                "graphicalElement": "headerTextColor",
+                "color": "#ffc533",
+                "attributeValue": "5",
+                "ruleNumber": "4",
+                "name": "DELLmiOperationReference.V_MeasuredTime",
+                "attributeCondition": "LessThanOrEqual",
+                "nodeType": "process"
+            },
+            {
+                "attributeCondition": "NotEqual",
+                "name": "PLMInstance.PLM_ExternalID",
+                "attributeValue": "Provided Part 1.1",
+                "color": "#0831ff",
+                "graphicalElement": "tileTextColor",
+                "ruleNumber": "5",
+                "nodeType": "item"
+            },
+            {
+                "attributeCondition": "Equal",
+                "name": "type",
+                "attributeValue": "Transport",
+                "color": "#fff79c",
+                "graphicalElement": "tileBackgroundColor",
+                "ruleNumber": "6",
+                "nodeType": "resource"
+            }
+        ]
+    },
+    "pageAspectRatio" : [
+        {
+            "label"     : "A3 Landscape",
+            "height"    : 297,
+            "width"     : 420
+        },
+        {
+            "label"     : "A3 Portrait",
+            "height"    : 420,
+            "width"     : 297
+        },
+        {
+            "label"     : "Tablet",
+            "height"    : 16,
+            "width"     : 9
+        },
+        {
+            "label"     : "Laptop 16\"",
+            "height"    : 9,
+            "width"     : 16
+        }
+    ]
+}

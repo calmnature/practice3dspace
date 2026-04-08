@@ -1,0 +1,16 @@
+{
+	"global":
+	[
+		"VIPERLockItem",
+		"eService Number Generator",
+		"eService Object Generator",
+		"eService Trigger Program Parameters",
+		"CATReportInputsConnection",
+		"RGNReportData",
+		"PLMDocConnection",
+		"PLMExchangeStatusDS",
+		"Job",
+		"ESignRecord",
+		"PLMPosSettingsRef"
+	]
+}

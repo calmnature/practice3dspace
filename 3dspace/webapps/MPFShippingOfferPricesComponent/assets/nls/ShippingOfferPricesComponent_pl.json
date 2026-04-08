@@ -1,0 +1,16 @@
+{
+  "domestic": "Krajowy",
+  "europe": "Europa",
+  "northAmerica": "Ameryka Północna",
+  "southAmerica": "Ameryka Południowa",
+  "asia": "Azja i Pacyfik",
+  "africa": "Afryka",
+  "middleEast": "Bliski Wschód",
+  "standardShipping": "Standardowa wysyłka",
+  "expressShipping": "Ekspresowa wysyłka",
+  "shippingCostSimulation": "Symulacja kosztów wysyłki",
+  "errorOccured": "Wystąpił błąd. Spróbuj ponownie później.",
+  "kg": "kg",
+  "lbs": "funty",
+  "upTo": "Do"
+}

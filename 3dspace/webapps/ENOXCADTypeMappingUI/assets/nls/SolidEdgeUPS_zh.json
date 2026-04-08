@@ -1,0 +1,17 @@
+{
+  "busTypeMapping": "总线类型映射",
+  "assemblyLabel": "装配体",
+  "assemblyInfo": "将装配体 CAD 类型的类型映射修改为 3DEXPERIENCE 类型",
+  "assemblyInstanceLabel": "装配体实例",
+  "assemblyInstanceInfo": "将装配体实例 CAD 类型的类型映射修改为 3DEXPERIENCE 类型",
+  "componentLabel": "组件",
+  "componentInfo": "将零部件 CAD 类型的类型映射修改为 3DEXPERIENCE 类型",
+  "drawingLabel": "工程图",
+  "drawingInfo": "将工程图 CAD 类型的类型映射修改为 3DEXPERIENCE 类型",
+  "virtualComponentLabel": "虚拟组件",
+  "virtualComponentInfo": "将虚拟组件 CAD 类型的类型映射修改为 3DEXPERIENCE 类型",
+  "internalComponentLabel": "内部组件",
+  "internalComponentInfo": "将内部组件 CAD 类型的类型映射修改为 3DEXPERIENCE 类型",
+  "internalAssemblyLabel": "内部装配体",
+  "internalAssemblyInfo": "将内部装配体 CAD 类型的类型映射修改为 3DEXPERIENCE 类型"
+}

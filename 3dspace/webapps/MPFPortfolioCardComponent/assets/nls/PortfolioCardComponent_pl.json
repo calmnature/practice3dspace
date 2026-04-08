@@ -1,0 +1,14 @@
+{
+  "from": "Od",
+  "pricePerMonth": "{price} / miesiąc",
+  "pricePerMonthNoTax": "{price} / miesiąc (bez podatków)",
+  "subsInfo": "Roczne lub kwartalne subskrypcje",
+  "buy": "Kup",
+  "buyNow": "Kup teraz",
+  "upToDiscount": "Do {percentage}% rabatu",
+  "worldOffer": "Oferta 3DEXPERIENCE World",
+  "untilMarch": "Oferta ważna do 31 marca 2020 r.",
+  "taxExcl": "Bez podatków",
+  "perMonth": "Miesięcznie",
+  "includingPlatform": "W tym platforma <b>3D</b>EXPERIENCE platform"
+}

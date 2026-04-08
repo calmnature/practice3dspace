@@ -1,0 +1,10 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package VV-->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VV_Test_Specification" ScriptName="ENOAP_PolicyChooser_VV_Test_Specification" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VV_Test_Case" ScriptName="ENOAP_PolicyChooser_VV_Test_Case" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VV_Test_Chapter" ScriptName="ENOAP_PolicyChooser_VV_Test_Chapter" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VV_Test_Script" ScriptName="ENOAP_PolicyChooser_VV_Test_Script" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VV_Test_Step" ScriptName="ENOAP_PolicyChooser_VV_Test_Step" />
+</Scripts>
+

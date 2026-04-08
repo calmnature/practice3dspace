@@ -1,0 +1,13 @@
+m|MPFModels\MPFSoftwareProductModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFSoftwareProductModel\MPFSoftwareProductModel.js|1760176849|2553
+s|MPFModels\MPFSoftwareProductModel.mweb\src\MPFSoftwareProductModel.js|1760133131|0
+u|MPFModels\MPFSoftwareProductModel.mweb\src\SoftwareProductCollection.js|1760133131|2074
+u|MPFModels\MPFSoftwareProductModel.mweb\src\SoftwareProductDataProxy.js|1760133131|2113
+u|MPFModels\MPFSoftwareProductModel.mweb\src\SoftwareProductFactory.js|1760133131|3054
+u|MPFModels\MPFSoftwareProductModel.mweb\src\SoftwareProductModel.js|1760133131|2912
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

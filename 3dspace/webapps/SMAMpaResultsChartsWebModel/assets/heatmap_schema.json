@@ -1,0 +1,196 @@
+{
+  "$id": "http://3ds.com/schemas/SIMULIA/ResultsCharts/heatmap_schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "definitions": {
+    "AxisDataTypeEnum": {
+      "description": "Specify the data inherent type of the axis. The plotter uses this to choose appropriate visualization defaults (e.g an xy-point-cloud for 'discrete' or a continuous xy-curve for 'continuous' ).",
+      "enum": [ "discrete", "continuous" ],
+      "type": "string"
+    },
+    "HeatmapAxisNodalityTypeEnum": {
+      "description": "Data for Heatmaps can be node-centric (i.e. a rectangular value 'around' point (x1,y1)), or cell-centric (i.e. a value inside cell [x1,x2]x[y1,y2]). This choice has runtime implications about the expected matrix size of 'z' (see Heatmap description).",
+      "enum": [ "node-centric", "cell-centric" ],
+      "type": "string"
+    },
+    "Unit3DSDetails": {
+      "description": "Resolved physical unit name, unit symbol, and magnitude name. Optionally also unit conversion factors to SI units. No i18n used; this is an intermediate solution until this information can be obtained using only 'Unit3DS'. Examples: magnitudeName = 'Electric field strength', unitSymbol = 'V_m', unitName = 'Volt per meter'.",
+      "properties": {
+        "magnitudeName": {
+          "type": "string"
+        },
+        "unitSymbol": {
+          "type": "string"
+        },
+        "labelPrefix": {
+          "type": "string"
+        },
+        "conversion_factor": {
+          "type": "number"
+        },
+        "conversion_offset": {
+          "type": "number"
+        },
+        "version": {
+          "description": "Versioning to prepare future upgrades of this schema. Must be '1'.",
+          "type": "string",
+          "const": "1"
+        }
+      },
+      "required": [ "magnitudeName", "unitSymbol", "version" ],
+      "additionalProperties": false
+    },
+    "Unit3DS": {
+      "description": "Physical unit of the data represented in [3DS magnitude and units](https://dsxdev-online.dsone.3ds.com/doconline/English/CAAKniKnowledgeAdvisor/CAALifTaMagnitudes.htm) format, e.g. unitNameInternal = 'VOLT_PER_METER' and magnitudeNameInternal = 'ELECTRICFIELDSTRENGTH'. Potentially to be replaced by enums in a later version.",
+      "properties": {
+        "unitNameInternal": {
+          "type": "string"
+        },
+        "magnitudeNameInternal": {
+          "type": "string"
+        },
+        "detail": {
+          "$ref": "#/definitions/Unit3DSDetails"
+        },
+        "version": {
+          "description": "Versioning to prepare future upgrades of this schema. Must be '1'.",
+          "type": "string",
+          "const": "1"
+        }
+      },
+      "required": [ "unitNameInternal", "magnitudeNameInternal", "version" ],
+      "additionalProperties": false
+    },
+    "Axis": {
+      "description": "Data describing the axis, e.g. physical unit and additional properties of the data.",
+      "type": "object",
+      "properties": {
+        "axistype": {
+          "$ref": "#/definitions/AxisDataTypeEnum"
+        },
+        "unit3ds": {
+          "$ref": "#/definitions/Unit3DS"
+        },
+        "text_no_i18n": {
+          "description": "Axis label which will be shown by the plotter. Overridden by 'Unit3DS' if specified. Prefer using 'Unit3DS' units if possible. Potentially to be removed in a later version.",
+          "type": "string"
+        },
+        "logfactor": {
+          "description": "Logarithmic factor used for dB-scaling. Can be '20' (e.g. for a field quantity), or '10' (e.g. for a power quantity), or '0' (to explicitly disable dB-scaling). Default is '0'.",
+          "enum": [ 0, 10, 20 ]
+        },
+        "version": {
+          "description": "Versioning to prepare future upgrades of this schema. Must be '1'.",
+          "type": "string",
+          "const": "1"
+        }
+      },
+      "required": [ "axistype", "version" ],
+      "additionalProperties": false
+    },
+    "Heatmap": {
+      "description": "Data on a regular 2D Cartesian grid that describes a mapping from a CoDomain value to a color. 'x' defines the x-axis-values as an array of numbers; its length defines the expected number of columns for 'z'. 'y' defines the y-axis-values as array; its length defines the expected number of rows for 'z'. The arrays 'x' and 'y' need to be sorted strictly monotonically increasing. Data can be node-centric (i.e. a value 'around' (x1,y1)), or cell-centric (i.e. a value inside cell [x1,x2]x[y1,y2]).\n For a node-centric representation, matrix size of 'z' has to be sy x sx. For a grid-centric representation, matrix size of 'z' has to be (sy-1) x (sx-1). In case 'z_im' is provided, 'z' and 'z_im' are interpreted as real and imaginary part of complex numbers.",
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "array",
+          "anyOf": [
+            {
+              "items": {
+                "type": "integer"
+              }
+            },
+            {
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        },
+        "y": {
+          "type": "array",
+          "anyOf": [
+            {
+              "items": {
+                "type": "integer"
+              }
+            },
+            {
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        },
+        "z": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": [ "number", "null" ]
+            }
+          }
+        },
+        "z_im": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": [ "number", "null" ]
+            }
+          }
+        },
+        "x_axis": {
+          "$ref": "#/definitions/Axis"
+        },
+        "x_nodality": {
+          "$ref": "#/definitions/HeatmapAxisNodalityTypeEnum"
+        },
+        "y_axis": {
+          "$ref": "#/definitions/Axis"
+        },
+        "y_nodality": {
+          "$ref": "#/definitions/HeatmapAxisNodalityTypeEnum"
+        },
+        "z_axis": {
+          "$ref": "#/definitions/Axis"
+        },
+        "text_no_i18n": {
+          "description": "Title which will be shown by the plotter. Overridden by z_axis' 'Unit3DS' if specified. Prefer using 'Unit3DS' units for 'z' if possible. Potentially to be removed in a later version.",
+          "type": "string"
+        },
+        "version": {
+          "description": "Versioning to prepare future upgrades of this schema. Must be '1'.",
+          "type": "string",
+          "const": "1"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "z",
+        "x_axis",
+        "x_nodality",
+        "y_axis",
+        "y_nodality",
+        "z_axis",
+        "version"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "description": "Root schema validating against all defined objects.",
+  "oneOf": [
+    {
+      "$ref": "#/definitions/Unit3DSDetails"
+    },
+    {
+      "$ref": "#/definitions/Unit3DS"
+    },
+    {
+      "$ref": "#/definitions/Axis"
+    },
+    {
+      "$ref": "#/definitions/Heatmap"
+    }
+  ]
+}

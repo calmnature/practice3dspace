@@ -1,0 +1,23 @@
+{
+  "cadtransitionoptions.execmode.label": "Режим выполнения",
+  "cadtransitionoptions.execmode.coversion.label": "Переход как",
+  "cadtransitionoptions.execmode.coversion.value": [
+    "Новый объект"
+  ],
+  "cadtransitionoptions.execmode.expand.label": "Развернуть уровень",
+  "cadtransitionoptions.execmode.expand.value": [
+    "Развернуть все",
+    "Не развертывать",
+    "Настраиваемая глубина развертывания"
+  ],
+  "cadtransitionoptions.addopts.label": "Дополнительные параметры",
+  "cadtransitionoptions.addopts.linkcomp.label": "Завершение связи",
+  "cadtransitionoptions.addopts.linkcomp.value": [
+    "Полное завершение связи",
+    "Нет завершения связи",
+    "Завершение настраиваемой связи"
+  ],
+  "cadtransitionoptions.addopts.maptable.label": "Использовать таблицы сопоставления",
+  "cadtransitionoptions.addopts.update.label": "Принудительное обновление",
+  "cadtransitionoptions.addopts.overwrite.label": "Разрешить перезапись"
+}

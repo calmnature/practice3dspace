@@ -1,0 +1,7 @@
+{
+"CADTransitionCommand.Title":"Transition CAO vers 3DEXPERIENCE",
+"CADTransitionCommand.ShortHelp":"Convertissez du contenu 3DEXPERIENCE au format CAO en données 3DEXPERIENCE natives.",
+"CADTransitionCommand.LongHelp":"Avec la transition CAO, vous pouvez convertir le contenu 3DEXPERIENCE sélectionné au format CAO. Les options fournies vous permettent de personnaliser la façon dont les données doivent être migrées.",
+"CADTransitionCommand.WebHelp":"PsteUserMap/postconv-t-CADTransition.htm",
+"CADTransitionCommand.PanelHelp":"PsteUAPanelMap/postconv-t-CADTransition.htm"
+}

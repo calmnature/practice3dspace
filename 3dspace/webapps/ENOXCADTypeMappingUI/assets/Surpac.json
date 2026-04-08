@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "typeMappings": [
+    {
+		"mappingId": "componentMapping",
+		"label": "componentLabel",
+		"info": "componentInfo",
+		"cadType": "component",
+		"mappingType": "busType",
+		"groupName": "busTypeMapping",
+		"mode": "customTypeList",
+		"typeList": [
+			{
+				"typeName": "VPMReference",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "AecTerrain",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologyModel",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeoSurfaceMine",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicBoundary",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeoSurfaceDump",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicConformableUnit",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeoSurfacePit",
+				"policyName": "VPLM_SMB_Definition"
+			},			
+			{
+				"typeName": "GeologicFault",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeoSurfacePitPhase",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeoSurfaceBench",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicIntrusiveUnit",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeoUndergroundMine",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicOtherStructure",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicOtherUnit",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicStructuralZones",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicTrend",
+				"policyName": "VPLM_SMB_Definition"
+			},
+			{
+				"typeName": "GeologicUnconformity",
+				"policyName": "VPLM_SMB_Definition"
+			}
+		]
+    }
+	]
+}

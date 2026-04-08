@@ -1,0 +1,8 @@
+{
+    "Work_Under_Check": "Composition can not be performed. Authoring context must be  work under Evolution Effectivity.",
+    "Revision": "Revision",
+    "Child": "Child",
+    "Edit_Composition": "Edit Composition",
+    "Pencil_Tooltip": "Authoring context must be work under Evolution Effectivity to Edit Composition",
+    "Composition_Error": "Error while fetching composition information"
+}

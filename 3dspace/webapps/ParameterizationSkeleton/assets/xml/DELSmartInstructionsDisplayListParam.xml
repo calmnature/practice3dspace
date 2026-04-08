@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELWorkInstructionsConfiguration" treelistnls="DELWorkInstructionsConfiguration" modalnls="DELWorkInstructionsConfiguration">
+  	<object type="combobox" id="type" value="freeText,predefinedText,item,resource,inputAny,fixedInputAny" disabled="false" onChange="onChangetypeCombo" mandatory="true" sortable="false"></object>
+	<object type="combobox" id="textFont" value="" disabled="true" onChange="onChangeTextFontCombo" mandatory="true" sortable="false"></object>
+	<object type="combobox" id="textSize" value="" disabled="true" onChange="onChangeTextSizeCombo" mandatory="true" sortable="false"></object>
+	<object type="textarea" id="textColor" value="" disabled="false"  mandatory="true" sortable="false"></object>
+	<object type="checkbox" id="bold" value="false" mandatory="true" sortable="false"></object>
+	<object type="checkbox" id="italic" value="false" mandatory="true" sortable="false"></object>
+	<object type="checkbox" id="underline" value="false" mandatory="true" sortable="false"></object>
+	<object type="combobox" id="displayAttributeNames" value="" disabled="true" mandatory="false" sortable="false"></object>
+	<object type="textarea" id="boxTextColor" value="" disabled="false"  mandatory="true" sortable="false"></object>
+	<object type="textarea" id="boxFillColor" value="" disabled="false"  mandatory="true" sortable="false"></object>
+	<object type="checkbox" id="displayIcon" value="false" mandatory="true" sortable="false"></object>
+</ui>

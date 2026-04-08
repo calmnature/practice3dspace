@@ -1,0 +1,1 @@
+define("DS/PIMwebI3Sapp/PIMwebI3Sapp_ru",{});define("DS/PIMwebI3Sapp/assets/nls/PIMwebI3Sapp",{title:"Моделирование сопряжений",subtitle:"Определение и запуск моделирования механических сопряжений",userAssistanceURL:"enoI3sUserMap/i3s-c-ov.htm",dropMultiNoAutorized:"Одновременная загрузка этих данных не поддерживается"});

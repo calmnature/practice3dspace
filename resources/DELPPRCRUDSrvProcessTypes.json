@@ -1,0 +1,73 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsprcs:ItemSpecificationApplicability",
+				"ParentType": "RFLPLMImplementConnection",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "MfgProductionPlanningApplicability",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.srv_process.DELMIACRUDByTypeApplicability"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "MfgProductionPlanningApplicability",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "implementingOcc",
+                        "Transforms": [
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELMIACRUDIndexProcAttrTransformToPathSR"
+                            }
+                        ],
+                        "Getters": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.MfgProductionPlanningCustomGetterOperationOccurrence"
+                            }
+                        ],
+                        "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueCheckerEx"
+                            }
+                        ]
+					},
+					{
+						"ConceptualName": "usagePointsTarget",
+						"Setters": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.srv_process.PLMUsagePointTargetSRSetterForApplicability"
+                            }
+                        ],
+                        "Getters": [
+                        	{
+                        		"Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.srv_process.ProcessGetterUsagePointsTargetApplicability"
+                        	}  
+                        ],
+                        "Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.srv_process.DELCRUDIndexUsagePointPathSRTransform"
+							}
+						]
+                        
+					},
+					{
+						"ConceptualName": "scopeContext"
+					}
+					
+				]
+			}
+		]
+	}
+]

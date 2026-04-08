@@ -1,0 +1,264 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsprcs:TimeLimit",
+				"ParentType": "PLMReference",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELTimeLimitReferenceAbstract",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELTimeLimitReferenceAbstract",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": []
+			},
+			{
+				"ConceptualName": "DELDiscreteTimeLimitReference",
+				"ParentType": "dsprcs:TimeLimit",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELDiscreteTimeLimitReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELDiscreteTimeLimitReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsprcs:DiscreteTimeLimitEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELPeriodicTimeLimitReference",
+				"ParentType": "dsprcs:TimeLimit",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELPeriodicTimeLimitReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELPeriodicTimeLimitReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsprcs:DiscreteTimeLimitEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELCRUDProcEnterpriseAttributeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsprcs:TimeLimitParameter",
+				"ParentType": "PLMConnection",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELTimeLimitParameterAbstract",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.timelimit.DELMIACRUDByTypeTimeLimitParameter"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELTimeLimitParameterAbstract",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "From_IDs",
+						"State": "MANDATORY"
+					},
+					{
+						"ConceptualName": "tlStage",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeLimitStageExt.V_TLStage"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeLimitStageExt.V_TLStage"
+							}
+						]
+					},
+					{
+						"ConceptualName": "tlValue",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.timelimit.TLParameterAttributesQuantityChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.timelimit.TLParameterAttributesQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.timelimit.TLParameterAttributesQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "tlMargin",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.timelimit.TLParameterAttributesQuantityChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.timelimit.TLParameterAttributesQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.timelimit.TLParameterAttributesQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELTimeLimitTriggerParameter",
+				"ParentType": "dsprcs:TimeLimitParameter",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELTimeLimitTriggerParameter",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.timelimit.DELMIACRUDByTypeTimeLimitParameter"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELTimeLimitTriggerParameter",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "eventCode",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeLimitEventExt.V_TLEventCode"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeLimitEventExt.V_TLEventCode"
+							}
+						]
+					},
+					{
+						"ConceptualName": "nbOccurrence",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeLimitEventExt.V_TLNbOccurrence"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeLimitEventExt.V_TLNbOccurrence"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELTimeLimitThresholdParameter",
+				"ParentType": "dsprcs:TimeLimitParameter",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELTimeLimitThresholdParameter",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.timelimit.DELMIACRUDByTypeTimeLimitParameter"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELTimeLimitThresholdParameter",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": []
+			}
+		]
+	}
+]

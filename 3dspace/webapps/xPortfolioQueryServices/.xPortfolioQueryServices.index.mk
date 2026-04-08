@@ -1,0 +1,13 @@
+m|ENOXPortfolioAppsCommon\xPortfolioQueryServices.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.3.26057|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\xPortfolioQueryServices\assets\xPortfolioQueryServicesConstants.json|1763784219|9470
+s|ENOXPortfolioAppsCommon\xPortfolioQueryServices.mweb\src\assets\xPortfolioQueryServicesConstants.json|1762893515|9470
+t|win_b64\webapps\xPortfolioQueryServices\xPortfolioQueryServices.js|1772140411|42670
+s|ENOXPortfolioAppsCommon\xPortfolioQueryServices.mweb\src\js\infra\xPortfolioInfra.js|1771843383|53692
+u|ENOXPortfolioAppsCommon\xPortfolioQueryServices.mweb\src\js\xEnterpriseDictionary.js|1762504211|26276
+u|ENOXPortfolioAppsCommon\xPortfolioQueryServices.mweb\src\js\xPortfolioModel.js|1769766988|41368
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

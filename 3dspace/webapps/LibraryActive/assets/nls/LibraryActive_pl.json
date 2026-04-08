@@ -1,0 +1,31 @@
+{
+  "activeClassification_cmd": "Aktywna klasyfikacja",
+  "name_Section_FavoriteLibraries": "Ulubione",
+  "name_Section_AllLibraries": "Biblioteki",
+  "activeClassification_hover_access": "Dostęp",
+  "activeClassification_msg_empty": "Pusty",
+  "activeClassification_msg_noclassfoud": "Nie znaleziono klasyfikacji",
+  "activeClassification_btn_focus": "Skupienie na ustaleniu klasyfikacji",
+  "CMDExpandAll": "Rozwiń wszystko",
+  "CMDCollapseAll": "Zwiń wszystko",
+  "multiSelectionComponent": {
+    "button_OK": "Klasyfikuj",
+    "button_Cancel": "Anuluj",
+    "widget_name": "Klasyfikacja w bibliotekach",
+    "PLMNewLibraryWidgetName": "Wybierz klasy",
+    "PLMNewbutton_OK": "Wybierz",
+    "msg_ClassifyInProgress": "Klasyfikacja...",
+    "msg_ClassifySuccessful": "Pomyślnie sklasyfikowano.",
+    "title_Classify": "Klasyfikacja w bibliotekach",
+    "msg_ClassifySomeFailed": "Wybrane obiekty sklasyfikowano w następującej liczbie klas: „{successCount}”. Klasyfikacja zakończyła się niepowodzeniem w następującej liczbie klas: „{failCount}”.",
+    "msg_ClassifyAllAlreadyExists": "Wybrane obiekty są już sklasyfikowane w wybranych klasach.",
+    "msg_ClassifySomeExists": "Niektóre obiekty są klasyfikowane, a niektóre obiekty już istnieją w wybranych klasach",
+    "msg_ClassifyFailed": "Wystąpił błąd podczas Klasyfikowania obiektów. Nie masz dostępu do opcji Klasyfikuj LUB istnieje już klasyfikacja w podanych Klasach.",
+    "title_addExistingContentTimeout": "Dodawanie istniejącej zawartości trwa dłużej niż oczekiwano.",
+    "subtitle_addExistingContentTimeout": "Operacja będzie kontynuowana w tle. Wyniki w wybranej klasie będą widoczne po pewnym czasie.",
+    "msg_selectNodeToSeeInfo": "Wybierz Bibliotekę lub Klasę, aby zobaczyć szczegóły.",
+    "msg_selection_Incorrect": "Bieżący wybór nie jest prawidłowy, by móc uruchomić polecenie.",
+    "msg_info_favoriteadded": "Dodano „{name1}” do Ulubionych.",
+    "msg_info_favoriteremoved": "Usunięto „{name1}” z Ulubionych."
+  }
+}

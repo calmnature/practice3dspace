@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="DS_DELPPWConfiguration" xmlns:tns="DS_DELPPWConfiguration" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="RelationsList">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="EXECHEADER" minOccurs="0">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="RESOURCE" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Relation" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="type" type="tns:RelationAssignedWorkCenterLinkType" use="required"/>
+                        <xs:attribute name="read" type="xs:boolean" use="required"/>
+                        <xs:attribute name="write" type="xs:boolean" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:all>
+      <xs:attribute name="Title" type="xs:string" use="required"/>
+      <xs:attribute name="Description" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="RelationAssignedWorkCenterLinkType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="AssignedWorkCenterLink"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

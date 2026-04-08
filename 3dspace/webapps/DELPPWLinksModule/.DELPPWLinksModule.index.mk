@@ -1,0 +1,10 @@
+m|DELPPWModules\DELPPWLinksModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26056|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWLinksModule\DELPPWLinksModule.js|1772055172|24336
+s|DELPPWModules\DELPPWLinksModule.mweb\src\LinksModule.js|1770222028|18491
+u|DELPPWModules\DELPPWLinksModule.mweb\src\LinksUI.js|1771338349|77877
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

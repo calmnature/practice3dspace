@@ -1,0 +1,16 @@
+{
+  "Perspectives": "Perspectivas",
+  "Switch_Perspective": "Alternar perspectiva",
+  "Views": "Visualizações",
+  "Switch_View": "Alternar vista",
+  "Model": "Modelo",
+  "View": "Visualizar",
+  "Document": "Documento",
+  "Wiki": "Wiki",
+  "Back": "Voltar",
+  "Forward": "Encaminhar",
+  "error": {
+    "timeout": "A inicialização do Experience está lenta e foi interrompida. Tente novamente mais tarde.",
+    "invalid_id": "O ID do objeto é inválido"
+  }
+}

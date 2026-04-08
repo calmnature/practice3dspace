@@ -1,0 +1,15 @@
+{
+  "errorActionId": "Le paramètre ID d'action n'est pas défini",
+  "errorConditions": "le paramètre de conditions n'est pas défini",
+  "errorEndpoint": "le point de fin n'est pas défini ou des informations sont manquantes",
+  "errorIncorrectReqOptions": " paramètres de demande incorrects",
+  "errorLaunchCmd": " les valeurs de nom, d'uri et de type de point de fin sont obligatoires",
+  "errorObjectType": "Le paramètre Type d'objet n'est pas défini",
+  "errorObjectsToCreate": "Le paramètre Objets à créer n'est pas défini",
+  "errorOnFail": "Le rappel sur échec n'est pas défini",
+  "errorOnSuccess": "Le rappel sur réussite n'est pas défini",
+  "errorObjectsToUpdate": "Le paramètre Objets à mettre à jour n'est pas défini",
+  "errorObjectsToDelete": "Le paramètre Objets à supprimer n'est pas défini",
+  "errorReqAnswerStatus": "l'état de la réponse est une erreur",
+  "errorReqReturnObjType": "le contenu renvoyé n'est pas un conteneur"
+}

@@ -1,0 +1,69 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "Title",
+				"status": "RW"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "project"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "Meeting Location",
+				"status": "RW"
+			},
+			{
+				"name": "Meeting Start Date Time",
+				"status": "RW"
+			},
+			{
+				"name": "Meeting Duration",
+				"status": "RW"
+			},
+			{
+				"name": "Conference Call Number",
+				"status": "RW"
+			},
+			{
+				"name": "Conference Call Access Code",
+				"status": "RW"
+			},
+			{
+				"name": "On Line Meeting Provider",
+				"status": "RW"
+			},
+			{
+				"name": "On Line Meeting Instructions",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"Title": {
+				"mandatory": true
+			},
+			"Meeting Duration": {
+				"mandatory": true
+			},
+			"Meeting Start Date Time": {
+				"mandatory": true
+			}
+		}
+	},
+	"revision":"0"
+}
+

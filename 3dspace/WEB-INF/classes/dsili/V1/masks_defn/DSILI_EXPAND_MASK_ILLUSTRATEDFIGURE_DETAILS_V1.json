@@ -1,0 +1,30 @@
+{
+    "rootMetaType": "dsili:IllustratedItem",
+    "addPathsToResponse": true,
+    "dsili:IllustratedItem": {
+        "mask": "dsili:IllustratedItemMask.Default",
+        "cestamp": true
+    },
+    "dsili:ItemSpecification": {
+        "mask": "dsili:ItemSpecificationMask.Details",
+        "cestamp": true,
+        "composer": true
+    },
+    "dsili:TransientItemSpecification": {
+        "fields": [
+            {
+                "keyInResponse": "type"
+            },
+            {
+                "keyInResponse": "itemOcc"
+            },
+            {
+                "keyInResponse": "csn"
+            },
+            {
+                "keyInResponse": "isn"
+            }
+        ],
+        "beType": "dsili:TransientItemSpecification"
+    }
+}

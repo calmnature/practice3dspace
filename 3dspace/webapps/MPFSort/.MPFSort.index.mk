@@ -1,0 +1,11 @@
+m|MPFModels\MPFSort.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFSort\MPFSort.js|1760176848|294
+s|MPFModels\MPFSort.mweb\src\MPFSort.js|1760133131|0
+u|MPFModels\MPFSort.mweb\src\SortDirection.js|1760133131|246
+u|MPFModels\MPFSort.mweb\src\SortOrder.js|1760133131|217
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Veri Yolu Tipi Eşleme",
+  "EPCLabel": "Elektronik Fiziksel Bileşen",
+  "EPCInfo": "Elektronik Fiziksel Bileşen için tip eşlemesini 3DEXPERIENCE tipi olarak değiştir",
+  "PrintedCircuitBoardLabel": "Baskı Devre Kartı (Parça olarak)",
+  "PrintedCircuitBoardInfo": "Baskı Devre Kartı için tip eşlemesini 3DEXPERIENCE tipi olarak değiştir",
+  "PrintedCircuitBoardAssemblyLabel": "Baskı Devre Kartı Montajı",
+  "PrintedCircuitBoardAssemblyInfo": "Baskı Devre Kartı Montajı için tip eşlemesini 3DEXPERIENCE tipi olarak değiştir"
+}

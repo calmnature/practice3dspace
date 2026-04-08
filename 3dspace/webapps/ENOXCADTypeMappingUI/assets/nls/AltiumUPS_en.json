@@ -1,0 +1,13 @@
+{
+  "busTypeMapping": "Bus Type Mapping",
+
+  "EPCLabel": "Electronic Physical Component",
+  "EPCInfo": "Modify type mapping for Electronic Physical Component to 3DEXPERIENCE type",
+
+  "PrintedCircuitBoardLabel": "Printed Circuit Board (as Part)",
+  "PrintedCircuitBoardInfo": "Modify type mapping for Printed Circuit Board to 3DEXPERIENCE type",
+
+  "PrintedCircuitBoardAssemblyLabel": "Printed Circuit Board Assembly",
+  "PrintedCircuitBoardAssemblyInfo": "Modify type mapping for Printed Circuit Board Assembly to 3DEXPERIENCE type"
+
+}

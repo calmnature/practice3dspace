@@ -1,0 +1,17 @@
+{
+  "ClassName": "Klassenname",
+  "ClassTitle": "Klassentitel",
+  "MaturityState": "Bearbeitungsstatus",
+  "ClassPath": "Klassenpfad",
+  "Owner": "Eigentümer",
+  "CollabSpace": "Teamarbeitsbereich",
+  "Close": "Schließen",
+  "showlabel": "Zugehörige Klassen anzeigen - ",
+  "Find": "Suchen",
+  "OpenWith": "OpenWith",
+  "NoAccess": "Sie haben keinen Zugriff zum Anzeigen der zugeordneten Klasse.",
+  "PartialAccess": "Sie können nur die Klassen anzeigen, auf die Sie Zugriff haben, obwohl das Attribut mit mehr Klassen verknüpft ist.",
+  "NoClassesAttached": "Das ausgewählte Attribut ist keinen Klassen zugeordnet.",
+  "ClasslistError": "Fehler beim Abrufen der Klassenliste",
+  "ClassPathError": "Fehler beim Abrufen der classPaths"
+}

@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "expandDepth": {
+      "type": "string",
+      "example": "n"
+    },
+    "withPath": {
+      "type": "boolean",
+      "example": true
+    },
+    "type_filter_bo": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "example": [
+          "VPMReference",
+          "VPMRepReference",
+          "VPMReferenceExtPos"
+        ]
+      }
+    },
+    "type_filter_rel": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "example": [
+          "VPMInstance",
+          "VPMRepInstance"
+        ]
+      }
+    }
+  }
+}

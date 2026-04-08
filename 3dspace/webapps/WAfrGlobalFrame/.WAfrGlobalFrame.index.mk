@@ -1,0 +1,10 @@
+m|WAfrUI\WAfrGlobalFrame.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25291|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrGlobalFrame\WAfrGlobalFrame.js|1760771008|375
+s|WAfrUI\WAfrGlobalFrame.mweb\src\WAfrGlobalFrame.js|1737129915|1
+u|WAfrUI\WAfrGlobalFrame.mweb\src\WAfrGlobalImmersiveFrame.js|1759238211|774
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

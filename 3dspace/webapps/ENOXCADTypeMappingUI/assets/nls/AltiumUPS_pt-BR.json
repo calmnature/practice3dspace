@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Mapeamento do tipo de barramento",
+  "EPCLabel": "Componente físico eletrônico",
+  "EPCInfo": "Modifique o mapeamento de tipos para o Componente físico eletrônico para o tipo 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Placa de circuito impresso (como peça)",
+  "PrintedCircuitBoardInfo": "Modifique o mapeamento de tipos para placa de circuito impresso para o tipo 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Montagem da placa de circuito impresso",
+  "PrintedCircuitBoardAssemblyInfo": "Modifique o mapeamento de tipo para montagem da placa de circuito impresso para o tipo 3DEXPERIENCE"
+}

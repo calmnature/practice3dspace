@@ -1,0 +1,94 @@
+<meta charset="UTF-8"/>
+//======================================================================================= 
+//=======================================================================================
+// COPYRIGHT DASSAULT SYSTEMES 2023
+
+
+// --- Option Group ---------------------------------
+// ------------------------------------------------------
+GroupOption="メイン オプション";
+GroupOption.LongHelp="グループ化オプション";
+GroupOption.ShortHelp="オプション";
+SelectExpandlevel="展開レベル";
+SelectOption.LongHelp="1 つのオプション";
+SelectOption.ShortHelp="オプション";
+SelectCustomExpandlevel=" ";
+SelectCustomCompletionlevel=" ";
+SelectLinkcompletion="リンクの完了";
+
+
+// --- Status -------------------------------------------
+// ------------------------------------------------------
+Definition.Title="CAD 遷移";
+CADTransitioned.Name="CAD 遷移済み";
+CADTransitioned.WhenApplied="CAD 遷移済み";
+OthersCAD.Name="その他の CAD";
+OthersCAD.WhenApplied="その他の CAD";
+3DEXPERIENCECATIA.Name="3DEXPERIENCE CATIA";
+3DEXPERIENCECATIA.WhenApplied="3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.Name="その他の CAD から 3DEXPERIENCE CATIA";
+OthersCADto3DEXPERIENCECATIA.WhenApplied="その他の CAD から 3DEXPERIENCE CATIA";
+
+
+
+// --- Operation -------------------------------------
+// ---------------------------------------------------
+OthersCADto3DEXPERIENCECATIA.Enabled.Name="3DEXPERIENCE CATIA に変換します";
+
+OthersCAD3DEXPERIENCECATIA.Enabled.Name="3DEXPERIENCE CATIA に変換します";
+OthersCADto3DEXPERIENCECATIA.Disabled.Name="3DEXPERIENCE CATIA に変換します";
+
+
+// --- Execution -------------------------------------
+// ---------------------------------------------------
+CADTransitionCommand.Execute.Ok="OK";
+CADTransitionCommand.Execute.Cancel="キャンセル";
+
+Option.UseMpgTable="マッピング テーブルを使用する";
+Option.UseMpgTable.LongHelp="マッピング テーブルを使用する";
+Option.UseMpgTable.ShortHelp="マッピング テーブルを使用する";
+OptionGroup.GeneralOptions="一般オプション...";
+OptionGroup.GeneralOptions.LongHelp="一般オプション";
+OptionGroup.GeneralOptions.ShortHelp="一般オプション";
+OptionGroup.AdvancedOptions="拡張オプション...";
+OptionGroup.AdvancedOptions.LongHelp="拡張オプション";
+OptionGroup.AdvancedOptions.ShortHelp="拡張オプション";
+
+
+ExecutionMode.Title="実行モード";
+ExecutionMode.ExecModeCombo.Title="変換モード";
+ExecutionMode.ExecModeAsNew="新規オブジェクトとして変換";
+ExecutionMode.ExecModeAsNewRevision="新規リビジョンとして変換";
+ExecutionMode.ExecModeAsNewBranch="新規ブランチとして変換";
+ExecutionMode.ExecModeMapping.Title="マッピング テーブルを使用する";
+ExecutionMode.ExecModeForceUpdate.Title="強制更新";
+ExecutionMode.ExecModeOverwrite.Title="上書きを許可する";
+
+
+Report.ReportName="3DEXPERIENCE CAD Transition_GlobalResult_";
+Report.TimeFormat="%Y-%m-%d__%Hh%Mm%Ss";
+Report.Adm.Name="ドキュメント変換レポート";
+
+
+Option.ReportDir="レポート ディレクトリ:";
+Option.ReportDir.LongHelp="レポート ディレクトリ";
+Option.ReportDir.ShortHelp="レポート ディレクトリ";
+
+Option.ReportName="レポート名:";
+Option.ReportName.LongHelp="レポート名";
+Option.ReportName.ShortHelp="レポート名";
+
+Option.ReportNameSuffix="オブジェクト レポートの接尾部:";
+Option.ReportNameSuffix.LongHelp="オブジェクト レポートの接尾部";
+Option.ReportNameSuffix.ShortHelp="オブジェクト レポートの接尾部";
+
+OptionGroup.Report="レポート";
+OptionGroup.Report.LongHelp="レポート";
+OptionGroup.Report.ShortHelp="レポート";
+
+Option.ReportBtn="レポート";
+Option.ReportBtn.LongHelp="レポート";
+Option.ReportBtn.ShortHelp="レポート";
+
+
+

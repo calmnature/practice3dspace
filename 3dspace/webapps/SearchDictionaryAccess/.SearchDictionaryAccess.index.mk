@@ -1,0 +1,13 @@
+m|i3DXSearchValuesUIServices\SearchDictionaryAccess.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SearchDictionaryAccess\SearchDictionaryAccess.js|1760176870|12093
+s|i3DXSearchValuesUIServices\SearchDictionaryAccess.mweb\src\SearchDicoUtils.js|1759941683|10080
+u|i3DXSearchValuesUIServices\SearchDictionaryAccess.mweb\src\SearchDictionaryAccess3DSpace.js|1741803442|6761
+u|i3DXSearchValuesUIServices\SearchDictionaryAccess.mweb\src\SearchDictionaryAccessAPI.js|1759942491|30437
+u|i3DXSearchValuesUIServices\SearchDictionaryAccess.mweb\src\SearchDictionaryAccessRDF.js|1759996098|13543
+u|i3DXSearchValuesUIServices\SearchDictionaryAccess.mweb\src\SearchRequestUtils.js|1708506549|493
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

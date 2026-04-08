@@ -1,0 +1,15 @@
+m|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuCEngine.mweb
+b|j|n,u
+b|c|c,m
+v|6.428.3.26052|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CXPAssemblyStudioMuCEngine\CXPAssemblyStudioMuCEngineDefine.js|1739973355|293
+s|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuCEngine.mweb\src\CXPAssemblyStudioMuCEngineDefine.js|1739973355|293
+t|win_b64\webapps\CXPAssemblyStudioMuCEngine\StuMoveUnderConstraintsManager.js|1769052976|32004
+s|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuCEngine.mweb\src\StuMoveUnderConstraintsManager.js|1769052976|32004
+t|win_b64\webapps\CXPAssemblyStudioMuCEngine\StuMoveUnderConstraintsManagerNA.js|1771504712|13965
+s|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuCEngine.mweb\src\StuMoveUnderConstraintsManagerNA.js|1771504712|13965
+t|win_b64\webapps\CXPAssemblyStudioMuCEngine\StuMoveUnderConstraintsManagerWeb.js|1771504719|19159
+s|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuCEngine.mweb\src\StuMoveUnderConstraintsManagerWeb.js|1771504719|19159
+t|win_b64\webapps\CXPAssemblyStudioMuCEngine\extensions\StuEMoveUnderConstraintsPrototypeBuild.js|1739966452|989
+s|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuCEngine.mweb\src\extensions\StuEMoveUnderConstraintsPrototypeBuild.js|1739966452|989

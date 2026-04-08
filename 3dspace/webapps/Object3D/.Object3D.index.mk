@@ -1,0 +1,15 @@
+m|WebVisualization\Object3D.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26052|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Object3D\Object3D.js|1771639792|90556
+s|WebVisualization\Object3D.mweb\src\Camera.js|1766071260|28743
+u|WebVisualization\Object3D.mweb\src\Light.js|1745418893|39444
+u|WebVisualization\Object3D.mweb\src\Mesh.js|1768310900|58550
+u|WebVisualization\Object3D.mweb\src\Object.js|1768314328|39179
+u|WebVisualization\Object3D.mweb\src\Object3D.js|1730805033|0
+u|WebVisualization\Object3D.mweb\src\Root3D.js|1730805047|790
+u|WebVisualization\Object3D.mweb\src\Scene.js|1769674761|42884
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

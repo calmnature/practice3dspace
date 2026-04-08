@@ -1,0 +1,23 @@
+{
+  "cadtransitionoptions.execmode.label": "Ausführungsmodus",
+  "cadtransitionoptions.execmode.coversion.label": "Übergang als",
+  "cadtransitionoptions.execmode.coversion.value": [
+    "Neues Objekt"
+  ],
+  "cadtransitionoptions.execmode.expand.label": "Ebene erweitern",
+  "cadtransitionoptions.execmode.expand.value": [
+    "Alle erweitern",
+    "Keine Erweiterung",
+    "Benutzerdefinierte Erweiterungstiefe"
+  ],
+  "cadtransitionoptions.addopts.label": "Zusätzliche Optionen",
+  "cadtransitionoptions.addopts.linkcomp.label": "Link-Abschluss",
+  "cadtransitionoptions.addopts.linkcomp.value": [
+    "Vollständiger Link-Abschluss",
+    "Kein Link-Abschluss",
+    "Benutzerdefinierter Link-Abschluss"
+  ],
+  "cadtransitionoptions.addopts.maptable.label": "Zuordnungstabellen verwenden",
+  "cadtransitionoptions.addopts.update.label": "Aktualisierung erzwingen",
+  "cadtransitionoptions.addopts.overwrite.label": "Überschreiben erlauben"
+}

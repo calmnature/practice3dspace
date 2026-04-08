@@ -1,0 +1,15 @@
+{
+  "dsrdg:RenderingScene": {
+    "kindOf": "root",
+    "beType": "type_Rendering",
+    "patchCSRF": true,
+    "search": true,
+    "defaultMask": "dsmvrdg:RenderingSceneMask.Default",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    }
+  }
+}

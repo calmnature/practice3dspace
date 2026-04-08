@@ -1,0 +1,15 @@
+{
+  "title": "标题",
+  "revision": "修订版",
+  "instance": "实例",
+  "instancePosition": "实例位置",
+  "relationToProductStructureTitleElement": "与产品结构的关系",
+  "positioningInstancesTitleElement": "定位实例",
+  "PositionMatrix_TitleBar": "位置矩阵",
+  "collapseAll": "全部折叠",
+  "expandAll": "全部展开",
+  "expand": "展开",
+  "collapse": "折叠",
+  "expandNLevel": "展开 N 层",
+  "close": "关闭"
+}

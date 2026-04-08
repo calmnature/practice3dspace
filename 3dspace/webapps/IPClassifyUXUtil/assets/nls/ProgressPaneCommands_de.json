@@ -1,0 +1,14 @@
+{
+  "Cancel": "Abbrechen",
+  "PROGRESS": "Fortschritt",
+  "Pending": "Ausstehend",
+  "Completed": "Abgeschlossen",
+  "Failed": "Fehlgeschlagen",
+  "PartiallyFailed": "Teilweise fehlgeschlagen",
+  "Cancelled": "Storniert",
+  "Ending": "Sicheres Anhalten",
+  "CancelAll": "Alle abbrechen",
+  "inProgress": "Wird durchgeführt",
+  "loadingText": "Wird geladen...",
+  "searching": "Suchen in Stammlesezeichen"
+}

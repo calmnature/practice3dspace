@@ -1,0 +1,39 @@
+{
+	"entries": [
+
+		{
+			"id": "mainToolbarDisplayViews",
+			"hasTooltip": true,
+			"dataElements": {
+				"typeRepresentation": "functionIcon",
+				"icon": {
+					"iconName": "eye-cog",
+					"fontIconFamily": 1
+				},
+				"position": "far",
+				"category": "1",
+				"value": {
+					"module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+					"func": "createViewDropdown"
+				}
+			}
+		},
+		{
+			"id": "mainToolbarRefresh",
+			"hasTooltip": true,
+			"dataElements": {
+				"typeRepresentation": "functionIcon",
+				"icon": {
+					"iconName": "refresh",
+					"fontIconFamily": 1
+				},
+				"position": "far",
+				"category": "1",
+				"value": {
+					"module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+					"func": "onClickRefresh"
+				}
+			}
+		}
+	]
+}

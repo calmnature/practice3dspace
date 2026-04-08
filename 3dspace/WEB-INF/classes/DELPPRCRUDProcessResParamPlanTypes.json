@@ -1,0 +1,888 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsprcs:ResourceParameterPlan",
+				"ParentType": "DELLmiAbstractProductionEntity",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELResourceParameterPlanReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELResourceParameterPlanReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsprcs:ResourceParameterPlanInstance",
+				"ParentType": "PLMInstance",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELResourceParameterPlanInstance",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELResourceParameterPlanInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "From_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "TO_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsprcs:ResourceParameterRow",
+				"ParentType": "PLMConnection",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELResourcePrmPlanAbstract",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.DELMIACRUDResourcePrmPlanExecutionImpl"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELResourcePrmPlanAbstract",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "From_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourceParameterRowDependencyChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "paramListOcc",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "resourceParamID",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "operationObject",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourceParameterRowDependencyChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "resourceParameterObject",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourceParameterRowDependencyChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeDisplayUnitSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "parameterLabel",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.AttributeParameterLabelTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.AttributeParameterLabelTransform"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourceParamRowParamLabelChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowParamLabelSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "arbitraryUnitName",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowDisplayUnitChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeDisplayUnitSetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttriArbitraryUnitNameTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttriArbitraryUnitNameTransform"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude"
+						]
+					},
+					{
+						"ConceptualName": "dcType",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowDCTypeChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttibuteDCTypeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttibuteDCTypeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "magnitude",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELCRUDCorpus3DSpaceToolsMagnitudeChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttibuteMagnitudeTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttibuteMagnitudeTransform"
+							}
+						],
+						"Dependencies": [
+							"dcType"
+						]
+					},
+					{
+						"ConceptualName": "paramType",
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttributeParamTypeIndexTransform"
+							},
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttributeParamTypeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "displayUnit",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowDisplayUnitChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeDisplayUnitSetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttibuteDisplayUnitTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttibuteDisplayUnitTransform"
+							}
+						],
+						"Dependencies": [
+							"magnitude"
+						]
+					},
+					{
+						"ConceptualName": "eofMaxValue",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "eofMinValue",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "eofMinLimit",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtIORangeValuesAttrMinMaxLimitTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtIORangeValuesAttrMinMaxLimitTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "eofMaxLimit",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtIORangeValuesAttrMinMaxLimitTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtIORangeValuesAttrMinMaxLimitTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "criticality",
+						"ModelerMapping": [
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELPrmCriticalityExt.V_Criticality"
+							},
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELPrmCriticalityExt.V_Criticality"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.DELCriticalityEnumAttributeChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDExtensionAttribute3DSpaceTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.AttributeCriticalitySetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "text",
+						"ModelerMapping": [
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELResourcePrmPlanAbstract.V_PSRichText"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeTextSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.ResourcePrmPlanAttributeTextGetter"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.getter.DELCRUDCorpusIndexCustomGetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "paramValue",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeParamValueSetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "nominalValue",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "maxValue",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "minValue",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "controlMaxValue",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "controlMinValue",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantity3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowAttrQuantityIndexTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "maxLimit",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrMinMaxLimitTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrMinMaxLimitTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "minLimit",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrMinMaxLimitTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrMinMaxLimitTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "controlMinLimit",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrCtrlMinMaxLimitTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrCtrlMinMaxLimitTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "controlMaxLimit",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrCtrlMinMaxLimitTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesAttrCtrlMinMaxLimitTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "isValueSet",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DataCollectRowAttrMinMaxIncludedIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DataCollectRowAttrMinMaxIncludedIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "possibleValues",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.rpp.ResourcePrmRowCtrlAndRangeValuesLimitsChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesPossibleValueTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.dcr.DELExtTargetValuesPossibleValueTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.rpp.ResourcePrmRowAttributeRangeValuesSetter"
+							}
+						],
+						"Dependencies": [
+							"dcType",
+							"magnitude",
+							"displayUnit"
+						]
+					},
+					{
+						"ConceptualName": "symbolicResourceParamID",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowLinkOnRscTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowLinkOnRscTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "symbolicCapableResourceID",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowLinkOnRscTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.rpp.ResourcePrmRowLinkOnRscTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "resourceParamPlanRowTitle",
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.ResourceParameterPlanRowTitleGetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "richTextInternal",
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiInternalRichTextExtnAttrRichTextGetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsprcs:Documents",
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.DELLinkToDocumentSRSetter"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.MfgProcessPathSR3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELMIACRUDIndexProcAttrTransformToPathSR"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.ProcessSemanticRelationship3DSpaceChecker"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

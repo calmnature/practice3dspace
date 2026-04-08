@@ -1,0 +1,11 @@
+m|DELPPWItemModules\DELPPWItemMILModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26042|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWItemMILModule\DELPPWItemMILModule.js|1770843354|34308
+s|DELPPWItemModules\DELPPWItemMILModule.mweb\src\MfgItemMILBaseUI.js|1755675181|6808
+u|DELPPWItemModules\DELPPWItemMILModule.mweb\src\MFNChangeImpactMgmtUI.js|1770645311|129243
+u|DELPPWItemModules\DELPPWItemMILModule.mweb\src\MILModule.js|1756387355|2437
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

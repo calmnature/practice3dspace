@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "バス タイプ マッピング",
+  "EPCLabel": "電子物理コンポーネント",
+  "EPCInfo": "電子物理コンポーネントのタイプ マッピングを 3DEXPERIENCE タイプに変更",
+  "PrintedCircuitBoardLabel": "プリント サーキット ボード (パーツとして)",
+  "PrintedCircuitBoardInfo": "プリント サーキット ボードのタイプ マッピングを 3DEXPERIENCE タイプに変更",
+  "PrintedCircuitBoardAssemblyLabel": "プリント サーキット ボード アセンブリー",
+  "PrintedCircuitBoardAssemblyInfo": "プリント基板アセンブリのタイプ マッピングを 3DEXPERIENCE タイプに変更します。"
+}

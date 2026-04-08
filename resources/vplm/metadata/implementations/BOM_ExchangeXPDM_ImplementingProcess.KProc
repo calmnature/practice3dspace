@@ -1,0 +1,40 @@
+/*********************************************************************************************************************************/
+/* Exchange XPDM procedure for MBOM                                                                                        */
+/* --> Retrieves all agregated PLM objects (References, Ref Instances, Rep References, Rep Instances, Ports and Connections)     */
+/*********************************************************************************************************************************/
+#Prog BOM_ExchangeXPDM_ImplementingProcess( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+	let PLMRouteSetSystemScope (PLMRouteSet)
+	let PLMRouteSetRFLPCnx (PLMRouteSet)
+	let PLMRouteSetImplementingOp (PLMRouteSet)
+
+	let PLMIDSetProcessRef (PLMIDSet)
+	let PLMIDSetProcessInst (PLMIDSet)
+	let PLMIDSetProcess (PLMIDSet)
+	let PLMIDSetSystemScope (PLMIDSet)
+	let PLMIDSetRFLPCnx (PLMIDSet)
+	let PLMIDSetValidRFLPCnx (PLMIDSet)
+	let PLMIDSetImplementingOp  (PLMIDSet)
+	let PLMIDSetImplementingObject (PLMIDSet)
+
+	PLMIDSetProcessRef = Restrict(iPLMIDSet, "DELFmiFunctionalModel/DELFmiFunctionReference") 
+	PLMIDSetProcessInst = Restrict(iPLMIDSet,"DELFmiFunctionalModel/DELFmiFunctionInstance") 
+	PLMIDSetProcess = PLMIDSetProcessRef + PLMIDSetProcessInst
+
+	/* Retrieves implementing System Scope */
+	PLMRouteSetSystemScope = ExecutePLMFunction("DELFmiFunctionalModel", "DELFmiFunctionReference_SystemScopes", PLMIDSetProcessRef)
+	PLMIDSetSystemScope = Restrict(Ids(PLMRouteSetSystemScope,"all"),"DELLmiProductionSystem/DELLmiProductionSystemReference")
+
+	/* Get All implement connections under system  scope */
+	PLMRouteSetRFLPCnx = ExecutePLMFunction("RFLPLMImplementConnection", "RFLPLMImplementConnection_AddAllImplementCnx", PLMIDSetSystemScope)
+	PLMIDSetRFLPCnx = Restrict(Ids(PLMRouteSetRFLPCnx,"all"),"RFLPLMImplementConnection/RFLPLMImplementConnection")
+
+	/* Extract only valid Implementing connections (scope or implement = pointing Process instance path or Process Ref) */
+	PLMIDSetValidRFLPCnx = ValidateSRs (PLMIDSetRFLPCnx,"PLM_ImplementLink_Target",PLMIDSetProcess)
+
+	/* Get impementing operations-system path */
+	PLMIDSetImplementingObject = ExecuteJavaProcedure("com.dassault_systemes.platform.model.process.procedures.ProcedureCalls_GetImplementingFromImplementCnx", PLMIDSetValidRFLPCnx)
+	PLMIDSetImplementingOp = Restrict(PLMIDSetImplementingObject,"DELLmiProductionSystem/DELLmiProductionSystemInstance") + Restrict(PLMIDSetImplementingObject,"DELLmiProductionOperation/DELLmiOperationInstance")
+	
+	oPLMIDSet = iPLMIDSet + PLMIDSetSystemScope + PLMIDSetValidRFLPCnx + PLMIDSetImplementingOp
+}

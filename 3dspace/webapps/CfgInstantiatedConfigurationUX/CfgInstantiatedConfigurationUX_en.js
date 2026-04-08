@@ -1,0 +1,1 @@
+define("DS/CfgInstantiatedConfigurationUX/CfgInstantiatedConfigurationUX_en",{});define("DS/CfgInstantiatedConfigurationUX/assets/nls/CfgInstantiatedConfigurationUX",{CFG_NoModel_Attached:"No product configuration found. Select object with model attached having product configuration.",CFG_No_ConfigurationAssociation:"No Configuration is associated with selected revision."});

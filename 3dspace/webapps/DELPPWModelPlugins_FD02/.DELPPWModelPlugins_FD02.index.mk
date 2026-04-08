@@ -1,0 +1,14 @@
+m|DELWKOApp\DELPPWModelPlugins_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWModelPlugins_FD02\DELPPWModelPlugins_FD02.js|1761365455|16931
+s|DELWKOApp\DELPPWModelPlugins_FD02.mweb\src\BI\BIPlugin.js|1757708417|9981
+u|DELWKOApp\DELPPWModelPlugins_FD02.mweb\src\ChangeActionPlugin.js|1679512678|4285
+u|DELWKOApp\DELPPWModelPlugins_FD02.mweb\src\DocumentPlugin.js|1679512701|40265
+u|DELWKOApp\DELPPWModelPlugins_FD02.mweb\src\InterWidgetComPlugin.js|1749073799|5654
+u|DELWKOApp\DELPPWModelPlugins_FD02.mweb\src\ResourcePlugin\ResourcePlugin.js|1679512730|4324
+u|DELWKOApp\DELPPWModelPlugins_FD02.mweb\src\ResourcePlugin\WebServicePlugin.js|1679512736|6749
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

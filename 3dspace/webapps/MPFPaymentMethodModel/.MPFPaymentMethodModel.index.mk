@@ -1,0 +1,12 @@
+m|MPFModels\MPFPaymentMethodModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25284|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFPaymentMethodModel\MPFPaymentMethodModel.js|1760176830|2493
+s|MPFModels\MPFPaymentMethodModel.mweb\src\MeOnlineInstanceDataProxy.js|1760133129|1486
+u|MPFModels\MPFPaymentMethodModel.mweb\src\PaymentMethodCollection.js|1760133129|1376
+u|MPFModels\MPFPaymentMethodModel.mweb\src\PaymentMethodFactory.js|1760133129|1719
+u|MPFModels\MPFPaymentMethodModel.mweb\src\PaymentMethodModel.js|1760133129|2174
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

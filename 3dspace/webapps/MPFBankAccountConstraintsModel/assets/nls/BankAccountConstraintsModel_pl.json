@@ -1,0 +1,11 @@
+{
+  "isRequired": "Pole {0} jest wymagane",
+  "isInvalid": "Pole {0} jest nieprawidłowe",
+  "iban": "iban",
+  "swift": "swift",
+  "bsbNumber": "Numer BSB",
+  "abaNumber": "Numer ABA",
+  "transitNumber": "numer tranzytu",
+  "accountNumber": "numer konta",
+  "bankNumber": "numer banku"
+}

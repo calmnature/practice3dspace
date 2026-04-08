@@ -1,0 +1,24 @@
+{
+  "V_FastenerCategory" : "Fastener Category",
+  "V_MfgFastenerStrategy" : "Fastener Strategy",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate" : "Maintenance Candidate",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate" : "Spare Candidate",
+  "V_RepairType" : "Repair Type",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel" : "Maintenance Level",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo" : "Code Info",
+
+  "orderParameters" :"Order Updated",
+  "orderParametersTitle" :"Reorder",
+  "orderParametersError" :"Error when reordering",
+  "orderParametersMaskMessage" : "Updating the Order",
+  "orderParametersDeleteError" : "Error when deleting Previous Order",
+  "orderParametersSetError" : "Error when Saving New Order",
+
+  "nonEditableParamTitle": "Attribute is non-editable",
+  "nonEditableParamContent": "The selected attribute cannot be edited since it is used in one or more parameters in Rules Defining Fastener Handler table",
+  "deleteParameterTitle" : "Attribute is non-deletable",
+  "deleteParameterError" : "The selected attribute cannot be deleted since it is used in one or more parameters in Rules Defining Fastener Handler table",
+
+  "attributeName" : "Attribute Name",
+  "attributeValue" : "Attribute Value"
+}

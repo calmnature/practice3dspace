@@ -1,0 +1,12 @@
+{
+    "details": "details:",    
+    "error_ContainerNotDefined": "Container div is not correctly defined in HTML file, check data-element attribute !",
+    "error_ContainerNotFound": "Container div not found !",
+    "error_Css": "Initialization warning: at leat one css resource file is not found !",
+    "error_Init": "Initialization error: app booter resource is not found !",
+    "error_MissingOptions": "Initialization options are incomplete or missing !",
+    "error_RootComponentPath": "Root component path is not correctly defined in HTML file, check data-component attribute !",
+    "error_RootComponentModule": "Root component is not correctly defined: component object must be exported as default !",
+    "error_LoadingModule_NoDefault": " is not correclty defined: no default export !",
+    "notAvailable": "Not Available"
+}

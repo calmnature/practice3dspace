@@ -1,0 +1,63 @@
+{
+  "dslayrm:program.strandedLinearDensity": {
+    "property": "computed",
+    "key": "strandedLinearDensity",
+    "description": "To get linear density of a Stranded Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getStrandedLinearDensity"
+  },
+
+  "dslayrm:program.strandedThickness": {
+    "property": "computed",
+    "key": "strandedThickness",
+    "description": "To get thickness of a Stranded Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getStrandedThickness"
+  },
+
+
+
+  "dslayrm:program.rollgoodWidth": {
+    "property": "computed",
+    "key": "rollgoodWidth",
+    "description": "To get width of a RollGood Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getRollgoodWidth"
+  },
+
+  "dslayrm:program.rollgoodAreaDensity": {
+    "property": "computed",
+    "key": "rollgoodAreaDensity",
+    "description": "To get area density of a RollGood Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getRollgoodAreaDensity"
+  },
+
+  "dslayrm:program.rollgoodThickness": {
+    "property": "computed",
+    "key": "rollgoodThickness",
+    "description": "To get thickness of a RollGood Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getRollgoodThickness"
+  },
+
+  "dslayrm:program.rollgoodRepeatedLength": {
+    "property": "computed",
+    "key": "rollgoodRepeatedLength",
+    "description": "To get repeated length of a RollGood Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getRollgoodRepeatedLength"
+  },
+
+  
+
+
+  "dslayrm:program.liquidVolumicMass": {
+    "property": "computed",
+    "key": "liquidVolumicMass",
+    "description": "To get Volumetric Mass of a Liquid Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getLiquidVolumicMass"
+  },
+
+
+  "dslayrm:program.othersVolumicMass": {
+    "property": "computed",
+    "key": "othersVolumicMass",
+    "description": "To get Volumetric Mass of an Others Raw Material",
+    "example": "com.dassault_systemes.enovia.xapps.dslayrm.implementations.dslayrmOpenAPIImpl.getOthersVolumicMass"
+  }
+}

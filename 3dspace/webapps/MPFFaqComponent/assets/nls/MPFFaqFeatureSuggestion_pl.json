@@ -1,0 +1,16 @@
+{
+  "suggestFeatureTitle": "Zaproponuj operację",
+  "nameLabel": "Nazwa",
+  "namePlaceholder": "Nazwa",
+  "companyLabel": "Firma",
+  "companyPlaceholder": "Firma",
+  "emailLabel": "Kontaktowy adres e-mail",
+  "emailPlaceholder": "Adres e-mail",
+  "phoneLabel": "Numer kontaktowy",
+  "phonePlaceholder": "Liczba",
+  "messageLabel": "Twoja wiadomość (min. 200 znaków)",
+  "messagePlaceholder": "Wiadomość",
+  "sendMessageButton": "Wyślij wiadomość",
+  "mailSubject": "Zaproponuj operację",
+  "mailSentMessage": "Dziękujemy! Twoja wiadomość została wysłana<br />Wkrótce odpowiemy"
+}

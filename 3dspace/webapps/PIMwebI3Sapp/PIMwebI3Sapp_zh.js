@@ -1,0 +1,1 @@
+define("DS/PIMwebI3Sapp/PIMwebI3Sapp_zh",{});define("DS/PIMwebI3Sapp/assets/nls/PIMwebI3Sapp",{title:"干涉仿真",subtitle:"定义和运行机械干涉仿真",userAssistanceURL:"enoI3sUserMap/i3s-c-ov.htm",dropMultiNoAutorized:"不支持同时加载这些数据"});

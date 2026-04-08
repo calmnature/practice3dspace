@@ -1,0 +1,1 @@
+define("DS/WindowsEx/WindowsEx_pl",{});define("DS/WindowsEx/assets/nls/translation",{next:"Dalej",previous:"Poprzednie",validate:"Zatwierdź",cancel:"Anuluj"});

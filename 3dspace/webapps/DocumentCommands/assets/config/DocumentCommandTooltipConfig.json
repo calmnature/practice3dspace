@@ -1,0 +1,356 @@
+{
+  "MyDocuments": {
+    "title": "MyDocuments.title",
+    "shortHelp": "MyDocuments.shortHelp",
+    "longHelp": "MyDocuments.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "Favorites": {
+    "title": "Favorites.title",
+    "shortHelp": "Favorites.shortHelp",
+    "longHelp": "Favorites.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "AllDocuments": {
+    "title": "AllDocuments.title",
+    "shortHelp": "AllDocuments.shortHelp",
+    "longHelp": "AllDocuments.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "Upload": {
+    "title": "Upload.title",
+    "shortHelp": "Upload.shortHelp",
+    "longHelp": "Upload.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-document-create.htm"
+  },
+  "NewDocument": {
+    "title": "NewDocument.title",
+    "shortHelp": "NewDocument.shortHelp",
+    "longHelp": "NewDocument.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-document-create.htm"
+  },
+  "Preview": {
+    "title": "Preview.title",
+    "shortHelp": "Preview.shortHelp",
+    "longHelp": "Preview.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-document-details.htm"
+  },
+  "Edit": {
+    "title": "Edit.title",
+    "shortHelp": "Edit.shortHelp",
+    "longHelp": "Edit.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-editing.htm"
+  },
+  "LockAndDownload": {
+    "title": "LockAndDownload.title",
+    "shortHelp": "LockAndDownload.shortHelp",
+    "longHelp": "LockAndDownload.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "UndoEdit": {
+    "title": "UndoEdit.title",
+    "shortHelp": "UndoEdit.shortHelp",
+    "longHelp": "UndoEdit.longHelp",
+    "moreHelp": ""
+  },
+  "DocumentUnlock": {
+    "title": "DocumentUnlock.title",
+    "shortHelp": "DocumentUnlock.shortHelp",
+    "longHelp": "DocumentUnlock.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-editing.htm"
+  },
+  "DocumentLock": {
+    "title": "DocumentLock.title",
+    "shortHelp": "DocumentLock.shortHelp",
+    "longHelp": "DocumentLock.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-editing.htm"
+  },
+  "Download": {
+    "title": "Download.title",
+    "shortHelp": "Download.shortHelp",
+    "longHelp": "Download.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "Share": {
+    "title": "Share.title",
+    "shortHelp": "Share.shortHelp",
+    "longHelp": "Share.longHelp",
+    "moreHelp": "SharedUserMap/collaboration-t-AccessManage.htm"
+  },
+  "CopyLink": {
+    "title": "CopyLink.title",
+    "shortHelp": "CopyLink.shortHelp",
+    "longHelp": "CopyLink.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "Copy": {
+    "title": "Copy.title",
+    "shortHelp": "Copy.shortHelp",
+    "longHelp": "Copy.longHelp",
+    "moreHelp": "SharedUserMap/collaboration-t-AccessManage.htm"
+  },
+  "Paste": {
+    "title": "Paste.title",
+    "shortHelp": "Paste.shortHelp",
+    "longHelp": "Paste.longHelp",
+    "moreHelp": "ENXDocmUserMap/shared-r-attachments.htm"
+  },
+  "Relations": {
+    "title": "Relations.title",
+    "shortHelp": "Relations.shortHelp",
+    "longHelp": "Relations.longHelp",
+    "moreHelp": "ENXDocmUserMap/shared-r-Relations.htm"
+  },
+  "Maturity": {
+    "title": "Maturity.title",
+    "shortHelp": "Maturity.shortHelp",
+    "longHelp": "Maturity.longHelp",
+    "moreHelp": "CbsUserCloudMap/aef-c-lifecycle-documentrelease.htm"
+  },
+  "NewRevision": {
+    "title": "NewRevision.title",
+    "shortHelp": "NewRevision.shortHelp",
+    "longHelp": "NewRevision.longHelp",
+    "moreHelp": "SharedUserMap/lifecycle-t-RevisionCreate.htm"
+  },
+  "Update": {
+    "title": "Update.title",
+    "shortHelp": "Update.shortHelp",
+    "longHelp": "Update.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-editing.htm"
+  },
+  "UpdateAndUnlock": {
+    "title": "UpdateAndUnlock.title",
+    "shortHelp": "UpdateAndUnlock.shortHelp",
+    "longHelp": "UpdateAndUnlock.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "UploadFile": {
+    "title": "UploadFile.title",
+    "shortHelp": "UploadFile.shortHelp",
+    "longHelp": "UploadFile.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "DeleteFile": {
+    "title": "DeleteFile.title",
+    "shortHelp": "DeleteFile.shortHelp",
+    "longHelp": "DeleteFile.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "Delete": {
+    "title": "Delete.title",
+    "shortHelp": "Delete.shortHelp",
+    "longHelp": "Delete.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "Revisions": {
+    "title": "Revisions.title",
+    "shortHelp": "Revisions.shortHelp",
+    "longHelp": "Revisions.longHelp",
+    "moreHelp": "SharedUserMap/lifecycle-c-RevisionExplorer.htm"
+  },
+  "Duplicate": {
+    "title": "Duplicate.title",
+    "shortHelp": "Duplicate.shortHelp",
+    "longHelp": "Duplicate.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-duplicates.htm"
+  },
+  "Compare": {
+    "title": "Compare.title",
+    "shortHelp": "Compare.shortHelp",
+    "longHelp": "Compare.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-compare.htm"
+  },
+  "Move": {
+    "title": "Move.title",
+    "shortHelp": "Move.shortHelp",
+    "longHelp": "Move.longHelp",
+    "moreHelp": "EXP3DBasicsUserMap/base-r-changes-generic.htm"
+  },
+  "ChangeOwner": {
+    "title": "ChangeOwner.title",
+    "shortHelp": "ChangeOwner.shortHelp",
+    "longHelp": "ChangeOwner.longHelp",
+    "moreHelp": "SharedUserMap/collaboration-t-OwnerChange.htm"
+  },
+  "AddToLibraries": {
+    "title": "AddToLibraries.title",
+    "shortHelp": "AddToLibraries.shortHelp",
+    "longHelp": "AddToLibraries.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-libraries.htm"
+  },
+  "Subscribe": {
+    "title": "Subscribe.title",
+    "shortHelp": "Subscribe.shortHelp",
+    "longHelp": "Subscribe.longHelp",
+    "moreHelp": "SharedUserMap/subscribe-r-UI.htm"
+  },
+  "UnSubscribe": {
+    "title": "UnSubscribe.title",
+    "shortHelp": "UnSubscribe.shortHelp",
+    "longHelp": "",
+    "moreHelp": "SharedUserMap/subscribe-r-UI.htm"
+  },
+  "EditSubscriptions": {
+    "title": "EditSubscriptions.title",
+    "shortHelp": "EditSubscriptions.shortHelp",
+    "longHelp": "EditSubscriptions.longHelp",
+    "moreHelp": "SharedUserMap/subscribe-r-UI.htm"
+  },
+  "MySubscriptions": {
+    "title": "MySubscriptions.title",
+    "shortHelp": "MySubscriptions.shortHelp",
+    "longHelp": "MySubscriptions.longHelp",
+    "moreHelp": "SharedUserMap/subscribe-r-UI.htm"
+  },
+  "EditSubscriptionForOthers": {
+    "title": "EditSubscriptionForOthers.title",
+    "shortHelp": "EditSubscriptionForOthers.shortHelp",
+    "longHelp": "EditSubscriptionForOthers.longHelp",
+    "moreHelp": "SharedUserMap/subscribe-r-UI.htm"
+  },
+  "OfficeWebEdition": {
+    "title": "OfficeWebEdition.title",
+    "shortHelp": "OfficeWebEdition.shortHelp",
+    "longHelp": "OfficeWebEdition.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-editing.htm"
+  },
+  "NewBranch": {
+    "title": "NewBranch.title",
+    "shortHelp": "NewBranch.shortHelp",
+    "longHelp": "NewBranch.longHelp",
+    "moreHelp": "SharedUserMap/lifecycle-t-BranchCreate.htm"
+  },
+  "LockDocumentAndDownload": {
+    "title": "LockDocumentAndDownload.title",
+    "shortHelp": "LockDocumentAndDownload.shortHelp",
+    "longHelp": "LockDocumentAndDownload.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-editing.htm"
+  },
+  "UnlockDocumentAndUpdate": {
+    "title": "UnlockDocumentAndUpdate.title",
+    "shortHelp": "UnlockDocumentAndUpdate.shortHelp",
+    "longHelp": "UnlockDocumentAndUpdate.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-editing.htm"
+  },
+  "AddToFavorites": {
+    "title": "AddToFavorites.title",
+    "shortHelp": "AddToFavorites.shortHelp",
+    "longHelp": "AddToFavorites.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "RemoveFromFavorites": {
+    "title": "RemoveFromFavorites.title",
+    "shortHelp": "RemoveFromFavorites.shortHelp",
+    "longHelp": "RemoveFromFavorites.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-ui.htm"
+  },
+  "TableView": {
+    "title": "TableView.title",
+    "shortHelp": "TableView.shortHelp",
+    "longHelp": "TableView.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-t-table_view.htm"
+  },
+  "ThumbnailView": {
+    "title": "ThumbnailView.title",
+    "shortHelp": "ThumbnailView.shortHelp",
+    "longHelp": "ThumbnailView.longHelp",
+    "moreHelp": ""
+  },
+  "TileView": {
+    "title": "TileView.title",
+    "shortHelp": "TileView.shortHelp",
+    "longHelp": "TileView.longHelp",
+    "moreHelp": ""
+  },
+  "UploadAttachment": {
+    "title": "UploadAttachment.title",
+    "shortHelp": "UploadAttachment.shortHelp",
+    "longHelp": "UploadAttachment.longHelp",
+    "moreHelp": "ENXDocmUserMap/shared-r-attachments.htm"
+  },
+  "Attach": {
+    "title": "Attach.title",
+    "shortHelp": "Attach.shortHelp",
+    "longHelp": "Attach.longHelp",
+    "moreHelp": "ENXDocmUserMap/shared-r-attachments.htm"
+  },
+  "CreateLink": {
+    "title": "CreateLink.title",
+    "shortHelp": "CreateLink.shortHelp",
+    "longHelp": "CreateLink.longHelp",
+    "moreHelp": "ENXDocmUserMap/shared-r-attachments.htm"
+  },
+  "ReplaceByRevision": {
+    "title": "ReplaceByRevision.title",
+    "shortHelp": "ReplaceByRevision.shortHelp",
+    "longHelp": "ReplaceByRevision.longHelp",
+    "moreHelp": "ENXDocmUserMap/shared-r-attachments.htm"
+  },
+  "ReplaceByLatestRevision": {
+    "title": "ReplaceByLatestRevision.title",
+    "shortHelp": "ReplaceByLatestRevision.shortHelp",
+    "longHelp": "ReplaceByLatestRevision.longHelp",
+    "moreHelp": "ENXDocmUserMap/shared-r-attachments.htm"
+  },
+  "Search": {
+    "title": "Search.title",
+    "shortHelp": "Search.shortHelp",
+    "longHelp": "Search.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "Rename": {
+    "title": "Rename.title",
+    "shortHelp": "Rename.shortHelp",
+    "longHelp": "Rename.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "FileIterations": {
+    "title": "FileIterations.title",
+    "shortHelp": "FileIterations.shortHelp",
+    "longHelp": "FileIterations.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "SubscribeForOthers": {
+    "title": "SubscribeForOthers.title",
+    "shortHelp": "SubscribeForOthers.shortHelp",
+    "longHelp": "SubscribeForOthers.longHelp",
+    "moreHelp": "SharedUserMap/subscribe-r-UI.htm"
+  },
+  "Lock": {
+    "title": "Lock.title",
+    "shortHelp": "Lock.shortHelp",
+    "longHelp": "Lock.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "Unlock": {
+    "title": "Unlock.title",
+    "shortHelp": "Unlock.shortHelp",
+    "longHelp": "Unlock.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-r-files_tab.htm"
+  },
+  "Remove": {
+    "title": "Remove.title",
+    "shortHelp": "Remove.shortHelp",
+    "longHelp": "",
+    "moreHelp": "ENXDocmUserMap/shared-r-attachments.htm"
+  },
+  "OpenLink": {
+    "title": "OpenLink.title",
+    "shortHelp": "OpenLink.shortHelp",
+    "longHelp": "OpenLink.longHelp",
+    "moreHelp": ""
+  },
+  "DeleteLink": {
+    "title": "DeleteLink.title",
+    "shortHelp": "DeleteLink.shortHelp",
+    "longHelp": "DeleteLink.longHelp",
+    "moreHelp": ""
+  },
+  "Information": {
+    "title": "Information.title",
+    "shortHelp": "Information.shortHelp",
+    "longHelp": "Information.longHelp",
+    "moreHelp": "ENXDocmUserMap/enxdocm-m-tabs-sb.htm"
+  }
+}

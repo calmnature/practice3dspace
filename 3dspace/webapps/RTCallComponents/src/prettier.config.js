@@ -1,0 +1,9 @@
+export default {
+  singleQuote: true,
+  tabWidth: 2,
+  semi: true,
+  printWidth: 120,
+  trailingComma: 'es5',
+  endOfLine: 'auto',
+  bracketSpacing: true,
+};

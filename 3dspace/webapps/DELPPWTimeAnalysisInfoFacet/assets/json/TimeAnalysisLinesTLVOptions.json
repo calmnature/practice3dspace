@@ -1,0 +1,250 @@
+{
+	"STD_UAS_MEK":{
+		"Columns": [
+			{
+				"text": "Description",
+				"dataIndex": "tree"
+			},
+			{
+				"text": "H",
+				"dataIndex": "H"
+			},
+			{
+				"text": "P",
+				"dataIndex": "P"
+			},
+			{
+				"text": "D",
+				"dataIndex": "D"
+			},
+			{
+				"text": "Code",
+				"dataIndex": "Code"
+			},
+			{
+				"text": "BasicTime",
+				"dataIndex": "Time"
+			},
+			{
+				"text": "TimeType",
+				"dataIndex": "TimeType"
+			},
+			{
+				"text": "Frequency",
+				"dataIndex": "Frequency"
+			},
+			{
+				"text": "AnalyzedTime",
+				"dataIndex": "TotalTime"
+			},
+			{
+				"text": "SetupTime",
+				"dataIndex": "SetupTime"
+			},
+			{
+				"text": "ValueAdded",
+				"dataIndex": "VA"
+			}
+		]
+	},
+	"MTM1_MTM2":{
+		"Columns": [
+			{
+				"text": "Description",
+				"dataIndex": "Description"
+			},
+			{
+				"text": "Frequency",
+				"dataIndex": "Frequency"
+			},
+			{
+				"text": "CodeLH",
+				"dataIndex": "Code"
+			},
+			{
+				"text": "M",
+				"dataIndex": "M"
+			},
+			{
+				"text": "BasicTime",
+				"dataIndex": "Time"
+			},			
+			{
+				"text": "SetupTime",
+				"dataIndex": "SetupTime"
+			},
+			{
+				"text": "OHM",
+				"dataIndex": "OHM"
+			},			
+			{
+				"text": "CodeRH",
+				"dataIndex": "OHCode"
+			},
+			{
+				"text": "OHFrequency",
+				"dataIndex": "OHFrequency"
+			},
+			{
+				"text": "OHDescription",
+				"dataIndex": "OHDescription"
+			},
+			{
+				"text": "ValueAdded",
+				"dataIndex": "VA"
+			}
+		]
+	},
+	"RWF":{
+		"Columns": [
+			{
+				"text": "Description",
+				"dataIndex": "Description"
+			},
+			{
+				"text": "CodeLH",
+				"dataIndex": "CodeLH"
+			},
+			{
+				"text": "BasicTime",
+				"dataIndex": "Time"
+			},			
+			{
+				"text": "AnalyzedTime",
+				"dataIndex": "TotalTime"
+			},			
+			{
+				"text": "S",
+				"dataIndex": "S"
+			},
+			{
+				"text": "OHAnalyzedTime",
+				"dataIndex": "OHTotalTime"
+			},
+			{
+				"text": "OHBasicTime",
+				"dataIndex": "OHTime"
+			},			
+			{
+				"text": "CodeRH",
+				"dataIndex": "CodeRH"
+			},
+			{
+				"text": "OHDescription",
+				"dataIndex": "OHDescription"
+			},
+			{
+				"text": "SetupTime",
+				"dataIndex": "SetupTime"
+			}
+		]
+	},
+	"SAM":{
+		"Columns": [
+			{
+				"text": "Description",
+				"dataIndex": "tree"
+			},
+			{
+				"text": "Code",
+				"dataIndex": "Code"
+			},
+			{
+				"text": "BasicTime",
+				"dataIndex": "Time"
+			},
+			{
+				"text": "Frequency",
+				"dataIndex": "Frequency"
+			},	
+			{
+				"text": "AnalyzedTime",
+				"dataIndex": "TotalTime"
+			},
+			{
+				"text": "SetupTime",
+				"dataIndex": "SetupTime"
+			},
+			{
+				"text": "ValueAdded",
+				"dataIndex": "VA"
+			}
+		]
+	},
+	"MOST_MiniMOST_MaxiMOST":{
+		"Columns": [
+			{
+				"text": "Description",
+				"dataIndex": "tree"
+			},
+			{
+				"text": "Code",
+				"dataIndex": "Code"
+			},
+			{
+				"text": "BasicTime",
+				"dataIndex": "Time"
+			},
+			{
+				"text": "PartialFrequency",
+				"dataIndex": "PartialFrequency"
+			},	
+			{
+				"text": "Frequency",
+				"dataIndex": "Frequency"
+			},
+			{
+				"text": "SIMOTo",
+				"dataIndex": "SIMOTo"
+			},	
+			{
+				"text": "AnalyzedTime",
+				"dataIndex": "TotalTime"
+			},
+			{
+				"text": "SetupTime",
+				"dataIndex": "SetupTime"
+			},
+			{
+				"text": "ValueAdded",
+				"dataIndex": "VA"
+			}
+		]
+	},
+	"MODAPTS":{
+		"Columns": [
+			{
+				"text": "Description",
+				"dataIndex": "Description"
+			},
+			{
+				"text": "Frequency",
+				"dataIndex": "Frequency"
+			},
+			{
+				"text": "CodeLH",
+				"dataIndex": "Code"
+			},
+			{
+				"text": "BasicTime",
+				"dataIndex": "Time"
+			},
+			{
+				"text": "CodeRH",
+				"dataIndex": "OHCode"
+			},	
+			{
+				"text": "OHFrequency",
+				"dataIndex": "OHFrequency"
+			},	
+			{
+				"text": "OHDescription",
+				"dataIndex": "OHDescription"
+			},
+			{
+				"text": "ValueAdded",
+				"dataIndex": "VA"
+			}
+		]
+	}			
+}

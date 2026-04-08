@@ -1,0 +1,1 @@
+define("DS/MPFMenuComponent/MPFMenuComponent_cs",{});define("DS/MPFMenuComponent/assets/nls/MenuComponent",{back:"Zpět",finish:"Dokončit",loading:"Probíhá načítání",next:"Další"});

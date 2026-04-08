@@ -1,0 +1,43 @@
+{
+  "tooltips": {
+    "indexing": {
+      "title": "Indexing",
+      "shortHelp": "This object is still being processed by the search index."
+    },
+    "DifferentCollabSpace": {
+      "shortHelp": "This object is not stored in the same collaborative space as the current Bookmark Folder.",
+      "longHelp": "Bookmark Folders can reference content from multiple collaborative spaces. Be aware that the access rights to this content might be different."
+    }
+  },
+    "placeholder.recent": {
+        "message": "The Recent view will show content that you open from Content Explorer into other apps.",
+        "filter": "You have no recent content matching the filter."
+    },
+    "placeholder.mycontent": {
+        "message": {
+            "title": "This view is for you.",
+            "message": "It will show the engineering content you own.",
+            "tooltip": {
+                "shortHelp": "My Content in Content Explorer focuses on collaborative space content that is useful in SOLIWORKS app: Physical Products, Drawings and Annotation Sets, Advanced Filters, and anything with the type \"Document\". Note that Bookmark Folders are not restricted to engineering content."
+            }
+        },
+        "filter": "You have no content matching the filter."
+    },
+    "column_IsBookmarkedColumn": "Bookmarked",
+    "Filter_Menu": "Filter Menu",
+    "Physical_Product": "Physical Product",
+    "Drawing": "3D Drawing",
+    "Reset_Filter": "Reset Filter",
+    "Content_Structure": "Content Structure",
+    "Maturity_State": "Maturity State",
+    "owner": "Owner",
+    "Type": "Type",
+    "Shape": "3D Shape",
+    "Bookmark_Folder": "Bookmark Folder",
+    "fetchingDocAttribute": "Fetching attributes",
+    "maxLimitDBReached": {
+        "title": "Non indexed data limit",
+        "subtitle": "Refresh the content after the next indexation.",
+        "message": "The limit of {maxNumber} non indexed data has been reached. As a result, some information may not reflect the most recent updates."
+    }
+}

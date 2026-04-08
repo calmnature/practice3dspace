@@ -1,0 +1,107 @@
+@mixin animation($duration: 0.3s) {
+  transition: all $duration ease-out;
+}
+
+.open-here-overlay-ctn {
+  &.show {
+    opacity: 1;
+  }
+
+  .overlay-inner-ctn.overlay {
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-radial-gradient(
+      center,
+      ellipse,
+      rgba(0, 0, 0, 0.4) 0,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+    background: -moz-radial-gradient(
+      center,
+      ellipse,
+      rgba(0, 0, 0, 0.4) 0,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+    background: -ms-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%);
+    background: -o-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%);
+    background: radial-gradient(
+      farthest-corner circle at center,
+      rgba(0, 0, 0, 0.4) 0,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+
+    @include animation();
+
+    &.show {
+      opacity: 1;
+      z-index: 999;
+    }
+  }
+
+  /* When active, overlay dims everything */
+  .overlay-inner-ctn.overlay-active {
+    opacity: 0.5;
+    pointer-events: auto; /* Allow blocking clicks if needed */
+    z-index: 999;
+  }
+}
+
+.widget-highlight {
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+
+  &.animated {
+    @include animation(0.5s);
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  // .underline-tab-el,
+  .fonticon-down-open {
+    display: none !important;
+  }
+}
+
+.widget-hide {
+  position: fixed;
+  opacity: 0.2;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  background-color: rgba(180, 180, 180, 0.4);
+  pointer-events: none;
+}
+
+.open-here-parent-zIndex {
+  z-index: auto !important;
+  opacity: 1 !important;
+  transform: none !important;
+  // Need for Mobile
+  overflow: visible !important;
+  // Need when tab scroller appear
+  perspective: none !important;
+  transform-style: initial !important;
+  -webkit-transform-style: initial !important;
+  // Need to avoid painting issue in mobile with tab scroller
+  transition: none !important;
+  -webkit-font-smoothing: none !important;
+}
+
+.open-here-relative-position {
+  position: relative;
+}
+.open-here-show-element {
+  z-index: 1001 !important;
+}
+
+.open-here-show-selectable.animated {
+  transition: all 0.5s ease-out;
+  opacity: 0.4;
+}

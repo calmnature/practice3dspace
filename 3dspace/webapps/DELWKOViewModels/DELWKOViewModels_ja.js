@@ -1,0 +1,1 @@
+define("DS/DELWKOViewModels/DELWKOViewModels_ja",{});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewMPVCustomView",{label:"Production Supervisor カスタム ビュー"});define("DS/DELWKOViewModels/assets/nls/DELWKOTreeListViewPSLCustomView",{label:"Production Scheduler カスタム ビュー"});

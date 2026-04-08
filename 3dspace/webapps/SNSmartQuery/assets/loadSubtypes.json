@@ -1,0 +1,9 @@
+ [
+    {
+    "value": "3D Part",
+    "uri": "ds6w:what/ds6w:kind",
+    "iconClass": "fonticon-tag-alt",
+    "category": "ds6w:what",
+    "type": "SUBTYPE"
+    }
+  ]

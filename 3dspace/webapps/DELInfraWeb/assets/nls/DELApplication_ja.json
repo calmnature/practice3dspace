@@ -1,0 +1,12 @@
+{
+  "details": "詳細:",
+  "error_ContainerNotDefined": "コンテナ div が HTML ファイルで正しく定義されていません。データエレメント属性をチェックしてください。",
+  "error_ContainerNotFound": "コンテナ div が見つかりませんでした",
+  "error_Css": "初期化の警告: 1 つの CSS リソースファイルが見つかりません。",
+  "error_Init": "初期化エラー: アプリケーション ブーター リソースが見つかりません。",
+  "error_MissingOptions": "初期化オプションが不完全または欠落しています。",
+  "error_RootComponentPath": "ルート構成要素パスが HTML ファイルで正しく定義されていません。データ構成要素属性をチェックしてください。",
+  "error_RootComponentModule": "ルート構成要素が正しく定義されていません: 構成要素オブジェクトをデフォルトとしてエクスポートする必要があります。",
+  "error_LoadingModule_NoDefault": " は正しく定義されていません。デフォルトのエクスポートはありません。",
+  "notAvailable": "利用不可"
+}

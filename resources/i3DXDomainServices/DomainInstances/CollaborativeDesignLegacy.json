@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "CollaborativeDesignLegacy",
+	"description"    : "The domain instance for Collaborative Design Legacy features in 3DSpace",
+	"packages"       : ["PLMChgTaskCollab","PLMCollabDesign","PLMCollabDesignProject","PLMCollabDesignRepresentationConnection"]
+}

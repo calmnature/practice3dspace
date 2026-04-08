@@ -1,0 +1,7 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "Relations",
+	"description"    : "The domain instance for Relations app persistent data in 3DSpace, this includes Relations Favorites",
+	"packages"       : ["ENORelationalExplorer"]
+}
+

@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Categoría de cierre",
+  "V_MfgFastenerStrategy": "Estrategia de cierre",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Candidato de mantenimiento",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Candidato de repuesto",
+  "V_RepairType": "Tipo de reparación",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Nivel de mantenimiento",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Información de código",
+  "orderParameters": "Pedido actualizado",
+  "orderParametersTitle": "Reorganizar",
+  "orderParametersError": "Error al reordenar",
+  "orderParametersMaskMessage": "Actualizando el pedido",
+  "orderParametersDeleteError": "Error al eliminar el pedido anterior",
+  "orderParametersSetError": "Error al guardar el nuevo pedido",
+  "nonEditableParamTitle": "El atributo no se puede editar",
+  "nonEditableParamContent": "El atributo seleccionado no puede editarse porque se utiliza en uno o varios parámetros de la tabla Reglas que definen el gestor de fijaciones",
+  "deleteParameterTitle": "El atributo no se puede eliminar",
+  "deleteParameterError": "El atributo seleccionado no puede eliminarse porque se utiliza en uno o varios parámetros de la tabla Reglas que definen el gestor de fijaciones",
+  "attributeName": "Nombre del atributo",
+  "attributeValue": "Valor de atributo"
+}

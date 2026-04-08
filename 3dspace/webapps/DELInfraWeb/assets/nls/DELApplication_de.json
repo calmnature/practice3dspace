@@ -1,0 +1,12 @@
+{
+  "details": "Details:",
+  "error_ContainerNotDefined": "Container div ist in HTML-Datei nicht korrekt definiert. Prüfen Sie das Datenelementattribut!",
+  "error_ContainerNotFound": "Container div nicht gefunden!",
+  "error_Css": "Initialisierungswarnung: Mindestens eine CSS-Ressourcendatei wurde nicht gefunden!",
+  "error_Init": "Initialisierungsfehler: App-Booster-Ressource nicht gefunden!",
+  "error_MissingOptions": "Initialisierungsoptionen sind unvollständig oder fehlen!",
+  "error_RootComponentPath": "Stammkomponentenpfad ist in HTML-Datei nicht korrekt definiert. Prüfen Sie das Datenkomponentenattribut!",
+  "error_RootComponentModule": "Stammkomponente ist nicht korrekt definiert: Komponentenobjekt muss als Standard exportiert werden!",
+  "error_LoadingModule_NoDefault": " ist nicht korrekt definiert: Kein Standardexport!",
+  "notAvailable": "Nicht verfügbar"
+}

@@ -1,0 +1,7 @@
+{
+"CADTransitionCommand.Title":"3DEXPERIENCE への CAD トランジション",
+"CADTransitionCommand.ShortHelp":"CAD 形式の 3DEXPERIENCE コンテンツを 3DEXPERIENCE ネイティブ データに変換します。",
+"CADTransitionCommand.LongHelp":"CAD トランジションを使用すると、CAD 形式の選択した 3DEXPERIENCE コンテンツを変換できます。指定されたオプションを使用して、データの移行方法をカスタマイズできます。",
+"CADTransitionCommand.WebHelp":"PsteUserMap/postconv-t-CADTransition.htm",
+"CADTransitionCommand.PanelHelp":"PsteUAPanelMap/postconv-t-CADTransition.htm"
+}

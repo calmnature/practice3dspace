@@ -1,0 +1,18 @@
+{
+    "ClassName" : "Class Name",
+    "ClassTitle" : "Class Title",
+    "MaturityState" : "Maturity State",
+    "ClassPath" : "Class Path",
+    "Owner" : "Owner",
+    "CollabSpace":"Collab Space",
+    "Close":"Close",
+    "showlabel":"Show Associated Classes - ",
+    "Find":"Find",
+    "OpenWith" :"OpenWith",
+    "NoAccess" :  "You do not have access to view the associated classes.",
+    "PartialAccess":"You can view only the classes you have access to, even though the attribute is associated with more classes.",
+    "NoClassesAttached":"The selected attribute is not associated with any class.",
+    "ClasslistError":"Error while fetching class List",
+    "ClassPathError":"Error while fetching classPaths"
+}
+

@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Сопоставление типа шины",
+  "EPCLabel": "Электронный физический компонент",
+  "EPCInfo": "Изменить сопоставление типов для электронного физического компонента на тип 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Печатная плата (как деталь)",
+  "PrintedCircuitBoardInfo": "Изменить сопоставление типов печатной платы на тип 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Печатная плата в сборе",
+  "PrintedCircuitBoardAssemblyInfo": "Изменить сопоставление типов для сборки печатной платы на тип 3DEXPERIENCE"
+}

@@ -1,0 +1,23 @@
+{
+  "document": "Documento",
+  "videoOnly": "Video",
+  "picture": "Immagine",
+  "sound": "Audio",
+  "3d_model": "Modello 3D",
+  "drawing": "Disegno",
+  "save": "Salva",
+  "cancel": "Annulla",
+  "errorMin": "Impossibile impostare un valore minore di ",
+  "errorMax": "Dimensioni massime",
+  "submitComplete": "Aggiornamento riuscito",
+  "submitFailure": "Invio non riuscito",
+  "help": "Supporto dell'estensione file",
+  "mb": "{value} MB",
+  "acceptAllFileExtensions": "Accetta tutte le estensioni file",
+  "disallowHighRiskFileExtensions": "Non consentire le estensioni file ad alto rischio (ad esempio .exe, .bat) Vedi Assistenza all'utente per ulteriori informazioni.",
+  "permitOnlySupportedMediaTypes": "Consenti solo i tipi di contenuto multimediale supportati (Immagine/Audio/Video/Modello 3D/Documento...)",
+  "forAllTypes": "Per tutti i tipi",
+  "restrictUploadFileBySize": "Limita le dimensioni dei file caricabili per tipo:",
+  "fileExtensionSupport": "Supporto dell'estensione file",
+  "maximumUploadFileSize": "Dimensioni massime dei file caricabili"
+}

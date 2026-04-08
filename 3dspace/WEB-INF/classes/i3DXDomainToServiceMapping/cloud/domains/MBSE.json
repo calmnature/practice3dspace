@@ -1,0 +1,8 @@
+{
+	"owner" : "NDF",
+	"description" : "Element and diagram for Cameo Power'By",
+    "service": "mbseapps",
+    "urls": {
+		"fetch" : "/resources/domains/v1/i3dx/fetch"
+	}
+}

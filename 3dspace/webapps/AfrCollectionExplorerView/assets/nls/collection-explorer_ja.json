@@ -1,0 +1,10 @@
+{
+  "NLS_ViewModeIconTooltip": "ビュー",
+  "NLS_ThumbnailView": "サムネイル ビュー",
+  "NLS_TileView": "タイル ビュー",
+  "NLS_DataGridView": "データグリッド ビュー",
+  "NLS_ListViewTitleColumnHeaderLabel": "タイトル",
+  "NLS_DropMessage": "またはコンテンツを任意の場所にドロップ",
+  "NLS_NoContent": "表示するコンテンツがありません。",
+  "NLS_DnDPlaceholder": "開始するには、コンテンツを任意の場所にドラッグ アンド ドロップしてください。"
+}

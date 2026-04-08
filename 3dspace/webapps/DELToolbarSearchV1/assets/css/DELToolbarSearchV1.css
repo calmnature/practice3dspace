@@ -1,0 +1,16 @@
+
+.toolbar-container-show {
+    max-height: 26px;
+    transition: max-height 0.3s ease-in;
+    overflow: hidden;
+    height: 26px;
+    margin-top: 1px;
+}
+
+.toolbar-container-hide {
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    height: 26px;
+}
+

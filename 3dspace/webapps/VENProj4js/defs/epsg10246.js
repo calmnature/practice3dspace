@@ -1,0 +1,1 @@
+Proj4js.defs["EPSG:10246"] = "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +geoidgrids=si_gurs_SLO-VRP2016-Koper.tif +geoid_crs=WGS84 +vunits=m +no_defs +type=crs";

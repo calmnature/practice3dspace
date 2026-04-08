@@ -1,0 +1,1 @@
+define("DS/CfgInstantiatedConfigurationUX/CfgInstantiatedConfigurationUX_tr",{});define("DS/CfgInstantiatedConfigurationUX/assets/nls/CfgInstantiatedConfigurationUX",{CFG_NoModel_Attached:"Ürün konfigürasyonu bulunamadı. Ürün konfigürasyonuna sahip modelin eklendiği nesneyi seçin.",CFG_No_ConfigurationAssociation:"Seçili revizyonla ilişkili hiçbir Konfigürasyon yok."});

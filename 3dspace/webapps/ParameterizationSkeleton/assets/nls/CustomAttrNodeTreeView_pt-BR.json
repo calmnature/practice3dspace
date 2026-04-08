@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Categoria de acessório de fixação",
+  "V_MfgFastenerStrategy": "Estratégia do acessório de fixação",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Candidato à manutenção",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Candidato sobressalente",
+  "V_RepairType": "Tipo de reparo",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Nível de manutenção",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Informações do código",
+  "orderParameters": "Ordem atualizada",
+  "orderParametersTitle": "Reordenar",
+  "orderParametersError": "Erro ao reordenar",
+  "orderParametersMaskMessage": "Atualizando a ordem",
+  "orderParametersDeleteError": "Erro ao excluir ordem anterior",
+  "orderParametersSetError": "Erro ao salvar nova ordem",
+  "nonEditableParamTitle": "O atributo não é editável",
+  "nonEditableParamContent": "O atributo selecionado não pode ser editado, pois é usado em um ou mais parâmetros na tabela Regras que definem o manipulador dos componentes de fixação",
+  "deleteParameterTitle": "O atributo não pode ser excluído",
+  "deleteParameterError": "O atributo selecionado não pode ser excluído, pois ele é usado em um ou mais parâmetros na tabela Regras que definem o manipulador dos componentes de fixação",
+  "attributeName": "Nome do atributo",
+  "attributeValue": "Valor do atributo"
+}

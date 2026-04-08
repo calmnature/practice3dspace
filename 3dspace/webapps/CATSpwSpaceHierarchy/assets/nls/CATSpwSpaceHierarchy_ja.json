@@ -1,0 +1,14 @@
+{
+  "label_space_concept_root": "スペース コンセプト ルート",
+  "label_search": "検索",
+  "label_search_spConceptRoot": "スペース コンセプト ルートを選択",
+  "label_search_title": "項目を選択",
+  "label_spacebrowser_initialization": "スペース ブラウザを初期化...",
+  "label_spacebrowser_webinwin_initialization": "WebInWin 構成を初期化...",
+  "label_spacebrowser_configuration_initialization": "ウィジェット構成を初期化...",
+  "label_spacebrowser_construction": "スペース ブラウザを構築...",
+  "message_no_space_concept_root_selected": "スペース コンセプト ルートが選択されていません",
+  "error_get_space_hierarchy": "選択したスペース ルートのスペース階層を取得できませんでした",
+  "error_missing_space_media": "スペース割り当てサービスは使用できません。必要なメディアがインストールされていることを管理者に確認してください。",
+  "error_request_timedOut": "要求はタイムアウトになりました"
+}

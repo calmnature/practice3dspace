@@ -1,0 +1,15 @@
+{
+    "authorizedPPRTypes": [
+        "PROCESS",
+        "SERVICEPROCESS"
+    ],
+    "model": {
+        "code": "DS/DELWebProcessModelComp/model/DELWebProcessIndexDataProvider",
+        "options": {
+            "attribute": {
+                "references": [],
+                "instances": []
+            }
+        }
+    }
+}

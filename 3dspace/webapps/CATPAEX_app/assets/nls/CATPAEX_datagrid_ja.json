@@ -1,0 +1,15 @@
+{
+  "title": "タイトル",
+  "revision": "リビジョン",
+  "instance": "インスタンス",
+  "instancePosition": "インスタンス位置",
+  "relationToProductStructureTitleElement": "プロダクト構成との関係",
+  "positioningInstancesTitleElement": "配置インスタンス",
+  "PositionMatrix_TitleBar": "位置マトリックス",
+  "collapseAll": "すべてを折りたたむ",
+  "expandAll": "すべてを展開",
+  "expand": "展開",
+  "collapse": "折りたたむ",
+  "expandNLevel": "N レベルを展開",
+  "close": "閉じる"
+}

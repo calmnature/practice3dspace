@@ -1,0 +1,15 @@
+m|CAT3DPlayWeb\3DPlaySupport.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26047|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\3DPlaySupport\3DPlaySupport.js|1771278861|32623
+s|CAT3DPlayWeb\3DPlaySupport.mweb\src\3DPlaySupport.js|1495516350|0
+u|CAT3DPlayWeb\3DPlaySupport.mweb\src\AssetSupport.js|1769007230|14875
+u|CAT3DPlayWeb\3DPlaySupport.mweb\src\ExperiencesList.js|1770915393|14028
+u|CAT3DPlayWeb\3DPlaySupport.mweb\src\Loader.js|1770289960|8200
+u|CAT3DPlayWeb\3DPlaySupport.mweb\src\OfficeFiles.js|1713535113|328
+u|CAT3DPlayWeb\3DPlaySupport.mweb\src\SupportList.js|1768833477|44342
+u|CAT3DPlayWeb\3DPlaySupport.mweb\src\XCADSpatialSupportedFormats.js|1768833503|7416
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

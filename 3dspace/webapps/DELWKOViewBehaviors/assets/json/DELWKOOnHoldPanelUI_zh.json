@@ -1,0 +1,10 @@
+{
+  "onholdmessage": "您为何要将“{name}”设为保留状态？",
+  "resumemessage": "确定要解除此保留状态？",
+  "checkOptOnHoldmessage": "所有子项将被设为保留状态",
+  "checkOptResumemessage": "所有子项将恢复运行",
+  "title": "设为保留状态",
+  "resumetitle": "解除保留状态",
+  "placeholder": "输入保留状态注释",
+  "note": "注意：此操作将暂停生产，直至采取进一步措施。"
+}

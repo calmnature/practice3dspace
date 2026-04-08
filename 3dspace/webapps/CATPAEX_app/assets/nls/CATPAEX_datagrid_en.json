@@ -1,0 +1,19 @@
+{
+  "title": "Title",
+  "revision": "Revision",
+  "instance": "Instance",
+  "instancePosition":"Instance Position",
+  "relationToProductStructureTitleElement": "Relation to Product Structure",
+  "positioningInstancesTitleElement": "Positioning Instances",
+  "PositionMatrix_TitleBar" : "Position Matrix",
+  "collapseAll": "Collapse All",
+  "expandAll": "Expand All",
+  "expand": "Expand",
+  "collapse": "Collapse",
+  "expandNLevel": "Expand N Level",
+  "close": "Close",
+
+  "errorTypeTitle": "This command displays positioning information associated to product with positioning architecture.",
+  "errorTypebody":  "{number} Root objects are ignored because they are not of type Product with Positioning Architecture.",
+  "genericerror": "An error has occurred. Please try again"
+}

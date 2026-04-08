@@ -1,0 +1,10 @@
+m|WAfrFoundation\WAfrTrackers.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.1.25298|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrTrackers\WAfrTrackers.js|1761365507|1966
+s|WAfrFoundation\WAfrTrackers.mweb\src\mod_TrackerComponent.js|1759396917|4453
+u|WAfrFoundation\WAfrTrackers.mweb\src\WAfrTrackers.js|1746021278|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

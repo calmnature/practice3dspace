@@ -1,0 +1,120 @@
+#DMUAttributesDisplayManager {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.DMUAttributesManagerLoader {
+  justify-content: center;
+  height: 100%;
+}
+
+.DMUAttributesDisplayManager-mainContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  .DMUAttributesManagerListsCommandsHeader {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: min-content 150px auto;
+    column-gap: 15px;
+    align-items: center;
+  }
+
+  .DMUAttributesDisplayManager-arrows {
+    height: 100%;
+    margin: 2px;
+    .wux-controls-toolbar-centerContainer {
+      row-gap: 15px;
+    }
+  }
+
+  .DMUAttributesManagerListsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+
+    .DMUAttributesManagerListsCommandsHeader {
+      display: inline-flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: right;
+    }
+
+    .DMUAttributesManagerListsCommandsHeader-prefixInputLabel {
+      width: auto;
+    }
+
+    .DMUAttributesManagerListsCommandsHeader-prefixInput {
+      width: auto;
+    }
+
+    .DMUAttributesManagerListsCommandsHeader-toolbar {
+      position: relative;
+    }
+
+    .DMUAttributesManagerListsCommandsHeader-toolbar span {
+      margin-right: 0.5em;
+    }
+
+    .DMUAttributesManagerListsCommandsHeader-toolbar input {
+      field-sizing: content;
+      width: fit-content;
+      min-width: 163px;
+      max-width: 163px;
+    }
+
+    .DMUAttributesManagerListsCommandsHeader-toolbar div:has(input) {
+      margin-right: 0.5em;
+    }
+
+    .DMUAttributesManagerAttributesLists {
+      flex: 1;
+      position: relative;
+      border: solid 1px #b4b6ba;
+    }
+  }
+}
+
+.DMUClassificationsChooser {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+
+  .DMUCustomAttributesSelectorContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .DMUCustomAttributesSelectorContainer-title {
+      margin-right: 15px;
+      font-size: 14px;
+      font-family: 'Arial';
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    #DMUCustomAttributesSelectorContainer-attrsSelector {
+      width: 200px;
+    }
+  }
+
+  .DMUClassificationListContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: solid 1px #b4b6ba;
+  }
+}

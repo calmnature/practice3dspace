@@ -1,0 +1,14 @@
+{
+	"actions": [
+		{
+			"id": "AddTestMethod",
+			"text": "AddTestMethod",
+			"fonticon": "plus"
+		},
+		{
+			"id": "RemoveTestMethod",
+			"text": "RemoveTestMethod",
+			"fonticon": "tree-delete"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "experienceBaseMode": {
+        "VCXAssociativePathManager": {},
+        "VCXCAT3DXModelManager": {
+            "initialize_options": {"initPhase": 3}
+        },
+        "VCXMagnetLineManager": {},
+        "APIPlayerManager": {
+        }
+    },
+    "webApplicationBaseMode": {
+        "VCXEWSManager": {}
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "busTypeMapping": "Asignación de tipos de bus",
+  "EPCLabel": "Componente físico electrónico",
+  "EPCInfo": "Modificar la asignación de tipo de Componente físico electrónico al tipo de 3DEXPERIENCE",
+  "PrintedCircuitBoardLabel": "Placa de circuito impreso (como pieza)",
+  "PrintedCircuitBoardInfo": "Modificar la asignación de tipo de Placa de circuito impreso al tipo de 3DEXPERIENCE",
+  "PrintedCircuitBoardAssemblyLabel": "Ensamblaje de placa de circuito impreso",
+  "PrintedCircuitBoardAssemblyInfo": "Modificar la asignación de tipo de Ensamblaje de placa de circuito impreso al tipo de 3DEXPERIENCE"
+}

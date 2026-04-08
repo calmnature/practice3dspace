@@ -1,0 +1,18 @@
+{
+"Filter_Assemblies.Title":"Filter bei Baugruppen",
+"Filter_Assemblies.ShortHelp":"Zeigt Baugruppen an.",
+"Filter_Assemblies.LongHelp":"Baugruppen werden als SOLIDWORKS Baugruppen und physische Produkte mit den Inhaltsstruktur-Tags Stamm und Zwischenprodukt definiert.",
+"Filter_DrawingAnnotations.Title":"Filter bei Zeichnungen und Beschriftungen",
+"Filter_DrawingAnnotations.ShortHelp":"Zeigt Zeichnungen und Beschriftungssets an.",
+"Filter_DrawingAnnotations.LongHelp":"Dieser Filter zeigt SOLIDWORKS Zeichnungen und Beschriftungssets basierend auf physischen Produkten an.",
+"Filter_Part.Title":"Filter bei Teilen",
+"Filter_Part.ShortHelp":"Zeigt Teile an.",
+"Filter_Part.LongHelp":"Teile werden als SOLIDWORKS Teile und physische Produkte mit den Inhaltsstruktur-Tags Blatt und Eigenständig definiert.",
+"SwitchFlat.Title":"Gesamten Inhalt des Teamarbeitsbereichs anzeigen",
+"SwitchFlat.ShortHelp":"Zeigt alle technischen Inhalte in diesem Teamarbeitsbereich in einer flachen Liste an.",
+"SwitchFlat.LongHelp":"<p>Diese Ansicht des Teamarbeitsbereichs konzentriert sich auf technische Inhalte für SOLIDWORKS Apps: physisches Produkt, Zeichnungen und Beschriftungssets, erweiterte Filter und alles mit dem Typ „Dokument“.</p>",
+"SwitchNoFlat.Title":"Lesezeichenordner anzeigen",
+"SwitchNoFlat.ShortHelp":"Zeigt die Lesezeichen-Ordner und Inhalte ohne Lesezeichen in diesem Teamarbeitsbereich an.",
+"SwitchNoFlat.LongHelp":"<p>In dieser Ansicht des Teamarbeitsbereichs werden die Lesezeichenordner (sofern vorhanden) oben angezeigt, gefolgt von einer Liste der technischen Inhalte, die keinem Lesezeichenordner hinzugefügt wurden, einschließlich physischer Produkte, Zeichnungen und Beschriftungssets, erweiterter Filter und aller Elemente mit dem Typ „Dokument“. Lesezeichen-Ordner sind nicht auf technische Inhalte beschränkt.</p>",
+"Widget.WebHelp":"ENXCoexUserMap/enxcoex-o-ov.htm"
+}

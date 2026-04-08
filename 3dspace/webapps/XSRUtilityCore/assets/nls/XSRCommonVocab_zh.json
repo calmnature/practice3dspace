@@ -1,0 +1,20 @@
+{
+  "pref_showWorkUnder": "显示工作范围",
+  "pref_securityCtx": "凭据",
+  "pref_3DEXPERIENCEPlatform": "3DEXPERIENCE platform",
+  "pref_autoSwitchMode": "自动从创作模式切换到索引模式",
+  "range_zeroMin": "从不",
+  "range_oneMin": "1 分钟",
+  "range_threeMin": "3 分钟",
+  "range_fiveMin": "5 分钟",
+  "range_tenMin": "10 分钟",
+  "button_OK": "确定",
+  "cmd_warp": "包覆",
+  "cmd_unwrap": "展开",
+  "cmd_CustomViews": "自定义视图",
+  "cmd_export": "导出",
+  "msg_wraping": "正在包覆...",
+  "msg_unwraping": "正在打开...",
+  "msg_loading": "正在加载...",
+  "label_TestMethod": "测试方法"
+}

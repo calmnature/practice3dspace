@@ -1,0 +1,7 @@
+{
+"CADTransitionCommand.Title":"CAD Transition to 3DExperience",
+"CADTransitionCommand.ShortHelp":"Convert 3DExperience content with CAD format into 3DExperience native data.",
+"CADTransitionCommand.LongHelp":"With CAD Transition, you can convert the selected 3DExperience content with CAD format. With the provided options you can customize how the data should be migrated.",
+"CADTransitionCommand.WebHelp":"PsteUserMap/postconv-t-CADTransition.htm",
+"CADTransitionCommand.PanelHelp":"PsteUAPanelMap/postconv-t-CADTransition.htm"
+}

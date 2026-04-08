@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "summary": "Executes the user defined csi graph.",
+  "description": "This block is customizable thus the settings and the type of the data ports can be changed using the block configuration dialog. <br>Also, local data port, blocks and links can be added. <br>For more information please read the following <a href=\"https://executionfw.dsone.3ds.com/docs/graph/overview/\">documentation</a>.",
+  "controlPorts": {
+    "Call": "when the function is called.",
+    "Success": "when the function returns a successful result.",
+    "Progress": "when the function returns a intermediate result.",
+    "Error": "when the function returns an error."
+  },
+  "dataPorts": {
+    "Call": "the input data when the function is called.",
+    "Success": "the successful data when <code>Success</code> control port is activated.",
+    "Progress": "the intermediate data when <code>Progress</code> control port is activated. <br>Can be filled by the implementation with links or by the graph engine with progress events. <br>There is a difference between the <a href=\"https://executionfw.dsone.3ds.com/docs/graph/getting_started/#progress-in-version-2\">versions</a> of the graph. <br>In graph version 1, the data returned is always a CSIExecGraphProgress (even when the progress is coming from the implementation, contained by the data property). <br>But in version 2, the implemention data is passed as is and the progress events are sent as CSIExecGraphProgress. <br>For more information please read the following <a href=\"https://executionfw.dsone.3ds.com/docs/graph/getting_started/#manage-progress\">documentation</a>.",
+    "Error": "the error data when <code>Error</code> control port is activated. <br>Can be filled by the implementation with links or by the graph engine when an internal error occurs. <br>There is a difference between the <a href=\"https://executionfw.dsone.3ds.com/docs/graph/getting_started/#error-in-version-2\">versions</a> of the graph. <br>In graph version 1, the data returned is always a CSIExecGraphError (even when the error is coming from the implementation, contained by the data property). <br>But in version 2, the implemention data is passed as is and the internal graph errors are sent as CSIExecGraphError. <br>For more information please read the following <a href=\"https://executionfw.dsone.3ds.com/docs/graph/getting_started/#understand-error\">documentation</a>.",
+    "NodeIdSelector": "to override the node id selector when the function is called."
+  },
+  "settings": {
+  },
+  "example": null
+}

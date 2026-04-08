@@ -1,0 +1,103 @@
+:root {
+  /* Unselected */
+  --card-unselected-border: var(--COLOR_OUTLINE_GRAY);
+  --card-unselected-border-hover: var(--COLOR_OUTLINE_DARK_GRAY);
+  --card-unselected-border-press: var(--COLOR_COPY_GRAY);
+
+  --card-checkbox-bg-unselected: var(--COLOR_ICON_GRAY);
+  --card-checkbox-bg-unselected-hover: var(--COLOR_ICON_GRAY);
+  --card-checkbox-bg-unselected-press: var(--COLOR_COPY_GRAY);
+
+  /* Selected */
+  --card-selected-border: var(--COLOR_MEDIUM_BLUE);
+  --card-selected-border-hover: var(--COLOR_DARK_BLUE);
+  --card-selected-border-press: var(--COLOR_CORPORATE_STEEL_BLUE);
+
+  --card-checkbox-bg-selected: var(--COLOR_MEDIUM_BLUE);
+  --card-checkbox-bg-selected-hover: var(--COLOR_DARK_BLUE);
+  --card-checkbox-bg-selected-press: var(--COLOR_CORPORATE_STEEL_BLUE);
+}
+
+/* Style Variables
+   =============== */
+.wux-controls-card {
+
+  --border-size: 1px;
+  --border-radius: 3px;
+
+  --padding: 4px;
+  --gap: 4px;
+
+  --min-width: 120px; 
+  --max-width: 420px;
+
+  --picture-aspect-ratio: 4/3; /* equivalent to calc(var(--picture-max-width) / var(--picture-max-height)); because calc is not unitless*/
+  
+  --title-height: 18px;
+  --title-gap: 2px;
+  --title-font-icon-size: 14px;
+  --title-img-icon-size: 16px;
+  --title-font-size: 12px; 
+
+  --subtitle-height: 12px;
+  --subtitle-font-size: 11px; 
+
+  --description-font-size: 11px;
+  --description-line-height: 12px;
+  --description-lines: 1;
+
+  --footer-height: 24px; 
+  --footer-line-height: 22px;
+
+  --min-badges-width: 15px;
+
+  /* "active" variables  (fallbacks) */
+  --active-on: 0; /* 0|1 => bool visuel */
+  --active-corner-size: 18px;
+  --active-color: var(--COLOR_DARK_BLUE);
+  --active-opacity: var(--active-on);
+
+  /* "selected" variables  (fallbacks) */
+  --selected-on: 0;
+
+  --card-border:var(--card-unselected-border);
+  --card-border-hover:var(--card-unselected-border-hover);
+  --card-border-press:var(--card-unselected-border-press);
+
+  --card-checkbox-bg:var(--card-checkbox-bg-unselected);
+  --card-checkbox-bg-hover:var(--card-checkbox-bg-unselected-hover);
+  --card-checkbox-bg-press:var(--card-checkbox-bg-unselected-press);
+
+  --has-picture: 0;
+  --has-content: 0;
+  --has-title: 0;
+  --has-subtitle: 0;
+  --has-description: 0;
+  --has-footer: 0;
+} 
+.wux-controls-card[touch-mode]  {
+  --active-corner-size: 24px;
+
+  --min-width: 170px;
+
+  --title-height: 18px;
+  --title-font-size: 14px;
+
+  --subtitle-height: 16px;
+  --subtitle-font-size: 12px;
+
+  --footer-height: 42px;
+  --footer-line-height: 36px;
+
+  --min-badges-width: 19px;
+}
+
+/* Misc Variable TODO Replace by :has once supported in PDIR */ 
+/* ========================================================= */
+.wux-controls-card[haspicture]     { --has-picture    : 1; }
+.wux-controls-card[hascontent]     { --has-content    : 1; }
+.wux-controls-card[hastitle]       { --has-title      : 1; }
+.wux-controls-card[hassubtitle]    { --has-subtitle   : 1; }
+.wux-controls-card[hasdescription] { --has-description: 1; }
+.wux-controls-card[hasfooter]      { --has-footer     : 1; }
+.wux-controls-card[active]         {  --active-on     : 1;}

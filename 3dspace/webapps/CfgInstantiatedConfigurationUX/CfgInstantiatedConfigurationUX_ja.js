@@ -1,0 +1,1 @@
+define("DS/CfgInstantiatedConfigurationUX/CfgInstantiatedConfigurationUX_ja",{});define("DS/CfgInstantiatedConfigurationUX/assets/nls/CfgInstantiatedConfigurationUX",{CFG_NoModel_Attached:"製品構成が見つかりません。製品構成を持つモデルが添付されたオブジェクトを選択します。",CFG_No_ConfigurationAssociation:"選択したリビジョンに関連付けられた構成はありません。"});

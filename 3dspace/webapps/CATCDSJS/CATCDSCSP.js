@@ -1,0 +1,1 @@
+define("DS/CATCDSJS/CATCDSCSP",["CATCDSJS/RequirePromise!DS/CATCDSWasmCSP/CATCDSWasm"],(function(C){"use strict";return C}));

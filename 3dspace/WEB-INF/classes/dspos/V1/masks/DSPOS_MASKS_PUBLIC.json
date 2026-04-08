@@ -1,0 +1,46 @@
+{
+	"dsmvpos:AxisSystemReferenceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveng:DefaultBusMask.utc"
+		}
+	],
+	"dsmvpos:AxisSystemReferenceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveng:DefaultBusMask.utc"
+		},
+		"dsmveno:attribute.reference.versionComment",
+		"dsmveno:basic.reference.reservedByUserId",
+		"dsmveno:program.CP.EnterpriseAttributes"
+	],
+	"dsmvpos:AxisSystemInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveng:DefaultRelMask.utc"
+		}
+	],
+	"dsmvpos:AxisSystemInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmvpos:AxisSystemInstanceMask.Default"
+		},
+		{
+			"property": "computed",
+			"key": "position"
+		},
+		{
+		    "property": "computed",
+		    "key": "referencedObject",
+		    "example": "com.dassault_systemes.catia.xapps.dspos.implementations.dsposOpenAPIImpl.getInstanceOfDetails"
+	    },
+		"dsmveno:basic.reference.reservedByUserId"
+	],
+	"dsmvpos:PositioningSpec.Default": [
+		{
+			"property": "computed",
+			"key": "positioningSpecification",
+			"example": "com.dassault_systemes.catia.xapps.dspos.implementations.dsposOpenAPIImpl.getInstanceOfDetails"
+		}
+	]
+}

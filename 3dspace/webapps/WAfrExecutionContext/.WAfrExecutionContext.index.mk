@@ -1,0 +1,13 @@
+m|WAfrFoundation\WAfrExecutionContext.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.3.26055|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrExecutionContext\WAfrExecutionContext.js|1771969097|35964
+s|WAfrFoundation\WAfrExecutionContext.mweb\src\mod_Component.js|1727273196|19229
+u|WAfrFoundation\WAfrExecutionContext.mweb\src\WAfrExecutionContext.js|1519214321|0
+u|WAfrFoundation\WAfrExecutionContext.mweb\src\mod_ExecutionContext.js|1771503150|116432
+u|WAfrFoundation\WAfrExecutionContext.mweb\src\mod_ExecutionContextInterpreter.js|1755695132|15358
+u|WAfrFoundation\WAfrExecutionContext.mweb\src\mod_HomePageManager.js|1724944469|7230
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

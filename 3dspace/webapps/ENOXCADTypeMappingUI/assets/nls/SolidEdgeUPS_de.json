@@ -1,0 +1,17 @@
+{
+  "busTypeMapping": "Bustypzuordnung",
+  "assemblyLabel": "Baugruppe",
+  "assemblyInfo": "Ändern Sie die Typzuordnung für den Baugruppen-CAD-Typ in 3DEXPERIENCE Typ",
+  "assemblyInstanceLabel": "Baugruppeninstanz",
+  "assemblyInstanceInfo": "Ändern Sie die Typzuordnung für den CAD-Typ der Baugruppeninstanz in 3DEXPERIENCE Typ",
+  "componentLabel": "Komponente",
+  "componentInfo": "Ändern Sie die Typzuordnung für den Komponenten-CAD-Typ in 3DEXPERIENCE Typ",
+  "drawingLabel": "Zeichnung",
+  "drawingInfo": "Ändern Sie die Typzuordnung für den Zeichnungs-CAD-Typ in 3DEXPERIENCE Typ",
+  "virtualComponentLabel": "Virtuelle Komponente",
+  "virtualComponentInfo": "Ändern Sie die Typzuordnung für den virtuellen Komponenten-CAD-Typ in 3DEXPERIENCE Typ",
+  "internalComponentLabel": "Interne Komponente",
+  "internalComponentInfo": "Ändern Sie die Typzuordnung für den internen Komponenten-CAD-Typ in 3DEXPERIENCE Typ",
+  "internalAssemblyLabel": "Interne Baugruppe",
+  "internalAssemblyInfo": "Ändern Sie die Typzuordnung für den internen Baugruppen-CAD-Typ in 3DEXPERIENCE Typ"
+}

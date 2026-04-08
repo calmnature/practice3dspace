@@ -1,0 +1,1 @@
+define("DS/CAT3DAnnotationBaseCmds/CAT3DAnnotationBaseCmds_tr",{});define("DS/CAT3DAnnotationBaseCmds/assets/nls/CAT3DAnnotationBaseCmds",{annotPanelTitle:"3B Detaylandırmalar",DisplayHistorySuccessfulLbl:"Görünümlerin ve yakalamaların görüntüleme geçmişi silindi",InfosPanelTitle:"Semantik Standartlar",CloseButton:"Kapat",relatedAttrPanelTitle:"Unsurlarla ilgili bilgiler"});

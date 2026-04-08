@@ -1,0 +1,16 @@
+{
+  "Perspectives": "Prospettive",
+  "Switch_Perspective": "Cambia prospettiva",
+  "Views": "Viste",
+  "Switch_View": "Cambia vista",
+  "Model": "Modello",
+  "View": "Visualizza",
+  "Document": "Documento",
+  "Wiki": "Wiki",
+  "Back": "Indietro",
+  "Forward": "Inoltra",
+  "error": {
+    "timeout": "L'inizializzazione dell'esperienza è lenta ed è stata interrotta. Riprovare più tardi.",
+    "invalid_id": "ID oggetto non valido"
+  }
+}

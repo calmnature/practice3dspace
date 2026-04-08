@@ -1,0 +1,8 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "EngineeringTranslation",
+    "description": "The domain instance for Engineering Translation in 3DSpace",
+    "packages": [
+        "PLMTranslations"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "V_FastenerCategory": "Категория фиксатора",
+  "V_MfgFastenerStrategy": "Стратегия фиксатора",
+  "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate": "Кандидат на техническое обслуживание",
+  "DELServiceMBOMCandidateInfoExt.V_SpareCandidate": "Запасной кандидат",
+  "V_RepairType": "Тип ремонта",
+  "DELServiceMaintenanceLevelExt.V_MaintenanceLevel": "Уровень обслуживания",
+  "DELLmiServiceWorkPlanSystemReference.V_CodeInfo": "Информация о коде",
+  "orderParameters": "Порядок обновлен",
+  "orderParametersTitle": "Переупорядочить",
+  "orderParametersError": "Ошибка при изменении порядка",
+  "orderParametersMaskMessage": "Обновление порядка",
+  "orderParametersDeleteError": "Ошибка при удалении предыдущего порядка",
+  "orderParametersSetError": "Ошибка при сохранении нового порядка",
+  "nonEditableParamTitle": "Атрибут не редактируется",
+  "nonEditableParamContent": "Выбранный атрибут нельзя редактировать, так как он используется в одном или нескольких параметрах в таблице Правила, определяющие обработчик крепежей",
+  "deleteParameterTitle": "Атрибут не может быть удален",
+  "deleteParameterError": "Выбранный атрибут не может быть удален, так как он используется в одном или нескольких параметрах в таблице Правила, определяющие обработчик крепежей",
+  "attributeName": "Имя атрибута",
+  "attributeValue": "Значение атрибута"
+}

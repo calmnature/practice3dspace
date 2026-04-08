@@ -1,0 +1,10 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "BookmarkLegacy",
+    "description": "Domain to manage legacy bookmark concepts",
+    "packages": [
+        "ENOFLD_FOLDER_REF",
+        "ENOFLD_FOLDER_ROOT",
+        "ENOWSP_WORKSPACE_ROOT"
+    ]
+}

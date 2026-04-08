@@ -1,0 +1,70 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELSBOMDiscreteInstanceAbst",
+				"ParentType": "dsmfg:MfgItemInstance",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMDiscreteInstanceAbst",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMDiscreteInstanceAbst",
+						"Behavior": "INSTANCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMHardwareInstanceAbst",
+				"ParentType": "DELSBOMDiscreteInstanceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMHardwareInstanceAbst",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMHardwareInstanceAbst",
+						"Behavior": "INSTANCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELSBOMHardwareItemInstance",
+				"ParentType": "DELSBOMHardwareInstanceAbst",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELSBOMHardwareItemInstance",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELSBOMHardwareItemInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "spareValidation",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSBOMHardwareItemInstance.V_SpareValidation"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.DELSBOMHardwareItemInstance.V_SpareValidation"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

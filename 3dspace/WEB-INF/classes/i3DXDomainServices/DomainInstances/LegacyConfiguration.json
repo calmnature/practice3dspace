@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "LegacyConfiguration",
+	"description"    : "Legacy Configuration: Build, GBOM, Variant, ProductLine",
+	"packages"       : ["LegacyBuild","GBOM","LegacyVariant","ProductLine","PLMConfigVariabilitySpace","PLMConfigEffectivity"]
+}

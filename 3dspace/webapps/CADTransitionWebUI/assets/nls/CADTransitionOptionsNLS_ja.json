@@ -1,0 +1,23 @@
+{
+  "cadtransitionoptions.execmode.label": "実行モード",
+  "cadtransitionoptions.execmode.coversion.label": "遷移方法",
+  "cadtransitionoptions.execmode.coversion.value": [
+    "新規オブジェクト"
+  ],
+  "cadtransitionoptions.execmode.expand.label": "展開レベル",
+  "cadtransitionoptions.execmode.expand.value": [
+    "すべてを展開",
+    "展開なし",
+    "カスタム展開深さ"
+  ],
+  "cadtransitionoptions.addopts.label": "追加オプション",
+  "cadtransitionoptions.addopts.linkcomp.label": "リンク補完",
+  "cadtransitionoptions.addopts.linkcomp.value": [
+    "完全なリンク補完",
+    "リンク補完なし",
+    "カスタム リンク補完"
+  ],
+  "cadtransitionoptions.addopts.maptable.label": "マッピング テーブルを使用",
+  "cadtransitionoptions.addopts.update.label": "強制更新",
+  "cadtransitionoptions.addopts.overwrite.label": "上書きを許可"
+}

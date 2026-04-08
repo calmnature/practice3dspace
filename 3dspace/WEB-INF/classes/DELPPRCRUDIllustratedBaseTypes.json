@@ -1,0 +1,25 @@
+[
+    {
+        "ParsingVersion": "2.0",
+        "DeclarativeTypes": [
+            {
+                "ConceptualName": "DELLmiAbstractProductionEntity",
+                "ParentType": "PLMReference",
+                "IsAbstract": true,
+                "ModelerMapping": [
+                    {
+                        "Modeler": "_3DSpaceDB",
+                        "Mapping": "DELLmiAbstractProductionEntity",
+                        "Behavior": "REFERENCE"
+                    },
+                    {
+                        "Modeler": "_Index",
+                        "Mapping": "DELLmiAbstractProductionEntity",
+                        "Behavior": "CUSTOM",
+                        "Class": "com.dassault_systemes.delmia.crud.illustrated.bytype.index.DELIllstrReferenceIndexExpandExeImpl"
+                    }
+                ]
+            }
+        ]
+    }
+]

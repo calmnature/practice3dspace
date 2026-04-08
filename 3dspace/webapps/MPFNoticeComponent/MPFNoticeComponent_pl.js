@@ -1,0 +1,1 @@
+define("DS/MPFNoticeComponent/MPFNoticeComponent_pl",{});define("DS/MPFNoticeComponent/assets/nls/NoticeComponent",{importantNotice:"Ważna uwaga"});

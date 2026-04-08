@@ -1,0 +1,76 @@
+/*********************************************************************************************************************************/
+/* Exchange XPDM procedure for Process                                                                                        */
+/* --> Retrieves all agregated PLM objects (References, Ref Instances, Rep References, Rep Instances, Ports and Connections)     */
+/*********************************************************************************************************************************/
+#Prog BOM_ExchangeXPDM_WithEBOMImplementedIL( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+	let PLMRouteSetPortsAndCnx (PLMRouteSet)
+	let PLMRouteSetParts (PLMRouteSet)
+	let PLMRouteSetProductOccFilter (PLMRouteSet)
+	let PLMRouteSetProductStructure (PLMRouteSet)
+	let PLMRouteSetProductAggrRep (PLMRouteSet)
+
+	let PLMIDSetProcessRef (PLMIDSet)
+	let PLMIDSetProcessInst (PLMIDSet)
+	let PLMIDSetProcess (PLMIDSet)
+	let PLMIDSetProduct (PLMIDSet)
+	let PLMIDSetPortsAndCnx  (PLMIDSet)
+	let PLMIDSetEBOMRel (PLMIDSet)
+	let PLMIDSetParts (PLMIDSet)
+	let PLMIDSetAssignFilterCnx (PLMIDSet)
+	let PLMIDSetProductOccFilter (PLMIDSet)
+	let PLMIDSetProductInst  (PLMIDSet)
+	let PLMIDSetProductStructure  (PLMIDSet)
+	let PLMIDSetProductRef  (PLMIDSet)
+	let PLMIDSetProductAggrRep (PLMIDSet)
+	let PLMIDSetProduct1 (PLMIDSet)
+	let PLMIDSetProduct2 (PLMIDSet)
+	let PLMIDSetContextualILCnx (PLMIDSet)
+	let PLMIDSetValidContextualILCnx (PLMIDSet)
+	let PLMIDSetProductImplByContextualILCnx (PLMIDSet)
+
+	PLMIDSetProcessRef = Restrict(iPLMIDSet, "DELFmiFunctionalModel/DELFmiFunctionReference") 
+	PLMIDSetProcessInst = Restrict(iPLMIDSet,"DELFmiFunctionalModel/DELFmiFunctionInstance") 
+	PLMIDSetProcess = PLMIDSetProcessRef + PLMIDSetProcessInst
+
+
+	/* Retrieves implement Cnx and Assignment filter Cnx needed from reference         */
+	PLMRouteSetPortsAndCnx  = ExecutePLMFunction("DELFmiFunctionalModel", "DELFmiFunctionalModel_addPortsAndCnxExceptImplCnx", PLMIDSetProcessRef)
+	PLMIDSetPortsAndCnx = Ids(PLMRouteSetPortsAndCnx,"all")
+	PLMIDSetAssignFilterCnx = Restrict(PLMIDSetPortsAndCnx, "PLMAssignmentFilter/PLMAssignmentFilterCnx")
+
+	/* Retrieves all implemented products from SR*/
+	PLMIDSetProduct2 = ExecuteJavaProcedure("com.dassault_systemes.platform.model.mbom.procedures.ProcedureCalls_implementedComponentsFromSR", PLMIDSetProcessInst)
+	PLMIDSetProduct = PLMIDSetProduct1 + PLMIDSetProduct2
+	
+	/* Get contextual implement link connections */
+	PLMIDSetContextualILCnx = ExecuteJavaProcedure("com.dassault_systemes.platform.model.mbom.procedures.ProcedureCalls_GetAllContextualILCnxUnderMBOMReferences", PLMIDSetProcessRef)
+	
+	/* Keep only valid contextual implement link connections */
+	PLMIDSetValidContextualILCnx = ValidateSRs (PLMIDSetContextualILCnx,"PLM_ImplementLink_Source",PLMIDSetProcessInst)	
+	
+	/* Retrieve implemented Product Path From Contextual implemented Connections */
+	PLMIDSetProductImplByContextualILCnx = ExecuteJavaProcedure("com.dassault_systemes.platform.model.mbom.procedures.ProcedureCalls_GetSolvedImplementedTargetsFromContextualILCnx", PLMIDSetValidContextualILCnx)
+
+	/* Retrieves all products Occ from Assignment Filter Cnx*/
+	PLMRouteSetProductOccFilter = ExecutePLMFunction("DELAsmAssemblyModelDisciplines", "ENOPcs_Process_addProductOccFromAssignmentFilter", PLMIDSetAssignFilterCnx)
+	PLMIDSetProductOccFilter = Ids(PLMRouteSetProductOccFilter,"all") 
+
+	/* Retrieve Parts From EBOM relations */
+	PLMIDSetEBOMRel = Restrict(PLMIDSetProduct,"RelationClass/EBOM")
+	PLMRouteSetParts = ExecutePLMFunction("DELPPRContextModel", "ENOPpr_PPRData_getPartsFromEBOM", PLMIDSetEBOMRel)
+	PLMIDSetParts = Ids(PLMRouteSetParts,"all")
+
+	/* Retrieves all references and aggregating references from product instances*/
+	PLMIDSetProductInst =  Restrict(PLMIDSetProduct,"PRODUCTCFG/VPMInstance") + Restrict(PLMIDSetProductOccFilter,"PRODUCTCFG/VPMInstance")
+	PLMRouteSetProductStructure = ExecutePLMFunction("DELPPRContextModel", "ENOPpr_PPRData_addRefAndAggregatingRef", PLMIDSetProductInst)
+	PLMIDSetProductStructure = Ids(PLMRouteSetProductStructure,"all") 
+
+	/* Get aggregated representations from all Product/Resource references for coherence for 3DPart */
+	PLMIDSetProductRef = Restrict(PLMIDSetProduct,"PRODUCTCFG/VPMReference") + Restrict(PLMIDSetProductStructure,"PRODUCTCFG/VPMReference")
+	PLMRouteSetProductAggrRep= ExecutePLMFunction( "PRODUCTCFG", "ProductCfg_Add3DPartRepresentation", PLMIDSetProductRef)
+	PLMIDSetProductAggrRep = Ids(PLMRouteSetProductAggrRep,"all")
+
+	oPLMIDSet = iPLMIDSet + PLMIDSetAssignFilterCnx + PLMIDSetProduct + PLMIDSetParts + PLMIDSetProductOccFilter + PLMIDSetProductStructure + PLMIDSetProductAggrRep + PLMIDSetValidContextualILCnx + PLMIDSetProductImplByContextualILCnx
+	/* Even if we don't mention precedence ports in the xml output, we need to export them for futur import */
+}

@@ -1,0 +1,121 @@
+{
+  "dslayrm:RawMaterialGlueLotion": {
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_MLP_Raw_Material_GlueLotion",
+    "patchCSRF": true,
+    "attributeMappingClass" : "com.dassault_systemes.enovia.xapps.dslayrm.V1.dictionaries.dslayrmGlueLotionAttributeDictionary",
+    "extensionLinks": ["dseng:EnterpriseReference", "dslc:changeControl"],
+    "cestamp": true,
+    "patchChangelog": true,
+    "changeSupport": true,
+    "customizationSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    },
+    "search": true,
+    "defaultMask": "dslayrm:RawMaterialGlueLotionMask.Default"
+  },
+
+  "dslayrm:RawMaterialLaminate": {
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_MLP_Raw_Material_Laminate",
+    "patchCSRF": true,
+    "attributeMappingClass" : "com.dassault_systemes.enovia.xapps.dslayrm.V1.dictionaries.dslayrmLaminateAttributeDictionary",
+    "extensionLinks": ["dseng:EnterpriseReference", "dslc:changeControl"],
+    "cestamp": true,
+    "patchChangelog": true,
+    "changeSupport": true,
+    "customizationSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    },
+    "search": true,
+    "defaultMask": "dslayrm:RawMaterialLaminateMask.Default"
+  },
+
+  "dslayrm:RawMaterialLiquid": {
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_MLP_Raw_Material_Liquid",
+    "patchCSRF": true,
+    "attributeMappingClass" : "com.dassault_systemes.enovia.xapps.dslayrm.V1.dictionaries.dslayrmLiquidAttributeDictionary",
+    "extensionLinks": ["dseng:EnterpriseReference", "dslc:changeControl"],
+    "cestamp": true,
+    "patchChangelog": true,
+    "changeSupport": true,
+    "customizationSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    },
+    "search": true,
+    "defaultMask": "dslayrm:RawMaterialLiquidMask.Default"
+  },
+
+  "dslayrm:RawMaterialOthers": {
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_MLP_Raw_Material_Others",
+    "patchCSRF": true,
+    "attributeMappingClass" : "com.dassault_systemes.enovia.xapps.dslayrm.V1.dictionaries.dslayrmOthersAttributeDictionary",
+    "extensionLinks": ["dseng:EnterpriseReference", "dslc:changeControl"],
+    "cestamp": true,
+    "patchChangelog": true,
+    "changeSupport": true,
+    "customizationSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    },
+    "search": true,
+    "defaultMask": "dslayrm:RawMaterialOthersMask.Default"
+  },
+
+  "dslayrm:RawMaterialRollGood": {
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_MLP_Raw_Material_RollGood",
+    "patchCSRF": true,
+    "attributeMappingClass" : "com.dassault_systemes.enovia.xapps.dslayrm.V1.dictionaries.dslayrmRollGoodAttributeDictionary",
+    "extensionLinks": ["dseng:EnterpriseReference", "dslc:changeControl"],
+    "cestamp": true,
+    "patchChangelog": true,
+    "changeSupport": true,
+    "customizationSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    },
+    "search": true,
+    "defaultMask": "dslayrm:RawMaterialRollGoodMask.Default"
+  },
+
+  "dslayrm:RawMaterialStranded": {
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_MLP_Raw_Material_Stranded",
+    "patchCSRF": true,
+    "attributeMappingClass" : "com.dassault_systemes.enovia.xapps.dslayrm.V1.dictionaries.dslayrmStrandedAttributeDictionary",
+    "extensionLinks": ["dseng:EnterpriseReference", "dslc:changeControl"],
+    "cestamp": true,
+    "patchChangelog": true,
+    "changeSupport": true,
+    "customizationSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    },
+    "search": true,
+    "defaultMask": "dslayrm:RawMaterialStrandedMask.Default"
+  }
+}

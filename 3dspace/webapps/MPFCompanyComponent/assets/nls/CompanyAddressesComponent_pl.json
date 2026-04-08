@@ -1,0 +1,17 @@
+{
+  "addresses": "Adresy",
+  "back": "Wstecz",
+  "billingAddress": "Adres do faktur",
+  "cancel": "Anuluj",
+  "changeAddress": "Zmień adres",
+  "create": "Utwórz",
+  "enterBillingAddress": "Wprowadź adres do faktury",
+  "enterShippingAddress": "Wprowadź adres wysyłki",
+  "manageAddresses": "Zarządzaj adresami",
+  "next": "Dalej",
+  "noBilling": "Nie zdefiniowano domyślnego adresu do faktury",
+  "noShipping": "Nie zdefiniowano domyślnego adresu wysyłki",
+  "save": "Zapisz",
+  "severalAddressesDefined": "Zdefiniowano kilka adresów",
+  "shippingAddress": "Adres wysyłki"
+}
